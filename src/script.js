@@ -170,8 +170,25 @@ document.addEventListener('DOMContentLoaded', async () => {
         const matches = {};
         for (const category of getOrderedCategories()) {
             const namesList = iconsNames[category] || [];
-            const matchedIds = namesList
-                .filter((id) => id.toLowerCase().includes(lower));
+            const matchSet = new Set();
+            for (const entry of namesList) {
+                let id = null;
+                let terms = [];
+
+                // Backward compatibility: names list used to be string[] of ids.
+                if (typeof entry === 'string') {
+                    id = entry;
+                    terms = [entry];
+                } else if (entry && typeof entry === 'object' && typeof entry.id === 'string') {
+                    id = entry.id;
+                    terms = [entry.id, ...(Array.isArray(entry.alias) ? entry.alias : [])];
+                }
+
+                if (!id) continue;
+                const hasMatch = terms.some((term) => typeof term === 'string' && term.toLowerCase().includes(lower));
+                if (hasMatch) matchSet.add(id);
+            }
+            const matchedIds = Array.from(matchSet);
             if (matchedIds.length > 0) {
                 matches[category] = matchedIds;
             }

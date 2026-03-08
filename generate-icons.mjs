@@ -106,6 +106,9 @@ for (const cat of configData) {
             if (isObject) {
                 if (iconDef.description) iconObj.description = iconDef.description;
                 if (iconDef.url) iconObj.url = iconDef.url;
+                if (Array.isArray(iconDef.alias) && iconDef.alias.length > 0) {
+                    iconObj.alias = [...new Set(iconDef.alias.filter((item) => typeof item === 'string' && item.trim()))];
+                }
             }
             iconsData[catId].push(iconObj);
             assignedIds.add(i_id);
@@ -188,7 +191,10 @@ fs.writeFileSync(path.join(outputDir, 'manifest.json'), toJson(manifest), 'utf-8
 
 const namesData = {};
 for (const [categoryName, icons] of Object.entries(iconsData)) {
-    namesData[categoryName] = icons.map((icon) => icon.id);
+    namesData[categoryName] = icons.map((icon) => ({
+        id: icon.id,
+        alias: Array.isArray(icon.alias) ? icon.alias : []
+    }));
 }
 fs.writeFileSync(path.join(outputDir, 'names.json'), toJson({ icons: namesData }), 'utf-8');
 

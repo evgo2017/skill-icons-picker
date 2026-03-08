@@ -1,0 +1,3446 @@
+{
+  "categories": [
+    {
+      "id": "Frontend - Languages",
+      "icons": [
+        {
+          "id": "haml",
+          "description": {
+            "zh-CN": "一种美观的 HTML 抽象标记语言",
+            "en-US": "HTML Abstraction Markup Language"
+          },
+          "url": "https://haml.info/"
+        },
+        {
+          "id": "handlebars",
+          "description": {
+            "zh-CN": "最少逻辑的模板语法",
+            "en-US": "Minimal templating on steroids"
+          },
+          "url": "https://handlebarsjs.com/",
+          "alias": [
+            "hbs"
+          ]
+        },
+        {
+          "id": "mustache",
+          "description": {
+            "zh-CN": "无逻辑的模板语法",
+            "en-US": "Logic-less templates"
+          },
+          "url": "https://mustache.github.io/"
+        },
+        {
+          "id": "xml",
+          "description": {
+            "zh-CN": "一种标记语言，定义了一套编码文档的规则，以使文档对人类和机器都可读",
+            "en-US": "A markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable"
+          },
+          "url": "https://www.w3.org/XML/"
+        }
+      ]
+    },
+    {
+      "id": "Frontend - Frameworks",
+      "icons": [
+        {
+          "id": "aurelia",
+          "description": {
+            "zh-CN": "一个完全基于 Web 协定建立的前端框架",
+            "en-US": "A JavaScript client framework for mobile, desktop and web"
+          },
+          "url": "https://aurelia.io/"
+        },
+        {
+          "id": "backbonejs",
+          "description": {
+            "zh-CN": "为复杂的 JavaScript 应用程序提供模型、集合、视图结构",
+            "en-US": "Give your JS App some Backbone with Models, Views, Collections, and Events"
+          },
+          "url": "https://backbonejs.org/"
+        },
+        {
+          "id": "hotwire",
+          "description": {
+            "zh-CN": "一种通过发送 HTML 替代 JSON 来构建现代 Web 应用程序的方法",
+            "en-US": "HTML Over The Wire"
+          },
+          "url": "https://hotwired.dev/"
+        },
+        {
+          "id": "knockout",
+          "description": {
+            "zh-CN": "使用 JavaScript 和 HTML 简化动态用户界面的创建的独立开源库",
+            "en-US": "Simplify dynamic JavaScript UIs with the Model-View-ViewModel (MVVM) pattern"
+          },
+          "url": "https://knockoutjs.com/"
+        },
+        {
+          "id": "marko",
+          "description": {
+            "zh-CN": "一种友好的（并且极其快速的）响应式 UI 框架",
+            "en-US": "A friendly (and extremely fast) UI framework that makes writing HTML a breeze"
+          },
+          "url": "https://markojs.com/"
+        },
+        {
+          "id": "mithril",
+          "description": {
+            "zh-CN": "一个用于构建单页应用程序的现代客户端 JavaScript 框架",
+            "en-US": "A modern client-side JavaScript framework for building Single Page Applications"
+          },
+          "url": "https://mithril.js.org/"
+        },
+        {
+          "id": "petite-vue",
+          "description": {
+            "zh-CN": "专为渐进式增强进行优化的轻量级 Vue 子集",
+            "en-US": "6kb subset of Vue optimized for progressive enhancement"
+          },
+          "url": "https://github.com/vuejs/petite-vue"
+        },
+        {
+          "id": "qwik",
+          "description": {
+            "zh-CN": "为提供即时加载的 Web 应用程序而设计，支持任何规模的框架",
+            "en-US": "Framework imagined for the edge"
+          },
+          "url": "https://qwik.builder.io/"
+        },
+        {
+          "id": "sencha",
+          "description": {
+            "zh-CN": "最全面的跨平台企业级 JavaScript 框架",
+            "en-US": "The most comprehensive cross-platform enterprise JavaScript framework"
+          },
+          "url": "https://www.sencha.com/products/extjs/"
+        },
+        {
+          "id": "stencil",
+          "description": {
+            "zh-CN": "一个生成标准 Web 组件的工具链",
+            "en-US": "A toolchain for building reusable, scalable Design Systems"
+          },
+          "url": "https://stenciljs.com/"
+        }
+      ]
+    },
+    {
+      "id": "Frontend - UI & Styling",
+      "icons": [
+        {
+          "id": "ant",
+          "description": {
+            "zh-CN": "助力设计开发者更协同构建体验的企业级设计系统",
+            "en-US": "A design system for enterprise-level products"
+          },
+          "url": "https://ant.design/"
+        },
+        {
+          "id": "babylonjs",
+          "description": {
+            "zh-CN": "一个完整强大的框架，用于构建 3D 游戏和 Web 体验",
+            "en-US": "A complete JavaScript framework for building 3D games and experiences"
+          },
+          "url": "https://www.babylonjs.com/"
+        },
+        {
+          "id": "chakra",
+          "description": {
+            "zh-CN": "一个简单、模块化且易于使用的 React 组件库",
+            "en-US": "A simple, modular and accessible component library that gives you the building blocks you need to build your React applications"
+          },
+          "url": "https://chakra-ui.com/"
+        },
+        {
+          "id": "cssmodules",
+          "description": {
+            "zh-CN": "所有类名和动画名称默认只在本地作用域内有效的 CSS 文件",
+            "en-US": "CSS file in which all class names and animation names are scoped locally by default"
+          },
+          "url": "https://github.com/css-modules/css-modules"
+        },
+        {
+          "id": "design-system",
+          "description": {
+            "zh-CN": "包含设计准则和可复用组件的系统",
+            "en-US": "A collection of reusable components and clear standards"
+          },
+          "url": "https://en.wikipedia.org/wiki/Design_system"
+        },
+        {
+          "id": "foundation",
+          "description": {
+            "zh-CN": "世界上最先进的响应式前端框架",
+            "en-US": "The most advanced responsive front-end framework"
+          },
+          "url": "https://get.foundation/"
+        },
+        {
+          "id": "headlessui",
+          "description": {
+            "zh-CN": "完全无样式、完全可访问的 UI 组件",
+            "en-US": "Completely unstyled, fully accessible UI components"
+          },
+          "url": "https://headlessui.com/"
+        },
+        {
+          "id": "highcharts",
+          "description": {
+            "zh-CN": "让你在 Web 项目中轻松添加交互式图表的软件库",
+            "en-US": "Make your data come alive"
+          },
+          "url": "https://www.highcharts.com/"
+        },
+        {
+          "id": "kendo",
+          "description": {
+            "zh-CN": "全面的现代 UI 组件集合",
+            "en-US": "A comprehensive collection of UI components"
+          },
+          "url": "https://www.telerik.com/kendo-ui"
+        },
+        {
+          "id": "mantine",
+          "description": {
+            "zh-CN": "功能丰富的 React 组件库",
+            "en-US": "A fully featured React components library"
+          },
+          "url": "https://mantine.dev/"
+        },
+        {
+          "id": "materialize",
+          "description": {
+            "zh-CN": "一个基于 Material Design 的现代响应式前端框架",
+            "en-US": "A modern responsive front-end framework based on Material Design"
+          },
+          "url": "https://materializecss.com/"
+        },
+        {
+          "id": "milligram",
+          "description": {
+            "zh-CN": "一个极简的、用于快速和干净网站的 CSS 框架",
+            "en-US": "A minimalist CSS framework"
+          },
+          "url": "https://milligram.io/"
+        },
+        {
+          "id": "mui",
+          "description": {
+            "zh-CN": "实现了 Google Material Design 准则的 React 组件库",
+            "en-US": "Move faster with intuitive React UI tools"
+          },
+          "url": "https://mui.com/"
+        },
+        {
+          "id": "pico",
+          "description": {
+            "zh-CN": "适用于原生 HTML 的极简的 CSS 框架",
+            "en-US": "Minimal CSS framework for semantic HTML"
+          },
+          "url": "https://picocss.com/"
+        },
+        {
+          "id": "semanticui",
+          "description": {
+            "zh-CN": "通过使用对人类友好的 HTML 来帮助创建美观界面的开发框架",
+            "en-US": "User Interface is the language of the web"
+          },
+          "url": "https://semantic-ui.com/"
+        },
+        {
+          "id": "shimmer",
+          "description": {
+            "zh-CN": "用于 UI 加载的闪烁骨架屏效果",
+            "en-US": "Shimmer effect for UI loading"
+          },
+          "url": "https://shimmer.dev/"
+        },
+        {
+          "id": "spectre",
+          "description": {
+            "zh-CN": "一个轻量级、响应式和现代的纯 CSS 框架",
+            "en-US": "A Lightweight, Responsive and Modern CSS Framework"
+          },
+          "url": "https://picturepan2.github.io/spectre/"
+        },
+        {
+          "id": "telerik",
+          "description": {
+            "zh-CN": "适用于 .NET 和 JavaScript 的现代 UI 组件库",
+            "en-US": "UI for .NET and JavaScript"
+          },
+          "url": "https://www.telerik.com/"
+        },
+        {
+          "id": "ui",
+          "description": {
+            "zh-CN": "用户界面 (User Interface)",
+            "en-US": "User Interface"
+          },
+          "url": "https://en.wikipedia.org/wiki/User_interface"
+        },
+        {
+          "id": "uikit",
+          "description": {
+            "zh-CN": "轻量级、模块化的前端框架，用于开发快速强大的 Web 界面",
+            "en-US": "A lightweight and modular front-end framework for developing fast and powerful web interfaces"
+          },
+          "url": "https://getuikit.com/"
+        },
+        {
+          "id": "ux",
+          "description": {
+            "zh-CN": "用户体验 (User Experience)",
+            "en-US": "User Experience"
+          },
+          "url": "https://en.wikipedia.org/wiki/User_experience"
+        },
+        {
+          "id": "webgl",
+          "description": {
+            "zh-CN": "用于在网页浏览器中渲染交互式 2D 和 3D 图形的 Web API",
+            "en-US": "Web Graphics Library"
+          },
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API"
+        }
+      ]
+    },
+    {
+      "id": "Frontend - State Management",
+      "icons": [
+        {
+          "id": "rxjs",
+          "description": {
+            "zh-CN": "使用 Observable 序列编写异步和基于事件的程序的库",
+            "en-US": "Reactive Extensions Library for JavaScript"
+          },
+          "url": "https://rxjs.dev/"
+        },
+        {
+          "id": "swr",
+          "description": {
+            "zh-CN": "用于数据请求的 React Hooks 库",
+            "en-US": "React Hooks library for data fetching"
+          },
+          "url": "https://swr.vercel.app/"
+        }
+      ]
+    },
+    {
+      "id": "Frontend - Build Tools",
+      "icons": [
+        {
+          "id": "browserify",
+          "description": {
+            "zh-CN": "在浏览器环境中使用 Node.js 的 require() 方法",
+            "en-US": "Browser-side require() the node.js way"
+          },
+          "url": "https://browserify.org/"
+        },
+        {
+          "id": "esbuild",
+          "description": {
+            "zh-CN": "一个极其快速的 JavaScript 打包工具",
+            "en-US": "An extremely fast JavaScript bundler"
+          },
+          "url": "https://esbuild.github.io/"
+        },
+        {
+          "id": "gem",
+          "description": {
+            "zh-CN": "Ruby 编程语言的包管理器",
+            "en-US": "A package manager for the Ruby programming language"
+          },
+          "url": "https://rubygems.org/"
+        },
+        {
+          "id": "lerna",
+          "description": {
+            "zh-CN": "管理包含多个软件包的 JavaScript 项目的工具",
+            "en-US": "A tool for managing JavaScript projects with multiple packages"
+          },
+          "url": "https://lerna.js.org/"
+        },
+        {
+          "id": "makefile",
+          "description": {
+            "zh-CN": "包含 make 构建自动化工具所用指令集的文件",
+            "en-US": "A file containing a set of directives used by a make build automation tool"
+          },
+          "url": "https://www.gnu.org/software/make/manual/make.html"
+        },
+        {
+          "id": "nwjs",
+          "description": {
+            "zh-CN": "直接从 DOM 调用所有 Node.js 模块，开启使用 Web 技术编写应用的新方式",
+            "en-US": "Call all Node.js modules directly from DOM and enable a new way of writing applications with all Web technologies"
+          },
+          "url": "https://nwjs.io/"
+        },
+        {
+          "id": "nx",
+          "description": {
+            "zh-CN": "智能、快速、可扩展的构建系统",
+            "en-US": "Smart, fast and extensible build system"
+          },
+          "url": "https://nx.dev/"
+        },
+        {
+          "id": "oxlint",
+          "description": {
+            "zh-CN": "用于 JavaScript 和 TypeScript 的高性能工具套件",
+            "en-US": "A suite of high-performance tools for JavaScript and TypeScript"
+          },
+          "url": "https://oxc.rs/docs/guide/usage/linter/usage.html"
+        },
+        {
+          "id": "parcel",
+          "description": {
+            "zh-CN": "极速且零配置的 Web 应用程序构建工具",
+            "en-US": "The zero configuration build tool for the web"
+          },
+          "url": "https://parceljs.org/"
+        },
+        {
+          "id": "pip",
+          "description": {
+            "zh-CN": "Python 的包安装程序",
+            "en-US": "The package installer for Python"
+          },
+          "url": "https://pip.pypa.io/"
+        },
+        {
+          "id": "poetry",
+          "description": {
+            "zh-CN": "让 Python 打包和依赖管理变得简单",
+            "en-US": "Python packaging and dependency management made easy"
+          },
+          "url": "https://python-poetry.org/"
+        },
+        {
+          "id": "precommit",
+          "description": {
+            "zh-CN": "管理和维护多语言 pre-commit 钩子的框架",
+            "en-US": "A framework for managing and maintaining multi-language pre-commit hooks"
+          },
+          "url": "https://pre-commit.com/"
+        },
+        {
+          "id": "rome",
+          "description": {
+            "zh-CN": "统一的 JavaScript、TypeScript 开发工具",
+            "en-US": "Unified developer tool for JavaScript, TypeScript, and more"
+          },
+          "url": "https://rome.tools/"
+        },
+        {
+          "id": "ruff",
+          "description": {
+            "zh-CN": "用 Rust 编写的极其快速的 Python linter 和代码格式化工具",
+            "en-US": "An extremely fast Python linter and code formatter, written in Rust"
+          },
+          "url": "https://astral.sh/ruff"
+        },
+        {
+          "id": "sbt",
+          "description": {
+            "zh-CN": "适用于 Scala、Java 等语言的交互式构建工具",
+            "en-US": "The interactive build tool for Scala, Java, and more"
+          },
+          "url": "https://www.scala-sbt.org/"
+        },
+        {
+          "id": "swc",
+          "description": {
+            "zh-CN": "基于 Rust 的高性能 Web 开发平台",
+            "en-US": "Rust-based platform for the Web"
+          },
+          "url": "https://swc.rs/"
+        },
+        {
+          "id": "vcpkg",
+          "description": {
+            "zh-CN": "用于获取和管理库的免费 C/C++ 包管理器",
+            "en-US": "A free C/C++ package manager for acquiring and managing libraries"
+          },
+          "url": "https://vcpkg.io/"
+        },
+        {
+          "id": "zod",
+          "description": {
+            "zh-CN": "以 TypeScript 为首的带有静态类型推断的模式声明和验证库",
+            "en-US": "TypeScript-first schema validation with static type inference"
+          },
+          "url": "https://zod.dev/"
+        }
+      ]
+    },
+    {
+      "id": "Backend - Languages",
+      "icons": [
+        {
+          "id": "autohotkey",
+          "description": {
+            "zh-CN": "一种适用于 Windows 的免费、开源脚本语言",
+            "en-US": "A free, open-source scripting language for Windows"
+          },
+          "url": "https://www.autohotkey.com/"
+        },
+        {
+          "id": "cobol",
+          "description": {
+            "zh-CN": "一门类英语的编译型计算机编程语言，专为主流商业用途设计",
+            "en-US": "A compiled English-like computer programming language designed for business use"
+          },
+          "url": "https://en.wikipedia.org/wiki/COBOL"
+        },
+        {
+          "id": "commonlisp",
+          "description": {
+            "zh-CN": "一门通用的、多范式的编程语言",
+            "en-US": "A general-purpose, multi-paradigm programming language"
+          },
+          "url": "https://common-lisp.net/",
+          "alias": [
+            "lisp"
+          ]
+        },
+        {
+          "id": "fish",
+          "description": {
+            "zh-CN": "一个对用户友好且智能的命令行 shell，适用于 macOS、Linux 等",
+            "en-US": "A smart and user-friendly command line shell for macOS, Linux, and the rest of the family"
+          },
+          "url": "https://fishshell.com/"
+        },
+        {
+          "id": "fsharp",
+          "description": {
+            "zh-CN": "一门以函数式为主的、通用的、强类型的多范式编程语言",
+            "en-US": "A functional-first, general purpose, strongly typed, multi-paradigm programming language"
+          },
+          "url": "https://fsharp.org/"
+        },
+        {
+          "id": "go",
+          "description": {
+            "zh-CN": "一种开源编程语言，让构建简单、可靠且高效的软件变得轻松",
+            "en-US": "An open-source programming language that makes it easy to build simple, reliable, and efficient software"
+          },
+          "url": "https://go.dev/"
+        },
+        {
+          "id": "prolog",
+          "description": {
+            "zh-CN": "一种与人工智能和计算语言学相关的逻辑编程语言",
+            "en-US": "A logic programming language associated with artificial intelligence and computational linguistics"
+          },
+          "url": "https://en.wikipedia.org/wiki/Prolog"
+        },
+        {
+          "id": "racket",
+          "description": {
+            "zh-CN": "Lisp-Scheme 家族中的通用多范式编程语言",
+            "en-US": "A general-purpose, multi-paradigm programming language in the Lisp-Scheme family"
+          },
+          "url": "https://racket-lang.org/"
+        },
+        {
+          "id": "scheme",
+          "description": {
+            "zh-CN": "一门极简的、多范式的 Lisp 方言",
+            "en-US": "A minimalist, multi-paradigm dialect of Lisp"
+          },
+          "url": "https://schemers.org/"
+        },
+        {
+          "id": "shell",
+          "description": {
+            "zh-CN": "一个命令行解释器或脚本规范，提供传统的类 Unix 命令行用户界面",
+            "en-US": "A command-line interpreter or shell that provides a traditional Unix-like command-line user interface"
+          },
+          "url": "https://en.wikipedia.org/wiki/Shell_script"
+        },
+        {
+          "id": "wolfram",
+          "description": {
+            "zh-CN": "Wolfram 语言",
+            "en-US": "Wolfram Language"
+          },
+          "url": "https://www.wolfram.com/language/"
+        },
+        {
+          "id": "zsh",
+          "description": {
+            "zh-CN": "一个为交互式使用设计的 shell，也是一门强大的脚本语言",
+            "en-US": "A shell designed for interactive use, although it is also a powerful scripting language"
+          },
+          "url": "https://www.zsh.org/"
+        }
+      ]
+    },
+    {
+      "id": "Backend - Frameworks - JS/TS",
+      "icons": [
+        {
+          "id": "express",
+          "description": {
+            "zh-CN": "快速、独立、极简的 Node.js Web 框架",
+            "en-US": "Fast, unopinionated, minimalist web framework for Node.js"
+          },
+          "url": "https://expressjs.com/"
+        },
+        {
+          "id": "feathr",
+          "description": {
+            "zh-CN": "用于实时应用程序和 REST API 的现代 Web 框架 (Feathers)",
+            "en-US": "A framework for real-time applications and REST APIs"
+          },
+          "url": "https://feathersjs.com/"
+        },
+        {
+          "id": "loopback",
+          "description": {
+            "zh-CN": "用于构建 API 和微服务的高度可扩展 Node.js 框架",
+            "en-US": "A highly extensible Node.js and TypeScript framework for building APIs and microservices"
+          },
+          "url": "https://loopback.io/"
+        },
+        {
+          "id": "nitro",
+          "description": {
+            "zh-CN": "使用随地可运行的服务器构建 Web 应用程序",
+            "en-US": "Build web applications with a server that runs anywhere"
+          },
+          "url": "https://nitro.unjs.io/"
+        }
+      ]
+    },
+    {
+      "id": "Backend - Frameworks - Python",
+      "icons": [
+        {
+          "id": "masonite",
+          "description": {
+            "zh-CN": "现代且以开发者为中心的 Python Web 框架",
+            "en-US": "The modern and developer centric Python web framework"
+          },
+          "url": "https://docs.masoniteproject.com/"
+        }
+      ]
+    },
+    {
+      "id": "Backend - Frameworks - Java/JVM",
+      "icons": [
+        {
+          "id": "groovy",
+          "description": {
+            "zh-CN": "基于 JVM 的敏捷动态语言",
+            "en-US": "An agile and dynamic language for the Java Virtual Machine"
+          },
+          "url": "https://groovy-lang.org/"
+        },
+        {
+          "id": "springboot",
+          "description": {
+            "zh-CN": "轻松创建独立的、生产级的基于 Spring 的应用",
+            "en-US": "Makes it easy to create stand-alone, production-grade Spring based Applications that you can just run"
+          },
+          "url": "https://spring.io/projects/spring-boot"
+        }
+      ]
+    },
+    {
+      "id": "Backend - Frameworks - PHP",
+      "icons": [
+        {
+          "id": "cakephp",
+          "description": {
+            "zh-CN": "用于在 PHP 中快速开发的一套开源 Web 框架",
+            "en-US": "A rapid development framework for PHP"
+          },
+          "url": "https://cakephp.org/"
+        },
+        {
+          "id": "flight",
+          "description": {
+            "zh-CN": "轻量级、极简的 PHP 微框架",
+            "en-US": "A fast, simple, extensible framework for PHP"
+          },
+          "url": "https://flightphp.com/"
+        },
+        {
+          "id": "leaf",
+          "description": {
+            "zh-CN": "简单优雅的 PHP 框架",
+            "en-US": "A simple & elegant PHP framework for clean APIs and apps"
+          },
+          "url": "https://leafphp.dev/"
+        }
+      ]
+    },
+    {
+      "id": "Backend - Frameworks - Go",
+      "icons": [
+        {
+          "id": "buffalo",
+          "description": {
+            "zh-CN": "用于 Go 生态系统的快速 Web 开发框架",
+            "en-US": "A Go web development eco-system"
+          },
+          "url": "https://gobuffalo.io/"
+        }
+      ]
+    },
+    {
+      "id": "Backend - Frameworks - Rust",
+      "icons": [
+        {
+          "id": "axum",
+          "description": {
+            "zh-CN": "无样板即可使用的且专注于人体工程学和模块化的 Web 框架",
+            "en-US": "Web framework that focuses on ergonomics and modularity"
+          },
+          "url": "https://github.com/tokio-rs/axum"
+        },
+        {
+          "id": "diesel",
+          "description": {
+            "zh-CN": "安全可扩展的 Rust ORM 框架",
+            "en-US": "A safe, extensible ORM and Query Builder for Rust"
+          },
+          "url": "https://diesel.rs/"
+        },
+        {
+          "id": "dioxus",
+          "description": {
+            "zh-CN": "用于构建跨平台用户界面的友好反应式框架",
+            "en-US": "A friendly, concurrent, and smart reactive framework for building cross-platform user interfaces"
+          },
+          "url": "https://dioxuslabs.com/"
+        },
+        {
+          "id": "leptos",
+          "description": {
+            "zh-CN": "全栈式、响应式的 Rust 无头框架",
+            "en-US": "A full-stack, isomorphic Rust web framework leveraging fine-grained reactivity"
+          },
+          "url": "https://leptos.dev/"
+        }
+      ]
+    },
+    {
+      "id": "Backend - Frameworks - C#/.NET",
+      "icons": [
+        {
+          "id": "dotnetcore",
+          "description": {
+            "zh-CN": ".NET Core",
+            "en-US": ".NET Core"
+          },
+          "url": "https://dotnet.microsoft.com/"
+        },
+        {
+          "id": "entityframework",
+          "description": {
+            "zh-CN": "对 .NET 应用程序的开源对象关系映射 (ORM) 框架",
+            "en-US": "An open source object-relational mapping (ORM) framework for ADO.NET"
+          },
+          "url": "https://learn.microsoft.com/en-us/ef/"
+        },
+        {
+          "id": "maui",
+          "description": {
+            "zh-CN": "用于使用 .NET 创建原生跨平台桌面和移动应用的框架",
+            "en-US": "A cross-platform framework for creating native mobile and desktop apps with C# and XAML"
+          },
+          "url": "https://dotnet.microsoft.com/en-us/apps/maui"
+        }
+      ]
+    },
+    {
+      "id": "Backend - Frameworks - Ruby",
+      "icons": [
+        {
+          "id": "cubye",
+          "description": {
+            "zh-CN": "为数据应用程序提供无头商业智能",
+            "en-US": "Headless Business Intelligence for Data Apps"
+          },
+          "url": "https://cube.dev/"
+        },
+        {
+          "id": "hanami",
+          "description": {
+            "zh-CN": "轻量级的 Ruby Web 框架",
+            "en-US": "The web, with simplicity"
+          },
+          "url": "https://hanamirb.org/"
+        },
+        {
+          "id": "sinartra",
+          "description": {
+            "zh-CN": "一套在 Ruby 中以最小精力快速创建 Web 应用程序的 DSL",
+            "en-US": "DSL for quickly creating web applications in Ruby with minimal effort"
+          },
+          "url": "https://sinatrarb.com/"
+        }
+      ]
+    },
+    {
+      "id": "Backend - Database & API",
+      "icons": [
+        {
+          "id": "dagster",
+          "description": {
+            "zh-CN": "数据编排平台",
+            "en-US": "The data orchestration platform"
+          },
+          "url": "https://dagster.io/"
+        },
+        {
+          "id": "hasura",
+          "description": {
+            "zh-CN": "为您数据提供快速的 GraphQL API",
+            "en-US": "Fast GraphQL API for your data"
+          },
+          "url": "https://hasura.io/"
+        },
+        {
+          "id": "prefect",
+          "description": {
+            "zh-CN": "现代数据工作流平台",
+            "en-US": "The modern data pipeline platform"
+          },
+          "url": "https://www.prefect.io/"
+        },
+        {
+          "id": "protobuf",
+          "description": {
+            "zh-CN": "Google 的语言中立、平台中立、可扩展的结构化数据序列化机制",
+            "en-US": "Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data"
+          },
+          "url": "https://protobuf.dev/"
+        },
+        {
+          "id": "wasmer",
+          "description": {
+            "zh-CN": "通用的 WebAssembly 运行时",
+            "en-US": "The universal WebAssembly runtime"
+          },
+          "url": "https://wasmer.io/"
+        }
+      ]
+    },
+    {
+      "id": "Cloud Providers",
+      "icons": [
+        {
+          "id": "alibabacloud",
+          "description": {
+            "zh-CN": "阿里云，全球领先的云计算及人工智能科技公司",
+            "en-US": "Alibaba Cloud computing company"
+          },
+          "url": "https://www.alibabacloud.com/"
+        },
+        {
+          "id": "convex",
+          "description": {
+            "zh-CN": "全栈的响应式后台服务",
+            "en-US": "The reactive backend for full-stack apps"
+          },
+          "url": "https://www.convex.dev/"
+        },
+        {
+          "id": "flydotio",
+          "description": {
+            "zh-CN": "让开发者在全球范围内运行全栈应用的平台",
+            "en-US": "Fly.io Run full stack apps close to your users"
+          },
+          "url": "https://fly.io/"
+        },
+        {
+          "id": "hetzner",
+          "description": {
+            "zh-CN": "德国知名的 Web 托管公司和数据中心运营商",
+            "en-US": "Hetzner Web hosting company and data center operator"
+          },
+          "url": "https://www.hetzner.com/"
+        },
+        {
+          "id": "ibmcloud",
+          "description": {
+            "zh-CN": "IBM 提供的云计算服务套件",
+            "en-US": "IBM Cloud Suite of cloud computing services from IBM"
+          },
+          "url": "https://www.ibm.com/cloud"
+        },
+        {
+          "id": "linode",
+          "description": {
+            "zh-CN": "云主机和 VPS 提供商",
+            "en-US": "Linode (Akamai) Cloud hosting provider"
+          },
+          "url": "https://www.linode.com/"
+        },
+        {
+          "id": "oraclecloud",
+          "description": {
+            "zh-CN": "甲骨文提供的云计算服务",
+            "en-US": "Oracle Cloud computing service by Oracle"
+          },
+          "url": "https://www.oracle.com/cloud/"
+        },
+        {
+          "id": "ovh",
+          "description": {
+            "zh-CN": "全球领先的云计算公司之一",
+            "en-US": "OVHcloud French cloud computing company"
+          },
+          "url": "https://www.ovhcloud.com/"
+        },
+        {
+          "id": "upstash",
+          "description": {
+            "zh-CN": "无服务器数据的 Redis 和 Kafka 平台",
+            "en-US": "Serverless Data Platform for Redis and Kafka"
+          },
+          "url": "https://upstash.com/"
+        },
+        {
+          "id": "vultr",
+          "description": {
+            "zh-CN": "提供高性能固态硬盘架构云服务器的服务商",
+            "en-US": "Vultr Cloud compute provider"
+          },
+          "url": "https://www.vultr.com/"
+        }
+      ]
+    },
+    {
+      "id": "DevOps - Git & SCM",
+      "icons": [
+        {
+          "id": "bot",
+          "description": {
+            "zh-CN": "用于自动执行任务或交互的软件机器人",
+            "en-US": "Software bot for automated tasks and interactions"
+          },
+          "url": "#"
+        },
+        {
+          "id": "mercurial",
+          "description": {
+            "zh-CN": "跨平台的分布式版本控制系统",
+            "en-US": "A free, distributed source control management tool"
+          },
+          "url": "https://www.mercurial-scm.org/"
+        },
+        {
+          "id": "perforce",
+          "description": {
+            "zh-CN": "企业级的版本控制和项目管理软件",
+            "en-US": "Version control software to securely manage your digital assets"
+          },
+          "url": "https://www.perforce.com/products/helix-core"
+        },
+        {
+          "id": "sourcetree",
+          "description": {
+            "zh-CN": "方便使用的 Git 桌面客户端",
+            "en-US": "Simplicity and power in a beautiful Git GUI"
+          },
+          "url": "https://www.sourcetreeapp.com/"
+        }
+      ]
+    },
+    {
+      "id": "DevOps - Tools",
+      "icons": [
+        {
+          "id": "caprover",
+          "description": {
+            "zh-CN": "自主托管 PaaS 平台",
+            "en-US": "Free and Open Source PaaS"
+          },
+          "url": "https://caprover.com/"
+        },
+        {
+          "id": "chef",
+          "description": {
+            "zh-CN": "配置管理工具",
+            "en-US": "Configuration management tool"
+          },
+          "url": "https://www.chef.io/"
+        },
+        {
+          "id": "coolify",
+          "description": {
+            "zh-CN": "自主托管的 Heroku 替代方案",
+            "en-US": "An open-source & self-hostable Heroku / Netlify alternative"
+          },
+          "url": "https://coolify.io/"
+        },
+        {
+          "id": "istio",
+          "description": {
+            "zh-CN": "开源的独立服务网格",
+            "en-US": "An open platform to connect, secure, control and observe services"
+          },
+          "url": "https://istio.io/"
+        },
+        {
+          "id": "linkerd",
+          "description": {
+            "zh-CN": "适用于 Kubernetes 的轻量级服务网格",
+            "en-US": "Ultralight, lightning-fast service mesh for Kubernetes"
+          },
+          "url": "https://linkerd.io/"
+        },
+        {
+          "id": "nomad",
+          "description": {
+            "zh-CN": "简单灵活的调度器和工作负载编排器",
+            "en-US": "A simple and flexible scheduler and workload orchestrator"
+          },
+          "url": "https://www.nomadproject.io/"
+        },
+        {
+          "id": "packer",
+          "description": {
+            "zh-CN": "从单个源配置为多个平台创建相同的机器映像",
+            "en-US": "Build Automated Machine Images"
+          },
+          "url": "https://www.packer.io/"
+        },
+        {
+          "id": "puppet",
+          "description": {
+            "zh-CN": "自动化配置管理工具",
+            "en-US": "Infrastructure automation and delivery"
+          },
+          "url": "https://puppet.com/"
+        },
+        {
+          "id": "salt",
+          "description": {
+            "zh-CN": "基于 Python 的开源配置管理和远程执行软件",
+            "en-US": "Python-based, open-source software for event-driven IT automation, remote task execution, and configuration management"
+          },
+          "url": "https://saltproject.io/"
+        },
+        {
+          "id": "stackblitz",
+          "description": {
+            "zh-CN": "面向 Web 开发人员的在线 IDE",
+            "en-US": "Instant online IDE targeted for Web Development"
+          },
+          "url": "https://stackblitz.com/"
+        },
+        {
+          "id": "travis",
+          "description": {
+            "zh-CN": "为开源和私有项目提供托管的持续集成服务",
+            "en-US": "Hosted continuous integration service used to build and test software projects hosted on GitHub and Bitbucket"
+          },
+          "url": "https://www.travis-ci.com/"
+        },
+        {
+          "id": "vault",
+          "description": {
+            "zh-CN": "用于管理机密和保护敏感数据的工具",
+            "en-US": "Manage Secrets and Protect Sensitive Data"
+          },
+          "url": "https://www.vaultproject.io/"
+        },
+        {
+          "id": "waypoint",
+          "description": {
+            "zh-CN": "跨多个平台构建、部署和发布开发的现代应用",
+            "en-US": "Easy application deployment for developers"
+          },
+          "url": "https://www.waypointproject.io/"
+        }
+      ]
+    },
+    {
+      "id": "DevOps - Monitoring",
+      "icons": [
+        {
+          "id": "appdynamics",
+          "description": {
+            "zh-CN": "应用性能管理和 IT 运营分析",
+            "en-US": "Application performance management and IT operations analytics"
+          },
+          "url": "https://www.appdynamics.com/"
+        },
+        {
+          "id": "bamboo",
+          "description": {
+            "zh-CN": "Atlassian 提供的持续集成、部署和发布管理工具",
+            "en-US": "Continuous integration, deployment, and release management"
+          },
+          "url": "https://www.atlassian.com/software/bamboo"
+        },
+        {
+          "id": "betterstack",
+          "description": {
+            "zh-CN": "用于日志管理和正常运行时间监控",
+            "en-US": "Uptime monitoring, incident management, and log management"
+          },
+          "url": "https://betterstack.com/"
+        },
+        {
+          "id": "cloudflare-workers",
+          "description": {
+            "zh-CN": "在边缘运行无服务器代码",
+            "en-US": "Deploy serverless code instantly across the globe to give it exceptional performance, reliability, and scale"
+          },
+          "url": "https://workers.cloudflare.com/"
+        },
+        {
+          "id": "drone",
+          "description": {
+            "zh-CN": "基于容器技术的开源持续交付引擎",
+            "en-US": "Drone is a Continuous Delivery system built on container technology"
+          },
+          "url": "https://www.drone.io/"
+        },
+        {
+          "id": "dynatrace",
+          "description": {
+            "zh-CN": "具有 AI 辅助分析功能的应用性能监控（APM）和IT日志系统",
+            "en-US": "Software intelligence for the enterprise cloud"
+          },
+          "url": "https://www.dynatrace.com/"
+        },
+        {
+          "id": "elk",
+          "description": {
+            "zh-CN": "ELK 日志分析系统 (Elasticsearch, Logstash, Kibana)",
+            "en-US": "ELK Stack (Elasticsearch, Logstash, Kibana)"
+          },
+          "url": "https://www.elastic.co/what-is/elk-stack"
+        },
+        {
+          "id": "harness",
+          "description": {
+            "zh-CN": "软件交付平台",
+            "en-US": "The Modern Software Delivery Platform"
+          },
+          "url": "https://www.harness.io/"
+        },
+        {
+          "id": "loki",
+          "description": {
+            "zh-CN": "由 Grafana 支持的日志聚合系统",
+            "en-US": "Like Prometheus, but for logs"
+          },
+          "url": "https://grafana.com/oss/loki/"
+        },
+        {
+          "id": "nagios",
+          "description": {
+            "zh-CN": "开源的计算机系统、网络和基础设施监控软件应用程序",
+            "en-US": "Computer system, network and infrastructure monitoring software application"
+          },
+          "url": "https://www.nagios.org/"
+        },
+        {
+          "id": "newrelic",
+          "description": {
+            "zh-CN": "提供性能分析和监控的平台",
+            "en-US": "Full stack observability for software developers"
+          },
+          "url": "https://newrelic.com/"
+        },
+        {
+          "id": "octupusdeploy",
+          "description": {
+            "zh-CN": "自动化软件部署工具",
+            "en-US": "Automated release management for software professionals"
+          },
+          "url": "https://octopus.com/"
+        },
+        {
+          "id": "splunk",
+          "description": {
+            "zh-CN": "用于搜寻，监控和分析机器生成的数据的软件",
+            "en-US": "A software platform to search, analyze and visualize the machine-generated data"
+          },
+          "url": "https://www.splunk.com/"
+        },
+        {
+          "id": "teamcity",
+          "description": {
+            "zh-CN": "由 JetBrains 开发的持续集成服务器",
+            "en-US": "Powerful Continuous Integration out of the box"
+          },
+          "url": "https://www.jetbrains.com/teamcity/"
+        },
+        {
+          "id": "tyk",
+          "description": {
+            "zh-CN": "开源开源的快速轻量级 API 网关",
+            "en-US": "Open source, fast and scalable API gateway"
+          },
+          "url": "https://tyk.io/"
+        }
+      ]
+    },
+    {
+      "id": "AI & Machine Learning",
+      "icons": [
+        {
+          "id": "anthropic",
+          "description": {
+            "zh-CN": "人工智能安全和研究公司",
+            "en-US": "Anthropic AI research"
+          },
+          "url": "https://www.anthropic.com/"
+        },
+        {
+          "id": "catboost",
+          "description": {
+            "zh-CN": "Yandex 提供的快速、可扩展、高性能的开源梯度提升算法",
+            "en-US": "A fast, scalable, high performance Gradient Boosting on Decision Trees library"
+          },
+          "url": "https://catboost.ai/"
+        },
+        {
+          "id": "dataiku",
+          "description": {
+            "zh-CN": "人工智能和机器学习的日常应用平台",
+            "en-US": "The platform for Everyday AI, systemizing the use of data for exceptional business results"
+          },
+          "url": "https://www.dataiku.com/"
+        },
+        {
+          "id": "datarobot",
+          "description": {
+            "zh-CN": "企业级自动化的机器学习平台",
+            "en-US": "The AI Cloud Leader"
+          },
+          "url": "https://www.datarobot.com/"
+        },
+        {
+          "id": "dataspin",
+          "description": {
+            "zh-CN": "数据采集与整理流程",
+            "en-US": "Data collection and curation workflows"
+          },
+          "url": "#"
+        },
+        {
+          "id": "deepnote",
+          "description": {
+            "zh-CN": "基于云的交互式数据科学笔记本工具",
+            "en-US": "Collaborative data science notebook"
+          },
+          "url": "https://deepnote.com/"
+        },
+        {
+          "id": "keras",
+          "description": {
+            "zh-CN": "Python 深度学习库",
+            "en-US": "Simple, flexible, and powerful deep learning API"
+          },
+          "url": "https://keras.io/"
+        },
+        {
+          "id": "lightgbm",
+          "description": {
+            "zh-CN": "微软提供的快速、分布式、高性能的基于决策树算法的梯度提升框架",
+            "en-US": "A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms"
+          },
+          "url": "https://lightgbm.readthedocs.io/"
+        },
+        {
+          "id": "midjourney",
+          "description": {
+            "zh-CN": "AI 图像生成工具",
+            "en-US": "An independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species"
+          },
+          "url": "https://www.midjourney.com/"
+        },
+        {
+          "id": "openai",
+          "description": {
+            "zh-CN": "人工智能研究实验室",
+            "en-US": "AI research and deployment company"
+          },
+          "url": "https://openai.com/"
+        },
+        {
+          "id": "runway",
+          "description": {
+            "zh-CN": "面向创意人员的机器学习平台",
+            "en-US": "Advancing creativity with artificial intelligence"
+          },
+          "url": "https://runwayml.com/"
+        },
+        {
+          "id": "stable-diffusion",
+          "description": {
+            "zh-CN": "开源的深度学习文本到图像生成模型",
+            "en-US": "High-Resolution Image Synthesis with Latent Diffusion Models"
+          },
+          "url": "https://stability.ai/"
+        },
+        {
+          "id": "xgboost",
+          "description": {
+            "zh-CN": "可扩展且高效的梯度提升（GBDT、GBRT 或 GBM）算法实现库",
+            "en-US": "Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library"
+          },
+          "url": "https://xgboost.readthedocs.io/"
+        }
+      ]
+    },
+    {
+      "id": "Data Science & Big Data",
+      "icons": [
+        {
+          "id": "conda",
+          "description": {
+            "zh-CN": "开源的包管理系统和环境管理系统",
+            "en-US": "OS-agnostic, system-level binary package manager and ecosystem"
+          },
+          "url": "https://docs.conda.io/"
+        },
+        {
+          "id": "dbt",
+          "description": {
+            "zh-CN": "数据转换工具",
+            "en-US": "Data transformation workflow"
+          },
+          "url": "https://www.getdbt.com/"
+        },
+        {
+          "id": "hbase",
+          "description": {
+            "zh-CN": "分布式、面向列的开源数据库",
+            "en-US": "The Hadoop database, a distributed, scalable, big data store"
+          },
+          "url": "https://hbase.apache.org/"
+        },
+        {
+          "id": "nifi",
+          "description": {
+            "zh-CN": "易于使用、功能强大且可靠的系统来处理和分发数据",
+            "en-US": "An easy to use, powerful, and reliable system to process and distribute data"
+          },
+          "url": "https://nifi.apache.org/"
+        },
+        {
+          "id": "powerbi",
+          "description": {
+            "zh-CN": "商业分析服务",
+            "en-US": "Business analytics service by Microsoft"
+          },
+          "url": "https://powerbi.microsoft.com/"
+        },
+        {
+          "id": "pytorchlighting",
+          "description": {
+            "zh-CN": "PyTorch 的轻量级封装库",
+            "en-US": "The lightweight PyTorch wrapper for high-performance AI research"
+          },
+          "url": "https://www.pytorchlightning.ai/"
+        },
+        {
+          "id": "statsmodels",
+          "description": {
+            "zh-CN": "用于探索数据、估计统计模型和执行统计测试的 Python 模块",
+            "en-US": "A Python module that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration"
+          },
+          "url": "https://www.statsmodels.org/"
+        },
+        {
+          "id": "storm",
+          "description": {
+            "zh-CN": "分布式实时计算系统",
+            "en-US": "Distributed and fault-tolerant real-time computation"
+          },
+          "url": "https://storm.apache.org/"
+        },
+        {
+          "id": "superset",
+          "description": {
+            "zh-CN": "现代的、企业级的数据探索和可视化平台",
+            "en-US": "A modern data exploration and visualization platform"
+          },
+          "url": "https://superset.apache.org/"
+        },
+        {
+          "id": "turi",
+          "description": {
+            "zh-CN": "Apple 的机器学习库 (Turi Create)",
+            "en-US": "Turi Create simplifies the development of custom machine learning models"
+          },
+          "url": "https://github.com/apple/turicreate"
+        },
+        {
+          "id": "zookeeper",
+          "description": {
+            "zh-CN": "分布式协调服务",
+            "en-US": "A centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services"
+          },
+          "url": "https://zookeeper.apache.org/"
+        }
+      ]
+    },
+    {
+      "id": "Databases",
+      "icons": [
+        {
+          "id": "arangodb",
+          "description": {
+            "zh-CN": "原生多模型数据库",
+            "en-US": "The most flexible database for building high-performance applications"
+          },
+          "url": "https://www.arangodb.com/"
+        },
+        {
+          "id": "couchdb",
+          "description": {
+            "zh-CN": "面向文档的开源数据库",
+            "en-US": "Seamless multi-master sync, that scales from Big Data to Mobile"
+          },
+          "url": "https://couchdb.apache.org/"
+        },
+        {
+          "id": "db2",
+          "description": {
+            "zh-CN": "IBM 提供的关系型数据库管理系统产品集合",
+            "en-US": "A family of data management products, including database servers, developed by IBM"
+          },
+          "url": "https://www.ibm.com/db2"
+        },
+        {
+          "id": "edgedb",
+          "description": {
+            "zh-CN": "开源图形关系数据库",
+            "en-US": "The open-source graph-relational database"
+          },
+          "url": "https://www.edgedb.com/"
+        },
+        {
+          "id": "elastic",
+          "description": {
+            "zh-CN": "基于 Lucene 的深度搜索和分析引擎",
+            "en-US": "A distributed, RESTful search and analytics engine"
+          },
+          "url": "https://www.elastic.co/"
+        },
+        {
+          "id": "fauna",
+          "description": {
+            "zh-CN": "文档关系型数据库引擎",
+            "en-US": "The document-relational database"
+          },
+          "url": "https://fauna.com/"
+        },
+        {
+          "id": "firestore",
+          "description": {
+            "zh-CN": "用于移动、Web 和服务器开发的灵活、可扩展的数据库",
+            "en-US": "Flexible, scalable NoSQL cloud database to store and sync data for client- and server-side development"
+          },
+          "url": "https://firebase.google.com/docs/firestore"
+        },
+        {
+          "id": "influxdb",
+          "description": {
+            "zh-CN": "开源的时间序列数据库",
+            "en-US": "Purpose-Built Time Series Database"
+          },
+          "url": "https://www.influxdata.com/"
+        },
+        {
+          "id": "leveldb",
+          "description": {
+            "zh-CN": "由 Google 开发的快速键值存储库",
+            "en-US": "A fast key-value storage library written at Google that provides an ordered mapping from string keys to string values"
+          },
+          "url": "https://github.com/google/leveldb"
+        },
+        {
+          "id": "meilisearch",
+          "description": {
+            "zh-CN": "用于构建搜索体验的开源搜索引擎引擎",
+            "en-US": "An open-source, lightning-fast, and hyper-relevant search engine that fits effortlessly into your apps, websites, and workflow"
+          },
+          "url": "https://www.meilisearch.com/"
+        },
+        {
+          "id": "memcached",
+          "description": {
+            "zh-CN": "免费开源高性能分布式内存对象缓存系统",
+            "en-US": "Free & open source, high-performance, distributed memory object caching system"
+          },
+          "url": "https://memcached.org/"
+        },
+        {
+          "id": "mssql",
+          "description": {
+            "zh-CN": "微软开发的关系数据库管理系统",
+            "en-US": "Relational database management system developed by Microsoft"
+          },
+          "url": "https://www.microsoft.com/sql-server/"
+        },
+        {
+          "id": "orientdb",
+          "description": {
+            "zh-CN": "面向图形的文档数据库管理系统",
+            "en-US": "Multi-model open source NoSQL DBMS that combines the power of graphs and the flexibility of documents into a scalable, high-performance operational database"
+          },
+          "url": "https://orientdb.org/"
+        },
+        {
+          "id": "postgres",
+          "description": {
+            "zh-CN": "开源的对象-关系数据库管理系统",
+            "en-US": "The World's Most Advanced Open Source Relational Database"
+          },
+          "url": "https://www.postgresql.org/"
+        },
+        {
+          "id": "pouchdb",
+          "description": {
+            "zh-CN": "在浏览器内工作的数据存储系统",
+            "en-US": "The Database that Syncs!"
+          },
+          "url": "https://pouchdb.com/"
+        },
+        {
+          "id": "ravendb",
+          "description": {
+            "zh-CN": "为 .NET 量身定制的 NoSQL 数据库",
+            "en-US": "Open Source NoSQL Document Database"
+          },
+          "url": "https://ravendb.net/"
+        },
+        {
+          "id": "realm",
+          "description": {
+            "zh-CN": "移动端对象数据库",
+            "en-US": "An object database management system"
+          },
+          "url": "https://realm.io/"
+        },
+        {
+          "id": "rethinkdb",
+          "description": {
+            "zh-CN": "开源的、可扩展的 JSON 数据库，具有实时更新的功能",
+            "en-US": "The first open-source, scalable JSON database built from the ground up for the realtime web"
+          },
+          "url": "https://rethinkdb.com/"
+        },
+        {
+          "id": "rocksdb",
+          "description": {
+            "zh-CN": "高性能嵌入式长期存储引擎",
+            "en-US": "A library that provides an embeddable, persistent key-value store for fast storage"
+          },
+          "url": "https://rocksdb.org/"
+        },
+        {
+          "id": "rxdb",
+          "description": {
+            "zh-CN": "适用于基于 JavaScript 应用程序的本地首选 NoSQL 数据库",
+            "en-US": "A fast, offline-first, reactive database for JavaScript Applications"
+          },
+          "url": "https://rxdb.info/"
+        },
+        {
+          "id": "scylladb",
+          "description": {
+            "zh-CN": "开源 NoSQL 数据库系统",
+            "en-US": "The Monstrously Fast, Scalable, Data Store"
+          },
+          "url": "https://www.scylladb.com/"
+        },
+        {
+          "id": "solr",
+          "description": {
+            "zh-CN": "基于 Lucene 的企业级搜索平台",
+            "en-US": "Popular, blazing-fast, open source enterprise search platform built on Apache Lucene"
+          },
+          "url": "https://solr.apache.org/"
+        },
+        {
+          "id": "typesense",
+          "description": {
+            "zh-CN": "开源的容错搜索引擎",
+            "en-US": "An open source, typo tolerant search engine that delivers fast and relevant results out-of-the-box"
+          },
+          "url": "https://typesense.org/"
+        },
+        {
+          "id": "vitess",
+          "description": {
+            "zh-CN": "用于水平扩展 MySQL 的数据库集群系统",
+            "en-US": "A database clustering system for horizontal scaling of MySQL"
+          },
+          "url": "https://vitess.io/"
+        },
+        {
+          "id": "watermelondb",
+          "description": {
+            "zh-CN": "处理数据的响应式和异步数据库工具",
+            "en-US": "Reactive & asynchronous database for powerful React and React Native apps"
+          },
+          "url": "https://watermelondb.dev/"
+        },
+        {
+          "id": "weaviate",
+          "description": {
+            "zh-CN": "开源向量数据库软件",
+            "en-US": "Open source vector search engine"
+          },
+          "url": "https://weaviate.io/"
+        }
+      ]
+    },
+    {
+      "id": "Mobile Development",
+      "icons": [
+        {
+          "id": "ionic",
+          "description": {
+            "zh-CN": "开源的高级 HTML5 移动端混合应用开发框架",
+            "en-US": "An open source mobile UI toolkit for building modern, high quality cross-platform mobile apps from a single code base"
+          },
+          "url": "https://ionicframework.com/"
+        },
+        {
+          "id": "ios",
+          "description": {
+            "zh-CN": "苹果公司开发的移动操作系统",
+            "en-US": "Mobile operating system created and developed by Apple Inc."
+          },
+          "url": "https://www.apple.com/ios/"
+        },
+        {
+          "id": "kotlin-multiplatform",
+          "description": {
+            "zh-CN": "Kotlin 跨平台技术",
+            "en-US": "Simplify the development of cross-platform projects with Kotlin Multiplatform (KMP)"
+          },
+          "url": "https://kotlinlang.org/lp/multiplatform/",
+          "alias": [
+            "kmp"
+          ]
+        },
+        {
+          "id": "nativescript",
+          "description": {
+            "zh-CN": "开源的移动端快速应用开发框架",
+            "en-US": "Empower your JavaScript with native APIs"
+          },
+          "url": "https://nativescript.org/"
+        },
+        {
+          "id": "nativexml",
+          "description": {
+            "zh-CN": "本地 XML 处理与工具链",
+            "en-US": "Native XML processing and tooling"
+          },
+          "url": "#"
+        },
+        {
+          "id": "objc",
+          "description": {
+            "zh-CN": "扩充 C 的面向对象编程语言",
+            "en-US": "The primary programming language you use when writing software for OS X and iOS"
+          },
+          "url": "https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html",
+          "alias": [
+            "objectivec"
+          ]
+        },
+        {
+          "id": "swiftui",
+          "description": {
+            "zh-CN": "Apple 的现代声明式 UI 框架",
+            "en-US": "SwiftUI is an innovative, exceptionally simple way to build user interfaces across all Apple platforms with the power of Swift"
+          },
+          "url": "https://developer.apple.com/xcode/swiftui/"
+        },
+        {
+          "id": "xamarin",
+          "description": {
+            "zh-CN": "基于 .NET 构建的跨平台应用程序开发框架",
+            "en-US": "An open-source platform for building truly native apps for Android, iOS, and macOS, with .NET and C#"
+          },
+          "url": "https://dotnet.microsoft.com/en-us/apps/xamarin"
+        }
+      ]
+    },
+    {
+      "id": "Game Development",
+      "icons": [
+        {
+          "id": "construct",
+          "description": {
+            "zh-CN": "基于 HTML5 的 2D 视频游戏引擎",
+            "en-US": "A powerful 2D game engine for making HTML5 games without coding"
+          },
+          "url": "https://www.construct.net/"
+        },
+        {
+          "id": "cryengine",
+          "description": {
+            "zh-CN": "强大的 3D 游戏开发平台",
+            "en-US": "The most powerful game development platform is at your fingertips"
+          },
+          "url": "https://www.cryengine.com/"
+        },
+        {
+          "id": "directx",
+          "description": {
+            "zh-CN": "微软的多媒体编程接口",
+            "en-US": "A collection of APIs for handling tasks related to multimedia"
+          },
+          "url": "https://developer.microsoft.com/en-us/directx/"
+        },
+        {
+          "id": "love2d",
+          "description": {
+            "zh-CN": "2D 游戏框架",
+            "en-US": "An *awesome* framework you can use to make 2D games in Lua"
+          },
+          "url": "https://love2d.org/"
+        },
+        {
+          "id": "lwjgl",
+          "description": {
+            "zh-CN": "轻量级 Java 游戏库",
+            "en-US": "Lightweight Java Game Library"
+          },
+          "url": "https://www.lwjgl.org/"
+        },
+        {
+          "id": "monogame",
+          "description": {
+            "zh-CN": "跨平台游戏开发框架",
+            "en-US": "One framework for creating powerful cross-platform games"
+          },
+          "url": "https://www.monogame.net/"
+        },
+        {
+          "id": "o3de",
+          "description": {
+            "zh-CN": "开源 3D 引擎",
+            "en-US": "Open 3D Engine is a multi-platform 3D engine that enables developers and content creators to build AAA games, cinema-quality 3D worlds, and high-fidelity simulations"
+          },
+          "url": "https://o3de.org/"
+        },
+        {
+          "id": "opengl",
+          "description": {
+            "zh-CN": "跨编程语言、跨平台的编程接口规格",
+            "en-US": "The Industry's Foundation for High Performance Graphics"
+          },
+          "url": "https://www.opengl.org/"
+        },
+        {
+          "id": "panda3d",
+          "description": {
+            "zh-CN": "3D 游戏引擎",
+            "en-US": "A game engine, a framework for 3D rendering and game development for Python and C++ programs"
+          },
+          "url": "https://www.panda3d.org/"
+        },
+        {
+          "id": "raylib",
+          "description": {
+            "zh-CN": "简单易用的视频游戏编程库",
+            "en-US": "A simple and easy-to-use library to enjoy videogames programming"
+          },
+          "url": "https://www.raylib.com/"
+        },
+        {
+          "id": "sdl",
+          "description": {
+            "zh-CN": "简单定向媒体层",
+            "en-US": "Simple DirectMedia Layer"
+          },
+          "url": "https://www.libsdl.org/"
+        },
+        {
+          "id": "sfml",
+          "description": {
+            "zh-CN": "简单的多媒体库",
+            "en-US": "Simple and Fast Multimedia Library"
+          },
+          "url": "https://www.sfml-dev.org/"
+        },
+        {
+          "id": "unreal",
+          "description": {
+            "zh-CN": "虚幻引擎",
+            "en-US": "The world's most open and advanced real-time 3D creation tool"
+          },
+          "url": "https://www.unrealengine.com/"
+        },
+        {
+          "id": "vulkan",
+          "description": {
+            "zh-CN": "跨平台的本地 3D 图形和计算 API",
+            "en-US": "Cross-platform, open-standard API for high-efficiency, cross-platform access to modern GPUs"
+          },
+          "url": "https://www.vulkan.org/"
+        }
+      ]
+    },
+    {
+      "id": "Web3 & Blockchain",
+      "icons": [
+        {
+          "id": "arbitrum",
+          "description": {
+            "zh-CN": "以太坊扩容解决方案",
+            "en-US": "A suite of Ethereum scaling solutions"
+          },
+          "url": "https://arbitrum.io/"
+        },
+        {
+          "id": "arweave",
+          "description": {
+            "zh-CN": "基于区块链的文件存储协议",
+            "en-US": "A protocol that allows you to store data permanently, sustainably, with a single upfront fee"
+          },
+          "url": "https://www.arweave.org/"
+        },
+        {
+          "id": "avalanche",
+          "description": {
+            "zh-CN": "去中心化的、开源的权益证明智能合约平台",
+            "en-US": "The fastest smart contracts platform in the blockchain industry, as measured by time-to-finality"
+          },
+          "url": "https://www.avax.network/"
+        },
+        {
+          "id": "bitcoin",
+          "description": {
+            "zh-CN": "开源的去中心化数字货币系统",
+            "en-US": "An innovative payment network and a new kind of money"
+          },
+          "url": "https://bitcoin.org/"
+        },
+        {
+          "id": "cardano",
+          "description": {
+            "zh-CN": "开源的去中心化区块链及加密货币",
+            "en-US": "A proof-of-stake blockchain platform: the first to be founded on peer-reviewed research and developed through evidence-based methods"
+          },
+          "url": "https://cardano.org/"
+        },
+        {
+          "id": "cosmos",
+          "description": {
+            "zh-CN": "可互操作的开放区块链网络生态",
+            "en-US": "The Internet of Blockchains"
+          },
+          "url": "https://cosmos.network/"
+        },
+        {
+          "id": "ethers",
+          "description": {
+            "zh-CN": "完整的以太坊 JavaScript 库",
+            "en-US": "A complete and compact library for interacting with the Ethereum Blockchain and its ecosystem"
+          },
+          "url": "https://docs.ethers.org/"
+        },
+        {
+          "id": "filecoin",
+          "description": {
+            "zh-CN": "开源、公有加密货币及数字公有领域数字支付系统",
+            "en-US": "A decentralized storage network designed to store humanity's most important information"
+          },
+          "url": "https://filecoin.io/"
+        },
+        {
+          "id": "lens",
+          "description": {
+            "zh-CN": "Web3 社交图谱协议",
+            "en-US": "The composable and decentralized social graph"
+          },
+          "url": "https://www.lens.xyz/"
+        },
+        {
+          "id": "metamask",
+          "description": {
+            "zh-CN": "以太坊加密货币钱包",
+            "en-US": "A crypto wallet & gateway to blockchain apps"
+          },
+          "url": "https://metamask.io/"
+        },
+        {
+          "id": "moralis",
+          "description": {
+            "zh-CN": "企业级 Web3 API 服务提供商",
+            "en-US": "Enterprise-Grade Web3 APIs"
+          },
+          "url": "https://moralis.io/"
+        },
+        {
+          "id": "near",
+          "description": {
+            "zh-CN": "一层区块链和智能合约平台",
+            "en-US": "The OS for an Open Web"
+          },
+          "url": "https://near.org/"
+        },
+        {
+          "id": "nostr",
+          "description": {
+            "zh-CN": "去中心化网络协议",
+            "en-US": "A simple, open protocol that enables global, decentralized, and censorship-resistant social media"
+          },
+          "url": "https://nostr.com/"
+        },
+        {
+          "id": "opensea",
+          "description": {
+            "zh-CN": "去中心化的非同质化代币市场",
+            "en-US": "The largest NFT marketplace"
+          },
+          "url": "https://opensea.io/"
+        },
+        {
+          "id": "optimism",
+          "description": {
+            "zh-CN": "低成本和闪电般的以太坊 L2 区块链",
+            "en-US": "Low-cost and lightning-fast Ethereum L2 blockchain"
+          },
+          "url": "https://www.optimism.io/"
+        },
+        {
+          "id": "polkadot",
+          "description": {
+            "zh-CN": "区块链互操作平台",
+            "en-US": "The blockspace ecosystem for boundless innovation"
+          },
+          "url": "https://polkadot.network/"
+        },
+        {
+          "id": "polygon",
+          "description": {
+            "zh-CN": "以太坊扩容解决方案",
+            "en-US": "Polygon is a decentralized Ethereum scaling platform that enables developers to build scalable user-friendly dApps with low transaction fees without ever sacrificing on security"
+          },
+          "url": "https://polygon.technology/"
+        },
+        {
+          "id": "starknet",
+          "description": {
+            "zh-CN": "安全的以太坊扩容解决方案",
+            "en-US": "A secure scaling technology bringing Ethereum's benefits to the world"
+          },
+          "url": "https://www.starknet.io/"
+        },
+        {
+          "id": "thirdweb",
+          "description": {
+            "zh-CN": "Web3 开发框架",
+            "en-US": "The complete web3 development framework"
+          },
+          "url": "https://thirdweb.com/"
+        },
+        {
+          "id": "viem",
+          "description": {
+            "zh-CN": "用于以太坊的 TypeScript 接口",
+            "en-US": "TypeScript Interface for Ethereum"
+          },
+          "url": "https://viem.sh/"
+        },
+        {
+          "id": "wagmi",
+          "description": {
+            "zh-CN": "以太坊的 React Hooks 库",
+            "en-US": "React Hooks for Ethereum"
+          },
+          "url": "https://wagmi.sh/"
+        },
+        {
+          "id": "walletconnect",
+          "description": {
+            "zh-CN": "Web3 通信协议",
+            "en-US": "The communications protocol for web3"
+          },
+          "url": "https://walletconnect.com/"
+        },
+        {
+          "id": "zksync",
+          "description": {
+            "zh-CN": "以太坊扩容解决方案",
+            "en-US": "Scaling the Ethereum Ethos"
+          },
+          "url": "https://zksync.io/"
+        }
+      ]
+    },
+    {
+      "id": "Security & Privacy",
+      "icons": [
+        {
+          "id": "1password",
+          "description": {
+            "zh-CN": "付费密码管理器",
+            "en-US": "Password Manager for Families, Businesses, Teams"
+          },
+          "url": "https://1password.com/"
+        },
+        {
+          "id": "auth0",
+          "description": {
+            "zh-CN": "身份验证和授权平台",
+            "en-US": "Secure access for everyone. But not just anyone"
+          },
+          "url": "https://auth0.com/"
+        },
+        {
+          "id": "bitwarden",
+          "description": {
+            "zh-CN": "自由及开源的密码管理服务",
+            "en-US": "Open source password management solutions for individuals, teams, and business organizations"
+          },
+          "url": "https://bitwarden.com/"
+        },
+        {
+          "id": "calico",
+          "description": {
+            "zh-CN": "云原生网络和安全解决方案",
+            "en-US": "Open source networking and network security solution for containers, virtual machines, and native host-based workloads"
+          },
+          "url": "https://www.tigera.io/project-calico/"
+        },
+        {
+          "id": "crowdstrike",
+          "description": {
+            "zh-CN": "网络安全技术公司",
+            "en-US": "Cybersecurity Technology Company"
+          },
+          "url": "https://www.crowdstrike.com/"
+        },
+        {
+          "id": "dashlane",
+          "description": {
+            "zh-CN": "密码管理器以及安全数字钱包",
+            "en-US": "Password Manager App"
+          },
+          "url": "https://www.dashlane.com/"
+        },
+        {
+          "id": "expressvpn",
+          "description": {
+            "zh-CN": "虚拟专用网 (VPN) 服务提供商",
+            "en-US": "High-Speed, Secure & Anonymous VPN Service"
+          },
+          "url": "https://www.expressvpn.com/"
+        },
+        {
+          "id": "keepassxc",
+          "description": {
+            "zh-CN": "自由及开源的跨平台密码管理器",
+            "en-US": "Cross-Platform Password Manager"
+          },
+          "url": "https://keepassxc.org/"
+        },
+        {
+          "id": "lastpass",
+          "description": {
+            "zh-CN": "在线托管密码管理器系统",
+            "en-US": "Password Manager, Auto Form Filler, Random Password Generator & Secure Digital Wallet App"
+          },
+          "url": "https://www.lastpass.com/"
+        },
+        {
+          "id": "metasploit",
+          "description": {
+            "zh-CN": "安全漏洞检测工具",
+            "en-US": "The world’s most used penetration testing framework"
+          },
+          "url": "https://www.metasploit.com/"
+        },
+        {
+          "id": "mullvad",
+          "description": {
+            "zh-CN": "开源的商业虚拟专用网络服务",
+            "en-US": "Privacy is a universal right"
+          },
+          "url": "https://mullvad.net/"
+        },
+        {
+          "id": "nordvpn",
+          "description": {
+            "zh-CN": "虚拟专用网 (VPN) 服务提供商",
+            "en-US": "Online VPN Service for Fast, Secure and Anonymous web surfing"
+          },
+          "url": "https://nordvpn.com/"
+        },
+        {
+          "id": "okta",
+          "description": {
+            "zh-CN": "身份及访问管理平台",
+            "en-US": "The leading independent identity provider"
+          },
+          "url": "https://www.okta.com/"
+        },
+        {
+          "id": "openvpn",
+          "description": {
+            "zh-CN": "开源的虚拟专用网络协议",
+            "en-US": "Open Source Virtual Private Network Protocol"
+          },
+          "url": "https://openvpn.net/"
+        },
+        {
+          "id": "owasp",
+          "description": {
+            "zh-CN": "由开源社区主导的非营利组织保障软件安全",
+            "en-US": "Open Worldwide Application Security Project"
+          },
+          "url": "https://owasp.org/"
+        },
+        {
+          "id": "surfshark",
+          "description": {
+            "zh-CN": "虚拟专用网 (VPN) 服务提供商",
+            "en-US": "Secure your digital life"
+          },
+          "url": "https://surfshark.com/"
+        },
+        {
+          "id": "wireguard",
+          "description": {
+            "zh-CN": "简单快速的现代 VPN",
+            "en-US": "Fast, Modern, Secure VPN Tunnel"
+          },
+          "url": "https://www.wireguard.com/"
+        }
+      ]
+    },
+    {
+      "id": "Design & Creative",
+      "icons": [
+        {
+          "id": "bitwig",
+          "description": {
+            "zh-CN": "现代音乐制作软件",
+            "en-US": "Modern music production and performance software"
+          },
+          "url": "https://www.bitwig.com/"
+        },
+        {
+          "id": "cinema4d",
+          "description": {
+            "zh-CN": "专业的三维建模、动画和渲染软件",
+            "en-US": "Professional 3D modeling, animation, simulation and rendering software"
+          },
+          "url": "https://www.maxon.net/en/cinema-4d"
+        },
+        {
+          "id": "flstudio",
+          "description": {
+            "zh-CN": "专业数字音频工作站",
+            "en-US": "A complete software music production environment"
+          },
+          "url": "https://www.image-line.com/"
+        },
+        {
+          "id": "houdini",
+          "description": {
+            "zh-CN": "专业三维动画及程序化生成软件",
+            "en-US": "3D procedural software for film, TV, and games"
+          },
+          "url": "https://www.sidefx.com/products/houdini/"
+        },
+        {
+          "id": "krita",
+          "description": {
+            "zh-CN": "免费开源的数字绘画软件",
+            "en-US": "Free and open source digital art software"
+          },
+          "url": "https://krita.org/"
+        },
+        {
+          "id": "logicpro",
+          "description": {
+            "zh-CN": "Apple 专业音乐制作软件",
+            "en-US": "Professional music production software for macOS"
+          },
+          "url": "https://www.apple.com/logic-pro/"
+        },
+        {
+          "id": "marmoset",
+          "description": {
+            "zh-CN": "专业三维模型实时渲染工具",
+            "en-US": "Real-time 3D rendering, texturing, and baking tool"
+          },
+          "url": "https://marmoset.co/"
+        },
+        {
+          "id": "maya",
+          "description": {
+            "zh-CN": "Autodesk 三维建模、动画与渲染软件",
+            "en-US": "Professional 3D animation, modeling, simulation, and rendering software"
+          },
+          "url": "https://www.autodesk.com/products/maya/overview"
+        },
+        {
+          "id": "penpot",
+          "description": {
+            "zh-CN": "免费开源的 UI 设计与原型工具",
+            "en-US": "Free and open source design and prototyping tool"
+          },
+          "url": "https://penpot.app/"
+        },
+        {
+          "id": "procreate",
+          "description": {
+            "zh-CN": "专为 iPad 设计的专业数字插画软件",
+            "en-US": "Powerful creative application designed for iPad"
+          },
+          "url": "https://procreate.com/"
+        },
+        {
+          "id": "quixel",
+          "description": {
+            "zh-CN": "Quixel Bridge / Megascans 素材库及工具",
+            "en-US": "World's largest photorealistic asset library for game and film"
+          },
+          "url": "https://quixel.com/"
+        },
+        {
+          "id": "reaper",
+          "description": {
+            "zh-CN": "专业数字音频工作站软件",
+            "en-US": "Digital audio workstation and MIDI sequencer software"
+          },
+          "url": "https://www.reaper.fm/"
+        },
+        {
+          "id": "sketch",
+          "description": {
+            "zh-CN": "专为 macOS 打造的矢量图形编辑器",
+            "en-US": "The all-in-one platform for digital design"
+          },
+          "url": "https://www.sketch.com/"
+        },
+        {
+          "id": "substance",
+          "description": {
+            "zh-CN": "Adobe 三维材质与贴图制作软件",
+            "en-US": "The complete 3D texturing toolset from Adobe"
+          },
+          "url": "https://www.adobe.com/creativecloud/3d-design.html"
+        },
+        {
+          "id": "zbrush",
+          "description": {
+            "zh-CN": "数字雕刻与绘画软件",
+            "en-US": "Industry-leading digital sculpting and painting software"
+          },
+          "url": "https://www.maxon.net/en/zbrush"
+        }
+      ]
+    },
+    {
+      "id": "Editors & IDEs",
+      "icons": [
+        {
+          "id": "brackets",
+          "description": {
+            "zh-CN": "面向 Web 设计师的开源代码编辑器",
+            "en-US": "An open source code editor for the web, written in JavaScript"
+          },
+          "url": "https://brackets.io/"
+        },
+        {
+          "id": "geany",
+          "description": {
+            "zh-CN": "轻量级集成开发环境",
+            "en-US": "Powerful, stable and lightweight programmer's text editor"
+          },
+          "url": "https://www.geany.org/"
+        },
+        {
+          "id": "intellij",
+          "description": {
+            "zh-CN": "JetBrains Java 和 Kotlin 集成开发环境",
+            "en-US": "The IDE for professional development in Java and Kotlin"
+          },
+          "url": "https://www.jetbrains.com/idea/"
+        },
+        {
+          "id": "juce",
+          "description": {
+            "zh-CN": "跨平台 C++ 音频应用框架",
+            "en-US": "Cross-platform C++ framework for audio applications and plugins"
+          },
+          "url": "https://juce.com/"
+        },
+        {
+          "id": "lapce",
+          "description": {
+            "zh-CN": "由 Rust 编写的开源代码编辑器",
+            "en-US": "Open source code editor written in Rust"
+          },
+          "url": "https://lapce.dev/"
+        },
+        {
+          "id": "micro",
+          "description": {
+            "zh-CN": "现代化且直观的终端文本编辑器",
+            "en-US": "A modern and intuitive terminal-based text editor"
+          },
+          "url": "https://micro-editor.github.io/"
+        },
+        {
+          "id": "nano",
+          "description": {
+            "zh-CN": "简单易用的终端文本编辑器",
+            "en-US": "Simple, modeless terminal text editor"
+          },
+          "url": "https://www.nano-editor.org/"
+        },
+        {
+          "id": "netbeans",
+          "description": {
+            "zh-CN": "Apache 开源集成开发环境",
+            "en-US": "Apache NetBeans is an open source development environment, tooling platform, and application framework"
+          },
+          "url": "https://netbeans.apache.org/"
+        },
+        {
+          "id": "textmate",
+          "description": {
+            "zh-CN": "macOS 代码编辑器",
+            "en-US": "A code editor for macOS"
+          },
+          "url": "https://macromates.com/"
+        }
+      ]
+    },
+    {
+      "id": "Operating Systems",
+      "icons": [
+        {
+          "id": "almalinux",
+          "description": {
+            "zh-CN": "社区驱动的企业级 Linux 发行版",
+            "en-US": "Community-driven enterprise Linux distribution"
+          },
+          "url": "https://almalinux.org/"
+        },
+        {
+          "id": "appimage",
+          "description": {
+            "zh-CN": "跨 Linux 发行版的便携应用格式",
+            "en-US": "Universal software package format for Linux"
+          },
+          "url": "https://appimage.org/"
+        },
+        {
+          "id": "flatpak",
+          "description": {
+            "zh-CN": "Linux 应用的跨发行版打包格式",
+            "en-US": "Linux application sandboxing and distribution framework"
+          },
+          "url": "https://flatpak.org/"
+        },
+        {
+          "id": "freebsd",
+          "description": {
+            "zh-CN": "免费开源的类 Unix 操作系统",
+            "en-US": "Free and open-source Unix-like operating system"
+          },
+          "url": "https://www.freebsd.org/"
+        },
+        {
+          "id": "hyper",
+          "description": {
+            "zh-CN": "基于 Web 技术构建的终端",
+            "en-US": "A terminal built on web technologies"
+          },
+          "url": "https://hyper.is/"
+        },
+        {
+          "id": "nushell",
+          "description": {
+            "zh-CN": "新型跨平台 Shell，支持结构化数据",
+            "en-US": "A new type of shell that transforms structured data"
+          },
+          "url": "https://www.nushell.sh/"
+        },
+        {
+          "id": "ohmyzsh",
+          "description": {
+            "zh-CN": "Zsh 的开源配置管理框架",
+            "en-US": "A community-driven framework for managing zsh configuration"
+          },
+          "url": "https://ohmyz.sh/"
+        },
+        {
+          "id": "opensuse",
+          "description": {
+            "zh-CN": "面向开发者的 Linux 发行版",
+            "en-US": "Linux-based operating system sponsored by SUSE"
+          },
+          "url": "https://www.opensuse.org/"
+        },
+        {
+          "id": "rocky",
+          "description": {
+            "zh-CN": "企业级 Linux 发行版",
+            "en-US": "Enterprise-grade Linux operating system"
+          },
+          "url": "https://rockylinux.org/"
+        },
+        {
+          "id": "snap",
+          "description": {
+            "zh-CN": "Ubuntu 的软件打包和部署系统",
+            "en-US": "Package management system and software deployment platform"
+          },
+          "url": "https://snapcraft.io/"
+        },
+        {
+          "id": "starship",
+          "description": {
+            "zh-CN": "适用于任何 Shell 的轻量高性能命令提示符",
+            "en-US": "The minimal, blazing-fast, and infinitely customizable prompt for any shell"
+          },
+          "url": "https://starship.rs/"
+        },
+        {
+          "id": "termux",
+          "description": {
+            "zh-CN": "Android 上的 Linux 终端和开发环境",
+            "en-US": "Linux terminal environment for Android"
+          },
+          "url": "https://termux.dev/"
+        },
+        {
+          "id": "tux",
+          "description": {
+            "zh-CN": "Linux 的官方吉祥物企鹅",
+            "en-US": "Tux, the official Linux mascot penguin"
+          },
+          "url": "https://en.wikipedia.org/wiki/Tux_(mascot)"
+        },
+        {
+          "id": "void",
+          "description": {
+            "zh-CN": "独立的 Linux 发行版",
+            "en-US": "Independent Linux distribution with a custom package management system"
+          },
+          "url": "https://voidlinux.org/"
+        },
+        {
+          "id": "wayland",
+          "description": {
+            "zh-CN": "现代 Linux 显示服务器协议",
+            "en-US": "Modern display server protocol for Linux"
+          },
+          "url": "https://wayland.freedesktop.org/"
+        },
+        {
+          "id": "xfce",
+          "description": {
+            "zh-CN": "轻量级 Linux 桌面环境",
+            "en-US": "Lightweight desktop environment for Unix-like systems"
+          },
+          "url": "https://www.xfce.org/"
+        },
+        {
+          "id": "xorg",
+          "description": {
+            "zh-CN": "Linux 传统 X11 显示服务器",
+            "en-US": "The X.Org implementation of the X Window System"
+          },
+          "url": "https://www.x.org/"
+        }
+      ]
+    },
+    {
+      "id": "Social & Communication",
+      "icons": [
+        {
+          "id": "apple-music",
+          "description": {
+            "zh-CN": "Apple 音乐流媒体服务",
+            "en-US": "Apple's music streaming service"
+          },
+          "url": "https://www.apple.com/apple-music/"
+        },
+        {
+          "id": "hashnode",
+          "description": {
+            "zh-CN": "面向技术人员的博客平台",
+            "en-US": "Blogging platform for developers"
+          },
+          "url": "https://hashnode.com/"
+        },
+        {
+          "id": "line",
+          "description": {
+            "zh-CN": "日韩流行的即时通信应用",
+            "en-US": "Japanese instant messaging application"
+          },
+          "url": "https://line.me/"
+        },
+        {
+          "id": "meetup",
+          "description": {
+            "zh-CN": "本地社群活动组织平台",
+            "en-US": "Platform for finding and building local communities"
+          },
+          "url": "https://www.meetup.com/"
+        },
+        {
+          "id": "pinterest",
+          "description": {
+            "zh-CN": "图片发现和灵感分享平台",
+            "en-US": "Visual discovery and bookmarking platform"
+          },
+          "url": "https://www.pinterest.com/"
+        },
+        {
+          "id": "skype",
+          "description": {
+            "zh-CN": "微软的视频通话和即时通信软件",
+            "en-US": "Video calling and instant messaging application"
+          },
+          "url": "https://www.skype.com/"
+        },
+        {
+          "id": "snapchat",
+          "description": {
+            "zh-CN": "阅后即焚图片和短视频通信应用",
+            "en-US": "Multimedia messaging application"
+          },
+          "url": "https://www.snapchat.com/"
+        },
+        {
+          "id": "soundcloud",
+          "description": {
+            "zh-CN": "音乐分享和流媒体平台",
+            "en-US": "Music sharing and audio distribution platform"
+          },
+          "url": "https://soundcloud.com/"
+        },
+        {
+          "id": "spotify",
+          "description": {
+            "zh-CN": "流媒体音乐订阅服务",
+            "en-US": "Digital music, podcast, and video streaming service"
+          },
+          "url": "https://www.spotify.com/"
+        },
+        {
+          "id": "threads",
+          "description": {
+            "zh-CN": "Meta 推出的 Twitter 竞品社交应用",
+            "en-US": "Text-based conversation app by Meta"
+          },
+          "url": "https://www.threads.net/"
+        },
+        {
+          "id": "tiktok",
+          "description": {
+            "zh-CN": "短视频创作和分享平台",
+            "en-US": "Short-form video hosting service"
+          },
+          "url": "https://www.tiktok.com/"
+        },
+        {
+          "id": "twitter",
+          "description": {
+            "zh-CN": "微博客和社交网络服务",
+            "en-US": "Microblogging and social networking service"
+          },
+          "url": "https://twitter.com/"
+        },
+        {
+          "id": "vimeo",
+          "description": {
+            "zh-CN": "高质量视频托管和分享平台",
+            "en-US": "Video hosting, sharing, and services platform"
+          },
+          "url": "https://vimeo.com/"
+        },
+        {
+          "id": "wechat",
+          "description": {
+            "zh-CN": "腾讯的即时通信和社交媒体平台",
+            "en-US": "Chinese multi-purpose messaging and social media app"
+          },
+          "url": "https://www.wechat.com/"
+        },
+        {
+          "id": "whatsapp",
+          "description": {
+            "zh-CN": "即时通信和语音通话应用",
+            "en-US": "Cross-platform messaging and voice-over-IP service"
+          },
+          "url": "https://www.whatsapp.com/"
+        },
+        {
+          "id": "zoom",
+          "description": {
+            "zh-CN": "视频会议和网络研讨会平台",
+            "en-US": "Video conferencing and online meeting platform"
+          },
+          "url": "https://zoom.us/"
+        }
+      ]
+    },
+    {
+      "id": "Productivity & Office",
+      "icons": [
+        {
+          "id": "asana",
+          "description": {
+            "zh-CN": "团队任务和项目管理工具",
+            "en-US": "Work management platform for teams"
+          },
+          "url": "https://asana.com/"
+        },
+        {
+          "id": "craft",
+          "description": {
+            "zh-CN": "Apple 原生的笔记和文档创作应用",
+            "en-US": "Document editor built for Apple platforms"
+          },
+          "url": "https://www.craft.do/"
+        },
+        {
+          "id": "evernote",
+          "description": {
+            "zh-CN": "跨平台笔记和资料整理工具",
+            "en-US": "Note-taking and task management application"
+          },
+          "url": "https://evernote.com/"
+        },
+        {
+          "id": "forms",
+          "description": {
+            "zh-CN": "Google 在线问卷和表单工具",
+            "en-US": "Google's web-based form and survey builder"
+          },
+          "url": "https://forms.google.com/"
+        },
+        {
+          "id": "googledocs",
+          "description": {
+            "zh-CN": "Google 在线文档编辑工具",
+            "en-US": "Google's web-based word processor"
+          },
+          "url": "https://docs.google.com/"
+        },
+        {
+          "id": "googlemonitor",
+          "description": {
+            "zh-CN": "Google Cloud 监控服务",
+            "en-US": "Google Cloud Monitoring service"
+          },
+          "url": "https://cloud.google.com/monitoring"
+        },
+        {
+          "id": "googlesheets",
+          "description": {
+            "zh-CN": "Google 在线电子表格工具",
+            "en-US": "Google's web-based spreadsheet application"
+          },
+          "url": "https://sheets.google.com/"
+        },
+        {
+          "id": "linear",
+          "description": {
+            "zh-CN": "现代产品和软件项目管理工具",
+            "en-US": "Streamlined software project management tool"
+          },
+          "url": "https://linear.app/"
+        },
+        {
+          "id": "logseq",
+          "description": {
+            "zh-CN": "开源的双向链接知识图谱笔记工具",
+            "en-US": "Privacy-first, open-source knowledge management"
+          },
+          "url": "https://logseq.com/"
+        },
+        {
+          "id": "mural",
+          "description": {
+            "zh-CN": "数字白板与视觉协作平台",
+            "en-US": "Digital workspace for visual collaboration"
+          },
+          "url": "https://www.mural.co/"
+        },
+        {
+          "id": "roam",
+          "description": {
+            "zh-CN": "网状结构笔记工具",
+            "en-US": "Note-taking tool for networked thought"
+          },
+          "url": "https://roamresearch.com/"
+        },
+        {
+          "id": "slides",
+          "description": {
+            "zh-CN": "Google 在线演示文稿工具",
+            "en-US": "Google's web-based presentation application"
+          },
+          "url": "https://slides.google.com/"
+        },
+        {
+          "id": "ticktick",
+          "description": {
+            "zh-CN": "任务管理和日历集成工具",
+            "en-US": "Task manager and to-do list with calendar integration"
+          },
+          "url": "https://ticktick.com/"
+        },
+        {
+          "id": "todoist",
+          "description": {
+            "zh-CN": "跨平台任务管理和待办事项应用",
+            "en-US": "Task management and to-do list application"
+          },
+          "url": "https://todoist.com/"
+        },
+        {
+          "id": "trello",
+          "description": {
+            "zh-CN": "基于看板的项目管理工具",
+            "en-US": "Visual collaboration tool using boards, lists, and cards"
+          },
+          "url": "https://trello.com/"
+        }
+      ]
+    },
+    {
+      "id": "Testing & Quality",
+      "icons": [
+        {
+          "id": "appium",
+          "description": {
+            "zh-CN": "跨平台移动应用自动化测试工具",
+            "en-US": "Cross-platform mobile app automation framework"
+          },
+          "url": "https://appium.io/"
+        },
+        {
+          "id": "artillery",
+          "description": {
+            "zh-CN": "现代压力测试和性能测试工具",
+            "en-US": "Modern, powerful and easy-to-use load testing toolkit"
+          },
+          "url": "https://www.artillery.io/"
+        },
+        {
+          "id": "bruno",
+          "description": {
+            "zh-CN": "开源 API 客户端和测试工具",
+            "en-US": "Fast and Git-friendly open source API client"
+          },
+          "url": "https://www.usebruno.com/"
+        },
+        {
+          "id": "codecov",
+          "description": {
+            "zh-CN": "代码覆盖率统计和报告工具",
+            "en-US": "Code coverage reporting tool"
+          },
+          "url": "https://about.codecov.io/"
+        },
+        {
+          "id": "coveralls",
+          "description": {
+            "zh-CN": "持续代码覆盖率跟踪服务",
+            "en-US": "Web service to help track code coverage over time"
+          },
+          "url": "https://coveralls.io/"
+        },
+        {
+          "id": "cucumber",
+          "description": {
+            "zh-CN": "支持行为驱动开发的测试工具",
+            "en-US": "Behavior-driven development tool"
+          },
+          "url": "https://cucumber.io/"
+        },
+        {
+          "id": "detox",
+          "description": {
+            "zh-CN": "React Native 应用的端到端测试工具",
+            "en-US": "End-to-end testing framework for React Native apps"
+          },
+          "url": "https://wix.github.io/Detox/"
+        },
+        {
+          "id": "enzyme",
+          "description": {
+            "zh-CN": "React 组件测试工具",
+            "en-US": "JavaScript testing utility for React"
+          },
+          "url": "https://enzymejs.github.io/enzyme/"
+        },
+        {
+          "id": "hopscotch",
+          "description": {
+            "zh-CN": "API 调试和测试工具",
+            "en-US": "API debugging and testing tool"
+          },
+          "url": "https://hopscotch.io/"
+        },
+        {
+          "id": "jasmine",
+          "description": {
+            "zh-CN": "行为驱动的 JavaScript 测试框架",
+            "en-US": "Behavior-driven development framework for JavaScript"
+          },
+          "url": "https://jasmine.github.io/"
+        },
+        {
+          "id": "k6",
+          "description": {
+            "zh-CN": "面向开发者的负载测试工具",
+            "en-US": "Modern load testing tool for developers"
+          },
+          "url": "https://k6.io/"
+        },
+        {
+          "id": "nunit",
+          "description": {
+            "zh-CN": ".NET 平台单元测试框架",
+            "en-US": "Unit-testing framework for all .NET languages"
+          },
+          "url": "https://nunit.org/"
+        },
+        {
+          "id": "pact",
+          "description": {
+            "zh-CN": "消费者驱动的契约测试框架",
+            "en-US": "Consumer-driven contract testing framework"
+          },
+          "url": "https://pact.io/"
+        },
+        {
+          "id": "pest",
+          "description": {
+            "zh-CN": "优雅的 PHP 测试框架",
+            "en-US": "An elegant PHP Testing Framework"
+          },
+          "url": "https://pestphp.com/"
+        },
+        {
+          "id": "phpunit",
+          "description": {
+            "zh-CN": "PHP 单元测试框架",
+            "en-US": "The PHP testing framework"
+          },
+          "url": "https://phpunit.de/"
+        },
+        {
+          "id": "robotframework",
+          "description": {
+            "zh-CN": "通用自动化测试框架",
+            "en-US": "Open source automation framework for acceptance testing"
+          },
+          "url": "https://robotframework.org/"
+        },
+        {
+          "id": "rspec",
+          "description": {
+            "zh-CN": "Ruby 行为驱动测试框架",
+            "en-US": "Behaviour-driven development framework for Ruby"
+          },
+          "url": "https://rspec.info/"
+        },
+        {
+          "id": "testcafe",
+          "description": {
+            "zh-CN": "Node.js 端到端 Web 测试框架",
+            "en-US": "Node.js tool to automate end-to-end web testing"
+          },
+          "url": "https://testcafe.io/"
+        },
+        {
+          "id": "testing",
+          "description": {
+            "zh-CN": "软件测试实践与工具",
+            "en-US": "Software testing practices and tooling"
+          },
+          "url": "#"
+        },
+        {
+          "id": "valgrind",
+          "description": {
+            "zh-CN": "内存调试和性能分析工具",
+            "en-US": "Memory debugging and profiling tool"
+          },
+          "url": "https://valgrind.org/"
+        },
+        {
+          "id": "xunit",
+          "description": {
+            "zh-CN": ".NET 单元测试框架",
+            "en-US": "Unit testing tool for the .NET framework"
+          },
+          "url": "https://xunit.net/"
+        }
+      ]
+    },
+    {
+      "id": "CMS",
+      "icons": [
+        {
+          "id": "ghost",
+          "description": {
+            "zh-CN": "面向出版者的现代开源 CMS",
+            "en-US": "Modern open source publishing platform"
+          },
+          "url": "https://ghost.org/"
+        },
+        {
+          "id": "hubspot",
+          "description": {
+            "zh-CN": "CRM 和入站营销平台",
+            "en-US": "CRM platform with marketing, sales, and service tools"
+          },
+          "url": "https://www.hubspot.com/"
+        },
+        {
+          "id": "kentico",
+          "description": {
+            "zh-CN": ".NET 企业数字体验平台",
+            "en-US": "Digital experience platform built on .NET"
+          },
+          "url": "https://www.kentico.com/"
+        },
+        {
+          "id": "keystonejs",
+          "description": {
+            "zh-CN": "基于 Node.js 的无头 CMS 框架",
+            "en-US": "Node.js-based headless CMS framework"
+          },
+          "url": "https://keystonejs.com/"
+        },
+        {
+          "id": "magento",
+          "description": {
+            "zh-CN": "Adobe 企业电商内容管理系统",
+            "en-US": "Open-source e-commerce platform (Adobe Commerce)"
+          },
+          "url": "https://business.adobe.com/products/magento/magento-commerce.html"
+        },
+        {
+          "id": "prestashop",
+          "description": {
+            "zh-CN": "开源的电子商务 CMS",
+            "en-US": "Open-source e-commerce platform"
+          },
+          "url": "https://www.prestashop.com/"
+        },
+        {
+          "id": "prismic",
+          "description": {
+            "zh-CN": "Headless Website Builder 无头 CMS",
+            "en-US": "Headless website builder and CMS"
+          },
+          "url": "https://prismic.io/"
+        },
+        {
+          "id": "sitecore",
+          "description": {
+            "zh-CN": "企业级数字体验平台",
+            "en-US": "Digital experience platform for enterprise"
+          },
+          "url": "https://www.sitecore.com/"
+        },
+        {
+          "id": "squarespace",
+          "description": {
+            "zh-CN": "一站式网站建设平台",
+            "en-US": "All-in-one website building and hosting platform"
+          },
+          "url": "https://www.squarespace.com/"
+        },
+        {
+          "id": "umbraco",
+          "description": {
+            "zh-CN": ".NET 开源内容管理系统",
+            "en-US": "Flexible open-source .NET CMS"
+          },
+          "url": "https://umbraco.com/"
+        },
+        {
+          "id": "wagtail",
+          "description": {
+            "zh-CN": "基于 Django 的开源 CMS",
+            "en-US": "Open-source CMS built on Django"
+          },
+          "url": "https://wagtail.org/"
+        },
+        {
+          "id": "wix",
+          "description": {
+            "zh-CN": "在线网站建设和托管平台",
+            "en-US": "Cloud-based website builder and hosting platform"
+          },
+          "url": "https://www.wix.com/"
+        }
+      ]
+    },
+    {
+      "id": "E-commerce & FinTech",
+      "icons": [
+        {
+          "id": "adyen",
+          "description": {
+            "zh-CN": "企业级全球支付平台",
+            "en-US": "Global payments platform for enterprise businesses"
+          },
+          "url": "https://www.adyen.com/"
+        },
+        {
+          "id": "afterpay",
+          "description": {
+            "zh-CN": "分期付款购买服务",
+            "en-US": "Buy now, pay later platform"
+          },
+          "url": "https://www.afterpay.com/"
+        },
+        {
+          "id": "bigcommerce",
+          "description": {
+            "zh-CN": "企业级电子商务平台",
+            "en-US": "Open SaaS e-commerce platform"
+          },
+          "url": "https://www.bigcommerce.com/"
+        },
+        {
+          "id": "binance",
+          "description": {
+            "zh-CN": "全球最大的加密货币交易所",
+            "en-US": "World's largest cryptocurrency exchange"
+          },
+          "url": "https://www.binance.com/"
+        },
+        {
+          "id": "cashapp",
+          "description": {
+            "zh-CN": "移动支付和理财服务",
+            "en-US": "Mobile payment service by Block Inc."
+          },
+          "url": "https://cash.app/"
+        },
+        {
+          "id": "coinbase",
+          "description": {
+            "zh-CN": "加密货币交易平台",
+            "en-US": "Cryptocurrency exchange platform"
+          },
+          "url": "https://www.coinbase.com/"
+        },
+        {
+          "id": "gumroad",
+          "description": {
+            "zh-CN": "创作者数字产品销售平台",
+            "en-US": "E-commerce platform for digital creators"
+          },
+          "url": "https://gumroad.com/"
+        },
+        {
+          "id": "klarna",
+          "description": {
+            "zh-CN": "先享后付和灵活支付服务",
+            "en-US": "Buy now, pay later payment service"
+          },
+          "url": "https://www.klarna.com/"
+        },
+        {
+          "id": "lemon-squeezy",
+          "description": {
+            "zh-CN": "面向软件产品的结账和支付平台",
+            "en-US": "Merchant of record and payment platform for software"
+          },
+          "url": "https://www.lemonsqueezy.com/"
+        },
+        {
+          "id": "monzo",
+          "description": {
+            "zh-CN": "英国数字银行",
+            "en-US": "UK-based digital bank"
+          },
+          "url": "https://monzo.com/"
+        },
+        {
+          "id": "n26",
+          "description": {
+            "zh-CN": "欧洲移动银行",
+            "en-US": "European mobile bank"
+          },
+          "url": "https://n26.com/"
+        },
+        {
+          "id": "paddledotcom",
+          "description": {
+            "zh-CN": "SaaS 软件收单和结账平台",
+            "en-US": "Merchant of record for software companies"
+          },
+          "url": "https://paddle.com/"
+        },
+        {
+          "id": "paypal",
+          "description": {
+            "zh-CN": "全球领先的在线支付服务",
+            "en-US": "Global online payment service"
+          },
+          "url": "https://www.paypal.com/"
+        },
+        {
+          "id": "paystack",
+          "description": {
+            "zh-CN": "非洲支付处理平台",
+            "en-US": "Modern online payment processing for Africa"
+          },
+          "url": "https://paystack.com/"
+        },
+        {
+          "id": "razorpay",
+          "description": {
+            "zh-CN": "印度领先的支付网关平台",
+            "en-US": "India-focused payment gateway and financial services"
+          },
+          "url": "https://razorpay.com/"
+        },
+        {
+          "id": "revolut",
+          "description": {
+            "zh-CN": "一站式数字银行和金融服务",
+            "en-US": "Digital banking and financial services app"
+          },
+          "url": "https://www.revolut.com/"
+        },
+        {
+          "id": "robinhood",
+          "description": {
+            "zh-CN": "股票和加密资产投资平台",
+            "en-US": "Commission-free investing platform"
+          },
+          "url": "https://robinhood.com/"
+        },
+        {
+          "id": "square",
+          "description": {
+            "zh-CN": "面向小企业的支付和商务解决方案",
+            "en-US": "Payment and business solutions for small businesses"
+          },
+          "url": "https://squareup.com/"
+        },
+        {
+          "id": "venmo",
+          "description": {
+            "zh-CN": "移动支付和社交转账服务",
+            "en-US": "Mobile payment service owned by PayPal"
+          },
+          "url": "https://venmo.com/"
+        },
+        {
+          "id": "wise",
+          "description": {
+            "zh-CN": "国际汇款和多币种账户服务",
+            "en-US": "International money transfers and multi-currency accounts"
+          },
+          "url": "https://wise.com/"
+        },
+        {
+          "id": "woocommerce",
+          "description": {
+            "zh-CN": "WordPress 电子商务插件",
+            "en-US": "Open-source e-commerce plugin for WordPress"
+          },
+          "url": "https://woocommerce.com/"
+        }
+      ]
+    },
+    {
+      "id": "Browsers & Engines",
+      "icons": [
+        {
+          "id": "gecko",
+          "description": {
+            "zh-CN": "Firefox 使用的网页渲染引擎",
+            "en-US": "Mozilla's web browser engine powering Firefox"
+          },
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Gecko"
+        },
+        {
+          "id": "pale-moon",
+          "description": {
+            "zh-CN": "基于 Firefox 的独立开源浏览器",
+            "en-US": "Open-source browser based on a fork of Firefox"
+          },
+          "url": "https://www.palemoon.org/"
+        },
+        {
+          "id": "torbrowser",
+          "description": {
+            "zh-CN": "Tor 匿名网络浏览器",
+            "en-US": "Privacy-focused browser using the Tor network"
+          },
+          "url": "https://www.torproject.org/"
+        },
+        {
+          "id": "vivaldi",
+          "description": {
+            "zh-CN": "可高度定制的 Vivaldi 浏览器",
+            "en-US": "Highly customizable web browser for power users"
+          },
+          "url": "https://vivaldi.com/"
+        },
+        {
+          "id": "waterfox",
+          "description": {
+            "zh-CN": "基于 Firefox 的开源浏览器",
+            "en-US": "Firefox-based open-source web browser"
+          },
+          "url": "https://www.waterfox.net/"
+        },
+        {
+          "id": "webkit",
+          "description": {
+            "zh-CN": "苹果开发的网页渲染引擎",
+            "en-US": "Web browser engine developed by Apple"
+          },
+          "url": "https://webkit.org/"
+        }
+      ]
+    },
+    {
+      "id": "Embedded & Hardware",
+      "icons": [
+        {
+          "id": "amd",
+          "description": {
+            "zh-CN": "AMD 处理器和 GPU 制造商",
+            "en-US": "Advanced Micro Devices, CPU and GPU manufacturer"
+          },
+          "url": "https://www.amd.com/"
+        },
+        {
+          "id": "arm",
+          "description": {
+            "zh-CN": "ARM 处理器架构设计公司",
+            "en-US": "CPU architecture and IP licensing company"
+          },
+          "url": "https://www.arm.com/"
+        },
+        {
+          "id": "avr",
+          "description": {
+            "zh-CN": "Microchip AVR 系列 8 位微控制器",
+            "en-US": "Microchip's family of 8-bit microcontrollers"
+          },
+          "url": "https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors/8-bit-mcus/avr-mcus"
+        },
+        {
+          "id": "beaglebone",
+          "description": {
+            "zh-CN": "BeagleBoard 开源单板计算机",
+            "en-US": "Open-source single-board computers from BeagleBoard.org"
+          },
+          "url": "https://beagleboard.org/"
+        },
+        {
+          "id": "esp32",
+          "description": {
+            "zh-CN": "集成 Wi-Fi 和蓝牙的低功耗微控制器",
+            "en-US": "Low-power microcontroller with Wi-Fi and Bluetooth"
+          },
+          "url": "https://www.espressif.com/en/products/socs/esp32"
+        },
+        {
+          "id": "google",
+          "description": {
+            "zh-CN": "谷歌公司",
+            "en-US": "Google LLC, technology company"
+          },
+          "url": "https://www.google.com/"
+        },
+        {
+          "id": "intel",
+          "description": {
+            "zh-CN": "英特尔处理器和芯片制造商",
+            "en-US": "World-leading semiconductor chip manufacturer"
+          },
+          "url": "https://www.intel.com/"
+        },
+        {
+          "id": "micropython",
+          "description": {
+            "zh-CN": "运行在微控制器上的 Python 实现",
+            "en-US": "Python implementation for microcontrollers and embedded systems"
+          },
+          "url": "https://micropython.org/"
+        },
+        {
+          "id": "microsoft",
+          "description": {
+            "zh-CN": "微软公司",
+            "en-US": "Microsoft Corporation, technology company"
+          },
+          "url": "https://www.microsoft.com/"
+        },
+        {
+          "id": "nordic",
+          "description": {
+            "zh-CN": "Nordic 半导体，低功耗无线芯片制造商",
+            "en-US": "Nordic Semiconductor, low-power wireless solutions"
+          },
+          "url": "https://www.nordicsemi.com/"
+        },
+        {
+          "id": "riscv",
+          "description": {
+            "zh-CN": "开放的 RISC-V 指令集架构",
+            "en-US": "Open-source instruction set architecture"
+          },
+          "url": "https://riscv.org/"
+        },
+        {
+          "id": "stm32",
+          "description": {
+            "zh-CN": "意法半导体 STM32 ARM 微控制器系列",
+            "en-US": "STMicroelectronics 32-bit ARM Cortex-M microcontrollers"
+          },
+          "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html"
+        },
+        {
+          "id": "stmicroelectronics",
+          "description": {
+            "zh-CN": "意法半导体，微控制器和传感器制造商",
+            "en-US": "Semiconductor products and solutions manufacturer"
+          },
+          "url": "https://www.st.com/"
+        },
+        {
+          "id": "teensy",
+          "description": {
+            "zh-CN": "USB 开发板，基于 ARM 的微控制器",
+            "en-US": "USB-based microcontroller development board"
+          },
+          "url": "https://www.pjrc.com/teensy/"
+        }
+      ]
+    },
+    {
+      "id": "Education & Learning",
+      "icons": [
+        {
+          "id": "codewars",
+          "description": {
+            "zh-CN": "以武术为主题的编程练习社区",
+            "en-US": "Community-based coding exercises and challenges"
+          },
+          "url": "https://www.codewars.com/"
+        },
+        {
+          "id": "coursera",
+          "description": {
+            "zh-CN": "全球知名在线课程学习平台",
+            "en-US": "Online learning platform offering university courses"
+          },
+          "url": "https://www.coursera.org/"
+        },
+        {
+          "id": "duolingo",
+          "description": {
+            "zh-CN": "游戏化语言学习应用",
+            "en-US": "Gamified language learning app"
+          },
+          "url": "https://www.duolingo.com/"
+        },
+        {
+          "id": "edx",
+          "description": {
+            "zh-CN": "由 MIT 和哈佛创立的在线课程平台",
+            "en-US": "Online education platform founded by MIT and Harvard"
+          },
+          "url": "https://www.edx.org/"
+        },
+        {
+          "id": "khanacademy",
+          "description": {
+            "zh-CN": "免费的在线教育平台",
+            "en-US": "Free online education for anyone, anywhere"
+          },
+          "url": "https://www.khanacademy.org/"
+        },
+        {
+          "id": "linkedinlearning",
+          "description": {
+            "zh-CN": "LinkedIn 提供的专业在线课程平台",
+            "en-US": "Online learning platform by LinkedIn with professional courses"
+          },
+          "url": "https://www.linkedin.com/learning/"
+        },
+        {
+          "id": "pluralinsight",
+          "description": {
+            "zh-CN": "面向技术人员的在线学习平台",
+            "en-US": "Technology skills platform for IT and software developers"
+          },
+          "url": "https://www.pluralsight.com/"
+        },
+        {
+          "id": "udemy",
+          "description": {
+            "zh-CN": "涵盖众多领域的在线课程平台",
+            "en-US": "Online learning platform with a wide range of courses"
+          },
+          "url": "https://www.udemy.com/"
+        }
+      ]
+    },
+    {
+      "id": "Other Languages & Tools",
+      "icons": [
+        {
+          "id": "tex",
+          "description": {
+            "zh-CN": "由 Donald Knuth 设计和主要编写的排版系统",
+            "en-US": "A typesetting system (or 'formatting system') designed and mostly written by Donald Knuth"
+          },
+          "url": "https://en.wikipedia.org/wiki/TeX"
+        },
+        {
+          "id": "verilog",
+          "description": {
+            "zh-CN": "数字电路硬件描述语言",
+            "en-US": "Hardware description language for digital systems"
+          },
+          "url": "https://en.wikipedia.org/wiki/Verilog"
+        },
+        {
+          "id": "vhdl",
+          "description": {
+            "zh-CN": "硬件描述语言，用于数字电路设计",
+            "en-US": "Hardware description language for digital circuit design"
+          },
+          "url": "https://en.wikipedia.org/wiki/VHDL"
+        }
+      ]
+    }
+  ]
+}

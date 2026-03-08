@@ -194,14 +194,6 @@
             "en-US": "The flexible, fast, and secure template engine for PHP"
           },
           "url": "https://twig.symfony.com/"
-        },
-        {
-          "id": "cs",
-          "description": {
-            "zh-CN": "一种现代的、面向对象的、类型安全的编程语言",
-            "en-US": "A modern, object-oriented, and type-safe programming language"
-          },
-          "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
         }
       ]
     },
@@ -217,7 +209,7 @@
           "url": "https://react.dev/"
         },
         {
-          "id": "vue",
+          "id": "vuejs",
           "description": {
             "zh-CN": "易学易用，性能出色，适用场景丰富的 Web 前端框架",
             "en-US": "The Progressive JavaScript Framework"
@@ -449,14 +441,6 @@
           "url": "https://hotwired.dev/"
         },
         {
-          "id": "livewire",
-          "description": {
-            "zh-CN": "用于 Laravel 的全栈框架，无需编写纯粹的 UI 代码",
-            "en-US": "A full-stack framework for Laravel"
-          },
-          "url": "https://livewire.laravel.com/"
-        },
-        {
           "id": "blazor",
           "description": {
             "zh-CN": "允许使用 C# 代替 JavaScript 构建交互式客户端 Web UI",
@@ -481,36 +465,20 @@
           "url": "https://animejs.com/"
         },
         {
-          "id": "authjs",
+          "id": "reactrouter",
           "description": {
-            "zh-CN": "针对 Web 的完全无特权的认证库 (原 NextAuth.js)",
-            "en-US": "Authentication for Web (formerly NextAuth.js)"
+            "zh-CN": "React 的轻量级、全能路由库",
+            "en-US": "A lightweight, fully-featured routing library for the React JavaScript library"
           },
-          "url": "https://authjs.dev/"
+          "url": "https://reactrouter.com/"
         },
         {
-          "id": "rxjs",
+          "id": "millionjs",
           "description": {
-            "zh-CN": "使用 Observable 序列编写异步和基于事件的程序的库",
-            "en-US": "Reactive Extensions Library for JavaScript"
+            "zh-CN": "让 React 加速 70% 的轻量级虚拟 DOM 库",
+            "en-US": "Make React 70% faster"
           },
-          "url": "https://rxjs.dev/"
-        },
-        {
-          "id": "vuejs",
-          "description": {
-            "zh-CN": "Vue.js (别名)",
-            "en-US": "Vue.js (Alias)"
-          },
-          "url": "https://vuejs.org/"
-        },
-        {
-          "id": "reactivex",
-          "description": {
-            "zh-CN": "使用可观察序列提供异步编程的 API",
-            "en-US": "An API for asynchronous programming with observable streams"
-          },
-          "url": "https://reactivex.io/"
+          "url": "https://million.dev/"
         }
       ]
     },
@@ -1060,6 +1028,14 @@
             "en-US": "The best place to build, test, and discover front-end code"
           },
           "url": "https://codepen.io/"
+        },
+        {
+          "id": "xtable",
+          "description": {
+            "zh-CN": "基于 Vue 的 PC 端表格组件库 (vxe-table)",
+            "en-US": "A PC UI library based on Vue"
+          },
+          "url": "https://vxetable.cn/"
         }
       ]
     },
@@ -1129,6 +1105,30 @@
             "en-US": "React Hooks library for data fetching"
           },
           "url": "https://swr.vercel.app/"
+        },
+        {
+          "id": "reactquery",
+          "description": {
+            "zh-CN": "为 TS/JS 提供强大的异步状态管理 (TanStack Query)",
+            "en-US": "Powerful asynchronous state management for TS/JS, React, Solid, Vue and Svelte"
+          },
+          "url": "https://tanstack.com/query/"
+        },
+        {
+          "id": "rxjs",
+          "description": {
+            "zh-CN": "使用 Observable 序列编写异步和基于事件的程序的库",
+            "en-US": "Reactive Extensions Library for JavaScript"
+          },
+          "url": "https://rxjs.dev/"
+        },
+        {
+          "id": "reactivex",
+          "description": {
+            "zh-CN": "使用可观察序列提供异步编程的 API",
+            "en-US": "An API for asynchronous programming with observable streams"
+          },
+          "url": "https://reactivex.io/"
         }
       ]
     },
@@ -1216,22 +1216,6 @@
           "url": "https://www.npmjs.com/"
         },
         {
-          "id": "bun",
-          "description": {
-            "zh-CN": "一个快速的、集成了打包器、测试框架的 JavaScript 运行时",
-            "en-US": "A fast all-in-one JavaScript runtime"
-          },
-          "url": "https://bun.sh/"
-        },
-        {
-          "id": "deno",
-          "description": {
-            "zh-CN": "一个现代的基于 V8 引擎的 JavaScript 和 TypeScript 运行时",
-            "en-US": "A modern runtime for JavaScript and TypeScript"
-          },
-          "url": "https://deno.land/"
-        },
-        {
           "id": "gulp",
           "description": {
             "zh-CN": "一个基于流的工具包，协助自动化并增强工作流程",
@@ -1310,14 +1294,6 @@
             "en-US": "Browser-side require() the node.js way"
           },
           "url": "https://browserify.org/"
-        },
-        {
-          "id": "tauri",
-          "description": {
-            "zh-CN": "用于为多平台部署构建优化、安全和独立于前端的应用程序",
-            "en-US": "Build an optimized, secure, and frontend-independent application for multi-platform deployment"
-          },
-          "url": "https://tauri.app/"
         },
         {
           "id": "electron",
@@ -1448,14 +1424,6 @@
           "url": "https://laravel.com/docs/10.x/pint"
         },
         {
-          "id": "chromedevtools",
-          "description": {
-            "zh-CN": "直接内置在 Google Chrome 浏览器中的一套 Web 开发者工具",
-            "en-US": "A set of web developer tools built directly into the Google Chrome browser"
-          },
-          "url": "https://developer.chrome.com/docs/devtools/"
-        },
-        {
           "id": "vitepress",
           "description": {
             "zh-CN": "由 Vite 和 Vue 驱动的静态站点生成器",
@@ -1494,38 +1462,6 @@
             "en-US": "TypeScript-first schema validation with static type inference"
           },
           "url": "https://zod.dev/"
-        },
-        {
-          "id": "millionjs",
-          "description": {
-            "zh-CN": "让 React 加速 70% 的轻量级虚拟 DOM 库",
-            "en-US": "Make React 70% faster"
-          },
-          "url": "https://million.dev/"
-        },
-        {
-          "id": "reactquery",
-          "description": {
-            "zh-CN": "为 TS/JS 提供强大的异步状态管理 (TanStack Query)",
-            "en-US": "Powerful asynchronous state management for TS/JS, React, Solid, Vue and Svelte"
-          },
-          "url": "https://tanstack.com/query/"
-        },
-        {
-          "id": "reactrouter",
-          "description": {
-            "zh-CN": "React 的轻量级、全能路由库",
-            "en-US": "A lightweight, fully-featured routing library for the React JavaScript library"
-          },
-          "url": "https://reactrouter.com/"
-        },
-        {
-          "id": "socketio",
-          "description": {
-            "zh-CN": "为各个平台提供双向通信和低延迟通信的库",
-            "en-US": "Bidirectional and low-latency communication for every platform"
-          },
-          "url": "https://socket.io/"
         },
         {
           "id": "sbt",
@@ -1725,14 +1661,6 @@
           "url": "https://www.scala-lang.org/"
         },
         {
-          "id": "kotlin",
-          "description": {
-            "zh-CN": "一门现代的、跨平台的、静态类型的通用编程语言",
-            "en-US": "A modern, cross-platform, statically typed, general-purpose programming language"
-          },
-          "url": "https://kotlinlang.org/"
-        },
-        {
           "id": "clojure",
           "description": {
             "zh-CN": "一门动态通用编程语言，结合了脚本语言的易用性与强大的多线程编程基础架构",
@@ -1779,22 +1707,6 @@
             "en-US": "A functional-first, general purpose, strongly typed, multi-paradigm programming language"
           },
           "url": "https://fsharp.org/"
-        },
-        {
-          "id": "swift",
-          "description": {
-            "zh-CN": "一门强大且直观的编程语言，适用于 Apple 平台",
-            "en-US": "A powerful and intuitive programming language for iOS, iPadOS, macOS, tvOS, and watchOS"
-          },
-          "url": "https://swift.org/"
-        },
-        {
-          "id": "dart",
-          "description": {
-            "zh-CN": "一门为针对各种平台提供快速应用而进行客户端优化的语言",
-            "en-US": "A client-optimized language for fast apps on any platform"
-          },
-          "url": "https://dart.dev/"
         },
         {
           "id": "bash",
@@ -2037,22 +1949,6 @@
           "url": "https://en.wikipedia.org/wiki/Prolog"
         },
         {
-          "id": "apidog",
-          "description": {
-            "zh-CN": "一体化 API 开发平台",
-            "en-US": "All-in-one API development platform"
-          },
-          "url": "https://apidog.com/"
-        },
-        {
-          "id": "api",
-          "description": {
-            "zh-CN": "应用程序编程接口 (Application Programming Interface)",
-            "en-US": "Application Programming Interface"
-          },
-          "url": "https://en.wikipedia.org/wiki/API"
-        },
-        {
           "id": "autohotkey",
           "description": {
             "zh-CN": "一种适用于 Windows 的免费、开源脚本语言",
@@ -2067,70 +1963,6 @@
             "en-US": "A multi-paradigm numerical computing environment and proprietary programming language developed by MathWorks"
           },
           "url": "https://www.mathworks.com/products/matlab.html"
-        },
-        {
-          "id": "tex",
-          "description": {
-            "zh-CN": "由 Donald Knuth 设计和主要编写的排版系统",
-            "en-US": "A typesetting system (or 'formatting system') designed and mostly written by Donald Knuth"
-          },
-          "url": "https://en.wikipedia.org/wiki/TeX"
-        },
-        {
-          "id": "latex",
-          "description": {
-            "zh-CN": "包含多项致力于生成技术和科学文档特性的高质量排版系统",
-            "en-US": "A high-quality typesetting system; it includes features designed for the production of technical and scientific documentation"
-          },
-          "url": "https://www.latex-project.org/"
-        },
-        {
-          "id": "regex",
-          "description": {
-            "zh-CN": "正则表达式",
-            "en-US": "Regular Expression"
-          },
-          "url": "https://en.wikipedia.org/wiki/Regular_expression"
-        },
-        {
-          "id": "restructuredtext",
-          "description": {
-            "zh-CN": "一种易于阅读的、所见即所得的纯文本标记语法和解析系统",
-            "en-US": "An easy-to-read, what-you-see-is-what-you-get plaintext markup syntax and parser system"
-          },
-          "url": "https://docutils.sourceforge.io/rst.html"
-        },
-        {
-          "id": "fuse",
-          "description": {
-            "zh-CN": "一套功能强大的移动应用设计与开发工具",
-            "en-US": "A powerful set of design and development tools for mobile apps"
-          },
-          "url": "https://fuse-open.github.io/"
-        },
-        {
-          "id": "aiscript",
-          "description": {
-            "zh-CN": "为 Misskey 设计的脚本语言",
-            "en-US": "A scripting language for Misskey"
-          },
-          "url": "https://github.com/syuilo/aiscript"
-        },
-        {
-          "id": "ros",
-          "description": {
-            "zh-CN": "机器人操作系统 (Robot Operating System)",
-            "en-US": "Robot Operating System"
-          },
-          "url": "https://www.ros.org/"
-        },
-        {
-          "id": "uml",
-          "description": {
-            "zh-CN": "统一建模语言 (Unified Modeling Language)",
-            "en-US": "Unified Modeling Language"
-          },
-          "url": "https://www.uml.org/"
         },
         {
           "id": "googleappsscript",
@@ -2210,14 +2042,6 @@
           "url": "https://inertiajs.com/"
         },
         {
-          "id": "dapper",
-          "description": {
-            "zh-CN": "适用于 .NET 的简单对象映射器 (ORM)",
-            "en-US": "A simple object mapper for .Net"
-          },
-          "url": "https://github.com/StackExchange/Dapper"
-        },
-        {
           "id": "discordjs",
           "description": {
             "zh-CN": "与 Discord API 交互的强大 Node.js 模块",
@@ -2242,92 +2066,12 @@
           "url": "https://loopback.io/"
         },
         {
-          "id": "masonite",
-          "description": {
-            "zh-CN": "现代且以开发者为中心的 Python Web 框架",
-            "en-US": "The modern and developer centric Python web framework"
-          },
-          "url": "https://docs.masoniteproject.com/"
-        },
-        {
           "id": "sail",
           "description": {
             "zh-CN": "创建企业级的 Node.js 应用程序 (Sails.js)",
             "en-US": "Realtime MVC Framework for Node.js"
           },
           "url": "https://sailsjs.com/"
-        },
-        {
-          "id": "sanctum",
-          "description": {
-            "zh-CN": "为 SPA、移动应用和简单的 API 提供羽量级身份验证系统",
-            "en-US": "Laravel Sanctum provides a featherweight authentication system for SPAs and simple APIs"
-          },
-          "url": "https://laravel.com/docs/sanctum"
-        },
-        {
-          "id": "scout",
-          "description": {
-            "zh-CN": "为 Eloquent 模型提供简单的、基于驱动的全文搜索解决方案",
-            "en-US": "Laravel Scout provides a simple, driver based solution for adding full-text search to your Eloquent models"
-          },
-          "url": "https://laravel.com/docs/scout"
-        },
-        {
-          "id": "sentinel",
-          "description": {
-            "zh-CN": "为 PHP 框架等提供全功能的认证和授权系统",
-            "en-US": "A fully-featured authentication & authorization system for PHP frameworks"
-          },
-          "url": "https://cartalyst.com/manual/sentinel"
-        },
-        {
-          "id": "session",
-          "description": {
-            "zh-CN": "提供存储用户会话的简单机制",
-            "en-US": "A simple mechanism to store user sessions"
-          },
-          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage"
-        },
-        {
-          "id": "tallyprime",
-          "description": {
-            "zh-CN": "基于业务管理软件的会计软件",
-            "en-US": "Business management software for accounting"
-          },
-          "url": "https://tallysolutions.com/"
-        },
-        {
-          "id": "telescope",
-          "description": {
-            "zh-CN": "优雅的 Laravel 调试助手",
-            "en-US": "An elegant debug assistant for the Laravel framework"
-          },
-          "url": "https://laravel.com/docs/telescope"
-        },
-        {
-          "id": "xtable",
-          "description": {
-            "zh-CN": "基于 Vue 的 PC 端表格组件库 (vxe-table)",
-            "en-US": "A PC UI library based on Vue"
-          },
-          "url": "https://vxetable.cn/"
-        },
-        {
-          "id": "zudoku",
-          "description": {
-            "zh-CN": "以 API 为中心的文档框架",
-            "en-US": "API-centric documentation framework"
-          },
-          "url": "https://zudoku.dev/"
-        },
-        {
-          "id": "trpc",
-          "description": {
-            "zh-CN": "无需代码生成的端到端类型安全 API",
-            "en-US": "End-to-end typesafe APIs made easy"
-          },
-          "url": "https://trpc.io/"
         },
         {
           "id": "t3",
@@ -2338,44 +2082,12 @@
           "url": "https://create.t3.gg/"
         },
         {
-          "id": "beeceptor",
-          "description": {
-            "zh-CN": "用于构建无代码 API 和模拟 REST API 的平台",
-            "en-US": "Build No-Code APIs & Mock REST APIs"
-          },
-          "url": "https://beeceptor.com/"
-        },
-        {
           "id": "drizzle",
           "description": {
             "zh-CN": "可以同时满足客户端与服务端的 TypeScript ORM",
             "en-US": "TypeScript ORM that is both server and client ready"
           },
           "url": "https://orm.drizzle.team/"
-        },
-        {
-          "id": "dubbo",
-          "description": {
-            "zh-CN": "一款高性能、轻量级的开源 Java RPC 框架",
-            "en-US": "A high-performance, light weight, open source Java RPC framework"
-          },
-          "url": "https://dubbo.apache.org/"
-        },
-        {
-          "id": "fabric",
-          "description": {
-            "zh-CN": "企业级许可的分布式账本技术 (DLT) 平台",
-            "en-US": "Enterprise-grade permissioned distributed ledger technology (DLT) platform"
-          },
-          "url": "https://www.hyperledger.org/use/fabric"
-        },
-        {
-          "id": "ignite",
-          "description": {
-            "zh-CN": "一个分布式数据库和计算平台，用于高性能计算和数据处理",
-            "en-US": "A distributed database for high-performance computing with in-memory speed"
-          },
-          "url": "https://ignite.apache.org/"
         },
         {
           "id": "lightning",
@@ -2386,124 +2098,20 @@
           "url": "https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/intro_framework.htm"
         },
         {
-          "id": "mcp",
-          "description": {
-            "zh-CN": "模型上下文协议 (Model Context Protocol)",
-            "en-US": "Model Context Protocol (MCP)"
-          },
-          "url": "https://modelcontextprotocol.io/"
-        },
-        {
-          "id": "openzeppelin",
-          "description": {
-            "zh-CN": "用于安全智能合约开发的库",
-            "en-US": "A library for secure smart contract development"
-          },
-          "url": "https://www.openzeppelin.com/"
-        },
-        {
-          "id": "orchid",
-          "description": {
-            "zh-CN": "为 Laravel 构建企业级应用的 RAD 平台",
-            "en-US": "A platform for building enterprise applications with Laravel"
-          },
-          "url": "https://orchid.software/"
-        },
-        {
-          "id": "pail",
-          "description": {
-            "zh-CN": "用于现代 Laravel 的实用日志尾随工具",
-            "en-US": "A modern, CLI-friendly approach to tailing Laravel application logs"
-          },
-          "url": "https://github.com/laravel/pail"
-        },
-        {
-          "id": "pennant",
-          "description": {
-            "zh-CN": "为 Laravel 提供简单、轻量级的功能特性标志系统",
-            "en-US": "Laravel Pennant offers a simple and light-weight approach to managing feature flags"
-          },
-          "url": "https://laravel.com/docs/pennant"
-        },
-        {
-          "id": "portfolio",
-          "description": {
-            "zh-CN": "个人作品集与项目展示",
-            "en-US": "Personal portfolio and project showcase"
-          },
-          "url": "#"
-        },
-        {
-          "id": "prelude",
-          "description": {
-            "zh-CN": "软件供应链安全测试",
-            "en-US": "Continuous security testing for production environments"
-          },
-          "url": "https://github.com/standard-ai/prelude"
-        },
-        {
-          "id": "polar",
-          "description": {
-            "zh-CN": "为开发者和创作者提供资助的平台",
-            "en-US": "The funding platform for developers and creators"
-          },
-          "url": "https://polar.sh/"
-        },
-        {
-          "id": "prompts",
-          "description": {
-            "zh-CN": "轻量级、美观、用户友好的交互式命令行提示工具",
-            "en-US": "Lightweight, beautiful and user-friendly interactive prompts"
-          },
-          "url": "https://github.com/terkelg/prompts"
-        },
-        {
-          "id": "pulse",
-          "description": {
-            "zh-CN": "随时了解 Laravel 应用的性能和使用情况的面版",
-            "en-US": "A glance at your application's performance and usage"
-          },
-          "url": "https://laravel.com/docs/pulse"
-        },
-        {
-          "id": "puppygraph",
-          "description": {
-            "zh-CN": "由数据仓库驱动的云原生图统一分析引擎",
-            "en-US": "Cloud-native graph analytics engine powered by data warehouses"
-          },
-          "url": "https://www.puppygraph.com/"
-        },
-        {
-          "id": "reverb",
-          "description": {
-            "zh-CN": "为 Laravel 构建的急速扩容的一方 WebSocket 服务器",
-            "en-US": "A first-party WebSocket server for Laravel applications"
-          },
-          "url": "https://reverb.laravel.com/"
-        },
-        {
-          "id": "rubocop",
-          "description": {
-            "zh-CN": "Ruby 静态代码分析器和格式化工具",
-            "en-US": "A Ruby static code analyzer and formatter"
-          },
-          "url": "https://rubocop.org/"
-        },
-        {
-          "id": "windmill",
-          "description": {
-            "zh-CN": "开源的开发者平台和工作流引擎用于内部工具",
-            "en-US": "Open-source developer platform and workflow engine for internal tools"
-          },
-          "url": "https://www.windmill.dev/"
-        },
-        {
           "id": "expressjs",
           "description": {
             "zh-CN": "Express.js (别名)",
             "en-US": "Express.js (Alias)"
           },
           "url": "https://expressjs.com/"
+        },
+        {
+          "id": "fresh",
+          "description": {
+            "zh-CN": "专为 Deno 打造的 Web 框架",
+            "en-US": "The next-gen web framework for Deno"
+          },
+          "url": "https://fresh.deno.dev/"
         }
       ]
     },
@@ -2565,14 +2173,6 @@
             "en-US": "A powerful and flexible toolkit for building Web APIs"
           },
           "url": "https://www.django-rest-framework.org/"
-        },
-        {
-          "id": "robotframework",
-          "description": {
-            "zh-CN": "通用的自动化测试框架",
-            "en-US": "A generic open source automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA)"
-          },
-          "url": "https://robotframework.org/"
         },
         {
           "id": "sqla",
@@ -2668,52 +2268,12 @@
           "url": "https://spring.io/projects/spring-security"
         },
         {
-          "id": "gradle",
-          "description": {
-            "zh-CN": "基于 Apache Ant 和 Apache Maven 概念的开源构建自动化系统",
-            "en-US": "A build automation tool for multi-language software development"
-          },
-          "url": "https://gradle.org/"
-        },
-        {
-          "id": "maven",
-          "description": {
-            "zh-CN": "主要用于 Java 项目的软件项目管理和自动构建工具",
-            "en-US": "A software project management and comprehension tool"
-          },
-          "url": "https://maven.apache.org/"
-        },
-        {
-          "id": "kotlin",
-          "description": {
-            "zh-CN": "Kotlin",
-            "en-US": "Kotlin"
-          },
-          "url": "https://kotlinlang.org/"
-        },
-        {
-          "id": "scala",
-          "description": {
-            "zh-CN": "Scala",
-            "en-US": "Scala"
-          },
-          "url": "https://www.scala-lang.org/"
-        },
-        {
           "id": "groovy",
           "description": {
             "zh-CN": "基于 JVM 的敏捷动态语言",
             "en-US": "An agile and dynamic language for the Java Virtual Machine"
           },
           "url": "https://groovy-lang.org/"
-        },
-        {
-          "id": "clojure",
-          "description": {
-            "zh-CN": "Lisp 家族的函数式编程语言",
-            "en-US": "A robust, practical, and fast programming language"
-          },
-          "url": "https://clojure.org/"
         },
         {
           "id": "azul",
@@ -2738,6 +2298,14 @@
             "en-US": "A framework which enables the construction of statically typed SQL-like queries"
           },
           "url": "http://querydsl.com/"
+        },
+        {
+          "id": "dubbo",
+          "description": {
+            "zh-CN": "一款高性能、轻量级的开源 Java RPC 框架",
+            "en-US": "A high-performance, light weight, open source Java RPC framework"
+          },
+          "url": "https://dubbo.apache.org/"
         }
       ]
     },
@@ -2783,38 +2351,6 @@
             "en-US": "A fast, simple, extensible framework for PHP"
           },
           "url": "https://flightphp.com/"
-        },
-        {
-          "id": "joomla",
-          "description": {
-            "zh-CN": "开源内容管理系统",
-            "en-US": "Free and open-source content management system"
-          },
-          "url": "https://www.joomla.org/"
-        },
-        {
-          "id": "drupal",
-          "description": {
-            "zh-CN": "自由开源的 PHP 内容管理系统",
-            "en-US": "Open source content management system"
-          },
-          "url": "https://www.drupal.org/"
-        },
-        {
-          "id": "wordpress",
-          "description": {
-            "zh-CN": "免费的开源内容管理系统",
-            "en-US": "Free and open-source content management system"
-          },
-          "url": "https://wordpress.org/"
-        },
-        {
-          "id": "magento",
-          "description": {
-            "zh-CN": "领先的企业级开源电子商务平台",
-            "en-US": "The leading enterprise-class eCommerce platform"
-          },
-          "url": "https://business.adobe.com/products/magento/magento-commerce.html"
         },
         {
           "id": "filament",
@@ -2865,22 +2401,6 @@
           "url": "https://laravel.com/docs/octane"
         },
         {
-          "id": "pest",
-          "description": {
-            "zh-CN": "优雅的 PHP 测试框架",
-            "en-US": "An elegant PHP Testing Framework"
-          },
-          "url": "https://pestphp.com/"
-        },
-        {
-          "id": "phpunit",
-          "description": {
-            "zh-CN": "面向程序员的 PHP 测试框架",
-            "en-US": "The PHP Testing Framework"
-          },
-          "url": "https://phpunit.de/"
-        },
-        {
           "id": "livewire",
           "description": {
             "zh-CN": "让构建动态 UI 变得简单的 Laravel 全栈框架",
@@ -2897,22 +2417,6 @@
           "url": "https://leafphp.dev/"
         },
         {
-          "id": "vapor",
-          "description": {
-            "zh-CN": "由 AWS 驱动的无服务器部署平台",
-            "en-US": "A serverless deployment platform for Laravel, powered by AWS"
-          },
-          "url": "https://vapor.laravel.com/"
-        },
-        {
-          "id": "resend",
-          "description": {
-            "zh-CN": "适合开发者的邮件 API",
-            "en-US": "Email API for developers"
-          },
-          "url": "https://resend.com/"
-        },
-        {
           "id": "frankenphp",
           "description": {
             "zh-CN": "现代的 PHP 应用程序服务器",
@@ -2921,20 +2425,92 @@
           "url": "https://frankenphp.dev/"
         },
         {
-          "id": "fresh",
+          "id": "sanctum",
           "description": {
-            "zh-CN": "专为 Deno 打造的 Web 框架",
-            "en-US": "The next-gen web framework for Deno"
+            "zh-CN": "为 SPA、移动应用和简单的 API 提供羽量级身份验证系统",
+            "en-US": "Laravel Sanctum provides a featherweight authentication system for SPAs and simple APIs"
           },
-          "url": "https://fresh.deno.dev/"
+          "url": "https://laravel.com/docs/sanctum"
         },
         {
-          "id": "herd",
+          "id": "scout",
           "description": {
-            "zh-CN": "用于 macOS 和 Windows 的闪电般快速的 Laravel 和 PHP 开发环境",
-            "en-US": "Blazing fast, native Laravel and PHP development environment"
+            "zh-CN": "为 Eloquent 模型提供简单的、基于驱动的全文搜索解决方案",
+            "en-US": "Laravel Scout provides a simple, driver based solution for adding full-text search to your Eloquent models"
           },
-          "url": "https://herd.laravel.com/"
+          "url": "https://laravel.com/docs/scout"
+        },
+        {
+          "id": "sentinel",
+          "description": {
+            "zh-CN": "为 PHP 框架等提供全功能的认证和授权系统",
+            "en-US": "A fully-featured authentication & authorization system for PHP frameworks"
+          },
+          "url": "https://cartalyst.com/manual/sentinel"
+        },
+        {
+          "id": "session",
+          "description": {
+            "zh-CN": "提供存储用户会话的简单机制",
+            "en-US": "A simple mechanism to store user sessions"
+          },
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage"
+        },
+        {
+          "id": "telescope",
+          "description": {
+            "zh-CN": "优雅的 Laravel 调试助手",
+            "en-US": "An elegant debug assistant for the Laravel framework"
+          },
+          "url": "https://laravel.com/docs/telescope"
+        },
+        {
+          "id": "orchid",
+          "description": {
+            "zh-CN": "为 Laravel 构建企业级应用的 RAD 平台",
+            "en-US": "A platform for building enterprise applications with Laravel"
+          },
+          "url": "https://orchid.software/"
+        },
+        {
+          "id": "pail",
+          "description": {
+            "zh-CN": "用于现代 Laravel 的实用日志尾随工具",
+            "en-US": "A modern, CLI-friendly approach to tailing Laravel application logs"
+          },
+          "url": "https://github.com/laravel/pail"
+        },
+        {
+          "id": "pennant",
+          "description": {
+            "zh-CN": "为 Laravel 提供简单、轻量级的功能特性标志系统",
+            "en-US": "Laravel Pennant offers a simple and light-weight approach to managing feature flags"
+          },
+          "url": "https://laravel.com/docs/pennant"
+        },
+        {
+          "id": "pulse",
+          "description": {
+            "zh-CN": "随时了解 Laravel 应用的性能和使用情况的面版",
+            "en-US": "A glance at your application's performance and usage"
+          },
+          "url": "https://laravel.com/docs/pulse"
+        },
+        {
+          "id": "reverb",
+          "description": {
+            "zh-CN": "为 Laravel 构建的急速扩容的一方 WebSocket 服务器",
+            "en-US": "A first-party WebSocket server for Laravel applications"
+          },
+          "url": "https://reverb.laravel.com/"
+        },
+        {
+          "id": "yii",
+          "description": {
+            "zh-CN": "快速、安全和高效的 PHP 框架",
+            "en-US": "Fast, secure, and efficient PHP framework"
+          },
+          "url": "https://www.yiiframework.com/"
         }
       ]
     },
@@ -2974,28 +2550,12 @@
           "url": "https://wails.io/"
         },
         {
-          "id": "hugo",
-          "description": {
-            "zh-CN": "世界上最快的构建网站的框架",
-            "en-US": "The world’s fastest framework for building websites"
-          },
-          "url": "https://gohugo.io/"
-        },
-        {
           "id": "buffalo",
           "description": {
             "zh-CN": "用于 Go 生态系统的快速 Web 开发框架",
             "en-US": "A Go web development eco-system"
           },
           "url": "https://gobuffalo.io/"
-        },
-        {
-          "id": "gorm",
-          "description": {
-            "zh-CN": "Golang 优秀的 ORM 库",
-            "en-US": "The fantastic ORM library for Golang"
-          },
-          "url": "https://gorm.io/"
         },
         {
           "id": "chi",
@@ -3049,14 +2609,6 @@
             "en-US": "An asynchronous run-time for the Rust programming language"
           },
           "url": "https://tokio.rs/"
-        },
-        {
-          "id": "yew",
-          "description": {
-            "zh-CN": "用于创建多线程前端 Web 应用程序的 Rust 现代框架",
-            "en-US": "A modern Rust framework for creating multi-threaded front-end web apps with WebAssembly"
-          },
-          "url": "https://yew.rs/"
         },
         {
           "id": "leptos",
@@ -3120,22 +2672,6 @@
           "url": "https://dotnet.microsoft.com/"
         },
         {
-          "id": "blazor",
-          "description": {
-            "zh-CN": "用于使用 .NET 的交互式客户端 Web UI 框架",
-            "en-US": "An interactive web UI framework with .NET"
-          },
-          "url": "https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor"
-        },
-        {
-          "id": "unity",
-          "description": {
-            "zh-CN": "领先的实时 3D 内容创作平台",
-            "en-US": "The world’s leading platform for creating and operating interactive, real-time 3D content"
-          },
-          "url": "https://unity.com/"
-        },
-        {
           "id": "maui",
           "description": {
             "zh-CN": "用于使用 .NET 创建原生跨平台桌面和移动应用的框架",
@@ -3160,12 +2696,12 @@
           "url": "https://learn.microsoft.com/en-us/ef/"
         },
         {
-          "id": "monogame",
+          "id": "dapper",
           "description": {
-            "zh-CN": "用于创建强大跨平台游戏的一个框架",
-            "en-US": "One framework for creating powerful cross-platform games"
+            "zh-CN": "适用于 .NET 的简单对象映射器 (ORM)",
+            "en-US": "A simple object mapper for .Net"
           },
-          "url": "https://www.monogame.net/"
+          "url": "https://github.com/StackExchange/Dapper"
         }
       ]
     },
@@ -3306,38 +2842,6 @@
           "url": "https://hasura.io/"
         },
         {
-          "id": "strapi",
-          "description": {
-            "zh-CN": "领先的开源无头 CMS",
-            "en-US": "The leading open-source headless CMS"
-          },
-          "url": "https://strapi.io/"
-        },
-        {
-          "id": "directus",
-          "description": {
-            "zh-CN": "开放数据平台",
-            "en-US": "Open Data Platform"
-          },
-          "url": "https://directus.io/"
-        },
-        {
-          "id": "payload",
-          "description": {
-            "zh-CN": "现代化的开源无头 CMS",
-            "en-US": "The modern, open-source Headless CMS"
-          },
-          "url": "https://payloadcms.com/"
-        },
-        {
-          "id": "payloadcms",
-          "description": {
-            "zh-CN": "Payload CMS (别名)",
-            "en-US": "Payload CMS (Alias)"
-          },
-          "url": "https://payloadcms.com/"
-        },
-        {
           "id": "dremio",
           "description": {
             "zh-CN": "数据湖仓平台",
@@ -3382,14 +2886,6 @@
           "description": {
             "zh-CN": "应用程序编程接口（API）",
             "en-US": "Application Programming Interface"
-          },
-          "url": "#"
-        },
-        {
-          "id": "apigateway",
-          "description": {
-            "zh-CN": "用于统一路由、鉴权和管理 API 的网关模式",
-            "en-US": "Gateway pattern for routing, securing, and managing APIs"
           },
           "url": "#"
         },
@@ -3458,14 +2954,6 @@
           "url": "https://www.rabbitmq.com/"
         },
         {
-          "id": "kafka",
-          "description": {
-            "zh-CN": "开源分布式事件流平台",
-            "en-US": "Open-source distributed event streaming platform"
-          },
-          "url": "https://kafka.apache.org/"
-        },
-        {
           "id": "redis",
           "description": {
             "zh-CN": "开源的内存数据存储",
@@ -3474,28 +2962,12 @@
           "url": "https://redis.io/"
         },
         {
-          "id": "elasticsearch",
-          "description": {
-            "zh-CN": "分布式、RESTful 风格的搜索和分析引擎",
-            "en-US": "A distributed, RESTful search and analytics engine"
-          },
-          "url": "https://www.elastic.co/elasticsearch/"
-        },
-        {
           "id": "celery",
           "description": {
             "zh-CN": "分布式任务队列",
             "en-US": "Distributed Task Queue"
           },
           "url": "https://docs.celeryq.dev/"
-        },
-        {
-          "id": "airflow",
-          "description": {
-            "zh-CN": "以编程方式编写、调度和监控工作流的平台",
-            "en-US": "Platform to programmatically author, schedule, and monitor workflows"
-          },
-          "url": "https://airflow.apache.org/"
         },
         {
           "id": "dagster",
@@ -3530,28 +3002,12 @@
           "url": "https://rocketmq.apache.org/"
         },
         {
-          "id": "tomcat",
-          "description": {
-            "zh-CN": "Java Servlet, JSP 等技术的开源实现",
-            "en-US": "The Apache Tomcat® software is an open source implementation of the Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket technologies"
-          },
-          "url": "https://tomcat.apache.org/"
-        },
-        {
           "id": "websocket",
           "description": {
             "zh-CN": "在用户浏览器和服务器之间打开双向交互式通信会话的 API",
             "en-US": "API that makes it possible to open a two-way interactive communication session between the user's browser and a server"
           },
           "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API"
-        },
-        {
-          "id": "yii",
-          "description": {
-            "zh-CN": "快速、安全和高效的 PHP 框架",
-            "en-US": "Fast, secure, and efficient PHP framework"
-          },
-          "url": "https://www.yiiframework.com/"
         },
         {
           "id": "wasmer",
@@ -3568,6 +3024,46 @@
             "en-US": "Procedural Language extensions to SQL"
           },
           "url": "https://www.oracle.com/database/technologies/appdev/plsql.html"
+        },
+        {
+          "id": "socketio",
+          "description": {
+            "zh-CN": "为各个平台提供双向通信和低延迟通信的库",
+            "en-US": "Bidirectional and low-latency communication for every platform"
+          },
+          "url": "https://socket.io/"
+        },
+        {
+          "id": "zudoku",
+          "description": {
+            "zh-CN": "以 API 为中心的文档框架",
+            "en-US": "API-centric documentation framework"
+          },
+          "url": "https://zudoku.dev/"
+        },
+        {
+          "id": "beeceptor",
+          "description": {
+            "zh-CN": "用于构建无代码 API 和模拟 REST API 的平台",
+            "en-US": "Build No-Code APIs & Mock REST APIs"
+          },
+          "url": "https://beeceptor.com/"
+        },
+        {
+          "id": "resend",
+          "description": {
+            "zh-CN": "适合开发者的邮件 API",
+            "en-US": "Email API for developers"
+          },
+          "url": "https://resend.com/"
+        },
+        {
+          "id": "apidog",
+          "description": {
+            "zh-CN": "一体化 API 开发平台",
+            "en-US": "All-in-one API development platform"
+          },
+          "url": "https://apidog.com/"
         }
       ]
     },
@@ -3605,14 +3101,6 @@
             "en-US": "Apache Tomcat application server"
           },
           "url": "https://tomcat.apache.org/"
-        },
-        {
-          "id": "celerdata",
-          "description": {
-            "zh-CN": "基于 StarRocks 构建的分析型数据库服务",
-            "en-US": "Open source analytical database"
-          },
-          "url": "https://www.celerdata.com/"
         }
       ]
     },
@@ -4492,6 +3980,38 @@
             "en-US": "A command line program to manage files on cloud storage"
           },
           "url": "https://rclone.org/"
+        },
+        {
+          "id": "windmill",
+          "description": {
+            "zh-CN": "开源的开发者平台和工作流引擎用于内部工具",
+            "en-US": "Open-source developer platform and workflow engine for internal tools"
+          },
+          "url": "https://www.windmill.dev/"
+        },
+        {
+          "id": "prompts",
+          "description": {
+            "zh-CN": "轻量级、美观、用户友好的交互式命令行提示工具",
+            "en-US": "Lightweight, beautiful and user-friendly interactive prompts"
+          },
+          "url": "https://github.com/terkelg/prompts"
+        },
+        {
+          "id": "herd",
+          "description": {
+            "zh-CN": "用于 macOS 和 Windows 的闪电般快速的 Laravel 和 PHP 开发环境",
+            "en-US": "Blazing fast, native Laravel and PHP development environment"
+          },
+          "url": "https://herd.laravel.com/"
+        },
+        {
+          "id": "vapor",
+          "description": {
+            "zh-CN": "由 AWS 驱动的无服务器部署平台",
+            "en-US": "A serverless deployment platform for Laravel, powered by AWS"
+          },
+          "url": "https://vapor.laravel.com/"
         }
       ]
     },
@@ -5096,14 +4616,6 @@
           "url": "https://groq.com/"
         },
         {
-          "id": "aiogram",
-          "description": {
-            "zh-CN": "完全异步的 Telegram Bot API Python 框架",
-            "en-US": "A fully asynchronous framework for Telegram Bot API written in Python 3.9+"
-          },
-          "url": "https://aiogram.dev/"
-        },
-        {
           "id": "agno",
           "description": {
             "zh-CN": "构建拥有记忆的 AI 代理工具包",
@@ -5112,12 +4624,12 @@
           "url": "https://agno.ai/"
         },
         {
-          "id": "cairo",
+          "id": "mcp",
           "description": {
-            "zh-CN": "用于创建和验证可计算证明的语言",
-            "en-US": "A Turing-complete language for creating provable programs for general computation"
+            "zh-CN": "模型上下文协议 (Model Context Protocol)",
+            "en-US": "Model Context Protocol (MCP)"
           },
-          "url": "https://www.cairo-lang.org/"
+          "url": "https://modelcontextprotocol.io/"
         }
       ]
     },
@@ -5691,6 +5203,14 @@
             "en-US": "A state-of-the-art platform for statistical modeling and high-performance statistical computation"
           },
           "url": "https://mc-stan.org/"
+        },
+        {
+          "id": "puppygraph",
+          "description": {
+            "zh-CN": "由数据仓库驱动的云原生图统一分析引擎",
+            "en-US": "Cloud-native graph analytics engine powered by data warehouses"
+          },
+          "url": "https://www.puppygraph.com/"
         }
       ]
     },
@@ -6120,6 +5640,14 @@
             "en-US": "Data Security Platform"
           },
           "url": "https://www.immuta.com/"
+        },
+        {
+          "id": "ignite",
+          "description": {
+            "zh-CN": "一个分布式数据库和计算平台，用于高性能计算和数据处理",
+            "en-US": "A distributed database for high-performance computing with in-memory speed"
+          },
+          "url": "https://ignite.apache.org/"
         }
       ]
     },
@@ -6133,14 +5661,6 @@
             "en-US": "The modern, approachable, and declarative UI toolkit for Android"
           },
           "url": "https://www.android.com/"
-        },
-        {
-          "id": "androidstudio",
-          "description": {
-            "zh-CN": "Android 的官方集成开发环境",
-            "en-US": "The official Integrated Development Environment (IDE) for Android app development"
-          },
-          "url": "https://developer.android.com/studio"
         },
         {
           "id": "ios",
@@ -6349,14 +5869,6 @@
             "en-US": "App Store"
           },
           "url": "https://www.apple.com/app-store/"
-        },
-        {
-          "id": "avaloniaui",
-          "description": {
-            "zh-CN": "基于 WPF 的跨平台 XAML UI 框架",
-            "en-US": "The Cross-Platform .NET UI Framework"
-          },
-          "url": "https://avaloniaui.net/"
         }
       ]
     },
@@ -7007,6 +6519,30 @@
             "en-US": "A lean, lightweight, and modular implementation of IPFS in JavaScript"
           },
           "url": "https://helia.io/"
+        },
+        {
+          "id": "fabric",
+          "description": {
+            "zh-CN": "企业级许可的分布式账本技术 (DLT) 平台",
+            "en-US": "Enterprise-grade permissioned distributed ledger technology (DLT) platform"
+          },
+          "url": "https://www.hyperledger.org/use/fabric"
+        },
+        {
+          "id": "openzeppelin",
+          "description": {
+            "zh-CN": "用于安全智能合约开发的库",
+            "en-US": "A library for secure smart contract development"
+          },
+          "url": "https://www.openzeppelin.com/"
+        },
+        {
+          "id": "cairo",
+          "description": {
+            "zh-CN": "用于创建和验证可计算证明的语言",
+            "en-US": "A Turing-complete language for creating provable programs for general computation"
+          },
+          "url": "https://www.cairo-lang.org/"
         }
       ]
     },
@@ -7118,14 +6654,6 @@
           "url": "https://www.torproject.org/"
         },
         {
-          "id": "brave",
-          "description": {
-            "zh-CN": "基于 Chromium 网页浏览器及其 Blink 排版引擎的自由及开源网页浏览器",
-            "en-US": "The browser that puts you first"
-          },
-          "url": "https://brave.com/"
-        },
-        {
           "id": "mullvad",
           "description": {
             "zh-CN": "开源的商业虚拟专用网络服务",
@@ -7156,14 +6684,6 @@
             "en-US": "Cross-Platform Password Manager"
           },
           "url": "https://keepassxc.org/"
-        },
-        {
-          "id": "vault",
-          "description": {
-            "zh-CN": "基于身份对不同机密信息建立访问控制服务的软件",
-            "en-US": "Manage Secrets and Protect Sensitive Data"
-          },
-          "url": "https://www.vaultproject.io/"
         },
         {
           "id": "1password",
@@ -7222,22 +6742,6 @@
           "url": "https://www.crowdstrike.com/"
         },
         {
-          "id": "splunk",
-          "description": {
-            "zh-CN": "机器数据分析平台",
-            "en-US": "The key to enterprise resilience"
-          },
-          "url": "https://www.splunk.com/"
-        },
-        {
-          "id": "hackthebox",
-          "description": {
-            "zh-CN": "网络安全培训平台",
-            "en-US": "Cybersecurity Training Platform"
-          },
-          "url": "https://www.hackthebox.com/"
-        },
-        {
           "id": "wireguard",
           "description": {
             "zh-CN": "简单快速的现代 VPN",
@@ -7260,14 +6764,6 @@
             "en-US": "Open source networking and network security solution for containers, virtual machines, and native host-based workloads"
           },
           "url": "https://www.tigera.io/project-calico/"
-        },
-        {
-          "id": "tryhackme",
-          "description": {
-            "zh-CN": "网络安全学习平台",
-            "en-US": "The bite-sized way to learn cyber security"
-          },
-          "url": "https://tryhackme.com/"
         },
         {
           "id": "logto",
@@ -7316,6 +6812,22 @@
             "en-US": "Security for developers"
           },
           "url": "https://arcjet.com/"
+        },
+        {
+          "id": "prelude",
+          "description": {
+            "zh-CN": "软件供应链安全测试",
+            "en-US": "Continuous security testing for production environments"
+          },
+          "url": "https://github.com/standard-ai/prelude"
+        },
+        {
+          "id": "authjs",
+          "description": {
+            "zh-CN": "针对 Web 的完全无特权的认证库 (原 NextAuth.js)",
+            "en-US": "Authentication for Web (formerly NextAuth.js)"
+          },
+          "url": "https://authjs.dev/"
         }
       ]
     },
@@ -7913,6 +7425,14 @@
             "en-US": "Adobe's subscription service for all creative applications"
           },
           "url": "https://www.adobe.com/creativecloud.html"
+        },
+        {
+          "id": "fuse",
+          "description": {
+            "zh-CN": "一套功能强大的移动应用设计与开发工具",
+            "en-US": "A powerful set of design and development tools for mobile apps"
+          },
+          "url": "https://fuse-open.github.io/"
         }
       ]
     },
@@ -8475,14 +7995,6 @@
             "en-US": "Highly flexible, source-based Linux distribution"
           },
           "url": "https://www.gentoo.org/"
-        },
-        {
-          "id": "alpine",
-          "description": {
-            "zh-CN": "轻量安全的 Linux 发行版，常用于 Docker",
-            "en-US": "Security-oriented, lightweight Linux distribution"
-          },
-          "url": "https://alpinelinux.org/"
         },
         {
           "id": "void",
@@ -9826,6 +9338,22 @@
             "en-US": "Professional CAD design and drafting software by Autodesk"
           },
           "url": "https://www.autodesk.com/products/autocad/overview"
+        },
+        {
+          "id": "rubocop",
+          "description": {
+            "zh-CN": "Ruby 静态代码分析器和格式化工具",
+            "en-US": "A Ruby static code analyzer and formatter"
+          },
+          "url": "https://rubocop.org/"
+        },
+        {
+          "id": "pest",
+          "description": {
+            "zh-CN": "优雅的 PHP 测试框架",
+            "en-US": "An elegant PHP Testing Framework"
+          },
+          "url": "https://pestphp.com/"
         }
       ]
     },
@@ -10031,6 +9559,14 @@
             "en-US": "Headless website builder and CMS"
           },
           "url": "https://prismic.io/"
+        },
+        {
+          "id": "payloadcms",
+          "description": {
+            "zh-CN": "Payload CMS (别名)",
+            "en-US": "Payload CMS (Alias)"
+          },
+          "url": "https://payloadcms.com/"
         }
       ]
     },
@@ -10222,14 +9758,6 @@
           "url": "https://www.binance.com/"
         },
         {
-          "id": "metamask",
-          "description": {
-            "zh-CN": "以太坊加密钱包和 DApp 浏览器",
-            "en-US": "Browser extension cryptocurrency wallet for Ethereum"
-          },
-          "url": "https://metamask.io/"
-        },
-        {
           "id": "cashapp",
           "description": {
             "zh-CN": "移动支付和理财服务",
@@ -10252,6 +9780,22 @@
             "en-US": "Domain-specific language for TradingView indicators and strategies"
           },
           "url": "https://www.tradingview.com/pine-script-docs/en/v5/Introduction.html"
+        },
+        {
+          "id": "tallyprime",
+          "description": {
+            "zh-CN": "基于业务管理软件的会计软件",
+            "en-US": "Business management software for accounting"
+          },
+          "url": "https://tallysolutions.com/"
+        },
+        {
+          "id": "polar",
+          "description": {
+            "zh-CN": "为开发者和创作者提供资助的平台",
+            "en-US": "The funding platform for developers and creators"
+          },
+          "url": "https://polar.sh/"
         }
       ]
     },
@@ -10393,6 +9937,14 @@
             "en-US": "Open-source browser based on a fork of Firefox"
           },
           "url": "https://www.palemoon.org/"
+        },
+        {
+          "id": "chromedevtools",
+          "description": {
+            "zh-CN": "直接内置在 Google Chrome 浏览器中的一套 Web 开发者工具",
+            "en-US": "A set of web developer tools built directly into the Google Chrome browser"
+          },
+          "url": "https://developer.chrome.com/docs/devtools/"
         }
       ]
     },
@@ -10558,6 +10110,14 @@
             "en-US": "NVIDIA's parallel computing platform and API"
           },
           "url": "https://developer.nvidia.com/cuda-zone"
+        },
+        {
+          "id": "ros",
+          "description": {
+            "zh-CN": "机器人操作系统 (Robot Operating System)",
+            "en-US": "Robot Operating System"
+          },
+          "url": "https://www.ros.org/"
         }
       ]
     },
@@ -10690,206 +10250,6 @@
       "id": "Other Languages & Tools",
       "icons": [
         {
-          "id": "c",
-          "description": {
-            "zh-CN": "C 编程语言",
-            "en-US": "General-purpose procedural programming language"
-          },
-          "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
-        },
-        {
-          "id": "cpp",
-          "description": {
-            "zh-CN": "C++ 编程语言",
-            "en-US": "General-purpose programming language with low-level memory manipulation"
-          },
-          "url": "https://isocpp.org/"
-        },
-        {
-          "id": "assembly",
-          "description": {
-            "zh-CN": "汇编语言，低级机器指令",
-            "en-US": "Low-level programming language for processor instructions"
-          },
-          "url": "https://en.wikipedia.org/wiki/Assembly_language"
-        },
-        {
-          "id": "asm",
-          "description": {
-            "zh-CN": "汇编语言（别名）",
-            "en-US": "Assembly language (Alias)"
-          },
-          "url": "https://en.wikipedia.org/wiki/Assembly_language"
-        },
-        {
-          "id": "matlab",
-          "description": {
-            "zh-CN": "数学计算和数值分析编程语言",
-            "en-US": "Numerical computing and programming environment by MathWorks"
-          },
-          "url": "https://www.mathworks.com/products/matlab.html"
-        },
-        {
-          "id": "r",
-          "description": {
-            "zh-CN": "统计计算和数据分析编程语言",
-            "en-US": "Statistical computing and graphics programming language"
-          },
-          "url": "https://www.r-project.org/"
-        },
-        {
-          "id": "julia",
-          "description": {
-            "zh-CN": "高性能科学计算编程语言",
-            "en-US": "High-performance programming language for scientific computing"
-          },
-          "url": "https://julialang.org/"
-        },
-        {
-          "id": "latex",
-          "description": {
-            "zh-CN": "专业文档排版系统",
-            "en-US": "High-quality typesetting system for academic and scientific documents"
-          },
-          "url": "https://www.latex-project.org/"
-        },
-        {
-          "id": "tex",
-          "description": {
-            "zh-CN": "TeX 文档排版语言（别名）",
-            "en-US": "TeX typesetting language (Alias)"
-          },
-          "url": "https://en.wikipedia.org/wiki/TeX"
-        },
-        {
-          "id": "markdown",
-          "description": {
-            "zh-CN": "轻量级标记语言",
-            "en-US": "Lightweight markup language for creating formatted text"
-          },
-          "url": "https://daringfireball.net/projects/markdown/"
-        },
-        {
-          "id": "yaml",
-          "description": {
-            "zh-CN": "人类可读的数据序列化格式",
-            "en-US": "Human-readable data serialization language"
-          },
-          "url": "https://yaml.org/"
-        },
-        {
-          "id": "toml",
-          "description": {
-            "zh-CN": "简洁的配置文件格式",
-            "en-US": "Minimal configuration file format"
-          },
-          "url": "https://toml.io/"
-        },
-        {
-          "id": "json",
-          "description": {
-            "zh-CN": "轻量级数据交换格式",
-            "en-US": "Lightweight data-interchange format"
-          },
-          "url": "https://www.json.org/"
-        },
-        {
-          "id": "xml",
-          "description": {
-            "zh-CN": "可扩展标记语言",
-            "en-US": "Extensible Markup Language for data storage and transport"
-          },
-          "url": "https://www.w3.org/XML/"
-        },
-        {
-          "id": "graphql",
-          "description": {
-            "zh-CN": "API 查询语言和运行时",
-            "en-US": "Query language for APIs and runtime for queries"
-          },
-          "url": "https://graphql.org/"
-        },
-        {
-          "id": "regex",
-          "description": {
-            "zh-CN": "正则表达式，用于文本模式匹配",
-            "en-US": "Regular expressions for pattern matching in text"
-          },
-          "url": "https://en.wikipedia.org/wiki/Regular_expression"
-        },
-        {
-          "id": "makefile",
-          "description": {
-            "zh-CN": "GNU Make 构建控制文件",
-            "en-US": "Build automation control file for GNU Make"
-          },
-          "url": "https://www.gnu.org/software/make/manual/make.html"
-        },
-        {
-          "id": "cmake",
-          "description": {
-            "zh-CN": "跨平台构建系统生成工具",
-            "en-US": "Cross-platform build system generator"
-          },
-          "url": "https://cmake.org/"
-        },
-        {
-          "id": "gradle",
-          "description": {
-            "zh-CN": "灵活的 JVM 项目构建自动化工具",
-            "en-US": "Flexible build automation for JVM projects"
-          },
-          "url": "https://gradle.org/"
-        },
-        {
-          "id": "maven",
-          "description": {
-            "zh-CN": "Apache Maven Java 项目管理和构建工具",
-            "en-US": "Java project management and build automation tool"
-          },
-          "url": "https://maven.apache.org/"
-        },
-        {
-          "id": "autohotkey",
-          "description": {
-            "zh-CN": "Windows 键盘和鼠标自动化脚本语言",
-            "en-US": "Windows scripting language for keyboard and mouse automation"
-          },
-          "url": "https://www.autohotkey.com/"
-        },
-        {
-          "id": "powershell",
-          "description": {
-            "zh-CN": "微软跨平台任务自动化 Shell",
-            "en-US": "Cross-platform task automation and configuration management shell"
-          },
-          "url": "https://microsoft.com/powershell"
-        },
-        {
-          "id": "bash",
-          "description": {
-            "zh-CN": "GNU Bash 命令行 Shell 和脚本语言",
-            "en-US": "Unix shell and command language"
-          },
-          "url": "https://www.gnu.org/software/bash/"
-        },
-        {
-          "id": "haxe",
-          "description": {
-            "zh-CN": "跨平台开源编程语言",
-            "en-US": "Open-source cross-platform programming language"
-          },
-          "url": "https://haxe.org/"
-        },
-        {
-          "id": "holyc",
-          "description": {
-            "zh-CN": "TempleOS 专用编程语言",
-            "en-US": "Programming language for the TempleOS operating system"
-          },
-          "url": "https://templeos.org/"
-        },
-        {
           "id": "luau",
           "description": {
             "zh-CN": "Roblox 使用的 Lua 扩展方言",
@@ -10930,138 +10290,50 @@
           "url": "https://en.wikipedia.org/wiki/Verilog"
         },
         {
-          "id": "solidity",
+          "id": "regex",
           "description": {
-            "zh-CN": "以太坊智能合约编程语言",
-            "en-US": "Object-oriented language for Ethereum smart contracts"
+            "zh-CN": "正则表达式",
+            "en-US": "Regular Expression"
           },
-          "url": "https://soliditylang.org/"
-        },
-        {
-          "id": "vala",
-          "description": {
-            "zh-CN": "面向 GNOME 平台的编程语言",
-            "en-US": "Programming language for the GNOME ecosystem"
-          },
-          "url": "https://vala.dev/"
-        },
-        {
-          "id": "visualbasic",
-          "description": {
-            "zh-CN": "微软 Visual Basic .NET 编程语言",
-            "en-US": "Object-oriented programming language for .NET"
-          },
-          "url": "https://learn.microsoft.com/en-us/dotnet/visual-basic/"
-        },
-        {
-          "id": "vb",
-          "description": {
-            "zh-CN": "Visual Basic（别名）",
-            "en-US": "Visual Basic (Alias)"
-          },
-          "url": "https://learn.microsoft.com/en-us/dotnet/visual-basic/"
-        },
-        {
-          "id": "crystal",
-          "description": {
-            "zh-CN": "语法类似 Ruby 的静态类型编程语言",
-            "en-US": "Statically-typed language with Ruby-like syntax"
-          },
-          "url": "https://crystal-lang.org/"
-        },
-        {
-          "id": "d",
-          "description": {
-            "zh-CN": "D 系统级编程语言",
-            "en-US": "Systems programming language with C-like syntax and modern features"
-          },
-          "url": "https://dlang.org/"
-        },
-        {
-          "id": "forth",
-          "description": {
-            "zh-CN": "基于栈的低级编程语言",
-            "en-US": "Stack-based procedural programming language"
-          },
-          "url": "https://en.wikipedia.org/wiki/Forth_(programming_language)"
-        },
-        {
-          "id": "odin",
-          "description": {
-            "zh-CN": "Odin 系统级编程语言",
-            "en-US": "Odin programming language, alternative to C"
-          },
-          "url": "https://odin-lang.org/"
-        },
-        {
-          "id": "pkl",
-          "description": {
-            "zh-CN": "苹果开发的配置语言",
-            "en-US": "Configuration language developed by Apple"
-          },
-          "url": "https://pkl-lang.org/"
-        },
-        {
-          "id": "gleam",
-          "description": {
-            "zh-CN": "运行在 Erlang VM 上的函数式语言",
-            "en-US": "Friendly functional language for building type-safe systems"
-          },
-          "url": "https://gleam.run/"
-        },
-        {
-          "id": "scratch",
-          "description": {
-            "zh-CN": "MIT 开发的面向儿童的可视化编程语言",
-            "en-US": "Visual programming language for children by MIT"
-          },
-          "url": "https://scratch.mit.edu/"
-        },
-        {
-          "id": "uml",
-          "description": {
-            "zh-CN": "统一建模语言，用于软件系统设计",
-            "en-US": "Unified Modeling Language for software system design"
-          },
-          "url": "https://www.uml.org/"
-        },
-        {
-          "id": "ros",
-          "description": {
-            "zh-CN": "机器人操作系统开发框架",
-            "en-US": "Robot Operating System, flexible framework for robot software"
-          },
-          "url": "https://www.ros.org/"
+          "url": "https://en.wikipedia.org/wiki/Regular_expression"
         },
         {
           "id": "restructuredtext",
           "description": {
-            "zh-CN": "可扩展的文本标记语言，常用于 Python 文档",
-            "en-US": "Lightweight markup language primarily used in Python documentation"
+            "zh-CN": "一种易于阅读的、所见即所得的纯文本标记语法和解析系统",
+            "en-US": "An easy-to-read, what-you-see-is-what-you-get plaintext markup syntax and parser system"
           },
           "url": "https://docutils.sourceforge.io/rst.html"
         },
         {
-          "id": "fuse",
+          "id": "tex",
           "description": {
-            "zh-CN": "UX 设计工具（已归档）",
-            "en-US": "UX design and prototyping tool (Archived)"
+            "zh-CN": "由 Donald Knuth 设计和主要编写的排版系统",
+            "en-US": "A typesetting system (or 'formatting system') designed and mostly written by Donald Knuth"
           },
-          "url": "https://fuse-open.github.io/"
+          "url": "https://en.wikipedia.org/wiki/TeX"
         },
         {
-          "id": "agno",
+          "id": "latex",
           "description": {
-            "zh-CN": "Python 多模型 AI 智能体框架",
-            "en-US": "Python framework for building multi-modal AI agents"
+            "zh-CN": "包含多项致力于生成技术和科学文档特性的高质量排版系统",
+            "en-US": "A high-quality typesetting system; it includes features designed for the production of technical and scientific documentation"
           },
-          "url": "https://agno.ai/"
+          "url": "https://www.latex-project.org/"
+        },
+        {
+          "id": "uml",
+          "description": {
+            "zh-CN": "统一建模语言 (Unified Modeling Language)",
+            "en-US": "Unified Modeling Language"
+          },
+          "url": "https://www.uml.org/"
         },
         {
           "id": "aiscript",
           "description": {
-            "zh-CN": "Misskey 平台使用的脚本语言",
-            "en-US": "Scripting language used in the Misskey platform"
+            "zh-CN": "为 Misskey 设计的脚本语言",
+            "en-US": "A scripting language for Misskey"
           },
           "url": "https://github.com/syuilo/aiscript"
         }
@@ -11069,7 +10341,16 @@
     },
     {
       "id": "Other",
-      "icons": []
+      "icons": [
+        {
+          "id": "portfolio",
+          "description": {
+            "zh-CN": "个人作品集与项目展示",
+            "en-US": "Personal portfolio and project showcase"
+          },
+          "url": "#"
+        }
+      ]
     },
     {
       "id": "Uncategorized",

@@ -4,7 +4,7 @@
         "step1": "Select Icons",
         "step2": "Sort Icons",
         "step3": "Generate Code",
-        "searchPlaceholder": "Search icons (e.g., python, react, docker)...",
+        "searchPlaceholder": "Search icons (e.g., js, markdown, docker)...",
         "sortPlaceholder": "Drag icons here to sort",
         "themeLabel": "Theme:",
         "perlineLabel": "Icons per line:",
@@ -17,7 +17,9 @@
         "allCategories": "All",
         "selectAll": "Select All",
         "deselectAll": "Deselect All",
-        "previewAlt": "Preview"
+        "previewAlt": "Preview",
+        "onlineLink": "Online",
+        "githubLink": "GitHub"
     },
     "categories": {
         "Frontend - Languages": "Frontend - Languages",

@@ -27,11 +27,50 @@ body {
   margin: 0 auto;
 }
 
-.lang-switcher {
+.top-actions {
   position: absolute;
   top: 20px;
   right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
   z-index: 100;
+}
+
+.quick-links {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.quick-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: border-color 0.2s, color 0.2s, transform 0.2s;
+}
+
+.quick-link:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+  transform: translateY(-1px);
+}
+
+.quick-link-icon {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+}
+
+.lang-switcher {
+  position: static;
 }
 
 .lang-switcher select {
@@ -453,6 +492,15 @@ textarea {
 .copy-btn:hover {
   background-color: var(--accent-color);
   color: #000;
+}
+
+@media (max-width: 900px) {
+  .top-actions {
+    position: static;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+  }
 }
 
 /* Scrollbar */

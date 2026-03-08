@@ -31,6 +31,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     const copyBtn = document.getElementById('copy-btn');
     const categoryFilters = document.getElementById('category-filters');
     const langSelect = document.getElementById('lang-select');
+    const onlineLinkText = document.getElementById('ui-link-online');
+    const githubLinkText = document.getElementById('ui-link-github');
     // Vite natively exposes the base path setup in vite.config.js through import.meta.env.BASE_URL
     // The trailing slash matches the base path config, so we append the remaining relative url
     const BASE_PATH = import.meta.env.BASE_URL;
@@ -327,6 +329,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         copyBtn.innerText = t.copyBtn;
         markdownOutput.placeholder = t.markdownPlaceholder;
         previewImg.alt = t.previewAlt;
+        if (onlineLinkText) {
+            onlineLinkText.innerText = t.onlineLink || (state.lang === 'zh-CN' ? '在线' : 'Online');
+        }
+        if (githubLinkText) {
+            githubLinkText.innerText = t.githubLink || 'GitHub';
+        }
 
         const placeholder = sortContainer.querySelector('.sort-placeholder');
         if (placeholder) placeholder.innerText = t.sortPlaceholder;

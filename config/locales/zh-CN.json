@@ -4,7 +4,7 @@
         "step1": "选择图标",
         "step2": "排序图标",
         "step3": "生成代码",
-        "searchPlaceholder": "搜索图标 (例如: python, react, docker)...",
+        "searchPlaceholder": "搜索图标 (例如: js, markdown, docker)...",
         "sortPlaceholder": "在此处拖动图标进行排序",
         "themeLabel": "主题:",
         "perlineLabel": "每行数量:",
@@ -17,7 +17,9 @@
         "allCategories": "全部",
         "selectAll": "全选",
         "deselectAll": "取消全选",
-        "previewAlt": "预览"
+        "previewAlt": "预览",
+        "onlineLink": "在线",
+        "githubLink": "GitHub"
     },
     "categories": {
         "Frontend - Languages": "前端开发 - 语言",

@@ -19,7 +19,8 @@
         "deselectAll": "Deselect All",
         "previewAlt": "Preview",
         "onlineLink": "Online",
-        "githubLink": "GitHub"
+        "githubLink": "GitHub",
+        "iconLibraryLink": "Icons"
     },
     "categories": {
         "Frontend - Languages": "Frontend - Languages",

@@ -1,12 +1,14 @@
-# 技能图标生成器 (Skill Icons Generator)
+# 技能图标选择器 (Skill Icons Picker)
 
 [English](README.md) | 简体中文
 
 ---
 
-一个现代化、互动式的 Web 工具，帮助你为 [skill-icons](https://github.com/LelouchFR/skill-icons) 挑选、排序并生成 Markdown 代码。
+挑选图标、拖拽排序，自动生成 Markdown 代码。
 
 🌟 **在线体验： [https://evgo2017.com/skill-icons-picker](https://evgo2017.com/skill-icons-picker)**
+
+[![My Skills](https://go-skill-icons.vercel.app/api/icons?i=html%2Ccss%2Cjavascript%2Cmarkdown%2Cjson%2Cgit%2Cgithub%2Cvuejs%2Cdotnet%2Ccs%2Cdocker%2Cnginx&theme=dark)](https://go-skill-icons.vercel.app)
 
 ![image-20260309040510356](./assets/image-20260309040510356.png)
 
@@ -20,7 +22,7 @@
 
 ### 🔄 更新机制
 本项目采用自动化更新与手动分类相结合的模式：
-1. **自动化图标同步**：通过 GitHub Actions 每天自动从 `LelouchFR/skill-icons` 官方仓库获取最新图标。
+1. **自动化图标同步**：通过 GitHub Actions 每天自动从 [LelouchFR/skill-icons](https://github.com/LelouchFR/skill-icons) 官方仓库获取最新图标。
 2. **自动待分类**：新同步到的图标会默认放入 **"Uncategorized" (待分类)** 区域。
 3. **维护与分类**：如需将图标移动到特定分组（如“前端”、“后端”）：
     - 修改 `config/categories.json`，将图标 ID 从 `"Uncategorized"` 移动到目标分类中。
@@ -37,3 +39,8 @@
 4. 手动生成图标数据：`npm run generate`。
 5. 本地开发前请先执行一次 `npm run generate`（dev 模式会读取 `generated-icons/manifest.json`）。
 6. 启动开发服务器：`npm run dev`。
+
+### 致谢与许可 (Credits & License)
+
+- **图标库原始项目**: [LelouchFR/skill-icons](https://github.com/LelouchFR/skill-icons)
+- **本项目**: 本工具遵循 GNU General Public License v3.0 (GPL-3.0) 许可协议开源。详情请参阅 [LICENSE](./LICENSE.txt) 文件。

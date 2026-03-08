@@ -19,7 +19,8 @@
         "deselectAll": "取消全选",
         "previewAlt": "预览",
         "onlineLink": "在线",
-        "githubLink": "GitHub"
+        "githubLink": "GitHub",
+        "iconLibraryLink": "图标库"
     },
     "categories": {
         "Frontend - Languages": "前端开发 - 语言",

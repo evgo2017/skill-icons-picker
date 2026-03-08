@@ -1,12 +1,14 @@
-# Skill Icons Generator
+# Skill Icons Picker
 
 English | [简体中文](README-zh.md)
 
 ---
 
-A modern, interactive web tool to help you pick, sort, and generate Markdown code for [skill-icons](https://github.com/LelouchFR/skill-icons).
+Pick icons, drag to sort, and automatically generate Markdown code.
 
 🌟 **Live Demo: [https://evgo2017.com/skill-icons-picker](https://evgo2017.com/skill-icons-picker)**
+
+[![My Skills](https://go-skill-icons.vercel.app/api/icons?i=html%2Ccss%2Cjavascript%2Cmarkdown%2Cjson%2Cgit%2Cgithub%2Cvuejs%2Cdotnet%2Ccs%2Cdocker%2Cnginx&theme=dark)](https://go-skill-icons.vercel.app)
 
 ![image-20260309040442927](./assets/image-20260309040442927.png)
 
@@ -20,7 +22,7 @@ A modern, interactive web tool to help you pick, sort, and generate Markdown cod
 
 ### 🔄 Update Mechanism
 This project is designed for low-maintenance consistency with the upstream source:
-1. **Automated Icon Sync**: A GitHub Action runs daily to fetch the latest icons from the official `LelouchFR/skill-icons` repository.
+1. **Automated Icon Sync**: A GitHub Action runs daily to fetch the latest icons from the official [LelouchFR/skill-icons](https://github.com/LelouchFR/skill-icons) repository.
 2. **Auto-Categorization**: Newly discovered icons are automatically added to the **"Uncategorized"** section.
 3. **Maintenance & Categorization**: To move icons to specific groups (e.g., "Frontend", "Backend"):
     - Update the `config/categories.json` file by moving the icon ID from `"Uncategorized"` to your target category.
@@ -37,3 +39,8 @@ This project is designed for low-maintenance consistency with the upstream sourc
 4. Regenerate icon data: `npm run generate`.
 5. For local dev data, generate once first: `npm run generate` (the app reads from `generated-icons/manifest.json` in dev mode).
 6. Run dev server: `npm run dev`.
+
+### Credits & License
+
+- **Icon Source Project**: [LelouchFR/skill-icons](https://github.com/LelouchFR/skill-icons)
+- **This Project**: This tool is open-sourced under the GNU General Public License v3.0 (GPL-3.0). See the [LICENSE](./LICENSE.txt) file for details.

@@ -336,6 +336,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             githubLinkText.innerText = t.githubLink || 'GitHub';
         }
 
+        const iconLibraryLinkText = document.getElementById('ui-link-icon-library');
+        if (iconLibraryLinkText) {
+            iconLibraryLinkText.innerText = t.iconLibraryLink || 'Icons';
+        }
+
         const placeholder = sortContainer.querySelector('.sort-placeholder');
         if (placeholder) placeholder.innerText = t.sortPlaceholder;
     }

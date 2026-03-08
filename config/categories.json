@@ -42,20 +42,20 @@
           ]
         },
         {
+          "id": "htmx",
+          "description": {
+            "zh-CN": "直接使用 HTML 属性来访问现代浏览器功能的库",
+            "en-US": "high power tools for HTML"
+          },
+          "url": "https://htmx.org/"
+        },
+        {
           "id": "coffeescript",
           "description": {
             "zh-CN": "一门编译到 JavaScript 的轻量级语言",
             "en-US": "A little language that compiles into JavaScript"
           },
           "url": "https://coffeescript.org/"
-        },
-        {
-          "id": "elm",
-          "description": {
-            "zh-CN": "一种用于浏览器端应用程序的函数式编程语言",
-            "en-US": "A delightful language for reliable web applications"
-          },
-          "url": "https://elm-lang.org/"
         },
         {
           "id": "webassembly",
@@ -67,14 +67,6 @@
           "alias": [
             "wasm"
           ]
-        },
-        {
-          "id": "pug",
-          "description": {
-            "zh-CN": "一个健壮的、专门为 Node.js 平台开发的模板引擎",
-            "en-US": "A robust, elegant, feature rich template engine for Node.js"
-          },
-          "url": "https://pugjs.org/"
         },
         {
           "id": "ejs",
@@ -120,6 +112,14 @@
           "url": "https://toml.io/"
         },
         {
+          "id": "pug",
+          "description": {
+            "zh-CN": "一个健壮的、专门为 Node.js 平台开发的模板引擎",
+            "en-US": "A robust, elegant, feature rich template engine for Node.js"
+          },
+          "url": "https://pugjs.org/"
+        },
+        {
           "id": "nunjucks",
           "description": {
             "zh-CN": "适用于 JavaScript 的强大的模板引擎",
@@ -134,6 +134,14 @@
             "en-US": "The flexible, fast, and secure template engine for PHP"
           },
           "url": "https://twig.symfony.com/"
+        },
+        {
+          "id": "elm",
+          "description": {
+            "zh-CN": "一种用于浏览器端应用程序的函数式编程语言",
+            "en-US": "A delightful language for reliable web applications"
+          },
+          "url": "https://elm-lang.org/"
         }
       ]
     },
@@ -184,14 +192,6 @@
           ]
         },
         {
-          "id": "preact",
-          "description": {
-            "zh-CN": "一个只有 3kB 大小的 React 替代方案，拥有相同的 ES6 API",
-            "en-US": "Fast 3kB alternative to React with the same modern API"
-          },
-          "url": "https://preactjs.com/"
-        },
-        {
           "id": "nextjs",
           "description": {
             "zh-CN": "用于构建现代 Web 应用程序的 React 框架",
@@ -206,6 +206,14 @@
             "en-US": "The Intuitive Vue Framework"
           },
           "url": "https://nuxt.com/"
+        },
+        {
+          "id": "preact",
+          "description": {
+            "zh-CN": "一个只有 3kB 大小的 React 替代方案，拥有相同的 ES6 API",
+            "en-US": "Fast 3kB alternative to React with the same modern API"
+          },
+          "url": "https://preactjs.com/"
         },
         {
           "id": "gatsby",
@@ -230,6 +238,22 @@
             "en-US": "Focused on web standards and modern web app UX"
           },
           "url": "https://remix.run/"
+        },
+        {
+          "id": "blazor",
+          "description": {
+            "zh-CN": "允许使用 C# 代替 JavaScript 构建交互式客户端 Web UI",
+            "en-US": "Build client web apps with C#"
+          },
+          "url": "https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor"
+        },
+        {
+          "id": "axios",
+          "description": {
+            "zh-CN": "基于 Promise 的 HTTP 客户端，适用于浏览器和 Node.js",
+            "en-US": "Promise based HTTP client for the browser and node.js"
+          },
+          "url": "https://axios-http.com/"
         },
         {
           "id": "jquery",
@@ -283,22 +307,6 @@
           "url": "https://yew.rs/"
         },
         {
-          "id": "htmx",
-          "description": {
-            "zh-CN": "直接使用 HTML 属性来访问现代浏览器功能的库",
-            "en-US": "high power tools for HTML"
-          },
-          "url": "https://htmx.org/"
-        },
-        {
-          "id": "blazor",
-          "description": {
-            "zh-CN": "允许使用 C# 代替 JavaScript 构建交互式客户端 Web UI",
-            "en-US": "Build client web apps with C#"
-          },
-          "url": "https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor"
-        },
-        {
           "id": "barbajs",
           "description": {
             "zh-CN": "在你的网站页面之间创建流畅平滑的过渡",
@@ -344,17 +352,6 @@
           "url": "https://getbootstrap.com/"
         },
         {
-          "id": "tailwindcss",
-          "description": {
-            "zh-CN": "一个功能类优先的 CSS 框架",
-            "en-US": "A utility-first CSS framework"
-          },
-          "url": "https://tailwindcss.com/",
-          "alias": [
-            "tailwind"
-          ]
-        },
-        {
           "id": "sass",
           "description": {
             "zh-CN": "世界上最成熟、稳定、强大的专业级 CSS 扩展语言",
@@ -382,12 +379,77 @@
           "url": "https://stylus-lang.com/"
         },
         {
+          "id": "postcss",
+          "description": {
+            "zh-CN": "一个用 JavaScript 转换 CSS 的工具",
+            "en-US": "A tool for transforming CSS with JavaScript"
+          },
+          "url": "https://postcss.org/"
+        },
+        {
           "id": "materialui",
           "description": {
             "zh-CN": "MUI (别名)",
             "en-US": "MUI (Alias)"
           },
           "url": "https://mui.com/"
+        },
+        {
+          "id": "tailwindcss",
+          "description": {
+            "zh-CN": "一个功能类优先的 CSS 框架",
+            "en-US": "A utility-first CSS framework"
+          },
+          "url": "https://tailwindcss.com/",
+          "alias": [
+            "tailwind"
+          ]
+        },
+        {
+          "id": "radix",
+          "description": {
+            "zh-CN": "无样式的可访问组件，用于构建设计系统",
+            "en-US": "Unstyled, accessible components for building design systems"
+          },
+          "url": "https://www.radix-ui.com/",
+          "alias": [
+            "radixui"
+          ]
+        },
+        {
+          "id": "shadcn",
+          "description": {
+            "zh-CN": "使用 Radix UI 和 Tailwind CSS 构建的设计精美的组件库",
+            "en-US": "Beautifully designed components built with Radix UI and Tailwind CSS"
+          },
+          "url": "https://ui.shadcn.com/",
+          "alias": [
+            "shadcnui"
+          ]
+        },
+        {
+          "id": "element",
+          "description": {
+            "zh-CN": "为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库",
+            "en-US": "Vue.js 2 Desktop UI Toolkit"
+          },
+          "url": "https://element.eleme.io/"
+        },
+        {
+          "id": "elementplus",
+          "description": {
+            "zh-CN": "基于 Vue 3 的前端组件库",
+            "en-US": "A Vue 3 based component library"
+          },
+          "url": "https://element-plus.org/"
+        },
+        {
+          "id": "antdesign",
+          "description": {
+            "zh-CN": "Ant Design (别名)",
+            "en-US": "Ant Design (Alias)"
+          },
+          "url": "https://ant.design/"
         },
         {
           "id": "vuetify",
@@ -489,66 +551,12 @@
           "url": "https://www.primefaces.org/primevue/"
         },
         {
-          "id": "radix",
-          "description": {
-            "zh-CN": "无样式的可访问组件，用于构建设计系统",
-            "en-US": "Unstyled, accessible components for building design systems"
-          },
-          "url": "https://www.radix-ui.com/",
-          "alias": [
-            "radixui"
-          ]
-        },
-        {
-          "id": "shadcn",
-          "description": {
-            "zh-CN": "使用 Radix UI 和 Tailwind CSS 构建的设计精美的组件库",
-            "en-US": "Beautifully designed components built with Radix UI and Tailwind CSS"
-          },
-          "url": "https://ui.shadcn.com/",
-          "alias": [
-            "shadcnui"
-          ]
-        },
-        {
-          "id": "element",
-          "description": {
-            "zh-CN": "为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库",
-            "en-US": "Vue.js 2 Desktop UI Toolkit"
-          },
-          "url": "https://element.eleme.io/"
-        },
-        {
-          "id": "elementplus",
-          "description": {
-            "zh-CN": "基于 Vue 3 的前端组件库",
-            "en-US": "A Vue 3 based component library"
-          },
-          "url": "https://element-plus.org/"
-        },
-        {
-          "id": "antdesign",
-          "description": {
-            "zh-CN": "Ant Design (别名)",
-            "en-US": "Ant Design (Alias)"
-          },
-          "url": "https://ant.design/"
-        },
-        {
           "id": "skeletonui",
           "description": {
             "zh-CN": "使用 Svelte 和 Tailwind 构建响应式界面的 UI 库",
             "en-US": "UI library for building reactive interfaces"
           },
           "url": "https://www.skeleton.dev/"
-        },
-        {
-          "id": "postcss",
-          "description": {
-            "zh-CN": "一个用 JavaScript 转换 CSS 的工具",
-            "en-US": "A tool for transforming CSS with JavaScript"
-          },
-          "url": "https://postcss.org/"
         },
         {
           "id": "framer",
@@ -621,14 +629,6 @@
             "en-US": "Modern & Interactive Open-source Charts"
           },
           "url": "https://apexcharts.com/"
-        },
-        {
-          "id": "axios",
-          "description": {
-            "zh-CN": "基于 Promise 的 HTTP 客户端，适用于浏览器和 Node.js",
-            "en-US": "Promise based HTTP client for the browser and node.js"
-          },
-          "url": "https://axios-http.com/"
         },
         {
           "id": "elementor",

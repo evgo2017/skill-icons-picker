@@ -6,6 +6,10 @@ English | [简体中文](README-zh.md)
 
 A modern, interactive web tool to help you pick, sort, and generate Markdown code for [skill-icons](https://github.com/LelouchFR/skill-icons).
 
+🌟 **Live Demo: [https://evgo2017.com/skill-icons-picker](https://evgo2017.com/skill-icons-picker)**
+
+![image-20260309040442927](./assets/image-20260309040442927.png)
+
 ### 🚀 Key Features
 - **Icon Picker**: Browse and search through hundreds of technology icons.
 - **Interactive Sorting**: Drag and drop icons to arrange them exactly how you want.

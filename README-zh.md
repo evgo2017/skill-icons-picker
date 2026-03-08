@@ -6,6 +6,10 @@
 
 一个现代化、互动式的 Web 工具，帮助你为 [skill-icons](https://github.com/LelouchFR/skill-icons) 挑选、排序并生成 Markdown 代码。
 
+🌟 **在线体验： [https://evgo2017.com/skill-icons-picker](https://evgo2017.com/skill-icons-picker)**
+
+![image-20260309040510356](./assets/image-20260309040510356.png)
+
 ### 🚀 核心功能
 - **图标挑选**：浏览并搜索数百个技术栈图标。
 - **互动排序**：通过拖拽方式按你喜欢的顺序排列图标。

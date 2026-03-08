@@ -23,8 +23,10 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Run sync script
-        run: python sync_icons.py
+      - name: Run sync and generate scripts
+        run: |
+          python sync_icons.py
+          python generate_icons.py
 
       - name: Check for changes
         id: git-check

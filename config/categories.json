@@ -1,6 +1,15 @@
 {
   "categories": [
     {
+      "id": "Uncategorized",
+      "icons": [
+        "chi",
+        "pypi",
+        "rclone",
+        "taiga"
+      ]
+    },
+    {
       "id": "Frontend - Languages",
       "icons": [
         "html",

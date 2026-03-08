@@ -3,14 +3,16 @@ import os
 import json
 import re
 
-assets_dir = r"e:\A_Repos_项目\skill-icons-main\assets"
-output_file = r"e:\A_Repos_项目\skill-icons-main\public\icons.js"
+PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
+
+assets_dir = os.path.join(PROJECT_DIR, "assets")
+output_file = os.path.join(PROJECT_DIR, "public", "icons.js")
 
 os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
 # 1. Load Categories and Multi-language Locales
-config_path = r"e:\A_Repos_项目\skill-icons-main\config\categories.json"
-locales_dir = r"e:\A_Repos_项目\skill-icons-main\config\locales"
+config_path = os.path.join(PROJECT_DIR, "config", "categories.json")
+locales_dir = os.path.join(PROJECT_DIR, "config", "locales")
 
 categories_map = {}
 locales_map = {}

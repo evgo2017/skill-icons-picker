@@ -162,6 +162,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             await ensureCategoryLoaded(state.activeCategory);
             renderSingleCategory(state.activeCategory);
         }
+        updateIconsContainerOverflowMode();
     }
 
     function buildSearchMatches(query) {
@@ -198,6 +199,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (matchedIcons.length === 0) continue;
             createCategorySection(category, matchedIcons);
         }
+        updateIconsContainerOverflowMode();
     }
 
     async function init() {
@@ -217,6 +219,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         updateUIForLanguage();
         renderCategoryFilters();
         await renderActiveCategoryView();
+        window.addEventListener('resize', updateIconsContainerOverflowMode);
         initSortable();
         updatePreview();
 
@@ -348,6 +351,13 @@ document.addEventListener('DOMContentLoaded', async () => {
         return iconObj.description[state.lang] || iconObj.description['en-US'] || iconObj.id;
     }
 
+    function updateIconsContainerOverflowMode() {
+        window.requestAnimationFrame(() => {
+            const hasVerticalOverflow = iconsContainer.scrollHeight > iconsContainer.clientHeight + 1;
+            iconsContainer.classList.toggle('no-vertical-overflow', !hasVerticalOverflow);
+        });
+    }
+
     function renderAllCategories() {
         iconsContainer.innerHTML = '';
         getOrderedCategories().forEach(cat => {
@@ -355,6 +365,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (icons.length === 0) return;
             createCategorySection(cat, icons);
         });
+        updateIconsContainerOverflowMode();
     }
 
     function createCategoryPlaceholderSection(catName) {
@@ -423,6 +434,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
         const realSection = buildCategorySectionElement(catName, icons);
         placeholderSection.replaceWith(realSection);
+        updateIconsContainerOverflowMode();
     }
 
     function renderAllCategoriesLazy() {
@@ -450,6 +462,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const placeholders = iconsContainer.querySelectorAll('.category-section[data-category]');
         placeholders.forEach((section) => allCategoriesObserver.observe(section));
+        updateIconsContainerOverflowMode();
     }
 
     function renderSingleCategory(cat) {
@@ -457,6 +470,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (iconsData.icons[cat]) {
             createCategorySection(cat, iconsData.icons[cat]);
         }
+        updateIconsContainerOverflowMode();
     }
 
     function createCategorySection(catName, icons) {
@@ -565,7 +579,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const containerRect = container.getBoundingClientRect();
             const iconRect = div.getBoundingClientRect();
             const tooltips = div.querySelectorAll('.icon-tooltip, .icon-desc-tooltip');
-            
+
             tooltips.forEach(t => {
                 t.classList.remove('anchor-left', 'anchor-right');
                 // Estimate tooltip width

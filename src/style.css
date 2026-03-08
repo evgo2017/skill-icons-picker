@@ -126,6 +126,10 @@ h2 {
   padding: 10px;
 }
 
+#icons-container.no-vertical-overflow {
+  overflow-y: visible;
+}
+
 /* Optional: Light mode background for grid to see light icons better? */
 #icons-container.light-theme {
   background-color: #f6f8fa;
@@ -301,6 +305,7 @@ h2 {
 .icon-tooltip {
   bottom: calc(100% + 6px);
   white-space: nowrap;
+  z-index: 10001;
 }
 
 /* Description tooltip — below the icon, wraps */
@@ -311,6 +316,7 @@ h2 {
   width: max-content;
   max-width: 260px;
   text-align: center;
+  z-index: 10000;
 }
 
 /* Edge adjustment: anchor to left edge of icon instead of centering */

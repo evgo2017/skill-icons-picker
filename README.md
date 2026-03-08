@@ -18,8 +18,10 @@ A modern, interactive web tool to help you pick, sort, and generate Markdown cod
 This project is designed for low-maintenance consistency with the upstream source:
 1. **Automated Icon Sync**: A GitHub Action runs daily to fetch the latest icons from the official `LelouchFR/skill-icons` repository.
 2. **Auto-Categorization**: Newly discovered icons are automatically added to the **"Uncategorized"** section.
-3. **Manual Categorization**: To move icons to specific groups (e.g., "Frontend", "Backend"), simply update the `config/categories.json` file.
-4. **Data Generation**: The `generate_icons.py` script is then executed to regenerate `public/icons.js`, which the frontend uses to display the icons. The build process handles this automatically.
+3. **Maintenance & Categorization**: To move icons to specific groups (e.g., "Frontend", "Backend"):
+    - Update the `config/categories.json` file by moving the icon ID from `"Uncategorized"` to your target category.
+    - The build process (or `npm run generate`) will then use `generate-icons.mjs` to update `public/icons.js`.
+    - **This is the primary way to contribute via Pull Requests!**
 
 ### 🛠️ Development & Deployment
 - **Deployment**: Automatically built and deployed to GitHub Pages via GitHub Actions.
@@ -27,6 +29,6 @@ This project is designed for low-maintenance consistency with the upstream sourc
 #### Local Setup
 1. Clone the repository.
 2. Install dependencies: `npm install`.
-3. Run dev server: `npm run dev`.
-4. Sync icons manually: `python sync_icons.py`.
-5. Regenerate icon data: `python generate_icons.py`.
+3. (Optional) Sync icons manually: `python sync_icons.py`.
+4. Regenerate icon data: `npm run generate`.
+5. Run dev server: `npm run dev`.

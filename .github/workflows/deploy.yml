@@ -22,14 +22,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-          
-      - name: Generate latest icons.js
-        run: python generate_icons.py
-
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -38,6 +30,9 @@ jobs:
 
       - name: Install dependencies
         run: npm ci || npm install
+
+      - name: Generate latest icons.js
+        run: npm run generate
 
       - name: Build with Vite
         run: npm run build

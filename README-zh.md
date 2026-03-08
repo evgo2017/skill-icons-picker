@@ -18,8 +18,10 @@
 本项目采用自动化更新与手动分类相结合的模式：
 1. **自动化图标同步**：通过 GitHub Actions 每天自动从 `LelouchFR/skill-icons` 官方仓库获取最新图标。
 2. **自动待分类**：新同步到的图标会默认放入 **"Uncategorized" (待分类)** 区域。
-3. **手动维护分类**：如需将图标移动到特定分组（如“前端”、“后端”），只需修改 `config/categories.json` 文件。
-4. **数据生成**：最后通过运行 `generate_icons.py` 脚本根据分类配置和素材库重新生成 `public/icons.js`。构建系统会自动处理此步骤。
+3. **维护与分类**：如需将图标移动到特定分组（如“前端”、“后端”）：
+    - 修改 `config/categories.json`，将图标 ID 从 `"Uncategorized"` 移动到目标分类中。
+    - 构建系统（或执行 `npm run generate`）会调用 `generate-icons.mjs` 根据新的分类手动生成 `public/icons.js`。
+    - **这是提交 Pull Request 进行贡献的主要方式！**
 
 ### 🛠️ 开发与部署
 - **部署**：通过 GitHub Actions 自动构建并发布到 GitHub Pages。
@@ -27,6 +29,6 @@
 #### 本地开发
 1. 克隆仓库。
 2. 安装依赖：`npm install`。
-3. 启动开发服务器：`npm run dev`。
-4. 手动同步图标：`python sync_icons.py`。
-5. 手动生成图标数据：`python generate_icons.py`。
+3. (可选）手动同步图标：`python sync_icons.py`。
+4. 手动生成图标数据：`npm run generate`。
+5. 启动开发服务器：`npm run dev`。

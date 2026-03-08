@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "generate": "python generate_icons.py",
+    "generate": "node generate-icons.mjs",
     "sync": "python sync_icons.py"
   },
   "devDependencies": {

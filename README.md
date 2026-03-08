@@ -6,7 +6,7 @@ English | [简体中文](README-zh.md)
 
 Pick icons, drag to sort, and automatically generate Markdown code.
 
-🌟 **Live Demo: [https://evgo2017.com/skill-icons-picker](https://evgo2017.com/skill-icons-picker)**
+🌟 **Live Demo: [https://evgo2017.com/project/skill-icons-picker](https://evgo2017.com/project/skill-icons-picker)**
 
 [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=html%2Ccss%2Cjavascript%2Cmarkdown%2Cjson%2Cgit%2Cgithub%2Cvuejs%2Cdocker%2Ccs%2Cdotnet%2Cdeepseek%2Cgemini%2Cclaude&theme=dark)](https://go-skill-icons.vercel.app)
 

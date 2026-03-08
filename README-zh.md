@@ -6,7 +6,7 @@
 
 挑选图标、拖拽排序，自动生成 Markdown 代码。
 
-🌟 **在线体验： [https://evgo2017.com/skill-icons-picker](https://evgo2017.com/skill-icons-picker)**
+🌟 **在线体验： [https://evgo2017.com/project/skill-icons-picker](https://evgo2017.com/project/skill-icons-picker)**
 
 [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=html%2Ccss%2Cjavascript%2Cmarkdown%2Cjson%2Cgit%2Cgithub%2Cvuejs%2Cdocker%2Ccs%2Cdotnet%2Cdeepseek%2Cgemini%2Cclaude&theme=dark)](https://go-skill-icons.vercel.app)
 

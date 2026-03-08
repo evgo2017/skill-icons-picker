@@ -130,7 +130,44 @@ const iconsData = {
     }
   },
   "icons": {
-    "Other": [],
+    "待分类": [
+      {
+        "id": "chi",
+        "name": "chi",
+        "files": {
+          "light": "chi-light.svg",
+          "dark": "chi-dark.svg"
+        },
+        "category": "待分类"
+      },
+      {
+        "id": "pypi",
+        "name": "pypi",
+        "files": {
+          "light": "pypi.svg",
+          "dark": "pypi.svg"
+        },
+        "category": "待分类"
+      },
+      {
+        "id": "rclone",
+        "name": "rclone",
+        "files": {
+          "light": "rclone-light.svg",
+          "dark": "rclone-dark.svg"
+        },
+        "category": "待分类"
+      },
+      {
+        "id": "taiga",
+        "name": "taiga",
+        "files": {
+          "light": "taiga-light.svg",
+          "dark": "taiga-dark.svg"
+        },
+        "category": "待分类"
+      }
+    ],
     "Frontend - Languages": [
       {
         "id": "coffeescript",
@@ -196,24 +233,6 @@ const iconsData = {
         "category": "Frontend - Languages"
       },
       {
-        "id": "json",
-        "name": "json",
-        "files": {
-          "light": "json-light.svg",
-          "dark": "json-dark.svg"
-        },
-        "category": "Frontend - Languages"
-      },
-      {
-        "id": "markdown",
-        "name": "markdown",
-        "files": {
-          "light": "markdown-light.svg",
-          "dark": "markdown-dark.svg"
-        },
-        "category": "Frontend - Languages"
-      },
-      {
         "id": "nunjucks",
         "name": "nunjucks",
         "files": {
@@ -228,15 +247,6 @@ const iconsData = {
         "files": {
           "light": "pug-light.svg",
           "dark": "pug-dark.svg"
-        },
-        "category": "Frontend - Languages"
-      },
-      {
-        "id": "toml",
-        "name": "toml",
-        "files": {
-          "light": "toml-light.svg",
-          "dark": "toml-dark.svg"
         },
         "category": "Frontend - Languages"
       },
@@ -264,15 +274,6 @@ const iconsData = {
         "files": {
           "light": "webassembly.svg",
           "dark": "webassembly.svg"
-        },
-        "category": "Frontend - Languages"
-      },
-      {
-        "id": "yaml",
-        "name": "yaml",
-        "files": {
-          "light": "yaml-light.svg",
-          "dark": "yaml-dark.svg"
         },
         "category": "Frontend - Languages"
       }
@@ -333,15 +334,6 @@ const iconsData = {
         "category": "Frontend - Frameworks"
       },
       {
-        "id": "blazor",
-        "name": "blazor",
-        "files": {
-          "light": "blazor-light.svg",
-          "dark": "blazor-dark.svg"
-        },
-        "category": "Frontend - Frameworks"
-      },
-      {
         "id": "ember",
         "name": "ember",
         "files": {
@@ -383,15 +375,6 @@ const iconsData = {
         "files": {
           "light": "lit-light.svg",
           "dark": "lit-dark.svg"
-        },
-        "category": "Frontend - Frameworks"
-      },
-      {
-        "id": "livewire",
-        "name": "livewire",
-        "files": {
-          "light": "livewire-light.svg",
-          "dark": "livewire-dark.svg"
         },
         "category": "Frontend - Frameworks"
       },
@@ -473,15 +456,6 @@ const iconsData = {
         "files": {
           "light": "vuejs-light.svg",
           "dark": "vuejs-dark.svg"
-        },
-        "category": "Frontend - Frameworks"
-      },
-      {
-        "id": "yew",
-        "name": "yew",
-        "files": {
-          "light": "yew-light.svg",
-          "dark": "yew-dark.svg"
         },
         "category": "Frontend - Frameworks"
       },
@@ -960,15 +934,6 @@ const iconsData = {
         "category": "Frontend - Build Tools"
       },
       {
-        "id": "cmake",
-        "name": "cmake",
-        "files": {
-          "light": "cmake-light.svg",
-          "dark": "cmake-dark.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
         "id": "composer",
         "name": "composer",
         "files": {
@@ -1014,15 +979,6 @@ const iconsData = {
         "category": "Frontend - Build Tools"
       },
       {
-        "id": "gradle",
-        "name": "gradle",
-        "files": {
-          "light": "gradle-light.svg",
-          "dark": "gradle-dark.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
         "id": "grunt",
         "name": "grunt",
         "files": {
@@ -1064,15 +1020,6 @@ const iconsData = {
         "files": {
           "light": "lynxjs-light.svg",
           "dark": "lynxjs-dark.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
-        "id": "maven",
-        "name": "maven",
-        "files": {
-          "light": "maven-light.svg",
-          "dark": "maven-dark.svg"
         },
         "category": "Frontend - Build Tools"
       },
@@ -1212,15 +1159,6 @@ const iconsData = {
         "category": "Frontend - Build Tools"
       },
       {
-        "id": "tauri",
-        "name": "tauri",
-        "files": {
-          "light": "tauri-light.svg",
-          "dark": "tauri-dark.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
         "id": "turborepo",
         "name": "turborepo",
         "files": {
@@ -1277,110 +1215,11 @@ const iconsData = {
     ],
     "Backend - Languages": [
       {
-        "id": "aiscript",
-        "name": "aiscript",
-        "files": {
-          "light": "aiscript-light.svg",
-          "dark": "aiscript-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "api",
-        "name": "api",
-        "files": {
-          "light": "api-light.svg",
-          "dark": "api-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
         "id": "apidog",
         "name": "apidog",
         "files": {
           "light": "apidog-light.svg",
           "dark": "apidog-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "assembly",
-        "name": "assembly",
-        "files": {
-          "light": "assembly.svg",
-          "dark": "assembly.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "bash",
-        "name": "bash",
-        "files": {
-          "light": "bash-light.svg",
-          "dark": "bash-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "c",
-        "name": "c",
-        "files": {
-          "light": "c.svg",
-          "dark": "c.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "clojure",
-        "name": "clojure",
-        "files": {
-          "light": "clojure-light.svg",
-          "dark": "clojure-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "cpp",
-        "name": "cpp",
-        "files": {
-          "light": "cpp.svg",
-          "dark": "cpp.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "crystal",
-        "name": "crystal",
-        "files": {
-          "light": "crystal-light.svg",
-          "dark": "crystal-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "d",
-        "name": "d",
-        "files": {
-          "light": "d.svg",
-          "dark": "d.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "dart",
-        "name": "dart",
-        "files": {
-          "light": "dart-light.svg",
-          "dark": "dart-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "dotnet",
-        "name": "dotnet",
-        "files": {
-          "light": "dotnet.svg",
-          "dark": "dotnet.svg"
         },
         "category": "Backend - Languages"
       },
@@ -1403,38 +1242,11 @@ const iconsData = {
         "category": "Backend - Languages"
       },
       {
-        "id": "forth",
-        "name": "forth",
-        "files": {
-          "light": "forth.svg",
-          "dark": "forth.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
         "id": "fortran",
         "name": "fortran",
         "files": {
           "light": "fortran.svg",
           "dark": "fortran.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "fuse",
-        "name": "fuse",
-        "files": {
-          "light": "fuse.svg",
-          "dark": "fuse.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "gleam",
-        "name": "gleam",
-        "files": {
-          "light": "gleam-light.svg",
-          "dark": "gleam-dark.svg"
         },
         "category": "Backend - Languages"
       },
@@ -1466,24 +1278,6 @@ const iconsData = {
         "category": "Backend - Languages"
       },
       {
-        "id": "haxe",
-        "name": "haxe",
-        "files": {
-          "light": "haxe-light.svg",
-          "dark": "haxe-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "holyc",
-        "name": "holyc",
-        "files": {
-          "light": "holyc.svg",
-          "dark": "holyc.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
         "id": "java",
         "name": "java",
         "files": {
@@ -1493,47 +1287,11 @@ const iconsData = {
         "category": "Backend - Languages"
       },
       {
-        "id": "julia",
-        "name": "julia",
-        "files": {
-          "light": "julia-light.svg",
-          "dark": "julia-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "kotlin",
-        "name": "kotlin",
-        "files": {
-          "light": "kotlin-light.svg",
-          "dark": "kotlin-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "latex",
-        "name": "latex",
-        "files": {
-          "light": "latex-light.svg",
-          "dark": "latex-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
         "id": "lua",
         "name": "lua",
         "files": {
           "light": "lua-light.svg",
           "dark": "lua-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "matlab",
-        "name": "matlab",
-        "files": {
-          "light": "matlab-light.svg",
-          "dark": "matlab-dark.svg"
         },
         "category": "Backend - Languages"
       },
@@ -1565,15 +1323,6 @@ const iconsData = {
         "category": "Backend - Languages"
       },
       {
-        "id": "odin",
-        "name": "odin",
-        "files": {
-          "light": "odin-light.svg",
-          "dark": "odin-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
         "id": "perl",
         "name": "perl",
         "files": {
@@ -1592,65 +1341,11 @@ const iconsData = {
         "category": "Backend - Languages"
       },
       {
-        "id": "pkl",
-        "name": "pkl",
-        "files": {
-          "light": "pkl-light.svg",
-          "dark": "pkl-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "powershell",
-        "name": "powershell",
-        "files": {
-          "light": "powershell-light.svg",
-          "dark": "powershell-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
         "id": "python",
         "name": "python",
         "files": {
           "light": "python-light.svg",
           "dark": "python-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "r",
-        "name": "r",
-        "files": {
-          "light": "r-light.svg",
-          "dark": "r-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "regex",
-        "name": "regex",
-        "files": {
-          "light": "regex-light.svg",
-          "dark": "regex-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "restructuredtext",
-        "name": "restructuredtext",
-        "files": {
-          "light": "restructuredtext-light.svg",
-          "dark": "restructuredtext-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "ros",
-        "name": "ros",
-        "files": {
-          "light": "ros-light.svg",
-          "dark": "ros-dark.svg"
         },
         "category": "Backend - Languages"
       },
@@ -1673,65 +1368,11 @@ const iconsData = {
         "category": "Backend - Languages"
       },
       {
-        "id": "scala",
-        "name": "scala",
-        "files": {
-          "light": "scala-light.svg",
-          "dark": "scala-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "scratch",
-        "name": "scratch",
-        "files": {
-          "light": "scratch.svg",
-          "dark": "scratch.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "swift",
-        "name": "swift",
-        "files": {
-          "light": "swift.svg",
-          "dark": "swift.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "uml",
-        "name": "uml",
-        "files": {
-          "light": "uml-light.svg",
-          "dark": "uml-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
         "id": "v",
         "name": "v",
         "files": {
           "light": "v-light.svg",
           "dark": "v-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "vala",
-        "name": "vala",
-        "files": {
-          "light": "vala.svg",
-          "dark": "vala.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "visualbasic",
-        "name": "visualbasic",
-        "files": {
-          "light": "visualbasic-light.svg",
-          "dark": "visualbasic-dark.svg"
         },
         "category": "Backend - Languages"
       },
@@ -2071,15 +1712,6 @@ const iconsData = {
         "category": "Backend - Frameworks - JS/TS"
       },
       {
-        "id": "trpc",
-        "name": "trpc",
-        "files": {
-          "light": "trpc.svg",
-          "dark": "trpc.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
         "id": "windmill",
         "name": "windmill",
         "files": {
@@ -2108,15 +1740,6 @@ const iconsData = {
       }
     ],
     "Backend - Frameworks - Python": [
-      {
-        "id": "aiogram",
-        "name": "aiogram",
-        "files": {
-          "light": "aiogram-light.svg",
-          "dark": "aiogram-dark.svg"
-        },
-        "category": "Backend - Frameworks - Python"
-      },
       {
         "id": "django",
         "name": "django",
@@ -2192,6 +1815,15 @@ const iconsData = {
         "category": "Backend - Frameworks - Java/JVM"
       },
       {
+        "id": "clojure",
+        "name": "clojure",
+        "files": {
+          "light": "clojure-light.svg",
+          "dark": "clojure-dark.svg"
+        },
+        "category": "Backend - Frameworks - Java/JVM"
+      },
+      {
         "id": "grails",
         "name": "grails",
         "files": {
@@ -2224,6 +1856,15 @@ const iconsData = {
         "files": {
           "light": "querydsl-light.svg",
           "dark": "querydsl-dark.svg"
+        },
+        "category": "Backend - Frameworks - Java/JVM"
+      },
+      {
+        "id": "scala",
+        "name": "scala",
+        "files": {
+          "light": "scala-light.svg",
+          "dark": "scala-dark.svg"
         },
         "category": "Backend - Frameworks - Java/JVM"
       },
@@ -2284,15 +1925,6 @@ const iconsData = {
         "category": "Backend - Frameworks - PHP"
       },
       {
-        "id": "drupal",
-        "name": "drupal",
-        "files": {
-          "light": "drupal-light.svg",
-          "dark": "drupal-dark.svg"
-        },
-        "category": "Backend - Frameworks - PHP"
-      },
-      {
         "id": "filament",
         "name": "filament",
         "files": {
@@ -2347,15 +1979,6 @@ const iconsData = {
         "category": "Backend - Frameworks - PHP"
       },
       {
-        "id": "joomla",
-        "name": "joomla",
-        "files": {
-          "light": "joomla-light.svg",
-          "dark": "joomla-dark.svg"
-        },
-        "category": "Backend - Frameworks - PHP"
-      },
-      {
         "id": "laravel",
         "name": "laravel",
         "files": {
@@ -2370,6 +1993,15 @@ const iconsData = {
         "files": {
           "light": "laravelspark-light.svg",
           "dark": "laravelspark-dark.svg"
+        },
+        "category": "Backend - Frameworks - PHP"
+      },
+      {
+        "id": "livewire",
+        "name": "livewire",
+        "files": {
+          "light": "livewire-light.svg",
+          "dark": "livewire-dark.svg"
         },
         "category": "Backend - Frameworks - PHP"
       },
@@ -2408,15 +2040,6 @@ const iconsData = {
           "dark": "vapor.svg"
         },
         "category": "Backend - Frameworks - PHP"
-      },
-      {
-        "id": "wordpress",
-        "name": "wordpress",
-        "files": {
-          "light": "wordpress.svg",
-          "dark": "wordpress.svg"
-        },
-        "category": "Backend - Frameworks - PHP"
       }
     ],
     "Backend - Frameworks - Go": [
@@ -2444,24 +2067,6 @@ const iconsData = {
         "files": {
           "light": "gin-light.svg",
           "dark": "gin-dark.svg"
-        },
-        "category": "Backend - Frameworks - Go"
-      },
-      {
-        "id": "gorm",
-        "name": "gorm",
-        "files": {
-          "light": "gorm-light.svg",
-          "dark": "gorm-dark.svg"
-        },
-        "category": "Backend - Frameworks - Go"
-      },
-      {
-        "id": "hugo",
-        "name": "hugo",
-        "files": {
-          "light": "hugo-light.svg",
-          "dark": "hugo-dark.svg"
         },
         "category": "Backend - Frameworks - Go"
       },
@@ -2495,6 +2100,15 @@ const iconsData = {
         "category": "Backend - Frameworks - Rust"
       },
       {
+        "id": "tauri",
+        "name": "tauri",
+        "files": {
+          "light": "tauri-light.svg",
+          "dark": "tauri-dark.svg"
+        },
+        "category": "Backend - Frameworks - Rust"
+      },
+      {
         "id": "tokiors",
         "name": "tokiors",
         "files": {
@@ -2502,24 +2116,33 @@ const iconsData = {
           "dark": "tokiors-dark.svg"
         },
         "category": "Backend - Frameworks - Rust"
+      },
+      {
+        "id": "yew",
+        "name": "yew",
+        "files": {
+          "light": "yew-light.svg",
+          "dark": "yew-dark.svg"
+        },
+        "category": "Backend - Frameworks - Rust"
       }
     ],
     "Backend - Frameworks - C#/.NET": [
       {
-        "id": "avaloniaui",
-        "name": "avaloniaui",
+        "id": "blazor",
+        "name": "blazor",
         "files": {
-          "light": "avaloniaui.svg",
-          "dark": "avaloniaui.svg"
+          "light": "blazor-light.svg",
+          "dark": "blazor-dark.svg"
         },
         "category": "Backend - Frameworks - C#/.NET"
       },
       {
-        "id": "unity",
-        "name": "unity",
+        "id": "dotnet",
+        "name": "dotnet",
         "files": {
-          "light": "unity-light.svg",
-          "dark": "unity-dark.svg"
+          "light": "dotnet.svg",
+          "dark": "dotnet.svg"
         },
         "category": "Backend - Frameworks - C#/.NET"
       }
@@ -2537,20 +2160,11 @@ const iconsData = {
     ],
     "Backend - Database & API": [
       {
-        "id": "airflow",
-        "name": "airflow",
+        "id": "api",
+        "name": "api",
         "files": {
-          "light": "airflow-light.svg",
-          "dark": "airflow-dark.svg"
-        },
-        "category": "Backend - Database & API"
-      },
-      {
-        "id": "apigateway",
-        "name": "apigateway",
-        "files": {
-          "light": "apigateway.svg",
-          "dark": "apigateway.svg"
+          "light": "api-light.svg",
+          "dark": "api-dark.svg"
         },
         "category": "Backend - Database & API"
       },
@@ -2582,15 +2196,6 @@ const iconsData = {
         "category": "Backend - Database & API"
       },
       {
-        "id": "directus",
-        "name": "directus",
-        "files": {
-          "light": "directus.svg",
-          "dark": "directus.svg"
-        },
-        "category": "Backend - Database & API"
-      },
-      {
         "id": "doctrine",
         "name": "doctrine",
         "files": {
@@ -2618,15 +2223,6 @@ const iconsData = {
         "category": "Backend - Database & API"
       },
       {
-        "id": "elasticsearch",
-        "name": "elasticsearch",
-        "files": {
-          "light": "elasticsearch-light.svg",
-          "dark": "elasticsearch-dark.svg"
-        },
-        "category": "Backend - Database & API"
-      },
-      {
         "id": "firebase",
         "name": "firebase",
         "files": {
@@ -2636,11 +2232,11 @@ const iconsData = {
         "category": "Backend - Database & API"
       },
       {
-        "id": "graphql",
-        "name": "graphql",
+        "id": "gorm",
+        "name": "gorm",
         "files": {
-          "light": "graphql-light.svg",
-          "dark": "graphql-dark.svg"
+          "light": "gorm-light.svg",
+          "dark": "gorm-dark.svg"
         },
         "category": "Backend - Database & API"
       },
@@ -2681,29 +2277,11 @@ const iconsData = {
         "category": "Backend - Database & API"
       },
       {
-        "id": "kafka",
-        "name": "kafka",
-        "files": {
-          "light": "kafka.svg",
-          "dark": "kafka.svg"
-        },
-        "category": "Backend - Database & API"
-      },
-      {
         "id": "mongoose",
         "name": "mongoose",
         "files": {
           "light": "mongoose.svg",
           "dark": "mongoose.svg"
-        },
-        "category": "Backend - Database & API"
-      },
-      {
-        "id": "payload",
-        "name": "payload",
-        "files": {
-          "light": "payload-light.svg",
-          "dark": "payload-dark.svg"
         },
         "category": "Backend - Database & API"
       },
@@ -2798,15 +2376,6 @@ const iconsData = {
         "category": "Backend - Database & API"
       },
       {
-        "id": "strapi",
-        "name": "strapi",
-        "files": {
-          "light": "strapi.svg",
-          "dark": "strapi.svg"
-        },
-        "category": "Backend - Database & API"
-      },
-      {
         "id": "supabase",
         "name": "supabase",
         "files": {
@@ -2825,11 +2394,11 @@ const iconsData = {
         "category": "Backend - Database & API"
       },
       {
-        "id": "tomcat",
-        "name": "tomcat",
+        "id": "trpc",
+        "name": "trpc",
         "files": {
-          "light": "tomcat-light.svg",
-          "dark": "tomcat-dark.svg"
+          "light": "trpc.svg",
+          "dark": "trpc.svg"
         },
         "category": "Backend - Database & API"
       },
@@ -2881,20 +2450,20 @@ const iconsData = {
         "category": "Cloud - Web Servers"
       },
       {
-        "id": "celerdata",
-        "name": "celerdata",
-        "files": {
-          "light": "celerdata-light.svg",
-          "dark": "celerdata-dark.svg"
-        },
-        "category": "Cloud - Web Servers"
-      },
-      {
         "id": "nginx",
         "name": "nginx",
         "files": {
           "light": "nginx.svg",
           "dark": "nginx.svg"
+        },
+        "category": "Cloud - Web Servers"
+      },
+      {
+        "id": "tomcat",
+        "name": "tomcat",
+        "files": {
+          "light": "tomcat-light.svg",
+          "dark": "tomcat-dark.svg"
         },
         "category": "Cloud - Web Servers"
       }
@@ -2906,6 +2475,15 @@ const iconsData = {
         "files": {
           "light": "amplify.svg",
           "dark": "amplify.svg"
+        },
+        "category": "Cloud Providers"
+      },
+      {
+        "id": "apigateway",
+        "name": "apigateway",
+        "files": {
+          "light": "apigateway.svg",
+          "dark": "apigateway.svg"
         },
         "category": "Cloud Providers"
       },
@@ -3800,11 +3378,11 @@ const iconsData = {
     ],
     "AI & Machine Learning": [
       {
-        "id": "agno",
-        "name": "agno",
+        "id": "aiogram",
+        "name": "aiogram",
         "files": {
-          "light": "agno.svg",
-          "dark": "agno.svg"
+          "light": "aiogram-light.svg",
+          "dark": "aiogram-dark.svg"
         },
         "category": "AI & Machine Learning"
       },
@@ -4045,6 +3623,15 @@ const iconsData = {
         "category": "Data Science & Big Data"
       },
       {
+        "id": "airflow",
+        "name": "airflow",
+        "files": {
+          "light": "airflow-light.svg",
+          "dark": "airflow-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
         "id": "anaconda",
         "name": "anaconda",
         "files": {
@@ -4086,6 +3673,15 @@ const iconsData = {
         "files": {
           "light": "bokeh-light.svg",
           "dark": "bokeh-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "celerdata",
+        "name": "celerdata",
+        "files": {
+          "light": "celerdata-light.svg",
+          "dark": "celerdata-dark.svg"
         },
         "category": "Data Science & Big Data"
       },
@@ -4293,6 +3889,15 @@ const iconsData = {
         "files": {
           "light": "jupyter-light.svg",
           "dark": "jupyter-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "kafka",
+        "name": "kafka",
+        "files": {
+          "light": "kafka.svg",
+          "dark": "kafka.svg"
         },
         "category": "Data Science & Big Data"
       },
@@ -4605,6 +4210,15 @@ const iconsData = {
         "category": "Databases"
       },
       {
+        "id": "elasticsearch",
+        "name": "elasticsearch",
+        "files": {
+          "light": "elasticsearch-light.svg",
+          "dark": "elasticsearch-dark.svg"
+        },
+        "category": "Databases"
+      },
+      {
         "id": "hudi",
         "name": "hudi",
         "files": {
@@ -4796,15 +4410,6 @@ const iconsData = {
         "category": "Mobile Development"
       },
       {
-        "id": "androidstudio",
-        "name": "androidstudio",
-        "files": {
-          "light": "androidstudio-light.svg",
-          "dark": "androidstudio-dark.svg"
-        },
-        "category": "Mobile Development"
-      },
-      {
         "id": "appstore",
         "name": "appstore",
         "files": {
@@ -4814,11 +4419,29 @@ const iconsData = {
         "category": "Mobile Development"
       },
       {
+        "id": "avaloniaui",
+        "name": "avaloniaui",
+        "files": {
+          "light": "avaloniaui.svg",
+          "dark": "avaloniaui.svg"
+        },
+        "category": "Mobile Development"
+      },
+      {
         "id": "capacitor",
         "name": "capacitor",
         "files": {
           "light": "capacitor-light.svg",
           "dark": "capacitor-dark.svg"
+        },
+        "category": "Mobile Development"
+      },
+      {
+        "id": "dart",
+        "name": "dart",
+        "files": {
+          "light": "dart-light.svg",
+          "dark": "dart-dark.svg"
         },
         "category": "Mobile Development"
       },
@@ -4886,11 +4509,29 @@ const iconsData = {
         "category": "Mobile Development"
       },
       {
+        "id": "kotlin",
+        "name": "kotlin",
+        "files": {
+          "light": "kotlin-light.svg",
+          "dark": "kotlin-dark.svg"
+        },
+        "category": "Mobile Development"
+      },
+      {
         "id": "reactnative",
         "name": "reactnative",
         "files": {
           "light": "reactnative-light.svg",
           "dark": "reactnative-dark.svg"
+        },
+        "category": "Mobile Development"
+      },
+      {
+        "id": "swift",
+        "name": "swift",
+        "files": {
+          "light": "swift.svg",
+          "dark": "swift.svg"
         },
         "category": "Mobile Development"
       },
@@ -5095,6 +4736,15 @@ const iconsData = {
         "category": "Game Development"
       },
       {
+        "id": "unity",
+        "name": "unity",
+        "files": {
+          "light": "unity-light.svg",
+          "dark": "unity-dark.svg"
+        },
+        "category": "Game Development"
+      },
+      {
         "id": "unrealengine",
         "name": "unrealengine",
         "files": {
@@ -5241,15 +4891,6 @@ const iconsData = {
         "category": "Web3 & Blockchain"
       },
       {
-        "id": "solidity",
-        "name": "solidity",
-        "files": {
-          "light": "solidity.svg",
-          "dark": "solidity.svg"
-        },
-        "category": "Web3 & Blockchain"
-      },
-      {
         "id": "sushiswap",
         "name": "sushiswap",
         "files": {
@@ -5324,15 +4965,6 @@ const iconsData = {
         "category": "Security & Privacy"
       },
       {
-        "id": "brave",
-        "name": "brave",
-        "files": {
-          "light": "brave-light.svg",
-          "dark": "brave-dark.svg"
-        },
-        "category": "Security & Privacy"
-      },
-      {
         "id": "btlo",
         "name": "btlo",
         "files": {
@@ -5374,15 +5006,6 @@ const iconsData = {
         "files": {
           "light": "duckduckgo.svg",
           "dark": "duckduckgo.svg"
-        },
-        "category": "Security & Privacy"
-      },
-      {
-        "id": "hackthebox",
-        "name": "hackthebox",
-        "files": {
-          "light": "hackthebox-light.svg",
-          "dark": "hackthebox-dark.svg"
         },
         "category": "Security & Privacy"
       },
@@ -5437,15 +5060,6 @@ const iconsData = {
         "files": {
           "light": "tor-light.svg",
           "dark": "tor-dark.svg"
-        },
-        "category": "Security & Privacy"
-      },
-      {
-        "id": "tryhackme",
-        "name": "tryhackme",
-        "files": {
-          "light": "tryhackme-light.svg",
-          "dark": "tryhackme-dark.svg"
         },
         "category": "Security & Privacy"
       },
@@ -5957,6 +5571,15 @@ const iconsData = {
       }
     ],
     "Editors & IDEs": [
+      {
+        "id": "androidstudio",
+        "name": "androidstudio",
+        "files": {
+          "light": "androidstudio-light.svg",
+          "dark": "androidstudio-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
       {
         "id": "appcode",
         "name": "appcode",
@@ -7372,6 +6995,24 @@ const iconsData = {
         "category": "CMS"
       },
       {
+        "id": "directus",
+        "name": "directus",
+        "files": {
+          "light": "directus.svg",
+          "dark": "directus.svg"
+        },
+        "category": "CMS"
+      },
+      {
+        "id": "drupal",
+        "name": "drupal",
+        "files": {
+          "light": "drupal-light.svg",
+          "dark": "drupal-dark.svg"
+        },
+        "category": "CMS"
+      },
+      {
         "id": "hexo",
         "name": "hexo",
         "files": {
@@ -7381,11 +7022,38 @@ const iconsData = {
         "category": "CMS"
       },
       {
+        "id": "hugo",
+        "name": "hugo",
+        "files": {
+          "light": "hugo-light.svg",
+          "dark": "hugo-dark.svg"
+        },
+        "category": "CMS"
+      },
+      {
         "id": "jekyll",
         "name": "jekyll",
         "files": {
           "light": "jekyll-light.svg",
           "dark": "jekyll-dark.svg"
+        },
+        "category": "CMS"
+      },
+      {
+        "id": "joomla",
+        "name": "joomla",
+        "files": {
+          "light": "joomla-light.svg",
+          "dark": "joomla-dark.svg"
+        },
+        "category": "CMS"
+      },
+      {
+        "id": "payload",
+        "name": "payload",
+        "files": {
+          "light": "payload-light.svg",
+          "dark": "payload-dark.svg"
         },
         "category": "CMS"
       },
@@ -7408,11 +7076,29 @@ const iconsData = {
         "category": "CMS"
       },
       {
+        "id": "strapi",
+        "name": "strapi",
+        "files": {
+          "light": "strapi.svg",
+          "dark": "strapi.svg"
+        },
+        "category": "CMS"
+      },
+      {
         "id": "webflow",
         "name": "webflow",
         "files": {
           "light": "webflow.svg",
           "dark": "webflow.svg"
+        },
+        "category": "CMS"
+      },
+      {
+        "id": "wordpress",
+        "name": "wordpress",
+        "files": {
+          "light": "wordpress.svg",
+          "dark": "wordpress.svg"
         },
         "category": "CMS"
       }
@@ -7471,6 +7157,15 @@ const iconsData = {
         "files": {
           "light": "arcbrowser-light.svg",
           "dark": "arcbrowser-dark.svg"
+        },
+        "category": "Browsers & Engines"
+      },
+      {
+        "id": "brave",
+        "name": "brave",
+        "files": {
+          "light": "brave-light.svg",
+          "dark": "brave-dark.svg"
         },
         "category": "Browsers & Engines"
       },
@@ -7641,6 +7336,15 @@ const iconsData = {
         "category": "Education & Learning"
       },
       {
+        "id": "hackthebox",
+        "name": "hackthebox",
+        "files": {
+          "light": "hackthebox-light.svg",
+          "dark": "hackthebox-dark.svg"
+        },
+        "category": "Education & Learning"
+      },
+      {
         "id": "leetcode",
         "name": "leetcode",
         "files": {
@@ -7648,15 +7352,222 @@ const iconsData = {
           "dark": "leetcode-dark.svg"
         },
         "category": "Education & Learning"
+      },
+      {
+        "id": "tryhackme",
+        "name": "tryhackme",
+        "files": {
+          "light": "tryhackme-light.svg",
+          "dark": "tryhackme-dark.svg"
+        },
+        "category": "Education & Learning"
       }
     ],
     "Other Languages & Tools": [
+      {
+        "id": "agno",
+        "name": "agno",
+        "files": {
+          "light": "agno.svg",
+          "dark": "agno.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "aiscript",
+        "name": "aiscript",
+        "files": {
+          "light": "aiscript-light.svg",
+          "dark": "aiscript-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "assembly",
+        "name": "assembly",
+        "files": {
+          "light": "assembly.svg",
+          "dark": "assembly.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "bash",
+        "name": "bash",
+        "files": {
+          "light": "bash-light.svg",
+          "dark": "bash-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "c",
+        "name": "c",
+        "files": {
+          "light": "c.svg",
+          "dark": "c.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "cmake",
+        "name": "cmake",
+        "files": {
+          "light": "cmake-light.svg",
+          "dark": "cmake-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "cpp",
+        "name": "cpp",
+        "files": {
+          "light": "cpp.svg",
+          "dark": "cpp.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "crystal",
+        "name": "crystal",
+        "files": {
+          "light": "crystal-light.svg",
+          "dark": "crystal-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "d",
+        "name": "d",
+        "files": {
+          "light": "d.svg",
+          "dark": "d.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "forth",
+        "name": "forth",
+        "files": {
+          "light": "forth.svg",
+          "dark": "forth.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "fuse",
+        "name": "fuse",
+        "files": {
+          "light": "fuse.svg",
+          "dark": "fuse.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "gleam",
+        "name": "gleam",
+        "files": {
+          "light": "gleam-light.svg",
+          "dark": "gleam-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "gradle",
+        "name": "gradle",
+        "files": {
+          "light": "gradle-light.svg",
+          "dark": "gradle-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "graphql",
+        "name": "graphql",
+        "files": {
+          "light": "graphql-light.svg",
+          "dark": "graphql-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "haxe",
+        "name": "haxe",
+        "files": {
+          "light": "haxe-light.svg",
+          "dark": "haxe-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "holyc",
+        "name": "holyc",
+        "files": {
+          "light": "holyc.svg",
+          "dark": "holyc.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "json",
+        "name": "json",
+        "files": {
+          "light": "json-light.svg",
+          "dark": "json-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "julia",
+        "name": "julia",
+        "files": {
+          "light": "julia-light.svg",
+          "dark": "julia-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "latex",
+        "name": "latex",
+        "files": {
+          "light": "latex-light.svg",
+          "dark": "latex-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
       {
         "id": "luau",
         "name": "luau",
         "files": {
           "light": "luau.svg",
           "dark": "luau.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "markdown",
+        "name": "markdown",
+        "files": {
+          "light": "markdown-light.svg",
+          "dark": "markdown-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "matlab",
+        "name": "matlab",
+        "files": {
+          "light": "matlab-light.svg",
+          "dark": "matlab-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "maven",
+        "name": "maven",
+        "files": {
+          "light": "maven-light.svg",
+          "dark": "maven-dark.svg"
         },
         "category": "Other Languages & Tools"
       },
@@ -7670,6 +7581,15 @@ const iconsData = {
         "category": "Other Languages & Tools"
       },
       {
+        "id": "odin",
+        "name": "odin",
+        "files": {
+          "light": "odin-light.svg",
+          "dark": "odin-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
         "id": "p4",
         "name": "p4",
         "files": {
@@ -7677,7 +7597,125 @@ const iconsData = {
           "dark": "p4-dark.svg"
         },
         "category": "Other Languages & Tools"
+      },
+      {
+        "id": "pkl",
+        "name": "pkl",
+        "files": {
+          "light": "pkl-light.svg",
+          "dark": "pkl-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "powershell",
+        "name": "powershell",
+        "files": {
+          "light": "powershell-light.svg",
+          "dark": "powershell-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "r",
+        "name": "r",
+        "files": {
+          "light": "r-light.svg",
+          "dark": "r-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "regex",
+        "name": "regex",
+        "files": {
+          "light": "regex-light.svg",
+          "dark": "regex-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "restructuredtext",
+        "name": "restructuredtext",
+        "files": {
+          "light": "restructuredtext-light.svg",
+          "dark": "restructuredtext-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "ros",
+        "name": "ros",
+        "files": {
+          "light": "ros-light.svg",
+          "dark": "ros-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "scratch",
+        "name": "scratch",
+        "files": {
+          "light": "scratch.svg",
+          "dark": "scratch.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "solidity",
+        "name": "solidity",
+        "files": {
+          "light": "solidity.svg",
+          "dark": "solidity.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "toml",
+        "name": "toml",
+        "files": {
+          "light": "toml-light.svg",
+          "dark": "toml-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "uml",
+        "name": "uml",
+        "files": {
+          "light": "uml-light.svg",
+          "dark": "uml-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "vala",
+        "name": "vala",
+        "files": {
+          "light": "vala.svg",
+          "dark": "vala.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "visualbasic",
+        "name": "visualbasic",
+        "files": {
+          "light": "visualbasic-light.svg",
+          "dark": "visualbasic-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "yaml",
+        "name": "yaml",
+        "files": {
+          "light": "yaml-light.svg",
+          "dark": "yaml-dark.svg"
+        },
+        "category": "Other Languages & Tools"
       }
-    ]
+    ],
+    "Other": []
   }
 };

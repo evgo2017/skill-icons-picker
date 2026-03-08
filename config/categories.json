@@ -421,7 +421,8 @@
         "wails",
         "hugo",
         "buffalo",
-        "gorm"
+        "gorm",
+        "chi"
       ]
     },
     {
@@ -639,7 +640,8 @@
         "dn42",
         "stackblitz",
         "replit",
-        "nextflow"
+        "nextflow",
+        "rclone"
       ]
     },
     {
@@ -1331,7 +1333,8 @@
         "powerautomate",
         "mdbook",
         "miktex",
-        "bitrix24"
+        "bitrix24",
+        "taiga"
       ]
     },
     {
@@ -1561,11 +1564,7 @@
     },
     {
       "id": "Uncategorized",
-      "icons": [
-        "chi",
-        "rclone",
-        "taiga"
-      ]
+      "icons": []
     },
     {
       "id": "Other",

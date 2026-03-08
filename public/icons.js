@@ -2536,6 +2536,15 @@ const iconsData = {
           "dark": "gorm-dark.svg"
         },
         "category": "Backend - Frameworks - Go"
+      },
+      {
+        "id": "chi",
+        "name": "chi",
+        "files": {
+          "light": "chi-light.svg",
+          "dark": "chi-dark.svg"
+        },
+        "category": "Backend - Frameworks - Go"
       }
     ],
     "Backend - Frameworks - Rust": [
@@ -3738,6 +3747,15 @@ const iconsData = {
         "files": {
           "light": "nextflow-light.svg",
           "dark": "nextflow-dark.svg"
+        },
+        "category": "DevOps - Tools"
+      },
+      {
+        "id": "rclone",
+        "name": "rclone",
+        "files": {
+          "light": "rclone-light.svg",
+          "dark": "rclone-dark.svg"
         },
         "category": "DevOps - Tools"
       }
@@ -7483,6 +7501,15 @@ const iconsData = {
           "dark": "bitrix24-dark.svg"
         },
         "category": "Productivity & Office"
+      },
+      {
+        "id": "taiga",
+        "name": "taiga",
+        "files": {
+          "light": "taiga-light.svg",
+          "dark": "taiga-dark.svg"
+        },
+        "category": "Productivity & Office"
       }
     ],
     "Testing & Quality": [
@@ -8390,35 +8417,7 @@ const iconsData = {
         "category": "Other Languages & Tools"
       }
     ],
-    "Uncategorized": [
-      {
-        "id": "chi",
-        "name": "chi",
-        "files": {
-          "light": "chi-light.svg",
-          "dark": "chi-dark.svg"
-        },
-        "category": "Uncategorized"
-      },
-      {
-        "id": "rclone",
-        "name": "rclone",
-        "files": {
-          "light": "rclone-light.svg",
-          "dark": "rclone-dark.svg"
-        },
-        "category": "Uncategorized"
-      },
-      {
-        "id": "taiga",
-        "name": "taiga",
-        "files": {
-          "light": "taiga-light.svg",
-          "dark": "taiga-dark.svg"
-        },
-        "category": "Uncategorized"
-      }
-    ],
+    "Uncategorized": [],
     "Other": []
   }
 };

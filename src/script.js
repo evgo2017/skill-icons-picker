@@ -522,7 +522,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Update UI for grid items across all sections (in case of duplicates, though not expected here)
         icons.forEach(icon => {
-            const gridItems = document.querySelectorAll(`.icon-item[data-icon="${icon.id}"]`);
+            const gridItems = iconsContainer.querySelectorAll(`.icon-item[data-icon="${icon.id}"]`);
             if (state.selectedIcons.includes(icon.id)) {
                 gridItems.forEach(el => el.classList.add('selected'));
             } else {
@@ -620,7 +620,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const iconId = iconObj.id;
         const index = state.selectedIcons.indexOf(iconId);
 
-        const gridItems = document.querySelectorAll(`.icon-item[data-icon="${iconId}"]`);
+        const gridItems = iconsContainer.querySelectorAll(`.icon-item[data-icon="${iconId}"]`);
 
         if (index === -1) {
             state.selectedIcons.push(iconId);

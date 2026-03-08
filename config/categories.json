@@ -942,6 +942,14 @@
           "url": "https://threejs.org/"
         },
         {
+          "id": "modelviewer",
+          "description": {
+            "zh-CN": "用于在网页中展示和交互 3D 模型的 Web 组件",
+            "en-US": "Web component for rendering and interacting with 3D models"
+          },
+          "url": "https://modelviewer.dev/"
+        },
+        {
           "id": "babylonjs",
           "description": {
             "zh-CN": "一个完整强大的框架，用于构建 3D 游戏和 Web 体验",
@@ -1144,9 +1152,9 @@
           "url": "https://webpack.js.org/"
         },
         {
-          "id": "rollup",
+          "id": "rollupjs",
           "description": {
-            "zh-CN": "下一代 JavaScript 模块打包器",
+            "zh-CN": "下一代 JavaScript 模块打包器（Rollup）",
             "en-US": "The next-generation JavaScript module bundler"
           },
           "url": "https://rollupjs.org/"
@@ -1424,9 +1432,9 @@
           "url": "https://oxc.rs/docs/guide/usage/linter/usage.html"
         },
         {
-          "id": "jq",
+          "id": "jqlang",
           "description": {
-            "zh-CN": "轻量级和灵活的命令行 JSON 处理器",
+            "zh-CN": "轻量且灵活的命令行 JSON 处理器",
             "en-US": "A lightweight and flexible command-line JSON processor"
           },
           "url": "https://jqlang.github.io/jq/"
@@ -1478,14 +1486,6 @@
             "en-US": "Progressive Web App"
           },
           "url": "https://web.dev/progressive-web-apps/"
-        },
-        {
-          "id": "reactlynx",
-          "description": {
-            "zh-CN": "使用 React 构建类原生应用的跨平台高性能框架",
-            "en-US": "A high-performance cross-platform framework for building native-like apps with React"
-          },
-          "url": "https://lynxjs.org/"
         },
         {
           "id": "zod",
@@ -3073,6 +3073,22 @@
             "en-US": "A friendly, concurrent, and smart reactive framework for building cross-platform user interfaces"
           },
           "url": "https://dioxuslabs.com/"
+        },
+        {
+          "id": "iced",
+          "description": {
+            "zh-CN": "使用 Rust 构建跨平台图形界面的库",
+            "en-US": "A cross-platform GUI library for Rust"
+          },
+          "url": "https://iced.rs/"
+        },
+        {
+          "id": "ratatui",
+          "description": {
+            "zh-CN": "用于构建终端用户界面的 Rust 库",
+            "en-US": "A Rust library for building terminal user interfaces"
+          },
+          "url": "https://ratatui.rs/"
         },
         {
           "id": "diesel",
@@ -6159,6 +6175,22 @@
           "url": "https://reactnative.dev/"
         },
         {
+          "id": "lynxjs",
+          "description": {
+            "zh-CN": "用于构建原生体验应用的高性能跨平台框架",
+            "en-US": "A high-performance cross-platform framework for building native-like apps"
+          },
+          "url": "https://lynxjs.org/"
+        },
+        {
+          "id": "reactlynx",
+          "description": {
+            "zh-CN": "LynxJS（别名）。用于构建原生体验应用的高性能跨平台框架。",
+            "en-US": "LynxJS (Alias). A high-performance cross-platform framework for building native-like apps"
+          },
+          "url": "https://lynxjs.org/"
+        },
+        {
           "id": "xamarin",
           "description": {
             "zh-CN": "基于 .NET 构建的跨平台应用程序开发框架",
@@ -9183,6 +9215,14 @@
           "url": "https://www.notion.so/"
         },
         {
+          "id": "obsidian",
+          "description": {
+            "zh-CN": "本地优先的双向链接知识管理笔记工具",
+            "en-US": "Local-first knowledge base and bidirectional note-taking app"
+          },
+          "url": "https://obsidian.md/"
+        },
+        {
           "id": "confluence",
           "description": {
             "zh-CN": "Atlassian 团队协作文档平台",
@@ -9221,6 +9261,14 @@
             "en-US": "Work management platform for teams"
           },
           "url": "https://asana.com/"
+        },
+        {
+          "id": "clickup",
+          "description": {
+            "zh-CN": "一体化任务与项目管理平台",
+            "en-US": "All-in-one task and project management platform"
+          },
+          "url": "https://clickup.com/"
         },
         {
           "id": "evernote",
@@ -9269,6 +9317,14 @@
             "en-US": "Web-based diagramming and charting tool"
           },
           "url": "https://www.lucidchart.com/"
+        },
+        {
+          "id": "mermaid",
+          "description": {
+            "zh-CN": "基于文本语法生成流程图和图表的工具",
+            "en-US": "Text-based diagramming and charting tool"
+          },
+          "url": "https://mermaid.js.org/"
         },
         {
           "id": "craft",

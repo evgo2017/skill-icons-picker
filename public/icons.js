@@ -139,7 +139,12 @@ const iconsData = {
           "light": "html.svg",
           "dark": "html.svg"
         },
-        "category": "Frontend - Languages"
+        "category": "Frontend - Languages",
+        "description": {
+          "zh-CN": "超文本标记语言",
+          "en-US": "HyperText Markup Language"
+        },
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
       },
       {
         "id": "css",
@@ -148,7 +153,9 @@ const iconsData = {
           "light": "css.svg",
           "dark": "css.svg"
         },
-        "category": "Frontend - Languages"
+        "category": "Frontend - Languages",
+        "description": "Cascading Style Sheets",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
       },
       {
         "id": "javascript",

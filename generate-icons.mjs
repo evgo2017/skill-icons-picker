@@ -79,9 +79,17 @@ const assignedIds = new Set();
 for (const cat of configData) {
     const catId = cat.id;
     iconsData[catId] = [];
-    for (const i_id of cat.icons) {
+    for (const iconDef of cat.icons) {
+        const isObject = typeof iconDef === 'object' && iconDef !== null;
+        const i_id = isObject ? iconDef.id : iconDef;
+        
         if (allFoundIds.has(i_id)) {
-            iconsData[catId].push(buildIconObj(i_id, catId));
+            const iconObj = buildIconObj(i_id, catId);
+            if (isObject) {
+                if (iconDef.description) iconObj.description = iconDef.description;
+                if (iconDef.url) iconObj.url = iconDef.url;
+            }
+            iconsData[catId].push(iconObj);
             assignedIds.add(i_id);
         }
     }

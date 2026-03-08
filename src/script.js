@@ -154,6 +154,12 @@ document.addEventListener('DOMContentLoaded', () => {
         return locale.categories[cat] || cat;
     }
 
+    function getDescription(iconObj) {
+        if (!iconObj.description) return iconObj.id;
+        if (typeof iconObj.description === 'string') return iconObj.description;
+        return iconObj.description[state.lang] || iconObj.description['en-US'] || iconObj.id;
+    }
+
     function renderAllCategories() {
         iconsContainer.innerHTML = '';
         Object.keys(iconsData.icons).forEach(cat => {
@@ -252,7 +258,11 @@ document.addEventListener('DOMContentLoaded', () => {
             div.classList.add('selected');
         }
 
-        div.onclick = () => toggleIcon(iconObj);
+        div.onclick = (e) => {
+            // If the click happened on the external link, don't toggle
+            if (e.target.closest('.icon-link')) return;
+            toggleIcon(iconObj);
+        };
 
         const img = document.createElement('img');
         img.loading = 'lazy';
@@ -266,8 +276,55 @@ document.addEventListener('DOMContentLoaded', () => {
         tooltip.className = 'icon-tooltip';
         tooltip.innerText = iconObj.id;
 
+        const desc = getDescription(iconObj);
+        if (desc !== iconObj.id) {
+            const descTooltip = document.createElement('div');
+            descTooltip.className = 'icon-desc-tooltip';
+            descTooltip.innerText = desc;
+            div.appendChild(descTooltip);
+        }
+
         div.appendChild(img);
         div.appendChild(tooltip);
+
+        if (iconObj.url) {
+            const link = document.createElement('a');
+            link.href = iconObj.url;
+            link.target = '_blank';
+            link.className = 'icon-link';
+            link.title = iconObj.url;
+            link.innerHTML = `
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+            `;
+            div.appendChild(link);
+        }
+
+        // Boundary detection: adjust tooltip position when near container edges
+        div.addEventListener('mouseenter', () => {
+            const container = iconsContainer;
+            const containerRect = container.getBoundingClientRect();
+            const iconRect = div.getBoundingClientRect();
+            const tooltips = div.querySelectorAll('.icon-tooltip, .icon-desc-tooltip');
+            
+            tooltips.forEach(t => {
+                t.classList.remove('anchor-left', 'anchor-right');
+                // Estimate tooltip width
+                const tooltipWidth = t.offsetWidth || 140;
+                const iconCenterX = iconRect.left + iconRect.width / 2;
+                const spaceLeft = iconCenterX - containerRect.left;
+                const spaceRight = containerRect.right - iconCenterX;
+
+                if (spaceLeft < tooltipWidth / 2 + 8) {
+                    t.classList.add('anchor-left');
+                } else if (spaceRight < tooltipWidth / 2 + 8) {
+                    t.classList.add('anchor-right');
+                }
+            });
+        });
 
         return div;
     }

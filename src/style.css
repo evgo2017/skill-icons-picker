@@ -233,6 +233,32 @@ h2 {
   background-color: #f3f4f6;
 }
 
+.icon-link {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background-color: rgba(13, 17, 23, 0.8);
+  border-radius: 4px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.2s, background-color 0.2s;
+  color: #8b949e;
+  z-index: 15;
+}
+
+.icon-item:hover .icon-link {
+  opacity: 1;
+}
+
+.icon-link:hover {
+  background-color: var(--accent-color);
+  color: #0d1117;
+}
+
 .icon-item.selected {
   background-color: rgba(46, 160, 67, 0.3);
   border: 2px solid var(--success-color);
@@ -254,22 +280,56 @@ h2 {
   justify-content: center;
 }
 
-.icon-tooltip {
+/* Tooltips */
+.icon-tooltip,
+.icon-desc-tooltip {
   display: none;
   position: absolute;
-  bottom: 100%;
   left: 50%;
   transform: translateX(-50%);
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
   padding: 4px 8px;
   border-radius: 4px;
   font-size: 0.8rem;
-  white-space: nowrap;
   pointer-events: none;
-  z-index: 20;
+  z-index: 9999;
+  border: 1px solid var(--border-color);
 }
 
-.icon-item:hover .icon-tooltip {
+/* ID tooltip — above the icon */
+.icon-tooltip {
+  bottom: calc(100% + 6px);
+  white-space: nowrap;
+}
+
+/* Description tooltip — below the icon, wraps */
+.icon-desc-tooltip {
+  top: calc(100% + 6px);
+  white-space: normal;
+  word-wrap: break-word;
+  width: max-content;
+  max-width: 260px;
+  text-align: center;
+}
+
+/* Edge adjustment: anchor to left edge of icon instead of centering */
+.icon-tooltip.anchor-left,
+.icon-desc-tooltip.anchor-left {
+  left: 0;
+  transform: none;
+}
+
+/* Edge adjustment: anchor to right edge */
+.icon-tooltip.anchor-right,
+.icon-desc-tooltip.anchor-right {
+  left: auto;
+  right: 0;
+  transform: none;
+}
+
+.icon-item:hover .icon-tooltip,
+.icon-item:hover .icon-desc-tooltip {
   display: block;
 }
 

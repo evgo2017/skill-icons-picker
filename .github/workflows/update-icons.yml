@@ -1,0 +1,41 @@
+name: Update Icons from Upstream
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 每天 UTC 0 点，自动触发对应执行
+  workflow_dispatch: # 支持手动触发
+
+permissions:
+  contents: write # 允许写入代码仓库
+
+jobs:
+  sync-icons:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+  
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.1x'
+
+      - name: Run sync script
+        run: python sync_icons.py
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git add assets/ public/icons.js config/categories.json
+          git diff --staged --quiet || echo "changed=true" >> $GITHUB_OUTPUT
+        
+      - name: Commit and push if changed
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(icons): auto-sync new icons from LelouchFR/skill-icons"
+          git push

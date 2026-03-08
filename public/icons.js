@@ -131,60 +131,13 @@ const iconsData = {
     }
   },
   "icons": {
-    "Uncategorized": [
-      {
-        "id": "chi",
-        "name": "chi",
-        "files": {
-          "light": "chi-light.svg",
-          "dark": "chi-dark.svg"
-        },
-        "category": "Uncategorized"
-      },
-      {
-        "id": "pypi",
-        "name": "pypi",
-        "files": {
-          "light": "pypi.svg",
-          "dark": "pypi.svg"
-        },
-        "category": "Uncategorized"
-      },
-      {
-        "id": "rclone",
-        "name": "rclone",
-        "files": {
-          "light": "rclone-light.svg",
-          "dark": "rclone-dark.svg"
-        },
-        "category": "Uncategorized"
-      },
-      {
-        "id": "taiga",
-        "name": "taiga",
-        "files": {
-          "light": "taiga-light.svg",
-          "dark": "taiga-dark.svg"
-        },
-        "category": "Uncategorized"
-      }
-    ],
     "Frontend - Languages": [
       {
-        "id": "coffeescript",
-        "name": "coffeescript",
+        "id": "html",
+        "name": "html",
         "files": {
-          "light": "coffeescript-light.svg",
-          "dark": "coffeescript-dark.svg"
-        },
-        "category": "Frontend - Languages"
-      },
-      {
-        "id": "cs",
-        "name": "cs",
-        "files": {
-          "light": "cs.svg",
-          "dark": "cs.svg"
+          "light": "html.svg",
+          "dark": "html.svg"
         },
         "category": "Frontend - Languages"
       },
@@ -198,92 +151,11 @@ const iconsData = {
         "category": "Frontend - Languages"
       },
       {
-        "id": "ejs",
-        "name": "ejs",
-        "files": {
-          "light": "ejs-light.svg",
-          "dark": "ejs-dark.svg"
-        },
-        "category": "Frontend - Languages"
-      },
-      {
-        "id": "elm",
-        "name": "elm",
-        "files": {
-          "light": "elm-light.svg",
-          "dark": "elm-dark.svg"
-        },
-        "category": "Frontend - Languages"
-      },
-      {
-        "id": "html",
-        "name": "html",
-        "files": {
-          "light": "html.svg",
-          "dark": "html.svg"
-        },
-        "category": "Frontend - Languages"
-      },
-      {
         "id": "javascript",
         "name": "javascript",
         "files": {
           "light": "javascript.svg",
           "dark": "javascript.svg"
-        },
-        "category": "Frontend - Languages"
-      },
-      {
-        "id": "json",
-        "name": "json",
-        "files": {
-          "light": "json-light.svg",
-          "dark": "json-dark.svg"
-        },
-        "category": "Frontend - Languages"
-      },
-      {
-        "id": "markdown",
-        "name": "markdown",
-        "files": {
-          "light": "markdown-light.svg",
-          "dark": "markdown-dark.svg"
-        },
-        "category": "Frontend - Languages"
-      },
-      {
-        "id": "nunjucks",
-        "name": "nunjucks",
-        "files": {
-          "light": "nunjucks.svg",
-          "dark": "nunjucks.svg"
-        },
-        "category": "Frontend - Languages"
-      },
-      {
-        "id": "pug",
-        "name": "pug",
-        "files": {
-          "light": "pug-light.svg",
-          "dark": "pug-dark.svg"
-        },
-        "category": "Frontend - Languages"
-      },
-      {
-        "id": "toml",
-        "name": "toml",
-        "files": {
-          "light": "toml-light.svg",
-          "dark": "toml-dark.svg"
-        },
-        "category": "Frontend - Languages"
-      },
-      {
-        "id": "twig",
-        "name": "twig",
-        "files": {
-          "light": "twig-light.svg",
-          "dark": "twig-dark.svg"
         },
         "category": "Frontend - Languages"
       },
@@ -297,11 +169,65 @@ const iconsData = {
         "category": "Frontend - Languages"
       },
       {
+        "id": "coffeescript",
+        "name": "coffeescript",
+        "files": {
+          "light": "coffeescript-light.svg",
+          "dark": "coffeescript-dark.svg"
+        },
+        "category": "Frontend - Languages"
+      },
+      {
+        "id": "elm",
+        "name": "elm",
+        "files": {
+          "light": "elm-light.svg",
+          "dark": "elm-dark.svg"
+        },
+        "category": "Frontend - Languages"
+      },
+      {
         "id": "webassembly",
         "name": "webassembly",
         "files": {
           "light": "webassembly.svg",
           "dark": "webassembly.svg"
+        },
+        "category": "Frontend - Languages"
+      },
+      {
+        "id": "pug",
+        "name": "pug",
+        "files": {
+          "light": "pug-light.svg",
+          "dark": "pug-dark.svg"
+        },
+        "category": "Frontend - Languages"
+      },
+      {
+        "id": "ejs",
+        "name": "ejs",
+        "files": {
+          "light": "ejs-light.svg",
+          "dark": "ejs-dark.svg"
+        },
+        "category": "Frontend - Languages"
+      },
+      {
+        "id": "markdown",
+        "name": "markdown",
+        "files": {
+          "light": "markdown-light.svg",
+          "dark": "markdown-dark.svg"
+        },
+        "category": "Frontend - Languages"
+      },
+      {
+        "id": "json",
+        "name": "json",
+        "files": {
+          "light": "json-light.svg",
+          "dark": "json-dark.svg"
         },
         "category": "Frontend - Languages"
       },
@@ -313,15 +239,51 @@ const iconsData = {
           "dark": "yaml-dark.svg"
         },
         "category": "Frontend - Languages"
+      },
+      {
+        "id": "toml",
+        "name": "toml",
+        "files": {
+          "light": "toml-light.svg",
+          "dark": "toml-dark.svg"
+        },
+        "category": "Frontend - Languages"
+      },
+      {
+        "id": "nunjucks",
+        "name": "nunjucks",
+        "files": {
+          "light": "nunjucks.svg",
+          "dark": "nunjucks.svg"
+        },
+        "category": "Frontend - Languages"
+      },
+      {
+        "id": "twig",
+        "name": "twig",
+        "files": {
+          "light": "twig-light.svg",
+          "dark": "twig-dark.svg"
+        },
+        "category": "Frontend - Languages"
+      },
+      {
+        "id": "cs",
+        "name": "cs",
+        "files": {
+          "light": "cs.svg",
+          "dark": "cs.svg"
+        },
+        "category": "Frontend - Languages"
       }
     ],
     "Frontend - Frameworks": [
       {
-        "id": "alpinejs",
-        "name": "alpinejs",
+        "id": "react",
+        "name": "react",
         "files": {
-          "light": "alpinejs-light.svg",
-          "dark": "alpinejs-dark.svg"
+          "light": "react-light.svg",
+          "dark": "react-dark.svg"
         },
         "category": "Frontend - Frameworks"
       },
@@ -335,101 +297,29 @@ const iconsData = {
         "category": "Frontend - Frameworks"
       },
       {
-        "id": "animejs",
-        "name": "animejs",
+        "id": "svelte",
+        "name": "svelte",
         "files": {
-          "light": "animejs-light.svg",
-          "dark": "animejs-dark.svg"
+          "light": "svelte.svg",
+          "dark": "svelte.svg"
         },
         "category": "Frontend - Frameworks"
       },
       {
-        "id": "astro",
-        "name": "astro",
+        "id": "solidjs",
+        "name": "solidjs",
         "files": {
-          "light": "astro.svg",
-          "dark": "astro.svg"
+          "light": "solidjs-light.svg",
+          "dark": "solidjs-dark.svg"
         },
         "category": "Frontend - Frameworks"
       },
       {
-        "id": "authjs",
-        "name": "authjs",
+        "id": "preact",
+        "name": "preact",
         "files": {
-          "light": "authjs-light.svg",
-          "dark": "authjs-dark.svg"
-        },
-        "category": "Frontend - Frameworks"
-      },
-      {
-        "id": "barbajs",
-        "name": "barbajs",
-        "files": {
-          "light": "barbajs.svg",
-          "dark": "barbajs.svg"
-        },
-        "category": "Frontend - Frameworks"
-      },
-      {
-        "id": "blazor",
-        "name": "blazor",
-        "files": {
-          "light": "blazor-light.svg",
-          "dark": "blazor-dark.svg"
-        },
-        "category": "Frontend - Frameworks"
-      },
-      {
-        "id": "ember",
-        "name": "ember",
-        "files": {
-          "light": "ember.svg",
-          "dark": "ember.svg"
-        },
-        "category": "Frontend - Frameworks"
-      },
-      {
-        "id": "gatsby",
-        "name": "gatsby",
-        "files": {
-          "light": "gatsby.svg",
-          "dark": "gatsby.svg"
-        },
-        "category": "Frontend - Frameworks"
-      },
-      {
-        "id": "htmx",
-        "name": "htmx",
-        "files": {
-          "light": "htmx-light.svg",
-          "dark": "htmx-dark.svg"
-        },
-        "category": "Frontend - Frameworks"
-      },
-      {
-        "id": "jquery",
-        "name": "jquery",
-        "files": {
-          "light": "jquery.svg",
-          "dark": "jquery.svg"
-        },
-        "category": "Frontend - Frameworks"
-      },
-      {
-        "id": "lit",
-        "name": "lit",
-        "files": {
-          "light": "lit-light.svg",
-          "dark": "lit-dark.svg"
-        },
-        "category": "Frontend - Frameworks"
-      },
-      {
-        "id": "livewire",
-        "name": "livewire",
-        "files": {
-          "light": "livewire-light.svg",
-          "dark": "livewire-dark.svg"
+          "light": "preact-light.svg",
+          "dark": "preact-dark.svg"
         },
         "category": "Frontend - Frameworks"
       },
@@ -452,29 +342,20 @@ const iconsData = {
         "category": "Frontend - Frameworks"
       },
       {
-        "id": "preact",
-        "name": "preact",
+        "id": "gatsby",
+        "name": "gatsby",
         "files": {
-          "light": "preact-light.svg",
-          "dark": "preact-dark.svg"
+          "light": "gatsby.svg",
+          "dark": "gatsby.svg"
         },
         "category": "Frontend - Frameworks"
       },
       {
-        "id": "react",
-        "name": "react",
+        "id": "astro",
+        "name": "astro",
         "files": {
-          "light": "react-light.svg",
-          "dark": "react-dark.svg"
-        },
-        "category": "Frontend - Frameworks"
-      },
-      {
-        "id": "reactivex",
-        "name": "reactivex",
-        "files": {
-          "light": "reactivex-light.svg",
-          "dark": "reactivex-dark.svg"
+          "light": "astro.svg",
+          "dark": "astro.svg"
         },
         "category": "Frontend - Frameworks"
       },
@@ -488,29 +369,47 @@ const iconsData = {
         "category": "Frontend - Frameworks"
       },
       {
-        "id": "solidjs",
-        "name": "solidjs",
+        "id": "jquery",
+        "name": "jquery",
         "files": {
-          "light": "solidjs-light.svg",
-          "dark": "solidjs-dark.svg"
+          "light": "jquery.svg",
+          "dark": "jquery.svg"
         },
         "category": "Frontend - Frameworks"
       },
       {
-        "id": "svelte",
-        "name": "svelte",
+        "id": "ember",
+        "name": "ember",
         "files": {
-          "light": "svelte.svg",
-          "dark": "svelte.svg"
+          "light": "ember.svg",
+          "dark": "ember.svg"
         },
         "category": "Frontend - Frameworks"
       },
       {
-        "id": "vuejs",
-        "name": "vuejs",
+        "id": "alpinejs",
+        "name": "alpinejs",
         "files": {
-          "light": "vuejs-light.svg",
-          "dark": "vuejs-dark.svg"
+          "light": "alpinejs-light.svg",
+          "dark": "alpinejs-dark.svg"
+        },
+        "category": "Frontend - Frameworks"
+      },
+      {
+        "id": "lit",
+        "name": "lit",
+        "files": {
+          "light": "lit-light.svg",
+          "dark": "lit-dark.svg"
+        },
+        "category": "Frontend - Frameworks"
+      },
+      {
+        "id": "yui",
+        "name": "yui",
+        "files": {
+          "light": "yui-light.svg",
+          "dark": "yui-dark.svg"
         },
         "category": "Frontend - Frameworks"
       },
@@ -524,43 +423,79 @@ const iconsData = {
         "category": "Frontend - Frameworks"
       },
       {
-        "id": "yui",
-        "name": "yui",
+        "id": "htmx",
+        "name": "htmx",
         "files": {
-          "light": "yui-light.svg",
-          "dark": "yui-dark.svg"
+          "light": "htmx-light.svg",
+          "dark": "htmx-dark.svg"
+        },
+        "category": "Frontend - Frameworks"
+      },
+      {
+        "id": "livewire",
+        "name": "livewire",
+        "files": {
+          "light": "livewire-light.svg",
+          "dark": "livewire-dark.svg"
+        },
+        "category": "Frontend - Frameworks"
+      },
+      {
+        "id": "blazor",
+        "name": "blazor",
+        "files": {
+          "light": "blazor-light.svg",
+          "dark": "blazor-dark.svg"
+        },
+        "category": "Frontend - Frameworks"
+      },
+      {
+        "id": "barbajs",
+        "name": "barbajs",
+        "files": {
+          "light": "barbajs.svg",
+          "dark": "barbajs.svg"
+        },
+        "category": "Frontend - Frameworks"
+      },
+      {
+        "id": "animejs",
+        "name": "animejs",
+        "files": {
+          "light": "animejs-light.svg",
+          "dark": "animejs-dark.svg"
+        },
+        "category": "Frontend - Frameworks"
+      },
+      {
+        "id": "authjs",
+        "name": "authjs",
+        "files": {
+          "light": "authjs-light.svg",
+          "dark": "authjs-dark.svg"
+        },
+        "category": "Frontend - Frameworks"
+      },
+      {
+        "id": "vuejs",
+        "name": "vuejs",
+        "files": {
+          "light": "vuejs-light.svg",
+          "dark": "vuejs-dark.svg"
+        },
+        "category": "Frontend - Frameworks"
+      },
+      {
+        "id": "reactivex",
+        "name": "reactivex",
+        "files": {
+          "light": "reactivex-light.svg",
+          "dark": "reactivex-dark.svg"
         },
         "category": "Frontend - Frameworks"
       }
     ],
     "Frontend - UI & Styling": [
-      {
-        "id": "antdesign",
-        "name": "antdesign",
-        "files": {
-          "light": "antdesign-light.svg",
-          "dark": "antdesign-dark.svg"
-        },
-        "category": "Frontend - UI & Styling"
-      },
-      {
-        "id": "apexcharts",
-        "name": "apexcharts",
-        "files": {
-          "light": "apexcharts-light.svg",
-          "dark": "apexcharts-dark.svg"
-        },
-        "category": "Frontend - UI & Styling"
-      },
-      {
-        "id": "axios",
-        "name": "axios",
-        "files": {
-          "light": "axios-light.svg",
-          "dark": "axios-dark.svg"
-        },
-        "category": "Frontend - UI & Styling"
-      },
       {
         "id": "bootstrap",
         "name": "bootstrap",
@@ -571,119 +506,20 @@ const iconsData = {
         "category": "Frontend - UI & Styling"
       },
       {
-        "id": "bulma",
-        "name": "bulma",
+        "id": "tailwindcss",
+        "name": "tailwindcss",
         "files": {
-          "light": "bulma-light.svg",
-          "dark": "bulma-dark.svg"
+          "light": "tailwindcss-light.svg",
+          "dark": "tailwindcss-dark.svg"
         },
         "category": "Frontend - UI & Styling"
       },
       {
-        "id": "chakraui",
-        "name": "chakraui",
+        "id": "sass",
+        "name": "sass",
         "files": {
-          "light": "chakraui-light.svg",
-          "dark": "chakraui-dark.svg"
-        },
-        "category": "Frontend - UI & Styling"
-      },
-      {
-        "id": "chartjs",
-        "name": "chartjs",
-        "files": {
-          "light": "chartjs-light.svg",
-          "dark": "chartjs-dark.svg"
-        },
-        "category": "Frontend - UI & Styling"
-      },
-      {
-        "id": "codepen",
-        "name": "codepen",
-        "files": {
-          "light": "codepen-light.svg",
-          "dark": "codepen-dark.svg"
-        },
-        "category": "Frontend - UI & Styling"
-      },
-      {
-        "id": "d3",
-        "name": "d3",
-        "files": {
-          "light": "d3-light.svg",
-          "dark": "d3-dark.svg"
-        },
-        "category": "Frontend - UI & Styling"
-      },
-      {
-        "id": "daisyui",
-        "name": "daisyui",
-        "files": {
-          "light": "daisyui-light.svg",
-          "dark": "daisyui-dark.svg"
-        },
-        "category": "Frontend - UI & Styling"
-      },
-      {
-        "id": "element",
-        "name": "element",
-        "files": {
-          "light": "element-light.svg",
-          "dark": "element-dark.svg"
-        },
-        "category": "Frontend - UI & Styling"
-      },
-      {
-        "id": "elementor",
-        "name": "elementor",
-        "files": {
-          "light": "elementor-light.svg",
-          "dark": "elementor-dark.svg"
-        },
-        "category": "Frontend - UI & Styling"
-      },
-      {
-        "id": "elementplus",
-        "name": "elementplus",
-        "files": {
-          "light": "elementplus-light.svg",
-          "dark": "elementplus-dark.svg"
-        },
-        "category": "Frontend - UI & Styling"
-      },
-      {
-        "id": "emotion",
-        "name": "emotion",
-        "files": {
-          "light": "emotion-light.svg",
-          "dark": "emotion-dark.svg"
-        },
-        "category": "Frontend - UI & Styling"
-      },
-      {
-        "id": "framer",
-        "name": "framer",
-        "files": {
-          "light": "framer-light.svg",
-          "dark": "framer-dark.svg"
-        },
-        "category": "Frontend - UI & Styling"
-      },
-      {
-        "id": "gsap",
-        "name": "gsap",
-        "files": {
-          "light": "gsap-light.svg",
-          "dark": "gsap-dark.svg"
-        },
-        "category": "Frontend - UI & Styling"
-      },
-      {
-        "id": "leaflet",
-        "name": "leaflet",
-        "files": {
-          "light": "leaflet-light.svg",
-          "dark": "leaflet-dark.svg"
+          "light": "sass.svg",
+          "dark": "sass.svg"
         },
         "category": "Frontend - UI & Styling"
       },
@@ -697,11 +533,11 @@ const iconsData = {
         "category": "Frontend - UI & Styling"
       },
       {
-        "id": "lottielab",
-        "name": "lottielab",
+        "id": "stylus",
+        "name": "stylus",
         "files": {
-          "light": "lottielab.svg",
-          "dark": "lottielab.svg"
+          "light": "stylus-light.svg",
+          "dark": "stylus-dark.svg"
         },
         "category": "Frontend - UI & Styling"
       },
@@ -715,11 +551,65 @@ const iconsData = {
         "category": "Frontend - UI & Styling"
       },
       {
-        "id": "mjml",
-        "name": "mjml",
+        "id": "vuetify",
+        "name": "vuetify",
         "files": {
-          "light": "mjml-light.svg",
-          "dark": "mjml-dark.svg"
+          "light": "vuetify-light.svg",
+          "dark": "vuetify-dark.svg"
+        },
+        "category": "Frontend - UI & Styling"
+      },
+      {
+        "id": "chakraui",
+        "name": "chakraui",
+        "files": {
+          "light": "chakraui-light.svg",
+          "dark": "chakraui-dark.svg"
+        },
+        "category": "Frontend - UI & Styling"
+      },
+      {
+        "id": "bulma",
+        "name": "bulma",
+        "files": {
+          "light": "bulma-light.svg",
+          "dark": "bulma-dark.svg"
+        },
+        "category": "Frontend - UI & Styling"
+      },
+      {
+        "id": "styledcomponents",
+        "name": "styledcomponents",
+        "files": {
+          "light": "styledcomponents.svg",
+          "dark": "styledcomponents.svg"
+        },
+        "category": "Frontend - UI & Styling"
+      },
+      {
+        "id": "emotion",
+        "name": "emotion",
+        "files": {
+          "light": "emotion-light.svg",
+          "dark": "emotion-dark.svg"
+        },
+        "category": "Frontend - UI & Styling"
+      },
+      {
+        "id": "unocss",
+        "name": "unocss",
+        "files": {
+          "light": "unocss-light.svg",
+          "dark": "unocss-dark.svg"
+        },
+        "category": "Frontend - UI & Styling"
+      },
+      {
+        "id": "windicss",
+        "name": "windicss",
+        "files": {
+          "light": "windicss-light.svg",
+          "dark": "windicss-dark.svg"
         },
         "category": "Frontend - UI & Styling"
       },
@@ -733,11 +623,11 @@ const iconsData = {
         "category": "Frontend - UI & Styling"
       },
       {
-        "id": "postcss",
-        "name": "postcss",
+        "id": "daisyui",
+        "name": "daisyui",
         "files": {
-          "light": "postcss-light.svg",
-          "dark": "postcss-dark.svg"
+          "light": "daisyui-light.svg",
+          "dark": "daisyui-dark.svg"
         },
         "category": "Frontend - UI & Styling"
       },
@@ -778,29 +668,38 @@ const iconsData = {
         "category": "Frontend - UI & Styling"
       },
       {
-        "id": "reactbootstrap",
-        "name": "reactbootstrap",
-        "files": {
-          "light": "reactbootstrap-light.svg",
-          "dark": "reactbootstrap-dark.svg"
-        },
-        "category": "Frontend - UI & Styling"
-      },
-      {
-        "id": "sass",
-        "name": "sass",
-        "files": {
-          "light": "sass.svg",
-          "dark": "sass.svg"
-        },
-        "category": "Frontend - UI & Styling"
-      },
-      {
         "id": "shadcn",
         "name": "shadcn",
         "files": {
           "light": "shadcn-light.svg",
           "dark": "shadcn-dark.svg"
+        },
+        "category": "Frontend - UI & Styling"
+      },
+      {
+        "id": "element",
+        "name": "element",
+        "files": {
+          "light": "element-light.svg",
+          "dark": "element-dark.svg"
+        },
+        "category": "Frontend - UI & Styling"
+      },
+      {
+        "id": "elementplus",
+        "name": "elementplus",
+        "files": {
+          "light": "elementplus-light.svg",
+          "dark": "elementplus-dark.svg"
+        },
+        "category": "Frontend - UI & Styling"
+      },
+      {
+        "id": "antdesign",
+        "name": "antdesign",
+        "files": {
+          "light": "antdesign-light.svg",
+          "dark": "antdesign-dark.svg"
         },
         "category": "Frontend - UI & Styling"
       },
@@ -814,38 +713,38 @@ const iconsData = {
         "category": "Frontend - UI & Styling"
       },
       {
-        "id": "storybook",
-        "name": "storybook",
+        "id": "postcss",
+        "name": "postcss",
         "files": {
-          "light": "storybook-light.svg",
-          "dark": "storybook-dark.svg"
+          "light": "postcss-light.svg",
+          "dark": "postcss-dark.svg"
         },
         "category": "Frontend - UI & Styling"
       },
       {
-        "id": "styledcomponents",
-        "name": "styledcomponents",
+        "id": "framer",
+        "name": "framer",
         "files": {
-          "light": "styledcomponents.svg",
-          "dark": "styledcomponents.svg"
+          "light": "framer-light.svg",
+          "dark": "framer-dark.svg"
         },
         "category": "Frontend - UI & Styling"
       },
       {
-        "id": "stylus",
-        "name": "stylus",
+        "id": "lottielab",
+        "name": "lottielab",
         "files": {
-          "light": "stylus-light.svg",
-          "dark": "stylus-dark.svg"
+          "light": "lottielab.svg",
+          "dark": "lottielab.svg"
         },
         "category": "Frontend - UI & Styling"
       },
       {
-        "id": "tailwindcss",
-        "name": "tailwindcss",
+        "id": "gsap",
+        "name": "gsap",
         "files": {
-          "light": "tailwindcss-light.svg",
-          "dark": "tailwindcss-dark.svg"
+          "light": "gsap-light.svg",
+          "dark": "gsap-dark.svg"
         },
         "category": "Frontend - UI & Styling"
       },
@@ -859,20 +758,83 @@ const iconsData = {
         "category": "Frontend - UI & Styling"
       },
       {
-        "id": "unocss",
-        "name": "unocss",
+        "id": "d3",
+        "name": "d3",
         "files": {
-          "light": "unocss-light.svg",
-          "dark": "unocss-dark.svg"
+          "light": "d3-light.svg",
+          "dark": "d3-dark.svg"
         },
         "category": "Frontend - UI & Styling"
       },
       {
-        "id": "vuetify",
-        "name": "vuetify",
+        "id": "chartjs",
+        "name": "chartjs",
         "files": {
-          "light": "vuetify-light.svg",
-          "dark": "vuetify-dark.svg"
+          "light": "chartjs-light.svg",
+          "dark": "chartjs-dark.svg"
+        },
+        "category": "Frontend - UI & Styling"
+      },
+      {
+        "id": "leaflet",
+        "name": "leaflet",
+        "files": {
+          "light": "leaflet-light.svg",
+          "dark": "leaflet-dark.svg"
+        },
+        "category": "Frontend - UI & Styling"
+      },
+      {
+        "id": "apexcharts",
+        "name": "apexcharts",
+        "files": {
+          "light": "apexcharts-light.svg",
+          "dark": "apexcharts-dark.svg"
+        },
+        "category": "Frontend - UI & Styling"
+      },
+      {
+        "id": "axios",
+        "name": "axios",
+        "files": {
+          "light": "axios-light.svg",
+          "dark": "axios-dark.svg"
+        },
+        "category": "Frontend - UI & Styling"
+      },
+      {
+        "id": "elementor",
+        "name": "elementor",
+        "files": {
+          "light": "elementor-light.svg",
+          "dark": "elementor-dark.svg"
+        },
+        "category": "Frontend - UI & Styling"
+      },
+      {
+        "id": "mjml",
+        "name": "mjml",
+        "files": {
+          "light": "mjml-light.svg",
+          "dark": "mjml-dark.svg"
+        },
+        "category": "Frontend - UI & Styling"
+      },
+      {
+        "id": "reactbootstrap",
+        "name": "reactbootstrap",
+        "files": {
+          "light": "reactbootstrap-light.svg",
+          "dark": "reactbootstrap-dark.svg"
+        },
+        "category": "Frontend - UI & Styling"
+      },
+      {
+        "id": "storybook",
+        "name": "storybook",
+        "files": {
+          "light": "storybook-light.svg",
+          "dark": "storybook-dark.svg"
         },
         "category": "Frontend - UI & Styling"
       },
@@ -886,16 +848,25 @@ const iconsData = {
         "category": "Frontend - UI & Styling"
       },
       {
-        "id": "windicss",
-        "name": "windicss",
+        "id": "codepen",
+        "name": "codepen",
         "files": {
-          "light": "windicss-light.svg",
-          "dark": "windicss-dark.svg"
+          "light": "codepen-light.svg",
+          "dark": "codepen-dark.svg"
         },
         "category": "Frontend - UI & Styling"
       }
     ],
     "Frontend - State Management": [
+      {
+        "id": "redux",
+        "name": "redux",
+        "files": {
+          "light": "redux.svg",
+          "dark": "redux.svg"
+        },
+        "category": "Frontend - State Management"
+      },
       {
         "id": "mobx",
         "name": "mobx",
@@ -906,11 +877,11 @@ const iconsData = {
         "category": "Frontend - State Management"
       },
       {
-        "id": "ngrx",
-        "name": "ngrx",
+        "id": "zustand",
+        "name": "zustand",
         "files": {
-          "light": "ngrx-light.svg",
-          "dark": "ngrx-dark.svg"
+          "light": "zustand-light.svg",
+          "dark": "zustand-dark.svg"
         },
         "category": "Frontend - State Management"
       },
@@ -933,11 +904,11 @@ const iconsData = {
         "category": "Frontend - State Management"
       },
       {
-        "id": "redux",
-        "name": "redux",
+        "id": "ngrx",
+        "name": "ngrx",
         "files": {
-          "light": "redux.svg",
-          "dark": "redux.svg"
+          "light": "ngrx-light.svg",
+          "dark": "ngrx-dark.svg"
         },
         "category": "Frontend - State Management"
       },
@@ -949,96 +920,33 @@ const iconsData = {
           "dark": "tanstack-dark.svg"
         },
         "category": "Frontend - State Management"
-      },
-      {
-        "id": "zustand",
-        "name": "zustand",
-        "files": {
-          "light": "zustand-light.svg",
-          "dark": "zustand-dark.svg"
-        },
-        "category": "Frontend - State Management"
       }
     ],
     "Frontend - Build Tools": [
+      {
+        "id": "vite",
+        "name": "vite",
+        "files": {
+          "light": "vite-light.svg",
+          "dark": "vite-dark.svg"
+        },
+        "category": "Frontend - Build Tools"
+      },
+      {
+        "id": "webpack",
+        "name": "webpack",
+        "files": {
+          "light": "webpack-light.svg",
+          "dark": "webpack-dark.svg"
+        },
+        "category": "Frontend - Build Tools"
+      },
       {
         "id": "babel",
         "name": "babel",
         "files": {
           "light": "babel.svg",
           "dark": "babel.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
-        "id": "biome",
-        "name": "biome",
-        "files": {
-          "light": "biome-light.svg",
-          "dark": "biome-dark.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
-        "id": "bun",
-        "name": "bun",
-        "files": {
-          "light": "bun-light.svg",
-          "dark": "bun-dark.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
-        "id": "chromedevtools",
-        "name": "chromedevtools",
-        "files": {
-          "light": "chromedevtools.svg",
-          "dark": "chromedevtools.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
-        "id": "cmake",
-        "name": "cmake",
-        "files": {
-          "light": "cmake-light.svg",
-          "dark": "cmake-dark.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
-        "id": "composer",
-        "name": "composer",
-        "files": {
-          "light": "composer-light.svg",
-          "dark": "composer-dark.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
-        "id": "deno",
-        "name": "deno",
-        "files": {
-          "light": "deno-light.svg",
-          "dark": "deno-dark.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
-        "id": "docsify",
-        "name": "docsify",
-        "files": {
-          "light": "docsify-light.svg",
-          "dark": "docsify-dark.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
-        "id": "electron",
-        "name": "electron",
-        "files": {
-          "light": "electron.svg",
-          "dark": "electron.svg"
         },
         "category": "Frontend - Build Tools"
       },
@@ -1052,110 +960,11 @@ const iconsData = {
         "category": "Frontend - Build Tools"
       },
       {
-        "id": "gradle",
-        "name": "gradle",
+        "id": "prettier",
+        "name": "prettier",
         "files": {
-          "light": "gradle-light.svg",
-          "dark": "gradle-dark.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
-        "id": "grunt",
-        "name": "grunt",
-        "files": {
-          "light": "grunt-light.svg",
-          "dark": "grunt-dark.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
-        "id": "gulp",
-        "name": "gulp",
-        "files": {
-          "light": "gulp.svg",
-          "dark": "gulp.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
-        "id": "iced",
-        "name": "iced",
-        "files": {
-          "light": "iced.svg",
-          "dark": "iced.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
-        "id": "jqlang",
-        "name": "jqlang",
-        "files": {
-          "light": "jqlang-light.svg",
-          "dark": "jqlang-dark.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
-        "id": "lynxjs",
-        "name": "lynxjs",
-        "files": {
-          "light": "lynxjs-light.svg",
-          "dark": "lynxjs-dark.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
-        "id": "maven",
-        "name": "maven",
-        "files": {
-          "light": "maven-light.svg",
-          "dark": "maven-dark.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
-        "id": "mermaid",
-        "name": "mermaid",
-        "files": {
-          "light": "mermaid.svg",
-          "dark": "mermaid.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
-        "id": "millionjs",
-        "name": "millionjs",
-        "files": {
-          "light": "millionjs-light.svg",
-          "dark": "millionjs-dark.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
-        "id": "modelviewer",
-        "name": "modelviewer",
-        "files": {
-          "light": "modelviewer-light.svg",
-          "dark": "modelviewer-dark.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
-        "id": "npm",
-        "name": "npm",
-        "files": {
-          "light": "npm-light.svg",
-          "dark": "npm-dark.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
-        "id": "pint",
-        "name": "pint",
-        "files": {
-          "light": "pint.svg",
-          "dark": "pint.svg"
+          "light": "prettier-light.svg",
+          "dark": "prettier-dark.svg"
         },
         "category": "Frontend - Build Tools"
       },
@@ -1169,11 +978,182 @@ const iconsData = {
         "category": "Frontend - Build Tools"
       },
       {
-        "id": "prettier",
-        "name": "prettier",
+        "id": "yarn",
+        "name": "yarn",
         "files": {
-          "light": "prettier-light.svg",
-          "dark": "prettier-dark.svg"
+          "light": "yarn-light.svg",
+          "dark": "yarn-dark.svg"
+        },
+        "category": "Frontend - Build Tools"
+      },
+      {
+        "id": "npm",
+        "name": "npm",
+        "files": {
+          "light": "npm-light.svg",
+          "dark": "npm-dark.svg"
+        },
+        "category": "Frontend - Build Tools"
+      },
+      {
+        "id": "bun",
+        "name": "bun",
+        "files": {
+          "light": "bun-light.svg",
+          "dark": "bun-dark.svg"
+        },
+        "category": "Frontend - Build Tools"
+      },
+      {
+        "id": "deno",
+        "name": "deno",
+        "files": {
+          "light": "deno-light.svg",
+          "dark": "deno-dark.svg"
+        },
+        "category": "Frontend - Build Tools"
+      },
+      {
+        "id": "gulp",
+        "name": "gulp",
+        "files": {
+          "light": "gulp.svg",
+          "dark": "gulp.svg"
+        },
+        "category": "Frontend - Build Tools"
+      },
+      {
+        "id": "grunt",
+        "name": "grunt",
+        "files": {
+          "light": "grunt-light.svg",
+          "dark": "grunt-dark.svg"
+        },
+        "category": "Frontend - Build Tools"
+      },
+      {
+        "id": "turborepo",
+        "name": "turborepo",
+        "files": {
+          "light": "turborepo-light.svg",
+          "dark": "turborepo-dark.svg"
+        },
+        "category": "Frontend - Build Tools"
+      },
+      {
+        "id": "biome",
+        "name": "biome",
+        "files": {
+          "light": "biome-light.svg",
+          "dark": "biome-dark.svg"
+        },
+        "category": "Frontend - Build Tools"
+      },
+      {
+        "id": "tauri",
+        "name": "tauri",
+        "files": {
+          "light": "tauri-light.svg",
+          "dark": "tauri-dark.svg"
+        },
+        "category": "Frontend - Build Tools"
+      },
+      {
+        "id": "electron",
+        "name": "electron",
+        "files": {
+          "light": "electron.svg",
+          "dark": "electron.svg"
+        },
+        "category": "Frontend - Build Tools"
+      },
+      {
+        "id": "cmake",
+        "name": "cmake",
+        "files": {
+          "light": "cmake-light.svg",
+          "dark": "cmake-dark.svg"
+        },
+        "category": "Frontend - Build Tools"
+      },
+      {
+        "id": "gradle",
+        "name": "gradle",
+        "files": {
+          "light": "gradle-light.svg",
+          "dark": "gradle-dark.svg"
+        },
+        "category": "Frontend - Build Tools"
+      },
+      {
+        "id": "maven",
+        "name": "maven",
+        "files": {
+          "light": "maven-light.svg",
+          "dark": "maven-dark.svg"
+        },
+        "category": "Frontend - Build Tools"
+      },
+      {
+        "id": "composer",
+        "name": "composer",
+        "files": {
+          "light": "composer-light.svg",
+          "dark": "composer-dark.svg"
+        },
+        "category": "Frontend - Build Tools"
+      },
+      {
+        "id": "stylelint",
+        "name": "stylelint",
+        "files": {
+          "light": "stylelint-light.svg",
+          "dark": "stylelint-dark.svg"
+        },
+        "category": "Frontend - Build Tools"
+      },
+      {
+        "id": "pint",
+        "name": "pint",
+        "files": {
+          "light": "pint.svg",
+          "dark": "pint.svg"
+        },
+        "category": "Frontend - Build Tools"
+      },
+      {
+        "id": "chromedevtools",
+        "name": "chromedevtools",
+        "files": {
+          "light": "chromedevtools.svg",
+          "dark": "chromedevtools.svg"
+        },
+        "category": "Frontend - Build Tools"
+      },
+      {
+        "id": "vitepress",
+        "name": "vitepress",
+        "files": {
+          "light": "vitepress-light.svg",
+          "dark": "vitepress-dark.svg"
+        },
+        "category": "Frontend - Build Tools"
+      },
+      {
+        "id": "wxt",
+        "name": "wxt",
+        "files": {
+          "light": "wxt-light.svg",
+          "dark": "wxt-dark.svg"
+        },
+        "category": "Frontend - Build Tools"
+      },
+      {
+        "id": "docsify",
+        "name": "docsify",
+        "files": {
+          "light": "docsify-light.svg",
+          "dark": "docsify-dark.svg"
         },
         "category": "Frontend - Build Tools"
       },
@@ -1187,20 +1167,20 @@ const iconsData = {
         "category": "Frontend - Build Tools"
       },
       {
-        "id": "ratatui",
-        "name": "ratatui",
-        "files": {
-          "light": "ratatui-light.svg",
-          "dark": "ratatui-dark.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
         "id": "reactlynx",
         "name": "reactlynx",
         "files": {
           "light": "reactlynx-light.svg",
           "dark": "reactlynx-dark.svg"
+        },
+        "category": "Frontend - Build Tools"
+      },
+      {
+        "id": "millionjs",
+        "name": "millionjs",
+        "files": {
+          "light": "millionjs-light.svg",
+          "dark": "millionjs-dark.svg"
         },
         "category": "Frontend - Build Tools"
       },
@@ -1223,15 +1203,6 @@ const iconsData = {
         "category": "Frontend - Build Tools"
       },
       {
-        "id": "rollupjs",
-        "name": "rollupjs",
-        "files": {
-          "light": "rollupjs-light.svg",
-          "dark": "rollupjs-dark.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
         "id": "socketio",
         "name": "socketio",
         "files": {
@@ -1241,121 +1212,139 @@ const iconsData = {
         "category": "Frontend - Build Tools"
       },
       {
-        "id": "stylelint",
-        "name": "stylelint",
+        "id": "ratatui",
+        "name": "ratatui",
         "files": {
-          "light": "stylelint-light.svg",
-          "dark": "stylelint-dark.svg"
+          "light": "ratatui-light.svg",
+          "dark": "ratatui-dark.svg"
         },
         "category": "Frontend - Build Tools"
       },
       {
-        "id": "tauri",
-        "name": "tauri",
+        "id": "lynxjs",
+        "name": "lynxjs",
         "files": {
-          "light": "tauri-light.svg",
-          "dark": "tauri-dark.svg"
+          "light": "lynxjs-light.svg",
+          "dark": "lynxjs-dark.svg"
         },
         "category": "Frontend - Build Tools"
       },
       {
-        "id": "turborepo",
-        "name": "turborepo",
+        "id": "iced",
+        "name": "iced",
         "files": {
-          "light": "turborepo-light.svg",
-          "dark": "turborepo-dark.svg"
+          "light": "iced.svg",
+          "dark": "iced.svg"
         },
         "category": "Frontend - Build Tools"
       },
       {
-        "id": "vite",
-        "name": "vite",
+        "id": "mermaid",
+        "name": "mermaid",
         "files": {
-          "light": "vite-light.svg",
-          "dark": "vite-dark.svg"
+          "light": "mermaid.svg",
+          "dark": "mermaid.svg"
         },
         "category": "Frontend - Build Tools"
       },
       {
-        "id": "vitepress",
-        "name": "vitepress",
+        "id": "modelviewer",
+        "name": "modelviewer",
         "files": {
-          "light": "vitepress-light.svg",
-          "dark": "vitepress-dark.svg"
+          "light": "modelviewer-light.svg",
+          "dark": "modelviewer-dark.svg"
         },
         "category": "Frontend - Build Tools"
       },
       {
-        "id": "webpack",
-        "name": "webpack",
+        "id": "rollupjs",
+        "name": "rollupjs",
         "files": {
-          "light": "webpack-light.svg",
-          "dark": "webpack-dark.svg"
+          "light": "rollupjs-light.svg",
+          "dark": "rollupjs-dark.svg"
         },
         "category": "Frontend - Build Tools"
       },
       {
-        "id": "wxt",
-        "name": "wxt",
+        "id": "jqlang",
+        "name": "jqlang",
         "files": {
-          "light": "wxt-light.svg",
-          "dark": "wxt-dark.svg"
-        },
-        "category": "Frontend - Build Tools"
-      },
-      {
-        "id": "yarn",
-        "name": "yarn",
-        "files": {
-          "light": "yarn-light.svg",
-          "dark": "yarn-dark.svg"
+          "light": "jqlang-light.svg",
+          "dark": "jqlang-dark.svg"
         },
         "category": "Frontend - Build Tools"
       }
     ],
     "Backend - Languages": [
       {
-        "id": "aiscript",
-        "name": "aiscript",
+        "id": "nodejs",
+        "name": "nodejs",
         "files": {
-          "light": "aiscript-light.svg",
-          "dark": "aiscript-dark.svg"
+          "light": "nodejs-light.svg",
+          "dark": "nodejs-dark.svg"
         },
         "category": "Backend - Languages"
       },
       {
-        "id": "api",
-        "name": "api",
+        "id": "php",
+        "name": "php",
         "files": {
-          "light": "api-light.svg",
-          "dark": "api-dark.svg"
+          "light": "php-light.svg",
+          "dark": "php-dark.svg"
         },
         "category": "Backend - Languages"
       },
       {
-        "id": "apidog",
-        "name": "apidog",
+        "id": "java",
+        "name": "java",
         "files": {
-          "light": "apidog-light.svg",
-          "dark": "apidog-dark.svg"
+          "light": "java-light.svg",
+          "dark": "java-dark.svg"
         },
         "category": "Backend - Languages"
       },
       {
-        "id": "assembly",
-        "name": "assembly",
+        "id": "python",
+        "name": "python",
         "files": {
-          "light": "assembly.svg",
-          "dark": "assembly.svg"
+          "light": "python-light.svg",
+          "dark": "python-dark.svg"
         },
         "category": "Backend - Languages"
       },
       {
-        "id": "bash",
-        "name": "bash",
+        "id": "golang",
+        "name": "golang",
         "files": {
-          "light": "bash-light.svg",
-          "dark": "bash-dark.svg"
+          "light": "golang.svg",
+          "dark": "golang.svg"
+        },
+        "category": "Backend - Languages"
+      },
+      {
+        "id": "rust",
+        "name": "rust",
+        "files": {
+          "light": "rust-light.svg",
+          "dark": "rust-dark.svg"
+        },
+        "category": "Backend - Languages"
+      },
+      {
+        "id": "ruby",
+        "name": "ruby",
+        "files": {
+          "light": "ruby.svg",
+          "dark": "ruby.svg"
+        },
+        "category": "Backend - Languages"
+      },
+      {
+        "id": "dotnet",
+        "name": "dotnet",
+        "files": {
+          "light": "dotnet.svg",
+          "dark": "dotnet.svg"
         },
         "category": "Backend - Languages"
       },
@@ -1369,15 +1358,6 @@ const iconsData = {
         "category": "Backend - Languages"
       },
       {
-        "id": "clojure",
-        "name": "clojure",
-        "files": {
-          "light": "clojure-light.svg",
-          "dark": "clojure-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
         "id": "cpp",
         "name": "cpp",
         "files": {
@@ -1387,38 +1367,65 @@ const iconsData = {
         "category": "Backend - Languages"
       },
       {
-        "id": "crystal",
-        "name": "crystal",
+        "id": "lua",
+        "name": "lua",
         "files": {
-          "light": "crystal-light.svg",
-          "dark": "crystal-dark.svg"
+          "light": "lua-light.svg",
+          "dark": "lua-dark.svg"
         },
         "category": "Backend - Languages"
       },
       {
-        "id": "d",
-        "name": "d",
+        "id": "perl",
+        "name": "perl",
         "files": {
-          "light": "d.svg",
-          "dark": "d.svg"
+          "light": "perl.svg",
+          "dark": "perl.svg"
         },
         "category": "Backend - Languages"
       },
       {
-        "id": "dart",
-        "name": "dart",
+        "id": "r",
+        "name": "r",
         "files": {
-          "light": "dart-light.svg",
-          "dark": "dart-dark.svg"
+          "light": "r-light.svg",
+          "dark": "r-dark.svg"
         },
         "category": "Backend - Languages"
       },
       {
-        "id": "dotnet",
-        "name": "dotnet",
+        "id": "julia",
+        "name": "julia",
         "files": {
-          "light": "dotnet.svg",
-          "dark": "dotnet.svg"
+          "light": "julia-light.svg",
+          "dark": "julia-dark.svg"
+        },
+        "category": "Backend - Languages"
+      },
+      {
+        "id": "scala",
+        "name": "scala",
+        "files": {
+          "light": "scala-light.svg",
+          "dark": "scala-dark.svg"
+        },
+        "category": "Backend - Languages"
+      },
+      {
+        "id": "kotlin",
+        "name": "kotlin",
+        "files": {
+          "light": "kotlin-light.svg",
+          "dark": "kotlin-dark.svg"
+        },
+        "category": "Backend - Languages"
+      },
+      {
+        "id": "clojure",
+        "name": "clojure",
+        "files": {
+          "light": "clojure-light.svg",
+          "dark": "clojure-dark.svg"
         },
         "category": "Backend - Languages"
       },
@@ -1441,155 +1448,11 @@ const iconsData = {
         "category": "Backend - Languages"
       },
       {
-        "id": "forth",
-        "name": "forth",
-        "files": {
-          "light": "forth.svg",
-          "dark": "forth.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "fortran",
-        "name": "fortran",
-        "files": {
-          "light": "fortran.svg",
-          "dark": "fortran.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "fuse",
-        "name": "fuse",
-        "files": {
-          "light": "fuse.svg",
-          "dark": "fuse.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "gleam",
-        "name": "gleam",
-        "files": {
-          "light": "gleam-light.svg",
-          "dark": "gleam-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "golang",
-        "name": "golang",
-        "files": {
-          "light": "golang.svg",
-          "dark": "golang.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "googleappsscript",
-        "name": "googleappsscript",
-        "files": {
-          "light": "googleappsscript-light.svg",
-          "dark": "googleappsscript-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
         "id": "haskell",
         "name": "haskell",
         "files": {
           "light": "haskell-light.svg",
           "dark": "haskell-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "haxe",
-        "name": "haxe",
-        "files": {
-          "light": "haxe-light.svg",
-          "dark": "haxe-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "holyc",
-        "name": "holyc",
-        "files": {
-          "light": "holyc.svg",
-          "dark": "holyc.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "java",
-        "name": "java",
-        "files": {
-          "light": "java-light.svg",
-          "dark": "java-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "julia",
-        "name": "julia",
-        "files": {
-          "light": "julia-light.svg",
-          "dark": "julia-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "kotlin",
-        "name": "kotlin",
-        "files": {
-          "light": "kotlin-light.svg",
-          "dark": "kotlin-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "latex",
-        "name": "latex",
-        "files": {
-          "light": "latex-light.svg",
-          "dark": "latex-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "lua",
-        "name": "lua",
-        "files": {
-          "light": "lua-light.svg",
-          "dark": "lua-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "matlab",
-        "name": "matlab",
-        "files": {
-          "light": "matlab-light.svg",
-          "dark": "matlab-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "nim",
-        "name": "nim",
-        "files": {
-          "light": "nim-light.svg",
-          "dark": "nim-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "nodejs",
-        "name": "nodejs",
-        "files": {
-          "light": "nodejs-light.svg",
-          "dark": "nodejs-dark.svg"
         },
         "category": "Backend - Languages"
       },
@@ -1603,38 +1466,29 @@ const iconsData = {
         "category": "Backend - Languages"
       },
       {
-        "id": "odin",
-        "name": "odin",
+        "id": "swift",
+        "name": "swift",
         "files": {
-          "light": "odin-light.svg",
-          "dark": "odin-dark.svg"
+          "light": "swift.svg",
+          "dark": "swift.svg"
         },
         "category": "Backend - Languages"
       },
       {
-        "id": "perl",
-        "name": "perl",
+        "id": "dart",
+        "name": "dart",
         "files": {
-          "light": "perl.svg",
-          "dark": "perl.svg"
+          "light": "dart-light.svg",
+          "dark": "dart-dark.svg"
         },
         "category": "Backend - Languages"
       },
       {
-        "id": "php",
-        "name": "php",
+        "id": "bash",
+        "name": "bash",
         "files": {
-          "light": "php-light.svg",
-          "dark": "php-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "pkl",
-        "name": "pkl",
-        "files": {
-          "light": "pkl-light.svg",
-          "dark": "pkl-dark.svg"
+          "light": "bash-light.svg",
+          "dark": "bash-dark.svg"
         },
         "category": "Backend - Languages"
       },
@@ -1648,74 +1502,101 @@ const iconsData = {
         "category": "Backend - Languages"
       },
       {
-        "id": "python",
-        "name": "python",
+        "id": "assembly",
+        "name": "assembly",
         "files": {
-          "light": "python-light.svg",
-          "dark": "python-dark.svg"
+          "light": "assembly.svg",
+          "dark": "assembly.svg"
         },
         "category": "Backend - Languages"
       },
       {
-        "id": "r",
-        "name": "r",
+        "id": "fortran",
+        "name": "fortran",
         "files": {
-          "light": "r-light.svg",
-          "dark": "r-dark.svg"
+          "light": "fortran.svg",
+          "dark": "fortran.svg"
         },
         "category": "Backend - Languages"
       },
       {
-        "id": "regex",
-        "name": "regex",
+        "id": "v",
+        "name": "v",
         "files": {
-          "light": "regex-light.svg",
-          "dark": "regex-dark.svg"
+          "light": "v-light.svg",
+          "dark": "v-dark.svg"
         },
         "category": "Backend - Languages"
       },
       {
-        "id": "restructuredtext",
-        "name": "restructuredtext",
+        "id": "zig",
+        "name": "zig",
         "files": {
-          "light": "restructuredtext-light.svg",
-          "dark": "restructuredtext-dark.svg"
+          "light": "zig-light.svg",
+          "dark": "zig-dark.svg"
         },
         "category": "Backend - Languages"
       },
       {
-        "id": "ros",
-        "name": "ros",
+        "id": "nim",
+        "name": "nim",
         "files": {
-          "light": "ros-light.svg",
-          "dark": "ros-dark.svg"
+          "light": "nim-light.svg",
+          "dark": "nim-dark.svg"
         },
         "category": "Backend - Languages"
       },
       {
-        "id": "ruby",
-        "name": "ruby",
+        "id": "crystal",
+        "name": "crystal",
         "files": {
-          "light": "ruby.svg",
-          "dark": "ruby.svg"
+          "light": "crystal-light.svg",
+          "dark": "crystal-dark.svg"
         },
         "category": "Backend - Languages"
       },
       {
-        "id": "rust",
-        "name": "rust",
+        "id": "d",
+        "name": "d",
         "files": {
-          "light": "rust-light.svg",
-          "dark": "rust-dark.svg"
+          "light": "d.svg",
+          "dark": "d.svg"
         },
         "category": "Backend - Languages"
       },
       {
-        "id": "scala",
-        "name": "scala",
+        "id": "forth",
+        "name": "forth",
         "files": {
-          "light": "scala-light.svg",
-          "dark": "scala-dark.svg"
+          "light": "forth.svg",
+          "dark": "forth.svg"
+        },
+        "category": "Backend - Languages"
+      },
+      {
+        "id": "odin",
+        "name": "odin",
+        "files": {
+          "light": "odin-light.svg",
+          "dark": "odin-dark.svg"
+        },
+        "category": "Backend - Languages"
+      },
+      {
+        "id": "pkl",
+        "name": "pkl",
+        "files": {
+          "light": "pkl-light.svg",
+          "dark": "pkl-dark.svg"
+        },
+        "category": "Backend - Languages"
+      },
+      {
+        "id": "gleam",
+        "name": "gleam",
+        "files": {
+          "light": "gleam-light.svg",
+          "dark": "gleam-dark.svg"
         },
         "category": "Backend - Languages"
       },
@@ -1729,29 +1610,11 @@ const iconsData = {
         "category": "Backend - Languages"
       },
       {
-        "id": "swift",
-        "name": "swift",
+        "id": "holyc",
+        "name": "holyc",
         "files": {
-          "light": "swift.svg",
-          "dark": "swift.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "uml",
-        "name": "uml",
-        "files": {
-          "light": "uml-light.svg",
-          "dark": "uml-dark.svg"
-        },
-        "category": "Backend - Languages"
-      },
-      {
-        "id": "v",
-        "name": "v",
-        "files": {
-          "light": "v-light.svg",
-          "dark": "v-dark.svg"
+          "light": "holyc.svg",
+          "dark": "holyc.svg"
         },
         "category": "Backend - Languages"
       },
@@ -1774,16 +1637,133 @@ const iconsData = {
         "category": "Backend - Languages"
       },
       {
-        "id": "zig",
-        "name": "zig",
+        "id": "haxe",
+        "name": "haxe",
         "files": {
-          "light": "zig-light.svg",
-          "dark": "zig-dark.svg"
+          "light": "haxe-light.svg",
+          "dark": "haxe-dark.svg"
+        },
+        "category": "Backend - Languages"
+      },
+      {
+        "id": "apidog",
+        "name": "apidog",
+        "files": {
+          "light": "apidog-light.svg",
+          "dark": "apidog-dark.svg"
+        },
+        "category": "Backend - Languages"
+      },
+      {
+        "id": "api",
+        "name": "api",
+        "files": {
+          "light": "api-light.svg",
+          "dark": "api-dark.svg"
+        },
+        "category": "Backend - Languages"
+      },
+      {
+        "id": "matlab",
+        "name": "matlab",
+        "files": {
+          "light": "matlab-light.svg",
+          "dark": "matlab-dark.svg"
+        },
+        "category": "Backend - Languages"
+      },
+      {
+        "id": "latex",
+        "name": "latex",
+        "files": {
+          "light": "latex-light.svg",
+          "dark": "latex-dark.svg"
+        },
+        "category": "Backend - Languages"
+      },
+      {
+        "id": "regex",
+        "name": "regex",
+        "files": {
+          "light": "regex-light.svg",
+          "dark": "regex-dark.svg"
+        },
+        "category": "Backend - Languages"
+      },
+      {
+        "id": "restructuredtext",
+        "name": "restructuredtext",
+        "files": {
+          "light": "restructuredtext-light.svg",
+          "dark": "restructuredtext-dark.svg"
+        },
+        "category": "Backend - Languages"
+      },
+      {
+        "id": "fuse",
+        "name": "fuse",
+        "files": {
+          "light": "fuse.svg",
+          "dark": "fuse.svg"
+        },
+        "category": "Backend - Languages"
+      },
+      {
+        "id": "aiscript",
+        "name": "aiscript",
+        "files": {
+          "light": "aiscript-light.svg",
+          "dark": "aiscript-dark.svg"
+        },
+        "category": "Backend - Languages"
+      },
+      {
+        "id": "ros",
+        "name": "ros",
+        "files": {
+          "light": "ros-light.svg",
+          "dark": "ros-dark.svg"
+        },
+        "category": "Backend - Languages"
+      },
+      {
+        "id": "uml",
+        "name": "uml",
+        "files": {
+          "light": "uml-light.svg",
+          "dark": "uml-dark.svg"
+        },
+        "category": "Backend - Languages"
+      },
+      {
+        "id": "googleappsscript",
+        "name": "googleappsscript",
+        "files": {
+          "light": "googleappsscript-light.svg",
+          "dark": "googleappsscript-dark.svg"
         },
         "category": "Backend - Languages"
       }
     ],
     "Backend - Frameworks - JS/TS": [
+      {
+        "id": "nestjs",
+        "name": "nestjs",
+        "files": {
+          "light": "nestjs-light.svg",
+          "dark": "nestjs-dark.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "meteorjs",
+        "name": "meteorjs",
+        "files": {
+          "light": "meteorjs-light.svg",
+          "dark": "meteorjs-dark.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
       {
         "id": "adonis",
         "name": "adonis",
@@ -1794,11 +1774,29 @@ const iconsData = {
         "category": "Backend - Frameworks - JS/TS"
       },
       {
-        "id": "beeceptor",
-        "name": "beeceptor",
+        "id": "hono",
+        "name": "hono",
         "files": {
-          "light": "beeceptor-light.svg",
-          "dark": "beeceptor-dark.svg"
+          "light": "hono-light.svg",
+          "dark": "hono-dark.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "elysia",
+        "name": "elysia",
+        "files": {
+          "light": "elysia-light.svg",
+          "dark": "elysia-dark.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "inertia",
+        "name": "inertia",
+        "files": {
+          "light": "inertia.svg",
+          "dark": "inertia.svg"
         },
         "category": "Backend - Frameworks - JS/TS"
       },
@@ -1817,222 +1815,6 @@ const iconsData = {
         "files": {
           "light": "discordjs-light.svg",
           "dark": "discordjs-dark.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "drizzle",
-        "name": "drizzle",
-        "files": {
-          "light": "drizzle-light.svg",
-          "dark": "drizzle-dark.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "dubbo",
-        "name": "dubbo",
-        "files": {
-          "light": "dubbo-light.svg",
-          "dark": "dubbo-dark.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "elysia",
-        "name": "elysia",
-        "files": {
-          "light": "elysia-light.svg",
-          "dark": "elysia-dark.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "expressjs",
-        "name": "expressjs",
-        "files": {
-          "light": "expressjs-light.svg",
-          "dark": "expressjs-dark.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "fabric",
-        "name": "fabric",
-        "files": {
-          "light": "fabric-light.svg",
-          "dark": "fabric-dark.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "hono",
-        "name": "hono",
-        "files": {
-          "light": "hono-light.svg",
-          "dark": "hono-dark.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "ignite",
-        "name": "ignite",
-        "files": {
-          "light": "ignite-light.svg",
-          "dark": "ignite-dark.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "inertia",
-        "name": "inertia",
-        "files": {
-          "light": "inertia.svg",
-          "dark": "inertia.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "lightning",
-        "name": "lightning",
-        "files": {
-          "light": "lightning-light.svg",
-          "dark": "lightning-dark.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "mcp",
-        "name": "mcp",
-        "files": {
-          "light": "mcp-light.svg",
-          "dark": "mcp-dark.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "meteorjs",
-        "name": "meteorjs",
-        "files": {
-          "light": "meteorjs-light.svg",
-          "dark": "meteorjs-dark.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "nestjs",
-        "name": "nestjs",
-        "files": {
-          "light": "nestjs-light.svg",
-          "dark": "nestjs-dark.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "openzeppelin",
-        "name": "openzeppelin",
-        "files": {
-          "light": "openzeppelin-light.svg",
-          "dark": "openzeppelin-dark.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "orchid",
-        "name": "orchid",
-        "files": {
-          "light": "orchid.svg",
-          "dark": "orchid.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "pail",
-        "name": "pail",
-        "files": {
-          "light": "pail-light.svg",
-          "dark": "pail-dark.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "pennant",
-        "name": "pennant",
-        "files": {
-          "light": "pennant.svg",
-          "dark": "pennant.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "polar",
-        "name": "polar",
-        "files": {
-          "light": "polar-light.svg",
-          "dark": "polar-dark.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "portfolio",
-        "name": "portfolio",
-        "files": {
-          "light": "portfolio.svg",
-          "dark": "portfolio.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "prelude",
-        "name": "prelude",
-        "files": {
-          "light": "prelude.svg",
-          "dark": "prelude.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "prompts",
-        "name": "prompts",
-        "files": {
-          "light": "prompts.svg",
-          "dark": "prompts.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "pulse",
-        "name": "pulse",
-        "files": {
-          "light": "pulse-light.svg",
-          "dark": "pulse-dark.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "puppygraph",
-        "name": "puppygraph",
-        "files": {
-          "light": "puppygraph-light.svg",
-          "dark": "puppygraph-dark.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "reverb",
-        "name": "reverb",
-        "files": {
-          "light": "reverb.svg",
-          "dark": "reverb.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "rubocop",
-        "name": "rubocop",
-        "files": {
-          "light": "rubocop-light.svg",
-          "dark": "rubocop-dark.svg"
         },
         "category": "Backend - Frameworks - JS/TS"
       },
@@ -2082,15 +1864,6 @@ const iconsData = {
         "category": "Backend - Frameworks - JS/TS"
       },
       {
-        "id": "t3",
-        "name": "t3",
-        "files": {
-          "light": "t3-light.svg",
-          "dark": "t3-dark.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
         "id": "tallyprime",
         "name": "tallyprime",
         "files": {
@@ -2105,24 +1878,6 @@ const iconsData = {
         "files": {
           "light": "telescope.svg",
           "dark": "telescope.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "trpc",
-        "name": "trpc",
-        "files": {
-          "light": "trpc.svg",
-          "dark": "trpc.svg"
-        },
-        "category": "Backend - Frameworks - JS/TS"
-      },
-      {
-        "id": "windmill",
-        "name": "windmill",
-        "files": {
-          "light": "windmill-light.svg",
-          "dark": "windmill-dark.svg"
         },
         "category": "Backend - Frameworks - JS/TS"
       },
@@ -2143,18 +1898,216 @@ const iconsData = {
           "dark": "zudoku-dark.svg"
         },
         "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "trpc",
+        "name": "trpc",
+        "files": {
+          "light": "trpc.svg",
+          "dark": "trpc.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "t3",
+        "name": "t3",
+        "files": {
+          "light": "t3-light.svg",
+          "dark": "t3-dark.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "beeceptor",
+        "name": "beeceptor",
+        "files": {
+          "light": "beeceptor-light.svg",
+          "dark": "beeceptor-dark.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "drizzle",
+        "name": "drizzle",
+        "files": {
+          "light": "drizzle-light.svg",
+          "dark": "drizzle-dark.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "dubbo",
+        "name": "dubbo",
+        "files": {
+          "light": "dubbo-light.svg",
+          "dark": "dubbo-dark.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "fabric",
+        "name": "fabric",
+        "files": {
+          "light": "fabric-light.svg",
+          "dark": "fabric-dark.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "ignite",
+        "name": "ignite",
+        "files": {
+          "light": "ignite-light.svg",
+          "dark": "ignite-dark.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "lightning",
+        "name": "lightning",
+        "files": {
+          "light": "lightning-light.svg",
+          "dark": "lightning-dark.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "mcp",
+        "name": "mcp",
+        "files": {
+          "light": "mcp-light.svg",
+          "dark": "mcp-dark.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "openzeppelin",
+        "name": "openzeppelin",
+        "files": {
+          "light": "openzeppelin-light.svg",
+          "dark": "openzeppelin-dark.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "orchid",
+        "name": "orchid",
+        "files": {
+          "light": "orchid.svg",
+          "dark": "orchid.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "pail",
+        "name": "pail",
+        "files": {
+          "light": "pail-light.svg",
+          "dark": "pail-dark.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "pennant",
+        "name": "pennant",
+        "files": {
+          "light": "pennant.svg",
+          "dark": "pennant.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "portfolio",
+        "name": "portfolio",
+        "files": {
+          "light": "portfolio.svg",
+          "dark": "portfolio.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "prelude",
+        "name": "prelude",
+        "files": {
+          "light": "prelude.svg",
+          "dark": "prelude.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "polar",
+        "name": "polar",
+        "files": {
+          "light": "polar-light.svg",
+          "dark": "polar-dark.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "prompts",
+        "name": "prompts",
+        "files": {
+          "light": "prompts.svg",
+          "dark": "prompts.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "pulse",
+        "name": "pulse",
+        "files": {
+          "light": "pulse-light.svg",
+          "dark": "pulse-dark.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "puppygraph",
+        "name": "puppygraph",
+        "files": {
+          "light": "puppygraph-light.svg",
+          "dark": "puppygraph-dark.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "reverb",
+        "name": "reverb",
+        "files": {
+          "light": "reverb.svg",
+          "dark": "reverb.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "rubocop",
+        "name": "rubocop",
+        "files": {
+          "light": "rubocop-light.svg",
+          "dark": "rubocop-dark.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "windmill",
+        "name": "windmill",
+        "files": {
+          "light": "windmill-light.svg",
+          "dark": "windmill-dark.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
+      },
+      {
+        "id": "expressjs",
+        "name": "expressjs",
+        "files": {
+          "light": "expressjs-light.svg",
+          "dark": "expressjs-dark.svg"
+        },
+        "category": "Backend - Frameworks - JS/TS"
       }
     ],
     "Backend - Frameworks - Python": [
-      {
-        "id": "aiogram",
-        "name": "aiogram",
-        "files": {
-          "light": "aiogram-light.svg",
-          "dark": "aiogram-dark.svg"
-        },
-        "category": "Backend - Frameworks - Python"
-      },
       {
         "id": "django",
         "name": "django",
@@ -2165,11 +2118,11 @@ const iconsData = {
         "category": "Backend - Frameworks - Python"
       },
       {
-        "id": "djangorestframework",
-        "name": "djangorestframework",
+        "id": "flask",
+        "name": "flask",
         "files": {
-          "light": "djangorestframework-light.svg",
-          "dark": "djangorestframework-dark.svg"
+          "light": "flask.svg",
+          "dark": "flask.svg"
         },
         "category": "Backend - Frameworks - Python"
       },
@@ -2179,15 +2132,6 @@ const iconsData = {
         "files": {
           "light": "fastapi.svg",
           "dark": "fastapi.svg"
-        },
-        "category": "Backend - Frameworks - Python"
-      },
-      {
-        "id": "flask",
-        "name": "flask",
-        "files": {
-          "light": "flask.svg",
-          "dark": "flask.svg"
         },
         "category": "Backend - Frameworks - Python"
       },
@@ -2210,6 +2154,24 @@ const iconsData = {
         "category": "Backend - Frameworks - Python"
       },
       {
+        "id": "djangorestframework",
+        "name": "djangorestframework",
+        "files": {
+          "light": "djangorestframework-light.svg",
+          "dark": "djangorestframework-dark.svg"
+        },
+        "category": "Backend - Frameworks - Python"
+      },
+      {
+        "id": "aiogram",
+        "name": "aiogram",
+        "files": {
+          "light": "aiogram-light.svg",
+          "dark": "aiogram-dark.svg"
+        },
+        "category": "Backend - Frameworks - Python"
+      },
+      {
         "id": "sqlalchemy",
         "name": "sqlalchemy",
         "files": {
@@ -2217,33 +2179,24 @@ const iconsData = {
           "dark": "sqlalchemy-dark.svg"
         },
         "category": "Backend - Frameworks - Python"
+      },
+      {
+        "id": "pypi",
+        "name": "pypi",
+        "files": {
+          "light": "pypi.svg",
+          "dark": "pypi.svg"
+        },
+        "category": "Backend - Frameworks - Python"
       }
     ],
     "Backend - Frameworks - Java/JVM": [
       {
-        "id": "azul",
-        "name": "azul",
+        "id": "spring",
+        "name": "spring",
         "files": {
-          "light": "azul.svg",
-          "dark": "azul.svg"
-        },
-        "category": "Backend - Frameworks - Java/JVM"
-      },
-      {
-        "id": "grails",
-        "name": "grails",
-        "files": {
-          "light": "grails.svg",
-          "dark": "grails.svg"
-        },
-        "category": "Backend - Frameworks - Java/JVM"
-      },
-      {
-        "id": "ktor",
-        "name": "ktor",
-        "files": {
-          "light": "ktor-light.svg",
-          "dark": "ktor-dark.svg"
+          "light": "spring-light.svg",
+          "dark": "spring-dark.svg"
         },
         "category": "Backend - Frameworks - Java/JVM"
       },
@@ -2257,20 +2210,11 @@ const iconsData = {
         "category": "Backend - Frameworks - Java/JVM"
       },
       {
-        "id": "querydsl",
-        "name": "querydsl",
+        "id": "ktor",
+        "name": "ktor",
         "files": {
-          "light": "querydsl-light.svg",
-          "dark": "querydsl-dark.svg"
-        },
-        "category": "Backend - Frameworks - Java/JVM"
-      },
-      {
-        "id": "spring",
-        "name": "spring",
-        "files": {
-          "light": "spring-light.svg",
-          "dark": "spring-dark.svg"
+          "light": "ktor-light.svg",
+          "dark": "ktor-dark.svg"
         },
         "category": "Backend - Frameworks - Java/JVM"
       },
@@ -2300,15 +2244,96 @@ const iconsData = {
           "dark": "springsecurity-dark.svg"
         },
         "category": "Backend - Frameworks - Java/JVM"
+      },
+      {
+        "id": "gradle",
+        "name": "gradle",
+        "files": {
+          "light": "gradle-light.svg",
+          "dark": "gradle-dark.svg"
+        },
+        "category": "Backend - Frameworks - Java/JVM"
+      },
+      {
+        "id": "maven",
+        "name": "maven",
+        "files": {
+          "light": "maven-light.svg",
+          "dark": "maven-dark.svg"
+        },
+        "category": "Backend - Frameworks - Java/JVM"
+      },
+      {
+        "id": "kotlin",
+        "name": "kotlin",
+        "files": {
+          "light": "kotlin-light.svg",
+          "dark": "kotlin-dark.svg"
+        },
+        "category": "Backend - Frameworks - Java/JVM"
+      },
+      {
+        "id": "scala",
+        "name": "scala",
+        "files": {
+          "light": "scala-light.svg",
+          "dark": "scala-dark.svg"
+        },
+        "category": "Backend - Frameworks - Java/JVM"
+      },
+      {
+        "id": "clojure",
+        "name": "clojure",
+        "files": {
+          "light": "clojure-light.svg",
+          "dark": "clojure-dark.svg"
+        },
+        "category": "Backend - Frameworks - Java/JVM"
+      },
+      {
+        "id": "azul",
+        "name": "azul",
+        "files": {
+          "light": "azul.svg",
+          "dark": "azul.svg"
+        },
+        "category": "Backend - Frameworks - Java/JVM"
+      },
+      {
+        "id": "grails",
+        "name": "grails",
+        "files": {
+          "light": "grails.svg",
+          "dark": "grails.svg"
+        },
+        "category": "Backend - Frameworks - Java/JVM"
+      },
+      {
+        "id": "querydsl",
+        "name": "querydsl",
+        "files": {
+          "light": "querydsl-light.svg",
+          "dark": "querydsl-dark.svg"
+        },
+        "category": "Backend - Frameworks - Java/JVM"
       }
     ],
     "Backend - Frameworks - PHP": [
       {
-        "id": "cashier",
-        "name": "cashier",
+        "id": "laravel",
+        "name": "laravel",
         "files": {
-          "light": "cashier.svg",
-          "dark": "cashier.svg"
+          "light": "laravel-light.svg",
+          "dark": "laravel-dark.svg"
+        },
+        "category": "Backend - Frameworks - PHP"
+      },
+      {
+        "id": "symfony",
+        "name": "symfony",
+        "files": {
+          "light": "symfony-light.svg",
+          "dark": "symfony-dark.svg"
         },
         "category": "Backend - Frameworks - PHP"
       },
@@ -2322,6 +2347,15 @@ const iconsData = {
         "category": "Backend - Frameworks - PHP"
       },
       {
+        "id": "joomla",
+        "name": "joomla",
+        "files": {
+          "light": "joomla-light.svg",
+          "dark": "joomla-dark.svg"
+        },
+        "category": "Backend - Frameworks - PHP"
+      },
+      {
         "id": "drupal",
         "name": "drupal",
         "files": {
@@ -2331,11 +2365,92 @@ const iconsData = {
         "category": "Backend - Frameworks - PHP"
       },
       {
+        "id": "wordpress",
+        "name": "wordpress",
+        "files": {
+          "light": "wordpress.svg",
+          "dark": "wordpress.svg"
+        },
+        "category": "Backend - Frameworks - PHP"
+      },
+      {
         "id": "filament",
         "name": "filament",
         "files": {
           "light": "filament.svg",
           "dark": "filament.svg"
+        },
+        "category": "Backend - Frameworks - PHP"
+      },
+      {
+        "id": "cashier",
+        "name": "cashier",
+        "files": {
+          "light": "cashier.svg",
+          "dark": "cashier.svg"
+        },
+        "category": "Backend - Frameworks - PHP"
+      },
+      {
+        "id": "horizon",
+        "name": "horizon",
+        "files": {
+          "light": "horizon.svg",
+          "dark": "horizon.svg"
+        },
+        "category": "Backend - Frameworks - PHP"
+      },
+      {
+        "id": "jetstream",
+        "name": "jetstream",
+        "files": {
+          "light": "jetstream.svg",
+          "dark": "jetstream.svg"
+        },
+        "category": "Backend - Frameworks - PHP"
+      },
+      {
+        "id": "laravelspark",
+        "name": "laravelspark",
+        "files": {
+          "light": "laravelspark-light.svg",
+          "dark": "laravelspark-dark.svg"
+        },
+        "category": "Backend - Frameworks - PHP"
+      },
+      {
+        "id": "octane",
+        "name": "octane",
+        "files": {
+          "light": "octane.svg",
+          "dark": "octane.svg"
+        },
+        "category": "Backend - Frameworks - PHP"
+      },
+      {
+        "id": "livewire",
+        "name": "livewire",
+        "files": {
+          "light": "livewire-light.svg",
+          "dark": "livewire-dark.svg"
+        },
+        "category": "Backend - Frameworks - PHP"
+      },
+      {
+        "id": "vapor",
+        "name": "vapor",
+        "files": {
+          "light": "vapor.svg",
+          "dark": "vapor.svg"
+        },
+        "category": "Backend - Frameworks - PHP"
+      },
+      {
+        "id": "resend",
+        "name": "resend",
+        "files": {
+          "light": "resend-light.svg",
+          "dark": "resend-dark.svg"
         },
         "category": "Backend - Frameworks - PHP"
       },
@@ -2365,99 +2480,18 @@ const iconsData = {
           "dark": "herd.svg"
         },
         "category": "Backend - Frameworks - PHP"
-      },
-      {
-        "id": "horizon",
-        "name": "horizon",
-        "files": {
-          "light": "horizon.svg",
-          "dark": "horizon.svg"
-        },
-        "category": "Backend - Frameworks - PHP"
-      },
-      {
-        "id": "jetstream",
-        "name": "jetstream",
-        "files": {
-          "light": "jetstream.svg",
-          "dark": "jetstream.svg"
-        },
-        "category": "Backend - Frameworks - PHP"
-      },
-      {
-        "id": "joomla",
-        "name": "joomla",
-        "files": {
-          "light": "joomla-light.svg",
-          "dark": "joomla-dark.svg"
-        },
-        "category": "Backend - Frameworks - PHP"
-      },
-      {
-        "id": "laravel",
-        "name": "laravel",
-        "files": {
-          "light": "laravel-light.svg",
-          "dark": "laravel-dark.svg"
-        },
-        "category": "Backend - Frameworks - PHP"
-      },
-      {
-        "id": "laravelspark",
-        "name": "laravelspark",
-        "files": {
-          "light": "laravelspark-light.svg",
-          "dark": "laravelspark-dark.svg"
-        },
-        "category": "Backend - Frameworks - PHP"
-      },
-      {
-        "id": "octane",
-        "name": "octane",
-        "files": {
-          "light": "octane.svg",
-          "dark": "octane.svg"
-        },
-        "category": "Backend - Frameworks - PHP"
-      },
-      {
-        "id": "resend",
-        "name": "resend",
-        "files": {
-          "light": "resend-light.svg",
-          "dark": "resend-dark.svg"
-        },
-        "category": "Backend - Frameworks - PHP"
-      },
-      {
-        "id": "symfony",
-        "name": "symfony",
-        "files": {
-          "light": "symfony-light.svg",
-          "dark": "symfony-dark.svg"
-        },
-        "category": "Backend - Frameworks - PHP"
-      },
-      {
-        "id": "vapor",
-        "name": "vapor",
-        "files": {
-          "light": "vapor.svg",
-          "dark": "vapor.svg"
-        },
-        "category": "Backend - Frameworks - PHP"
-      },
-      {
-        "id": "wordpress",
-        "name": "wordpress",
-        "files": {
-          "light": "wordpress.svg",
-          "dark": "wordpress.svg"
-        },
-        "category": "Backend - Frameworks - PHP"
       }
     ],
     "Backend - Frameworks - Go": [
+      {
+        "id": "gin",
+        "name": "gin",
+        "files": {
+          "light": "gin-light.svg",
+          "dark": "gin-dark.svg"
+        },
+        "category": "Backend - Frameworks - Go"
+      },
       {
         "id": "echo",
         "name": "echo",
@@ -2477,20 +2511,11 @@ const iconsData = {
         "category": "Backend - Frameworks - Go"
       },
       {
-        "id": "gin",
-        "name": "gin",
+        "id": "wails",
+        "name": "wails",
         "files": {
-          "light": "gin-light.svg",
-          "dark": "gin-dark.svg"
-        },
-        "category": "Backend - Frameworks - Go"
-      },
-      {
-        "id": "gorm",
-        "name": "gorm",
-        "files": {
-          "light": "gorm-light.svg",
-          "dark": "gorm-dark.svg"
+          "light": "wails-light.svg",
+          "dark": "wails-dark.svg"
         },
         "category": "Backend - Frameworks - Go"
       },
@@ -2504,11 +2529,11 @@ const iconsData = {
         "category": "Backend - Frameworks - Go"
       },
       {
-        "id": "wails",
-        "name": "wails",
+        "id": "gorm",
+        "name": "gorm",
         "files": {
-          "light": "wails-light.svg",
-          "dark": "wails-dark.svg"
+          "light": "gorm-light.svg",
+          "dark": "gorm-dark.svg"
         },
         "category": "Backend - Frameworks - Go"
       }
@@ -2533,6 +2558,15 @@ const iconsData = {
         "category": "Backend - Frameworks - Rust"
       },
       {
+        "id": "tauri",
+        "name": "tauri",
+        "files": {
+          "light": "tauri-light.svg",
+          "dark": "tauri-dark.svg"
+        },
+        "category": "Backend - Frameworks - Rust"
+      },
+      {
         "id": "tokiors",
         "name": "tokiors",
         "files": {
@@ -2540,15 +2574,33 @@ const iconsData = {
           "dark": "tokiors-dark.svg"
         },
         "category": "Backend - Frameworks - Rust"
+      },
+      {
+        "id": "yew",
+        "name": "yew",
+        "files": {
+          "light": "yew-light.svg",
+          "dark": "yew-dark.svg"
+        },
+        "category": "Backend - Frameworks - Rust"
       }
     ],
     "Backend - Frameworks - C#/.NET": [
       {
-        "id": "avaloniaui",
-        "name": "avaloniaui",
+        "id": "dotnet",
+        "name": "dotnet",
         "files": {
-          "light": "avaloniaui.svg",
-          "dark": "avaloniaui.svg"
+          "light": "dotnet.svg",
+          "dark": "dotnet.svg"
+        },
+        "category": "Backend - Frameworks - C#/.NET"
+      },
+      {
+        "id": "blazor",
+        "name": "blazor",
+        "files": {
+          "light": "blazor-light.svg",
+          "dark": "blazor-dark.svg"
         },
         "category": "Backend - Frameworks - C#/.NET"
       },
@@ -2558,6 +2610,15 @@ const iconsData = {
         "files": {
           "light": "unity-light.svg",
           "dark": "unity-dark.svg"
+        },
+        "category": "Backend - Frameworks - C#/.NET"
+      },
+      {
+        "id": "avaloniaui",
+        "name": "avaloniaui",
+        "files": {
+          "light": "avaloniaui.svg",
+          "dark": "avaloniaui.svg"
         },
         "category": "Backend - Frameworks - C#/.NET"
       }
@@ -2575,20 +2636,11 @@ const iconsData = {
     ],
     "Backend - Database & API": [
       {
-        "id": "airflow",
-        "name": "airflow",
+        "id": "graphql",
+        "name": "graphql",
         "files": {
-          "light": "airflow-light.svg",
-          "dark": "airflow-dark.svg"
-        },
-        "category": "Backend - Database & API"
-      },
-      {
-        "id": "apigateway",
-        "name": "apigateway",
-        "files": {
-          "light": "apigateway.svg",
-          "dark": "apigateway.svg"
+          "light": "graphql-light.svg",
+          "dark": "graphql-dark.svg"
         },
         "category": "Backend - Database & API"
       },
@@ -2602,6 +2654,69 @@ const iconsData = {
         "category": "Backend - Database & API"
       },
       {
+        "id": "trpc",
+        "name": "trpc",
+        "files": {
+          "light": "trpc.svg",
+          "dark": "trpc.svg"
+        },
+        "category": "Backend - Database & API"
+      },
+      {
+        "id": "prisma",
+        "name": "prisma",
+        "files": {
+          "light": "prisma.svg",
+          "dark": "prisma.svg"
+        },
+        "category": "Backend - Database & API"
+      },
+      {
+        "id": "sequelize",
+        "name": "sequelize",
+        "files": {
+          "light": "sequelize-light.svg",
+          "dark": "sequelize-dark.svg"
+        },
+        "category": "Backend - Database & API"
+      },
+      {
+        "id": "typeorm",
+        "name": "typeorm",
+        "files": {
+          "light": "typeorm-light.svg",
+          "dark": "typeorm-dark.svg"
+        },
+        "category": "Backend - Database & API"
+      },
+      {
+        "id": "mongoose",
+        "name": "mongoose",
+        "files": {
+          "light": "mongoose.svg",
+          "dark": "mongoose.svg"
+        },
+        "category": "Backend - Database & API"
+      },
+      {
+        "id": "supabase",
+        "name": "supabase",
+        "files": {
+          "light": "supabase-light.svg",
+          "dark": "supabase-dark.svg"
+        },
+        "category": "Backend - Database & API"
+      },
+      {
+        "id": "firebase",
+        "name": "firebase",
+        "files": {
+          "light": "firebase-light.svg",
+          "dark": "firebase-dark.svg"
+        },
+        "category": "Backend - Database & API"
+      },
+      {
         "id": "appwrite",
         "name": "appwrite",
         "files": {
@@ -2611,11 +2726,20 @@ const iconsData = {
         "category": "Backend - Database & API"
       },
       {
-        "id": "celery",
-        "name": "celery",
+        "id": "pocketbase",
+        "name": "pocketbase",
         "files": {
-          "light": "celery-light.svg",
-          "dark": "celery-dark.svg"
+          "light": "pocketbase-light.svg",
+          "dark": "pocketbase-dark.svg"
+        },
+        "category": "Backend - Database & API"
+      },
+      {
+        "id": "strapi",
+        "name": "strapi",
+        "files": {
+          "light": "strapi.svg",
+          "dark": "strapi.svg"
         },
         "category": "Backend - Database & API"
       },
@@ -2629,11 +2753,11 @@ const iconsData = {
         "category": "Backend - Database & API"
       },
       {
-        "id": "doctrine",
-        "name": "doctrine",
+        "id": "payload",
+        "name": "payload",
         "files": {
-          "light": "doctrine-light.svg",
-          "dark": "doctrine-dark.svg"
+          "light": "payload-light.svg",
+          "dark": "payload-dark.svg"
         },
         "category": "Backend - Database & API"
       },
@@ -2656,110 +2780,11 @@ const iconsData = {
         "category": "Backend - Database & API"
       },
       {
-        "id": "elasticsearch",
-        "name": "elasticsearch",
+        "id": "swagger",
+        "name": "swagger",
         "files": {
-          "light": "elasticsearch-light.svg",
-          "dark": "elasticsearch-dark.svg"
-        },
-        "category": "Backend - Database & API"
-      },
-      {
-        "id": "firebase",
-        "name": "firebase",
-        "files": {
-          "light": "firebase-light.svg",
-          "dark": "firebase-dark.svg"
-        },
-        "category": "Backend - Database & API"
-      },
-      {
-        "id": "graphql",
-        "name": "graphql",
-        "files": {
-          "light": "graphql-light.svg",
-          "dark": "graphql-dark.svg"
-        },
-        "category": "Backend - Database & API"
-      },
-      {
-        "id": "grpc",
-        "name": "grpc",
-        "files": {
-          "light": "grpc-light.svg",
-          "dark": "grpc-dark.svg"
-        },
-        "category": "Backend - Database & API"
-      },
-      {
-        "id": "hibernate",
-        "name": "hibernate",
-        "files": {
-          "light": "hibernate-light.svg",
-          "dark": "hibernate-dark.svg"
-        },
-        "category": "Backend - Database & API"
-      },
-      {
-        "id": "insomnia",
-        "name": "insomnia",
-        "files": {
-          "light": "insomnia.svg",
-          "dark": "insomnia.svg"
-        },
-        "category": "Backend - Database & API"
-      },
-      {
-        "id": "jwt",
-        "name": "jwt",
-        "files": {
-          "light": "jwt-light.svg",
-          "dark": "jwt-dark.svg"
-        },
-        "category": "Backend - Database & API"
-      },
-      {
-        "id": "kafka",
-        "name": "kafka",
-        "files": {
-          "light": "kafka.svg",
-          "dark": "kafka.svg"
-        },
-        "category": "Backend - Database & API"
-      },
-      {
-        "id": "mongoose",
-        "name": "mongoose",
-        "files": {
-          "light": "mongoose.svg",
-          "dark": "mongoose.svg"
-        },
-        "category": "Backend - Database & API"
-      },
-      {
-        "id": "payload",
-        "name": "payload",
-        "files": {
-          "light": "payload-light.svg",
-          "dark": "payload-dark.svg"
-        },
-        "category": "Backend - Database & API"
-      },
-      {
-        "id": "plsql",
-        "name": "plsql",
-        "files": {
-          "light": "plsql-light.svg",
-          "dark": "plsql-dark.svg"
-        },
-        "category": "Backend - Database & API"
-      },
-      {
-        "id": "pocketbase",
-        "name": "pocketbase",
-        "files": {
-          "light": "pocketbase-light.svg",
-          "dark": "pocketbase-dark.svg"
+          "light": "swagger-light.svg",
+          "dark": "swagger-dark.svg"
         },
         "category": "Backend - Database & API"
       },
@@ -2773,11 +2798,74 @@ const iconsData = {
         "category": "Backend - Database & API"
       },
       {
-        "id": "prisma",
-        "name": "prisma",
+        "id": "insomnia",
+        "name": "insomnia",
         "files": {
-          "light": "prisma.svg",
-          "dark": "prisma.svg"
+          "light": "insomnia.svg",
+          "dark": "insomnia.svg"
+        },
+        "category": "Backend - Database & API"
+      },
+      {
+        "id": "api",
+        "name": "api",
+        "files": {
+          "light": "api-light.svg",
+          "dark": "api-dark.svg"
+        },
+        "category": "Backend - Database & API"
+      },
+      {
+        "id": "apigateway",
+        "name": "apigateway",
+        "files": {
+          "light": "apigateway.svg",
+          "dark": "apigateway.svg"
+        },
+        "category": "Backend - Database & API"
+      },
+      {
+        "id": "grpc",
+        "name": "grpc",
+        "files": {
+          "light": "grpc-light.svg",
+          "dark": "grpc-dark.svg"
+        },
+        "category": "Backend - Database & API"
+      },
+      {
+        "id": "jwt",
+        "name": "jwt",
+        "files": {
+          "light": "jwt-light.svg",
+          "dark": "jwt-dark.svg"
+        },
+        "category": "Backend - Database & API"
+      },
+      {
+        "id": "gorm",
+        "name": "gorm",
+        "files": {
+          "light": "gorm-light.svg",
+          "dark": "gorm-dark.svg"
+        },
+        "category": "Backend - Database & API"
+      },
+      {
+        "id": "hibernate",
+        "name": "hibernate",
+        "files": {
+          "light": "hibernate-light.svg",
+          "dark": "hibernate-dark.svg"
+        },
+        "category": "Backend - Database & API"
+      },
+      {
+        "id": "doctrine",
+        "name": "doctrine",
+        "files": {
+          "light": "doctrine-light.svg",
+          "dark": "doctrine-dark.svg"
         },
         "category": "Backend - Database & API"
       },
@@ -2800,6 +2888,15 @@ const iconsData = {
         "category": "Backend - Database & API"
       },
       {
+        "id": "kafka",
+        "name": "kafka",
+        "files": {
+          "light": "kafka.svg",
+          "dark": "kafka.svg"
+        },
+        "category": "Backend - Database & API"
+      },
+      {
         "id": "redis",
         "name": "redis",
         "files": {
@@ -2809,11 +2906,29 @@ const iconsData = {
         "category": "Backend - Database & API"
       },
       {
-        "id": "rocketmq",
-        "name": "rocketmq",
+        "id": "elasticsearch",
+        "name": "elasticsearch",
         "files": {
-          "light": "rocketmq-light.svg",
-          "dark": "rocketmq-dark.svg"
+          "light": "elasticsearch-light.svg",
+          "dark": "elasticsearch-dark.svg"
+        },
+        "category": "Backend - Database & API"
+      },
+      {
+        "id": "celery",
+        "name": "celery",
+        "files": {
+          "light": "celery-light.svg",
+          "dark": "celery-dark.svg"
+        },
+        "category": "Backend - Database & API"
+      },
+      {
+        "id": "airflow",
+        "name": "airflow",
+        "files": {
+          "light": "airflow-light.svg",
+          "dark": "airflow-dark.svg"
         },
         "category": "Backend - Database & API"
       },
@@ -2827,38 +2942,11 @@ const iconsData = {
         "category": "Backend - Database & API"
       },
       {
-        "id": "sequelize",
-        "name": "sequelize",
+        "id": "rocketmq",
+        "name": "rocketmq",
         "files": {
-          "light": "sequelize-light.svg",
-          "dark": "sequelize-dark.svg"
-        },
-        "category": "Backend - Database & API"
-      },
-      {
-        "id": "strapi",
-        "name": "strapi",
-        "files": {
-          "light": "strapi.svg",
-          "dark": "strapi.svg"
-        },
-        "category": "Backend - Database & API"
-      },
-      {
-        "id": "supabase",
-        "name": "supabase",
-        "files": {
-          "light": "supabase-light.svg",
-          "dark": "supabase-dark.svg"
-        },
-        "category": "Backend - Database & API"
-      },
-      {
-        "id": "swagger",
-        "name": "swagger",
-        "files": {
-          "light": "swagger-light.svg",
-          "dark": "swagger-dark.svg"
+          "light": "rocketmq-light.svg",
+          "dark": "rocketmq-dark.svg"
         },
         "category": "Backend - Database & API"
       },
@@ -2868,15 +2956,6 @@ const iconsData = {
         "files": {
           "light": "tomcat-light.svg",
           "dark": "tomcat-dark.svg"
-        },
-        "category": "Backend - Database & API"
-      },
-      {
-        "id": "typeorm",
-        "name": "typeorm",
-        "files": {
-          "light": "typeorm-light.svg",
-          "dark": "typeorm-dark.svg"
         },
         "category": "Backend - Database & API"
       },
@@ -2897,9 +2976,27 @@ const iconsData = {
           "dark": "yii-dark.svg"
         },
         "category": "Backend - Database & API"
+      },
+      {
+        "id": "plsql",
+        "name": "plsql",
+        "files": {
+          "light": "plsql-light.svg",
+          "dark": "plsql-dark.svg"
+        },
+        "category": "Backend - Database & API"
       }
     ],
     "Cloud - Web Servers": [
+      {
+        "id": "nginx",
+        "name": "nginx",
+        "files": {
+          "light": "nginx.svg",
+          "dark": "nginx.svg"
+        },
+        "category": "Cloud - Web Servers"
+      },
       {
         "id": "apache",
         "name": "apache",
@@ -2919,6 +3016,15 @@ const iconsData = {
         "category": "Cloud - Web Servers"
       },
       {
+        "id": "tomcat",
+        "name": "tomcat",
+        "files": {
+          "light": "tomcat-light.svg",
+          "dark": "tomcat-dark.svg"
+        },
+        "category": "Cloud - Web Servers"
+      },
+      {
         "id": "celerdata",
         "name": "celerdata",
         "files": {
@@ -2926,51 +3032,24 @@ const iconsData = {
           "dark": "celerdata-dark.svg"
         },
         "category": "Cloud - Web Servers"
-      },
-      {
-        "id": "nginx",
-        "name": "nginx",
-        "files": {
-          "light": "nginx.svg",
-          "dark": "nginx.svg"
-        },
-        "category": "Cloud - Web Servers"
       }
     ],
     "Cloud Providers": [
-      {
-        "id": "amplify",
-        "name": "amplify",
-        "files": {
-          "light": "amplify.svg",
-          "dark": "amplify.svg"
-        },
-        "category": "Cloud Providers"
-      },
-      {
-        "id": "appactive",
-        "name": "appactive",
-        "files": {
-          "light": "appactive-light.svg",
-          "dark": "appactive-dark.svg"
-        },
-        "category": "Cloud Providers"
-      },
-      {
-        "id": "aurora",
-        "name": "aurora",
-        "files": {
-          "light": "aurora.svg",
-          "dark": "aurora.svg"
-        },
-        "category": "Cloud Providers"
-      },
       {
         "id": "aws",
         "name": "aws",
         "files": {
           "light": "aws-light.svg",
           "dark": "aws-dark.svg"
+        },
+        "category": "Cloud Providers"
+      },
+      {
+        "id": "gcp",
+        "name": "gcp",
+        "files": {
+          "light": "gcp-light.svg",
+          "dark": "gcp-dark.svg"
         },
         "category": "Cloud Providers"
       },
@@ -2984,6 +3063,42 @@ const iconsData = {
         "category": "Cloud Providers"
       },
       {
+        "id": "digitalocean",
+        "name": "digitalocean",
+        "files": {
+          "light": "digitalocean-light.svg",
+          "dark": "digitalocean-dark.svg"
+        },
+        "category": "Cloud Providers"
+      },
+      {
+        "id": "heroku",
+        "name": "heroku",
+        "files": {
+          "light": "heroku.svg",
+          "dark": "heroku.svg"
+        },
+        "category": "Cloud Providers"
+      },
+      {
+        "id": "vercel",
+        "name": "vercel",
+        "files": {
+          "light": "vercel-light.svg",
+          "dark": "vercel-dark.svg"
+        },
+        "category": "Cloud Providers"
+      },
+      {
+        "id": "netlify",
+        "name": "netlify",
+        "files": {
+          "light": "netlify-light.svg",
+          "dark": "netlify-dark.svg"
+        },
+        "category": "Cloud Providers"
+      },
+      {
         "id": "cloudflare",
         "name": "cloudflare",
         "files": {
@@ -2993,38 +3108,65 @@ const iconsData = {
         "category": "Cloud Providers"
       },
       {
-        "id": "cloudformation",
-        "name": "cloudformation",
+        "id": "railway",
+        "name": "railway",
         "files": {
-          "light": "cloudformation.svg",
-          "dark": "cloudformation.svg"
+          "light": "railway-light.svg",
+          "dark": "railway-dark.svg"
         },
         "category": "Cloud Providers"
       },
       {
-        "id": "cloudfront",
-        "name": "cloudfront",
+        "id": "render",
+        "name": "render",
         "files": {
-          "light": "cloudfront-light.svg",
-          "dark": "cloudfront-dark.svg"
+          "light": "render-light.svg",
+          "dark": "render-dark.svg"
         },
         "category": "Cloud Providers"
       },
       {
-        "id": "cloudwatch",
-        "name": "cloudwatch",
+        "id": "flyio",
+        "name": "flyio",
         "files": {
-          "light": "cloudwatch.svg",
-          "dark": "cloudwatch.svg"
+          "light": "flyio.svg",
+          "dark": "flyio.svg"
         },
         "category": "Cloud Providers"
       },
       {
-        "id": "digitalocean",
-        "name": "digitalocean",
+        "id": "openstack",
+        "name": "openstack",
         "files": {
-          "light": "digitalocean-light.svg",
-          "dark": "digitalocean-dark.svg"
+          "light": "openstack-light.svg",
+          "dark": "openstack-dark.svg"
+        },
+        "category": "Cloud Providers"
+      },
+      {
+        "id": "s3",
+        "name": "s3",
+        "files": {
+          "light": "s3-light.svg",
+          "dark": "s3-dark.svg"
+        },
+        "category": "Cloud Providers"
+      },
+      {
+        "id": "rds",
+        "name": "rds",
+        "files": {
+          "light": "rds.svg",
+          "dark": "rds.svg"
+        },
+        "category": "Cloud Providers"
+      },
+      {
+        "id": "sqs",
+        "name": "sqs",
+        "files": {
+          "light": "sqs.svg",
+          "dark": "sqs.svg"
         },
         "category": "Cloud Providers"
       },
@@ -3110,101 +3252,38 @@ const iconsData = {
         "category": "Cloud Providers"
       },
       {
-        "id": "flyio",
-        "name": "flyio",
+        "id": "cloudformation",
+        "name": "cloudformation",
         "files": {
-          "light": "flyio.svg",
-          "dark": "flyio.svg"
+          "light": "cloudformation.svg",
+          "dark": "cloudformation.svg"
         },
         "category": "Cloud Providers"
       },
       {
-        "id": "gcp",
-        "name": "gcp",
+        "id": "cloudfront",
+        "name": "cloudfront",
         "files": {
-          "light": "gcp-light.svg",
-          "dark": "gcp-dark.svg"
+          "light": "cloudfront-light.svg",
+          "dark": "cloudfront-dark.svg"
         },
         "category": "Cloud Providers"
       },
       {
-        "id": "heroku",
-        "name": "heroku",
+        "id": "cloudwatch",
+        "name": "cloudwatch",
         "files": {
-          "light": "heroku.svg",
-          "dark": "heroku.svg"
+          "light": "cloudwatch.svg",
+          "dark": "cloudwatch.svg"
         },
         "category": "Cloud Providers"
       },
       {
-        "id": "neon",
-        "name": "neon",
+        "id": "amplify",
+        "name": "amplify",
         "files": {
-          "light": "neon-light.svg",
-          "dark": "neon-dark.svg"
-        },
-        "category": "Cloud Providers"
-      },
-      {
-        "id": "netlify",
-        "name": "netlify",
-        "files": {
-          "light": "netlify-light.svg",
-          "dark": "netlify-dark.svg"
-        },
-        "category": "Cloud Providers"
-      },
-      {
-        "id": "openstack",
-        "name": "openstack",
-        "files": {
-          "light": "openstack-light.svg",
-          "dark": "openstack-dark.svg"
-        },
-        "category": "Cloud Providers"
-      },
-      {
-        "id": "planetscale",
-        "name": "planetscale",
-        "files": {
-          "light": "planetscale-light.svg",
-          "dark": "planetscale-dark.svg"
-        },
-        "category": "Cloud Providers"
-      },
-      {
-        "id": "railway",
-        "name": "railway",
-        "files": {
-          "light": "railway-light.svg",
-          "dark": "railway-dark.svg"
-        },
-        "category": "Cloud Providers"
-      },
-      {
-        "id": "rds",
-        "name": "rds",
-        "files": {
-          "light": "rds.svg",
-          "dark": "rds.svg"
-        },
-        "category": "Cloud Providers"
-      },
-      {
-        "id": "render",
-        "name": "render",
-        "files": {
-          "light": "render-light.svg",
-          "dark": "render-dark.svg"
-        },
-        "category": "Cloud Providers"
-      },
-      {
-        "id": "s3",
-        "name": "s3",
-        "files": {
-          "light": "s3-light.svg",
-          "dark": "s3-dark.svg"
+          "light": "amplify.svg",
+          "dark": "amplify.svg"
         },
         "category": "Cloud Providers"
       },
@@ -3218,88 +3297,52 @@ const iconsData = {
         "category": "Cloud Providers"
       },
       {
-        "id": "sqs",
-        "name": "sqs",
+        "id": "aurora",
+        "name": "aurora",
         "files": {
-          "light": "sqs.svg",
-          "dark": "sqs.svg"
+          "light": "aurora.svg",
+          "dark": "aurora.svg"
         },
         "category": "Cloud Providers"
       },
       {
-        "id": "vercel",
-        "name": "vercel",
+        "id": "apigateway",
+        "name": "apigateway",
         "files": {
-          "light": "vercel-light.svg",
-          "dark": "vercel-dark.svg"
+          "light": "apigateway.svg",
+          "dark": "apigateway.svg"
+        },
+        "category": "Cloud Providers"
+      },
+      {
+        "id": "appactive",
+        "name": "appactive",
+        "files": {
+          "light": "appactive-light.svg",
+          "dark": "appactive-dark.svg"
+        },
+        "category": "Cloud Providers"
+      },
+      {
+        "id": "neon",
+        "name": "neon",
+        "files": {
+          "light": "neon-light.svg",
+          "dark": "neon-dark.svg"
+        },
+        "category": "Cloud Providers"
+      },
+      {
+        "id": "planetscale",
+        "name": "planetscale",
+        "files": {
+          "light": "planetscale-light.svg",
+          "dark": "planetscale-dark.svg"
         },
         "category": "Cloud Providers"
       }
     ],
     "DevOps - Git & SCM": [
-      {
-        "id": "azuredevops",
-        "name": "azuredevops",
-        "files": {
-          "light": "azuredevops-light.svg",
-          "dark": "azuredevops-dark.svg"
-        },
-        "category": "DevOps - Git & SCM"
-      },
-      {
-        "id": "bitbucket",
-        "name": "bitbucket",
-        "files": {
-          "light": "bitbucket-light.svg",
-          "dark": "bitbucket-dark.svg"
-        },
-        "category": "DevOps - Git & SCM"
-      },
-      {
-        "id": "breeze",
-        "name": "breeze",
-        "files": {
-          "light": "breeze.svg",
-          "dark": "breeze.svg"
-        },
-        "category": "DevOps - Git & SCM"
-      },
-      {
-        "id": "chaosblade",
-        "name": "chaosblade",
-        "files": {
-          "light": "chaosblade-light.svg",
-          "dark": "chaosblade-dark.svg"
-        },
-        "category": "DevOps - Git & SCM"
-      },
-      {
-        "id": "codeberg",
-        "name": "codeberg",
-        "files": {
-          "light": "codeberg-light.svg",
-          "dark": "codeberg-dark.svg"
-        },
-        "category": "DevOps - Git & SCM"
-      },
-      {
-        "id": "forge",
-        "name": "forge",
-        "files": {
-          "light": "forge.svg",
-          "dark": "forge.svg"
-        },
-        "category": "DevOps - Git & SCM"
-      },
-      {
-        "id": "forgejo",
-        "name": "forgejo",
-        "files": {
-          "light": "forgejo-light.svg",
-          "dark": "forgejo-dark.svg"
-        },
-        "category": "DevOps - Git & SCM"
-      },
       {
         "id": "git",
         "name": "git",
@@ -3337,38 +3380,11 @@ const iconsData = {
         "category": "DevOps - Git & SCM"
       },
       {
-        "id": "githubactions",
-        "name": "githubactions",
-        "files": {
-          "light": "githubactions-light.svg",
-          "dark": "githubactions-dark.svg"
-        },
-        "category": "DevOps - Git & SCM"
-      },
-      {
-        "id": "githubcopilot",
-        "name": "githubcopilot",
-        "files": {
-          "light": "githubcopilot-light.svg",
-          "dark": "githubcopilot-dark.svg"
-        },
-        "category": "DevOps - Git & SCM"
-      },
-      {
         "id": "githubdesktop",
         "name": "githubdesktop",
         "files": {
           "light": "githubdesktop-light.svg",
           "dark": "githubdesktop-dark.svg"
-        },
-        "category": "DevOps - Git & SCM"
-      },
-      {
-        "id": "githubpages",
-        "name": "githubpages",
-        "files": {
-          "light": "githubpages-light.svg",
-          "dark": "githubpages-dark.svg"
         },
         "category": "DevOps - Git & SCM"
       },
@@ -3391,11 +3407,74 @@ const iconsData = {
         "category": "DevOps - Git & SCM"
       },
       {
-        "id": "graphite",
-        "name": "graphite",
+        "id": "bitbucket",
+        "name": "bitbucket",
         "files": {
-          "light": "graphite-light.svg",
-          "dark": "graphite-dark.svg"
+          "light": "bitbucket-light.svg",
+          "dark": "bitbucket-dark.svg"
+        },
+        "category": "DevOps - Git & SCM"
+      },
+      {
+        "id": "azuredevops",
+        "name": "azuredevops",
+        "files": {
+          "light": "azuredevops-light.svg",
+          "dark": "azuredevops-dark.svg"
+        },
+        "category": "DevOps - Git & SCM"
+      },
+      {
+        "id": "githubcopilot",
+        "name": "githubcopilot",
+        "files": {
+          "light": "githubcopilot-light.svg",
+          "dark": "githubcopilot-dark.svg"
+        },
+        "category": "DevOps - Git & SCM"
+      },
+      {
+        "id": "githubpages",
+        "name": "githubpages",
+        "files": {
+          "light": "githubpages-light.svg",
+          "dark": "githubpages-dark.svg"
+        },
+        "category": "DevOps - Git & SCM"
+      },
+      {
+        "id": "githubactions",
+        "name": "githubactions",
+        "files": {
+          "light": "githubactions-light.svg",
+          "dark": "githubactions-dark.svg"
+        },
+        "category": "DevOps - Git & SCM"
+      },
+      {
+        "id": "forge",
+        "name": "forge",
+        "files": {
+          "light": "forge.svg",
+          "dark": "forge.svg"
+        },
+        "category": "DevOps - Git & SCM"
+      },
+      {
+        "id": "forgejo",
+        "name": "forgejo",
+        "files": {
+          "light": "forgejo-light.svg",
+          "dark": "forgejo-dark.svg"
+        },
+        "category": "DevOps - Git & SCM"
+      },
+      {
+        "id": "codeberg",
+        "name": "codeberg",
+        "files": {
+          "light": "codeberg-light.svg",
+          "dark": "codeberg-dark.svg"
         },
         "category": "DevOps - Git & SCM"
       },
@@ -3407,9 +3486,81 @@ const iconsData = {
           "dark": "svn.svg"
         },
         "category": "DevOps - Git & SCM"
+      },
+      {
+        "id": "breeze",
+        "name": "breeze",
+        "files": {
+          "light": "breeze.svg",
+          "dark": "breeze.svg"
+        },
+        "category": "DevOps - Git & SCM"
+      },
+      {
+        "id": "chaosblade",
+        "name": "chaosblade",
+        "files": {
+          "light": "chaosblade-light.svg",
+          "dark": "chaosblade-dark.svg"
+        },
+        "category": "DevOps - Git & SCM"
+      },
+      {
+        "id": "graphite",
+        "name": "graphite",
+        "files": {
+          "light": "graphite-light.svg",
+          "dark": "graphite-dark.svg"
+        },
+        "category": "DevOps - Git & SCM"
       }
     ],
     "DevOps - Tools": [
+      {
+        "id": "docker",
+        "name": "docker",
+        "files": {
+          "light": "docker.svg",
+          "dark": "docker.svg"
+        },
+        "category": "DevOps - Tools"
+      },
+      {
+        "id": "kubernetes",
+        "name": "kubernetes",
+        "files": {
+          "light": "kubernetes.svg",
+          "dark": "kubernetes.svg"
+        },
+        "category": "DevOps - Tools"
+      },
+      {
+        "id": "openshift",
+        "name": "openshift",
+        "files": {
+          "light": "openshift.svg",
+          "dark": "openshift.svg"
+        },
+        "category": "DevOps - Tools"
+      },
+      {
+        "id": "podman",
+        "name": "podman",
+        "files": {
+          "light": "podman-light.svg",
+          "dark": "podman-dark.svg"
+        },
+        "category": "DevOps - Tools"
+      },
+      {
+        "id": "vagrant",
+        "name": "vagrant",
+        "files": {
+          "light": "vagrant-light.svg",
+          "dark": "vagrant-dark.svg"
+        },
+        "category": "DevOps - Tools"
+      },
       {
         "id": "ansible",
         "name": "ansible",
@@ -3420,20 +3571,38 @@ const iconsData = {
         "category": "DevOps - Tools"
       },
       {
-        "id": "apptainer",
-        "name": "apptainer",
+        "id": "terraform",
+        "name": "terraform",
         "files": {
-          "light": "apptainer-light.svg",
-          "dark": "apptainer-dark.svg"
+          "light": "terraform-light.svg",
+          "dark": "terraform-dark.svg"
         },
         "category": "DevOps - Tools"
       },
       {
-        "id": "argocd",
-        "name": "argocd",
+        "id": "pulumi",
+        "name": "pulumi",
         "files": {
-          "light": "argocd-light.svg",
-          "dark": "argocd-dark.svg"
+          "light": "pulumi-light.svg",
+          "dark": "pulumi-dark.svg"
+        },
+        "category": "DevOps - Tools"
+      },
+      {
+        "id": "helm",
+        "name": "helm",
+        "files": {
+          "light": "helm-light.svg",
+          "dark": "helm-dark.svg"
+        },
+        "category": "DevOps - Tools"
+      },
+      {
+        "id": "jenkins",
+        "name": "jenkins",
+        "files": {
+          "light": "jenkins-light.svg",
+          "dark": "jenkins-dark.svg"
         },
         "category": "DevOps - Tools"
       },
@@ -3447,6 +3616,24 @@ const iconsData = {
         "category": "DevOps - Tools"
       },
       {
+        "id": "argocd",
+        "name": "argocd",
+        "files": {
+          "light": "argocd-light.svg",
+          "dark": "argocd-dark.svg"
+        },
+        "category": "DevOps - Tools"
+      },
+      {
+        "id": "rancher",
+        "name": "rancher",
+        "files": {
+          "light": "rancher-light.svg",
+          "dark": "rancher-dark.svg"
+        },
+        "category": "DevOps - Tools"
+      },
+      {
         "id": "consul",
         "name": "consul",
         "files": {
@@ -3456,20 +3643,29 @@ const iconsData = {
         "category": "DevOps - Tools"
       },
       {
-        "id": "dn42",
-        "name": "dn42",
+        "id": "portainer",
+        "name": "portainer",
         "files": {
-          "light": "dn42-light.svg",
-          "dark": "dn42-dark.svg"
+          "light": "portainer-light.svg",
+          "dark": "portainer-dark.svg"
         },
         "category": "DevOps - Tools"
       },
       {
-        "id": "docker",
-        "name": "docker",
+        "id": "lando",
+        "name": "lando",
         "files": {
-          "light": "docker.svg",
-          "dark": "docker.svg"
+          "light": "lando-light.svg",
+          "dark": "lando-dark.svg"
+        },
+        "category": "DevOps - Tools"
+      },
+      {
+        "id": "pm2",
+        "name": "pm2",
+        "files": {
+          "light": "pm2-light.svg",
+          "dark": "pm2-dark.svg"
         },
         "category": "DevOps - Tools"
       },
@@ -3501,11 +3697,11 @@ const iconsData = {
         "category": "DevOps - Tools"
       },
       {
-        "id": "helm",
-        "name": "helm",
+        "id": "apptainer",
+        "name": "apptainer",
         "files": {
-          "light": "helm-light.svg",
-          "dark": "helm-dark.svg"
+          "light": "apptainer-light.svg",
+          "dark": "apptainer-dark.svg"
         },
         "category": "DevOps - Tools"
       },
@@ -3519,92 +3715,11 @@ const iconsData = {
         "category": "DevOps - Tools"
       },
       {
-        "id": "jenkins",
-        "name": "jenkins",
+        "id": "dn42",
+        "name": "dn42",
         "files": {
-          "light": "jenkins-light.svg",
-          "dark": "jenkins-dark.svg"
-        },
-        "category": "DevOps - Tools"
-      },
-      {
-        "id": "kubernetes",
-        "name": "kubernetes",
-        "files": {
-          "light": "kubernetes.svg",
-          "dark": "kubernetes.svg"
-        },
-        "category": "DevOps - Tools"
-      },
-      {
-        "id": "lando",
-        "name": "lando",
-        "files": {
-          "light": "lando-light.svg",
-          "dark": "lando-dark.svg"
-        },
-        "category": "DevOps - Tools"
-      },
-      {
-        "id": "nextflow",
-        "name": "nextflow",
-        "files": {
-          "light": "nextflow-light.svg",
-          "dark": "nextflow-dark.svg"
-        },
-        "category": "DevOps - Tools"
-      },
-      {
-        "id": "openshift",
-        "name": "openshift",
-        "files": {
-          "light": "openshift.svg",
-          "dark": "openshift.svg"
-        },
-        "category": "DevOps - Tools"
-      },
-      {
-        "id": "pm2",
-        "name": "pm2",
-        "files": {
-          "light": "pm2-light.svg",
-          "dark": "pm2-dark.svg"
-        },
-        "category": "DevOps - Tools"
-      },
-      {
-        "id": "podman",
-        "name": "podman",
-        "files": {
-          "light": "podman-light.svg",
-          "dark": "podman-dark.svg"
-        },
-        "category": "DevOps - Tools"
-      },
-      {
-        "id": "portainer",
-        "name": "portainer",
-        "files": {
-          "light": "portainer-light.svg",
-          "dark": "portainer-dark.svg"
-        },
-        "category": "DevOps - Tools"
-      },
-      {
-        "id": "pulumi",
-        "name": "pulumi",
-        "files": {
-          "light": "pulumi-light.svg",
-          "dark": "pulumi-dark.svg"
-        },
-        "category": "DevOps - Tools"
-      },
-      {
-        "id": "rancher",
-        "name": "rancher",
-        "files": {
-          "light": "rancher-light.svg",
-          "dark": "rancher-dark.svg"
+          "light": "dn42-light.svg",
+          "dark": "dn42-dark.svg"
         },
         "category": "DevOps - Tools"
       },
@@ -3618,34 +3733,16 @@ const iconsData = {
         "category": "DevOps - Tools"
       },
       {
-        "id": "terraform",
-        "name": "terraform",
+        "id": "nextflow",
+        "name": "nextflow",
         "files": {
-          "light": "terraform-light.svg",
-          "dark": "terraform-dark.svg"
-        },
-        "category": "DevOps - Tools"
-      },
-      {
-        "id": "vagrant",
-        "name": "vagrant",
-        "files": {
-          "light": "vagrant-light.svg",
-          "dark": "vagrant-dark.svg"
+          "light": "nextflow-light.svg",
+          "dark": "nextflow-dark.svg"
         },
         "category": "DevOps - Tools"
       }
     ],
     "DevOps - Monitoring": [
-      {
-        "id": "datadog",
-        "name": "datadog",
-        "files": {
-          "light": "datadog.svg",
-          "dark": "datadog.svg"
-        },
-        "category": "DevOps - Monitoring"
-      },
       {
         "id": "grafana",
         "name": "grafana",
@@ -3656,11 +3753,29 @@ const iconsData = {
         "category": "DevOps - Monitoring"
       },
       {
-        "id": "higress",
-        "name": "higress",
+        "id": "prometheus",
+        "name": "prometheus",
         "files": {
-          "light": "higress-light.svg",
-          "dark": "higress-dark.svg"
+          "light": "prometheus.svg",
+          "dark": "prometheus.svg"
+        },
+        "category": "DevOps - Monitoring"
+      },
+      {
+        "id": "sentry",
+        "name": "sentry",
+        "files": {
+          "light": "sentry.svg",
+          "dark": "sentry.svg"
+        },
+        "category": "DevOps - Monitoring"
+      },
+      {
+        "id": "datadog",
+        "name": "datadog",
+        "files": {
+          "light": "datadog.svg",
+          "dark": "datadog.svg"
         },
         "category": "DevOps - Monitoring"
       },
@@ -3674,11 +3789,29 @@ const iconsData = {
         "category": "DevOps - Monitoring"
       },
       {
-        "id": "k3s",
-        "name": "k3s",
+        "id": "zabbix",
+        "name": "zabbix",
         "files": {
-          "light": "k3s-light.svg",
-          "dark": "k3s-dark.svg"
+          "light": "zabbix.svg",
+          "dark": "zabbix.svg"
+        },
+        "category": "DevOps - Monitoring"
+      },
+      {
+        "id": "skywalking",
+        "name": "skywalking",
+        "files": {
+          "light": "skywalking-light.svg",
+          "dark": "skywalking-dark.svg"
+        },
+        "category": "DevOps - Monitoring"
+      },
+      {
+        "id": "papertrail",
+        "name": "papertrail",
+        "files": {
+          "light": "papertrail.svg",
+          "dark": "papertrail.svg"
         },
         "category": "DevOps - Monitoring"
       },
@@ -3692,20 +3825,38 @@ const iconsData = {
         "category": "DevOps - Monitoring"
       },
       {
-        "id": "kong",
-        "name": "kong",
+        "id": "opensergo",
+        "name": "opensergo",
         "files": {
-          "light": "kong-light.svg",
-          "dark": "kong-dark.svg"
+          "light": "opensergo-light.svg",
+          "dark": "opensergo-dark.svg"
         },
         "category": "DevOps - Monitoring"
       },
       {
-        "id": "kubevela",
-        "name": "kubevela",
+        "id": "opentelemetry",
+        "name": "opentelemetry",
         "files": {
-          "light": "kubevela-light.svg",
-          "dark": "kubevela-dark.svg"
+          "light": "opentelemetry-light.svg",
+          "dark": "opentelemetry-dark.svg"
+        },
+        "category": "DevOps - Monitoring"
+      },
+      {
+        "id": "litmus",
+        "name": "litmus",
+        "files": {
+          "light": "litmus-light.svg",
+          "dark": "litmus-dark.svg"
+        },
+        "category": "DevOps - Monitoring"
+      },
+      {
+        "id": "workers",
+        "name": "workers",
+        "files": {
+          "light": "workers-light.svg",
+          "dark": "workers-dark.svg"
         },
         "category": "DevOps - Monitoring"
       },
@@ -3719,11 +3870,38 @@ const iconsData = {
         "category": "DevOps - Monitoring"
       },
       {
-        "id": "litmus",
-        "name": "litmus",
+        "id": "kong",
+        "name": "kong",
         "files": {
-          "light": "litmus-light.svg",
-          "dark": "litmus-dark.svg"
+          "light": "kong-light.svg",
+          "dark": "kong-dark.svg"
+        },
+        "category": "DevOps - Monitoring"
+      },
+      {
+        "id": "higress",
+        "name": "higress",
+        "files": {
+          "light": "higress-light.svg",
+          "dark": "higress-dark.svg"
+        },
+        "category": "DevOps - Monitoring"
+      },
+      {
+        "id": "k3s",
+        "name": "k3s",
+        "files": {
+          "light": "k3s-light.svg",
+          "dark": "k3s-dark.svg"
+        },
+        "category": "DevOps - Monitoring"
+      },
+      {
+        "id": "kubevela",
+        "name": "kubevela",
+        "files": {
+          "light": "kubevela-light.svg",
+          "dark": "kubevela-dark.svg"
         },
         "category": "DevOps - Monitoring"
       },
@@ -3755,42 +3933,6 @@ const iconsData = {
         "category": "DevOps - Monitoring"
       },
       {
-        "id": "opensergo",
-        "name": "opensergo",
-        "files": {
-          "light": "opensergo-light.svg",
-          "dark": "opensergo-dark.svg"
-        },
-        "category": "DevOps - Monitoring"
-      },
-      {
-        "id": "opentelemetry",
-        "name": "opentelemetry",
-        "files": {
-          "light": "opentelemetry-light.svg",
-          "dark": "opentelemetry-dark.svg"
-        },
-        "category": "DevOps - Monitoring"
-      },
-      {
-        "id": "papertrail",
-        "name": "papertrail",
-        "files": {
-          "light": "papertrail.svg",
-          "dark": "papertrail.svg"
-        },
-        "category": "DevOps - Monitoring"
-      },
-      {
-        "id": "prometheus",
-        "name": "prometheus",
-        "files": {
-          "light": "prometheus.svg",
-          "dark": "prometheus.svg"
-        },
-        "category": "DevOps - Monitoring"
-      },
-      {
         "id": "proxmox",
         "name": "proxmox",
         "files": {
@@ -3798,60 +3940,60 @@ const iconsData = {
           "dark": "proxmox-dark.svg"
         },
         "category": "DevOps - Monitoring"
-      },
-      {
-        "id": "sentry",
-        "name": "sentry",
-        "files": {
-          "light": "sentry.svg",
-          "dark": "sentry.svg"
-        },
-        "category": "DevOps - Monitoring"
-      },
-      {
-        "id": "skywalking",
-        "name": "skywalking",
-        "files": {
-          "light": "skywalking-light.svg",
-          "dark": "skywalking-dark.svg"
-        },
-        "category": "DevOps - Monitoring"
-      },
-      {
-        "id": "workers",
-        "name": "workers",
-        "files": {
-          "light": "workers-light.svg",
-          "dark": "workers-dark.svg"
-        },
-        "category": "DevOps - Monitoring"
-      },
-      {
-        "id": "zabbix",
-        "name": "zabbix",
-        "files": {
-          "light": "zabbix.svg",
-          "dark": "zabbix.svg"
-        },
-        "category": "DevOps - Monitoring"
       }
     ],
     "AI & Machine Learning": [
       {
-        "id": "agno",
-        "name": "agno",
+        "id": "tensorflow",
+        "name": "tensorflow",
         "files": {
-          "light": "agno.svg",
-          "dark": "agno.svg"
+          "light": "tensorflow-light.svg",
+          "dark": "tensorflow-dark.svg"
         },
         "category": "AI & Machine Learning"
       },
       {
-        "id": "cairo",
-        "name": "cairo",
+        "id": "pytorch",
+        "name": "pytorch",
         "files": {
-          "light": "cairo-light.svg",
-          "dark": "cairo-dark.svg"
+          "light": "pytorch-light.svg",
+          "dark": "pytorch-dark.svg"
+        },
+        "category": "AI & Machine Learning"
+      },
+      {
+        "id": "scikitlearn",
+        "name": "scikitlearn",
+        "files": {
+          "light": "scikitlearn-light.svg",
+          "dark": "scikitlearn-dark.svg"
+        },
+        "category": "AI & Machine Learning"
+      },
+      {
+        "id": "opencv",
+        "name": "opencv",
+        "files": {
+          "light": "opencv-light.svg",
+          "dark": "opencv-dark.svg"
+        },
+        "category": "AI & Machine Learning"
+      },
+      {
+        "id": "huggingface",
+        "name": "huggingface",
+        "files": {
+          "light": "huggingface-light.svg",
+          "dark": "huggingface-dark.svg"
+        },
+        "category": "AI & Machine Learning"
+      },
+      {
+        "id": "gemini",
+        "name": "gemini",
+        "files": {
+          "light": "gemini-light.svg",
+          "dark": "gemini-dark.svg"
         },
         "category": "AI & Machine Learning"
       },
@@ -3874,65 +4016,20 @@ const iconsData = {
         "category": "AI & Machine Learning"
       },
       {
-        "id": "crewai",
-        "name": "crewai",
+        "id": "mistral",
+        "name": "mistral",
         "files": {
-          "light": "crewai-light.svg",
-          "dark": "crewai-dark.svg"
+          "light": "mistral-light.svg",
+          "dark": "mistral-dark.svg"
         },
         "category": "AI & Machine Learning"
       },
       {
-        "id": "deepseek",
-        "name": "deepseek",
+        "id": "ollama",
+        "name": "ollama",
         "files": {
-          "light": "deepseek-light.svg",
-          "dark": "deepseek-dark.svg"
-        },
-        "category": "AI & Machine Learning"
-      },
-      {
-        "id": "fastai",
-        "name": "fastai",
-        "files": {
-          "light": "fastai-light.svg",
-          "dark": "fastai-dark.svg"
-        },
-        "category": "AI & Machine Learning"
-      },
-      {
-        "id": "gemini",
-        "name": "gemini",
-        "files": {
-          "light": "gemini-light.svg",
-          "dark": "gemini-dark.svg"
-        },
-        "category": "AI & Machine Learning"
-      },
-      {
-        "id": "grok",
-        "name": "grok",
-        "files": {
-          "light": "grok-light.svg",
-          "dark": "grok-dark.svg"
-        },
-        "category": "AI & Machine Learning"
-      },
-      {
-        "id": "groq",
-        "name": "groq",
-        "files": {
-          "light": "groq-light.svg",
-          "dark": "groq-dark.svg"
-        },
-        "category": "AI & Machine Learning"
-      },
-      {
-        "id": "huggingface",
-        "name": "huggingface",
-        "files": {
-          "light": "huggingface-light.svg",
-          "dark": "huggingface-dark.svg"
+          "light": "ollama-light.svg",
+          "dark": "ollama-dark.svg"
         },
         "category": "AI & Machine Learning"
       },
@@ -3951,24 +4048,6 @@ const iconsData = {
         "files": {
           "light": "llamaindex-light.svg",
           "dark": "llamaindex-dark.svg"
-        },
-        "category": "AI & Machine Learning"
-      },
-      {
-        "id": "microsoftcopilot",
-        "name": "microsoftcopilot",
-        "files": {
-          "light": "microsoftcopilot-light.svg",
-          "dark": "microsoftcopilot-dark.svg"
-        },
-        "category": "AI & Machine Learning"
-      },
-      {
-        "id": "mistral",
-        "name": "mistral",
-        "files": {
-          "light": "mistral-light.svg",
-          "dark": "mistral-dark.svg"
         },
         "category": "AI & Machine Learning"
       },
@@ -4000,38 +4079,47 @@ const iconsData = {
         "category": "AI & Machine Learning"
       },
       {
-        "id": "ollama",
-        "name": "ollama",
+        "id": "microsoftcopilot",
+        "name": "microsoftcopilot",
         "files": {
-          "light": "ollama-light.svg",
-          "dark": "ollama-dark.svg"
+          "light": "microsoftcopilot-light.svg",
+          "dark": "microsoftcopilot-dark.svg"
         },
         "category": "AI & Machine Learning"
       },
       {
-        "id": "opencv",
-        "name": "opencv",
+        "id": "grok",
+        "name": "grok",
         "files": {
-          "light": "opencv-light.svg",
-          "dark": "opencv-dark.svg"
+          "light": "grok-light.svg",
+          "dark": "grok-dark.svg"
         },
         "category": "AI & Machine Learning"
       },
       {
-        "id": "pytorch",
-        "name": "pytorch",
+        "id": "crewai",
+        "name": "crewai",
         "files": {
-          "light": "pytorch-light.svg",
-          "dark": "pytorch-dark.svg"
+          "light": "crewai-light.svg",
+          "dark": "crewai-dark.svg"
         },
         "category": "AI & Machine Learning"
       },
       {
-        "id": "scikitlearn",
-        "name": "scikitlearn",
+        "id": "deepseek",
+        "name": "deepseek",
         "files": {
-          "light": "scikitlearn-light.svg",
-          "dark": "scikitlearn-dark.svg"
+          "light": "deepseek-light.svg",
+          "dark": "deepseek-dark.svg"
+        },
+        "category": "AI & Machine Learning"
+      },
+      {
+        "id": "wandb",
+        "name": "wandb",
+        "files": {
+          "light": "wandb-light.svg",
+          "dark": "wandb-dark.svg"
         },
         "category": "AI & Machine Learning"
       },
@@ -4045,15 +4133,6 @@ const iconsData = {
         "category": "AI & Machine Learning"
       },
       {
-        "id": "tensorflow",
-        "name": "tensorflow",
-        "files": {
-          "light": "tensorflow-light.svg",
-          "dark": "tensorflow-dark.svg"
-        },
-        "category": "AI & Machine Learning"
-      },
-      {
         "id": "unstructured",
         "name": "unstructured",
         "files": {
@@ -4063,58 +4142,103 @@ const iconsData = {
         "category": "AI & Machine Learning"
       },
       {
-        "id": "wandb",
-        "name": "wandb",
+        "id": "fastai",
+        "name": "fastai",
         "files": {
-          "light": "wandb-light.svg",
-          "dark": "wandb-dark.svg"
+          "light": "fastai-light.svg",
+          "dark": "fastai-dark.svg"
+        },
+        "category": "AI & Machine Learning"
+      },
+      {
+        "id": "groq",
+        "name": "groq",
+        "files": {
+          "light": "groq-light.svg",
+          "dark": "groq-dark.svg"
+        },
+        "category": "AI & Machine Learning"
+      },
+      {
+        "id": "aiogram",
+        "name": "aiogram",
+        "files": {
+          "light": "aiogram-light.svg",
+          "dark": "aiogram-dark.svg"
+        },
+        "category": "AI & Machine Learning"
+      },
+      {
+        "id": "agno",
+        "name": "agno",
+        "files": {
+          "light": "agno.svg",
+          "dark": "agno.svg"
+        },
+        "category": "AI & Machine Learning"
+      },
+      {
+        "id": "cairo",
+        "name": "cairo",
+        "files": {
+          "light": "cairo-light.svg",
+          "dark": "cairo-dark.svg"
         },
         "category": "AI & Machine Learning"
       }
     ],
     "Data Science & Big Data": [
       {
-        "id": "airbyte",
-        "name": "airbyte",
+        "id": "pandas",
+        "name": "pandas",
         "files": {
-          "light": "airbyte-light.svg",
-          "dark": "airbyte-dark.svg"
+          "light": "pandas-light.svg",
+          "dark": "pandas-dark.svg"
         },
         "category": "Data Science & Big Data"
       },
       {
-        "id": "anaconda",
-        "name": "anaconda",
+        "id": "numpy",
+        "name": "numpy",
         "files": {
-          "light": "anaconda-light.svg",
-          "dark": "anaconda-dark.svg"
+          "light": "numpy-light.svg",
+          "dark": "numpy-dark.svg"
         },
         "category": "Data Science & Big Data"
       },
       {
-        "id": "arrow",
-        "name": "arrow",
+        "id": "scipy",
+        "name": "scipy",
         "files": {
-          "light": "arrow-light.svg",
-          "dark": "arrow-dark.svg"
+          "light": "scipy-light.svg",
+          "dark": "scipy-dark.svg"
         },
         "category": "Data Science & Big Data"
       },
       {
-        "id": "athena",
-        "name": "athena",
+        "id": "matplotlib",
+        "name": "matplotlib",
         "files": {
-          "light": "athena.svg",
-          "dark": "athena.svg"
+          "light": "matplotlib-light.svg",
+          "dark": "matplotlib-dark.svg"
         },
         "category": "Data Science & Big Data"
       },
       {
-        "id": "beam",
-        "name": "beam",
+        "id": "seaborn",
+        "name": "seaborn",
         "files": {
-          "light": "beam-light.svg",
-          "dark": "beam-dark.svg"
+          "light": "seaborn-light.svg",
+          "dark": "seaborn-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "plotly",
+        "name": "plotly",
+        "files": {
+          "light": "plotly-light.svg",
+          "dark": "plotly-dark.svg"
         },
         "category": "Data Science & Big Data"
       },
@@ -4128,11 +4252,47 @@ const iconsData = {
         "category": "Data Science & Big Data"
       },
       {
-        "id": "confluent",
-        "name": "confluent",
+        "id": "streamlit",
+        "name": "streamlit",
         "files": {
-          "light": "confluent-light.svg",
-          "dark": "confluent-dark.svg"
+          "light": "streamlit-light.svg",
+          "dark": "streamlit-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "gradio",
+        "name": "gradio",
+        "files": {
+          "light": "gradio-light.svg",
+          "dark": "gradio-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "jupyter",
+        "name": "jupyter",
+        "files": {
+          "light": "jupyter-light.svg",
+          "dark": "jupyter-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "anaconda",
+        "name": "anaconda",
+        "files": {
+          "light": "anaconda-light.svg",
+          "dark": "anaconda-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "kaggle",
+        "name": "kaggle",
+        "files": {
+          "light": "kaggle-light.svg",
+          "dark": "kaggle-dark.svg"
         },
         "category": "Data Science & Big Data"
       },
@@ -4146,6 +4306,87 @@ const iconsData = {
         "category": "Data Science & Big Data"
       },
       {
+        "id": "polars",
+        "name": "polars",
+        "files": {
+          "light": "polars.svg",
+          "dark": "polars.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "spark",
+        "name": "spark",
+        "files": {
+          "light": "spark-light.svg",
+          "dark": "spark-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "hadoop",
+        "name": "hadoop",
+        "files": {
+          "light": "hadoop-light.svg",
+          "dark": "hadoop-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "flink",
+        "name": "flink",
+        "files": {
+          "light": "flink.svg",
+          "dark": "flink.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "kafka",
+        "name": "kafka",
+        "files": {
+          "light": "kafka.svg",
+          "dark": "kafka.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "hive",
+        "name": "hive",
+        "files": {
+          "light": "hive.svg",
+          "dark": "hive.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "impala",
+        "name": "impala",
+        "files": {
+          "light": "impala-light.svg",
+          "dark": "impala-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "trino",
+        "name": "trino",
+        "files": {
+          "light": "trino-light.svg",
+          "dark": "trino-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "presto",
+        "name": "presto",
+        "files": {
+          "light": "presto-light.svg",
+          "dark": "presto-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
         "id": "databricks",
         "name": "databricks",
         "files": {
@@ -4155,29 +4396,110 @@ const iconsData = {
         "category": "Data Science & Big Data"
       },
       {
-        "id": "dbtlabs",
-        "name": "dbtlabs",
+        "id": "airflow",
+        "name": "airflow",
         "files": {
-          "light": "dbtlabs-light.svg",
-          "dark": "dbtlabs-dark.svg"
+          "light": "airflow-light.svg",
+          "dark": "airflow-dark.svg"
         },
         "category": "Data Science & Big Data"
       },
       {
-        "id": "delta",
-        "name": "delta",
+        "id": "tableau",
+        "name": "tableau",
         "files": {
-          "light": "delta-light.svg",
-          "dark": "delta-dark.svg"
+          "light": "tableau-light.svg",
+          "dark": "tableau-dark.svg"
         },
         "category": "Data Science & Big Data"
       },
       {
-        "id": "deltars",
-        "name": "deltars",
+        "id": "looker",
+        "name": "looker",
         "files": {
-          "light": "deltars-light.svg",
-          "dark": "deltars-dark.svg"
+          "light": "looker-light.svg",
+          "dark": "looker-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "metabase",
+        "name": "metabase",
+        "files": {
+          "light": "metabase-light.svg",
+          "dark": "metabase-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "informatica",
+        "name": "informatica",
+        "files": {
+          "light": "informatica-light.svg",
+          "dark": "informatica-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "airbyte",
+        "name": "airbyte",
+        "files": {
+          "light": "airbyte-light.svg",
+          "dark": "airbyte-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "beam",
+        "name": "beam",
+        "files": {
+          "light": "beam-light.svg",
+          "dark": "beam-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "unitycatalog",
+        "name": "unitycatalog",
+        "files": {
+          "light": "unitycatalog-light.svg",
+          "dark": "unitycatalog-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "starrocks",
+        "name": "starrocks",
+        "files": {
+          "light": "starrocks-light.svg",
+          "dark": "starrocks-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "starburst",
+        "name": "starburst",
+        "files": {
+          "light": "starburst-light.svg",
+          "dark": "starburst-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "pyspark",
+        "name": "pyspark",
+        "files": {
+          "light": "pyspark-light.svg",
+          "dark": "pyspark-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "sparksql",
+        "name": "sparksql",
+        "files": {
+          "light": "sparksql-light.svg",
+          "dark": "sparksql-dark.svg"
         },
         "category": "Data Science & Big Data"
       },
@@ -4200,15 +4522,6 @@ const iconsData = {
         "category": "Data Science & Big Data"
       },
       {
-        "id": "flink",
-        "name": "flink",
-        "files": {
-          "light": "flink.svg",
-          "dark": "flink.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
         "id": "glue",
         "name": "glue",
         "files": {
@@ -4218,65 +4531,11 @@ const iconsData = {
         "category": "Data Science & Big Data"
       },
       {
-        "id": "googleanalytics",
-        "name": "googleanalytics",
+        "id": "confluent",
+        "name": "confluent",
         "files": {
-          "light": "googleanalytics-light.svg",
-          "dark": "googleanalytics-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "googlecolab",
-        "name": "googlecolab",
-        "files": {
-          "light": "googlecolab-light.svg",
-          "dark": "googlecolab-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "gradio",
-        "name": "gradio",
-        "files": {
-          "light": "gradio-light.svg",
-          "dark": "gradio-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "granica",
-        "name": "granica",
-        "files": {
-          "light": "granica.svg",
-          "dark": "granica.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "gromacs",
-        "name": "gromacs",
-        "files": {
-          "light": "gromacs-light.svg",
-          "dark": "gromacs-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "hadoop",
-        "name": "hadoop",
-        "files": {
-          "light": "hadoop-light.svg",
-          "dark": "hadoop-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "hive",
-        "name": "hive",
-        "files": {
-          "light": "hive.svg",
-          "dark": "hive.svg"
+          "light": "confluent-light.svg",
+          "dark": "confluent-dark.svg"
         },
         "category": "Data Science & Big Data"
       },
@@ -4290,128 +4549,11 @@ const iconsData = {
         "category": "Data Science & Big Data"
       },
       {
-        "id": "impala",
-        "name": "impala",
-        "files": {
-          "light": "impala-light.svg",
-          "dark": "impala-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "informatica",
-        "name": "informatica",
-        "files": {
-          "light": "informatica-light.svg",
-          "dark": "informatica-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "jamovi",
-        "name": "jamovi",
-        "files": {
-          "light": "jamovi.svg",
-          "dark": "jamovi.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "jax",
-        "name": "jax",
-        "files": {
-          "light": "jax-light.svg",
-          "dark": "jax-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "jupyter",
-        "name": "jupyter",
-        "files": {
-          "light": "jupyter-light.svg",
-          "dark": "jupyter-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "kaggle",
-        "name": "kaggle",
-        "files": {
-          "light": "kaggle-light.svg",
-          "dark": "kaggle-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "looker",
-        "name": "looker",
-        "files": {
-          "light": "looker-light.svg",
-          "dark": "looker-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "matplotlib",
-        "name": "matplotlib",
-        "files": {
-          "light": "matplotlib-light.svg",
-          "dark": "matplotlib-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "metabase",
-        "name": "metabase",
-        "files": {
-          "light": "metabase-light.svg",
-          "dark": "metabase-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "mindsdb",
-        "name": "mindsdb",
-        "files": {
-          "light": "mindsdb-light.svg",
-          "dark": "mindsdb-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "numpy",
-        "name": "numpy",
-        "files": {
-          "light": "numpy-light.svg",
-          "dark": "numpy-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
         "id": "onehouse",
         "name": "onehouse",
         "files": {
           "light": "onehouse-light.svg",
           "dark": "onehouse-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "openmm",
-        "name": "openmm",
-        "files": {
-          "light": "openmm-light.svg",
-          "dark": "openmm-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "pandas",
-        "name": "pandas",
-        "files": {
-          "light": "pandas-light.svg",
-          "dark": "pandas-dark.svg"
         },
         "category": "Data Science & Big Data"
       },
@@ -4425,47 +4567,11 @@ const iconsData = {
         "category": "Data Science & Big Data"
       },
       {
-        "id": "plotly",
-        "name": "plotly",
+        "id": "delta",
+        "name": "delta",
         "files": {
-          "light": "plotly-light.svg",
-          "dark": "plotly-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "polars",
-        "name": "polars",
-        "files": {
-          "light": "polars.svg",
-          "dark": "polars.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "presto",
-        "name": "presto",
-        "files": {
-          "light": "presto-light.svg",
-          "dark": "presto-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "pyspark",
-        "name": "pyspark",
-        "files": {
-          "light": "pyspark-light.svg",
-          "dark": "pyspark-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "ray",
-        "name": "ray",
-        "files": {
-          "light": "ray-light.svg",
-          "dark": "ray-dark.svg"
+          "light": "delta-light.svg",
+          "dark": "delta-dark.svg"
         },
         "category": "Data Science & Big Data"
       },
@@ -4479,6 +4585,33 @@ const iconsData = {
         "category": "Data Science & Big Data"
       },
       {
+        "id": "celerdata",
+        "name": "celerdata",
+        "files": {
+          "light": "celerdata-light.svg",
+          "dark": "celerdata-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "arrow",
+        "name": "arrow",
+        "files": {
+          "light": "arrow-light.svg",
+          "dark": "arrow-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "athena",
+        "name": "athena",
+        "files": {
+          "light": "athena.svg",
+          "dark": "athena.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
         "id": "sas",
         "name": "sas",
         "files": {
@@ -4488,38 +4621,101 @@ const iconsData = {
         "category": "Data Science & Big Data"
       },
       {
-        "id": "scipy",
-        "name": "scipy",
+        "id": "jax",
+        "name": "jax",
         "files": {
-          "light": "scipy-light.svg",
-          "dark": "scipy-dark.svg"
+          "light": "jax-light.svg",
+          "dark": "jax-dark.svg"
         },
         "category": "Data Science & Big Data"
       },
       {
-        "id": "seaborn",
-        "name": "seaborn",
+        "id": "jamovi",
+        "name": "jamovi",
         "files": {
-          "light": "seaborn-light.svg",
-          "dark": "seaborn-dark.svg"
+          "light": "jamovi.svg",
+          "dark": "jamovi.svg"
         },
         "category": "Data Science & Big Data"
       },
       {
-        "id": "spark",
-        "name": "spark",
+        "id": "openmm",
+        "name": "openmm",
         "files": {
-          "light": "spark-light.svg",
-          "dark": "spark-dark.svg"
+          "light": "openmm-light.svg",
+          "dark": "openmm-dark.svg"
         },
         "category": "Data Science & Big Data"
       },
       {
-        "id": "sparksql",
-        "name": "sparksql",
+        "id": "mindsdb",
+        "name": "mindsdb",
         "files": {
-          "light": "sparksql-light.svg",
-          "dark": "sparksql-dark.svg"
+          "light": "mindsdb-light.svg",
+          "dark": "mindsdb-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "granica",
+        "name": "granica",
+        "files": {
+          "light": "granica.svg",
+          "dark": "granica.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "googlecolab",
+        "name": "googlecolab",
+        "files": {
+          "light": "googlecolab-light.svg",
+          "dark": "googlecolab-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "googleanalytics",
+        "name": "googleanalytics",
+        "files": {
+          "light": "googleanalytics-light.svg",
+          "dark": "googleanalytics-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "ray",
+        "name": "ray",
+        "files": {
+          "light": "ray-light.svg",
+          "dark": "ray-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "gromacs",
+        "name": "gromacs",
+        "files": {
+          "light": "gromacs-light.svg",
+          "dark": "gromacs-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "dbtlabs",
+        "name": "dbtlabs",
+        "files": {
+          "light": "dbtlabs-light.svg",
+          "dark": "dbtlabs-dark.svg"
+        },
+        "category": "Data Science & Big Data"
+      },
+      {
+        "id": "deltars",
+        "name": "deltars",
+        "files": {
+          "light": "deltars-light.svg",
+          "dark": "deltars-dark.svg"
         },
         "category": "Data Science & Big Data"
       },
@@ -4531,189 +4727,9 @@ const iconsData = {
           "dark": "stan-dark.svg"
         },
         "category": "Data Science & Big Data"
-      },
-      {
-        "id": "starburst",
-        "name": "starburst",
-        "files": {
-          "light": "starburst-light.svg",
-          "dark": "starburst-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "starrocks",
-        "name": "starrocks",
-        "files": {
-          "light": "starrocks-light.svg",
-          "dark": "starrocks-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "streamlit",
-        "name": "streamlit",
-        "files": {
-          "light": "streamlit-light.svg",
-          "dark": "streamlit-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "tableau",
-        "name": "tableau",
-        "files": {
-          "light": "tableau-light.svg",
-          "dark": "tableau-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "trino",
-        "name": "trino",
-        "files": {
-          "light": "trino-light.svg",
-          "dark": "trino-dark.svg"
-        },
-        "category": "Data Science & Big Data"
-      },
-      {
-        "id": "unitycatalog",
-        "name": "unitycatalog",
-        "files": {
-          "light": "unitycatalog-light.svg",
-          "dark": "unitycatalog-dark.svg"
-        },
-        "category": "Data Science & Big Data"
       }
     ],
     "Databases": [
-      {
-        "id": "bigquery",
-        "name": "bigquery",
-        "files": {
-          "light": "bigquery-light.svg",
-          "dark": "bigquery-dark.svg"
-        },
-        "category": "Databases"
-      },
-      {
-        "id": "cassandra",
-        "name": "cassandra",
-        "files": {
-          "light": "cassandra-light.svg",
-          "dark": "cassandra-dark.svg"
-        },
-        "category": "Databases"
-      },
-      {
-        "id": "clickhouse",
-        "name": "clickhouse",
-        "files": {
-          "light": "clickhouse-light.svg",
-          "dark": "clickhouse-dark.svg"
-        },
-        "category": "Databases"
-      },
-      {
-        "id": "cockroachdb",
-        "name": "cockroachdb",
-        "files": {
-          "light": "cockroachdb-light.svg",
-          "dark": "cockroachdb-dark.svg"
-        },
-        "category": "Databases"
-      },
-      {
-        "id": "dbeaver",
-        "name": "dbeaver",
-        "files": {
-          "light": "dbeaver-light.svg",
-          "dark": "dbeaver-dark.svg"
-        },
-        "category": "Databases"
-      },
-      {
-        "id": "dynamodb",
-        "name": "dynamodb",
-        "files": {
-          "light": "dynamodb-light.svg",
-          "dark": "dynamodb-dark.svg"
-        },
-        "category": "Databases"
-      },
-      {
-        "id": "hudi",
-        "name": "hudi",
-        "files": {
-          "light": "hudi-light.svg",
-          "dark": "hudi-dark.svg"
-        },
-        "category": "Databases"
-      },
-      {
-        "id": "immuta",
-        "name": "immuta",
-        "files": {
-          "light": "immuta-light.svg",
-          "dark": "immuta-dark.svg"
-        },
-        "category": "Databases"
-      },
-      {
-        "id": "keydb",
-        "name": "keydb",
-        "files": {
-          "light": "keydb-light.svg",
-          "dark": "keydb-dark.svg"
-        },
-        "category": "Databases"
-      },
-      {
-        "id": "lancedb",
-        "name": "lancedb",
-        "files": {
-          "light": "lancedb-light.svg",
-          "dark": "lancedb-dark.svg"
-        },
-        "category": "Databases"
-      },
-      {
-        "id": "libsql",
-        "name": "libsql",
-        "files": {
-          "light": "libsql.svg",
-          "dark": "libsql.svg"
-        },
-        "category": "Databases"
-      },
-      {
-        "id": "mariadb",
-        "name": "mariadb",
-        "files": {
-          "light": "mariadb-light.svg",
-          "dark": "mariadb-dark.svg"
-        },
-        "category": "Databases"
-      },
-      {
-        "id": "milvus",
-        "name": "milvus",
-        "files": {
-          "light": "milvus-light.svg",
-          "dark": "milvus-dark.svg"
-        },
-        "category": "Databases"
-      },
-      {
-        "id": "mongodb",
-        "name": "mongodb",
-        "files": {
-          "light": "mongodb.svg",
-          "dark": "mongodb.svg"
-        },
-        "category": "Databases"
-      },
       {
         "id": "mysql",
         "name": "mysql",
@@ -4724,56 +4740,11 @@ const iconsData = {
         "category": "Databases"
       },
       {
-        "id": "neo4j",
-        "name": "neo4j",
-        "files": {
-          "light": "neo4j-light.svg",
-          "dark": "neo4j-dark.svg"
-        },
-        "category": "Databases"
-      },
-      {
-        "id": "oracle",
-        "name": "oracle",
-        "files": {
-          "light": "oracle-light.svg",
-          "dark": "oracle-dark.svg"
-        },
-        "category": "Databases"
-      },
-      {
-        "id": "pinecone",
-        "name": "pinecone",
-        "files": {
-          "light": "pinecone-light.svg",
-          "dark": "pinecone-dark.svg"
-        },
-        "category": "Databases"
-      },
-      {
         "id": "postgresql",
         "name": "postgresql",
         "files": {
           "light": "postgresql-light.svg",
           "dark": "postgresql-dark.svg"
-        },
-        "category": "Databases"
-      },
-      {
-        "id": "qdrant",
-        "name": "qdrant",
-        "files": {
-          "light": "qdrant-light.svg",
-          "dark": "qdrant-dark.svg"
-        },
-        "category": "Databases"
-      },
-      {
-        "id": "snowflake",
-        "name": "snowflake",
-        "files": {
-          "light": "snowflake-light.svg",
-          "dark": "snowflake-dark.svg"
         },
         "category": "Databases"
       },
@@ -4796,11 +4767,29 @@ const iconsData = {
         "category": "Databases"
       },
       {
-        "id": "surrealdb",
-        "name": "surrealdb",
+        "id": "mariadb",
+        "name": "mariadb",
         "files": {
-          "light": "surrealdb-light.svg",
-          "dark": "surrealdb-dark.svg"
+          "light": "mariadb-light.svg",
+          "dark": "mariadb-dark.svg"
+        },
+        "category": "Databases"
+      },
+      {
+        "id": "oracle",
+        "name": "oracle",
+        "files": {
+          "light": "oracle-light.svg",
+          "dark": "oracle-dark.svg"
+        },
+        "category": "Databases"
+      },
+      {
+        "id": "cockroachdb",
+        "name": "cockroachdb",
+        "files": {
+          "light": "cockroachdb-light.svg",
+          "dark": "cockroachdb-dark.svg"
         },
         "category": "Databases"
       },
@@ -4814,11 +4803,173 @@ const iconsData = {
         "category": "Databases"
       },
       {
+        "id": "mongodb",
+        "name": "mongodb",
+        "files": {
+          "light": "mongodb.svg",
+          "dark": "mongodb.svg"
+        },
+        "category": "Databases"
+      },
+      {
+        "id": "cassandra",
+        "name": "cassandra",
+        "files": {
+          "light": "cassandra-light.svg",
+          "dark": "cassandra-dark.svg"
+        },
+        "category": "Databases"
+      },
+      {
+        "id": "dynamodb",
+        "name": "dynamodb",
+        "files": {
+          "light": "dynamodb-light.svg",
+          "dark": "dynamodb-dark.svg"
+        },
+        "category": "Databases"
+      },
+      {
+        "id": "neo4j",
+        "name": "neo4j",
+        "files": {
+          "light": "neo4j-light.svg",
+          "dark": "neo4j-dark.svg"
+        },
+        "category": "Databases"
+      },
+      {
+        "id": "elasticsearch",
+        "name": "elasticsearch",
+        "files": {
+          "light": "elasticsearch-light.svg",
+          "dark": "elasticsearch-dark.svg"
+        },
+        "category": "Databases"
+      },
+      {
+        "id": "clickhouse",
+        "name": "clickhouse",
+        "files": {
+          "light": "clickhouse-light.svg",
+          "dark": "clickhouse-dark.svg"
+        },
+        "category": "Databases"
+      },
+      {
+        "id": "snowflake",
+        "name": "snowflake",
+        "files": {
+          "light": "snowflake-light.svg",
+          "dark": "snowflake-dark.svg"
+        },
+        "category": "Databases"
+      },
+      {
+        "id": "bigquery",
+        "name": "bigquery",
+        "files": {
+          "light": "bigquery-light.svg",
+          "dark": "bigquery-dark.svg"
+        },
+        "category": "Databases"
+      },
+      {
+        "id": "surrealdb",
+        "name": "surrealdb",
+        "files": {
+          "light": "surrealdb-light.svg",
+          "dark": "surrealdb-dark.svg"
+        },
+        "category": "Databases"
+      },
+      {
+        "id": "qdrant",
+        "name": "qdrant",
+        "files": {
+          "light": "qdrant-light.svg",
+          "dark": "qdrant-dark.svg"
+        },
+        "category": "Databases"
+      },
+      {
+        "id": "milvus",
+        "name": "milvus",
+        "files": {
+          "light": "milvus-light.svg",
+          "dark": "milvus-dark.svg"
+        },
+        "category": "Databases"
+      },
+      {
+        "id": "keydb",
+        "name": "keydb",
+        "files": {
+          "light": "keydb-light.svg",
+          "dark": "keydb-dark.svg"
+        },
+        "category": "Databases"
+      },
+      {
+        "id": "lancedb",
+        "name": "lancedb",
+        "files": {
+          "light": "lancedb-light.svg",
+          "dark": "lancedb-dark.svg"
+        },
+        "category": "Databases"
+      },
+      {
+        "id": "hudi",
+        "name": "hudi",
+        "files": {
+          "light": "hudi-light.svg",
+          "dark": "hudi-dark.svg"
+        },
+        "category": "Databases"
+      },
+      {
         "id": "turso",
         "name": "turso",
         "files": {
           "light": "turso-light.svg",
           "dark": "turso-dark.svg"
+        },
+        "category": "Databases"
+      },
+      {
+        "id": "pinecone",
+        "name": "pinecone",
+        "files": {
+          "light": "pinecone-light.svg",
+          "dark": "pinecone-dark.svg"
+        },
+        "category": "Databases"
+      },
+      {
+        "id": "dbeaver",
+        "name": "dbeaver",
+        "files": {
+          "light": "dbeaver-light.svg",
+          "dark": "dbeaver-dark.svg"
+        },
+        "category": "Databases"
+      },
+      {
+        "id": "libsql",
+        "name": "libsql",
+        "files": {
+          "light": "libsql.svg",
+          "dark": "libsql.svg"
+        },
+        "category": "Databases"
+      },
+      {
+        "id": "immuta",
+        "name": "immuta",
+        "files": {
+          "light": "immuta-light.svg",
+          "dark": "immuta-dark.svg"
         },
         "category": "Databases"
       }
@@ -4843,20 +4994,47 @@ const iconsData = {
         "category": "Mobile Development"
       },
       {
-        "id": "appstore",
-        "name": "appstore",
+        "id": "swift",
+        "name": "swift",
         "files": {
-          "light": "appstore.svg",
-          "dark": "appstore.svg"
+          "light": "swift.svg",
+          "dark": "swift.svg"
         },
         "category": "Mobile Development"
       },
       {
-        "id": "capacitor",
-        "name": "capacitor",
+        "id": "flutter",
+        "name": "flutter",
         "files": {
-          "light": "capacitor-light.svg",
-          "dark": "capacitor-dark.svg"
+          "light": "flutter-light.svg",
+          "dark": "flutter-dark.svg"
+        },
+        "category": "Mobile Development"
+      },
+      {
+        "id": "reactnative",
+        "name": "reactnative",
+        "files": {
+          "light": "reactnative-light.svg",
+          "dark": "reactnative-dark.svg"
+        },
+        "category": "Mobile Development"
+      },
+      {
+        "id": "dart",
+        "name": "dart",
+        "files": {
+          "light": "dart-light.svg",
+          "dark": "dart-dark.svg"
+        },
+        "category": "Mobile Development"
+      },
+      {
+        "id": "kotlin",
+        "name": "kotlin",
+        "files": {
+          "light": "kotlin-light.svg",
+          "dark": "kotlin-dark.svg"
         },
         "category": "Mobile Development"
       },
@@ -4870,20 +5048,38 @@ const iconsData = {
         "category": "Mobile Development"
       },
       {
+        "id": "capacitor",
+        "name": "capacitor",
+        "files": {
+          "light": "capacitor-light.svg",
+          "dark": "capacitor-dark.svg"
+        },
+        "category": "Mobile Development"
+      },
+      {
+        "id": "jetpackcompose",
+        "name": "jetpackcompose",
+        "files": {
+          "light": "jetpackcompose-light.svg",
+          "dark": "jetpackcompose-dark.svg"
+        },
+        "category": "Mobile Development"
+      },
+      {
+        "id": "thunkable",
+        "name": "thunkable",
+        "files": {
+          "light": "thunkable.svg",
+          "dark": "thunkable.svg"
+        },
+        "category": "Mobile Development"
+      },
+      {
         "id": "fastlane",
         "name": "fastlane",
         "files": {
           "light": "fastlane-light.svg",
           "dark": "fastlane-dark.svg"
-        },
-        "category": "Mobile Development"
-      },
-      {
-        "id": "flutter",
-        "name": "flutter",
-        "files": {
-          "light": "flutter-light.svg",
-          "dark": "flutter-dark.svg"
         },
         "category": "Mobile Development"
       },
@@ -4915,34 +5111,70 @@ const iconsData = {
         "category": "Mobile Development"
       },
       {
-        "id": "jetpackcompose",
-        "name": "jetpackcompose",
+        "id": "appstore",
+        "name": "appstore",
         "files": {
-          "light": "jetpackcompose-light.svg",
-          "dark": "jetpackcompose-dark.svg"
+          "light": "appstore.svg",
+          "dark": "appstore.svg"
         },
         "category": "Mobile Development"
       },
       {
-        "id": "reactnative",
-        "name": "reactnative",
+        "id": "avaloniaui",
+        "name": "avaloniaui",
         "files": {
-          "light": "reactnative-light.svg",
-          "dark": "reactnative-dark.svg"
-        },
-        "category": "Mobile Development"
-      },
-      {
-        "id": "thunkable",
-        "name": "thunkable",
-        "files": {
-          "light": "thunkable.svg",
-          "dark": "thunkable.svg"
+          "light": "avaloniaui.svg",
+          "dark": "avaloniaui.svg"
         },
         "category": "Mobile Development"
       }
     ],
     "Game Development": [
+      {
+        "id": "unity",
+        "name": "unity",
+        "files": {
+          "light": "unity-light.svg",
+          "dark": "unity-dark.svg"
+        },
+        "category": "Game Development"
+      },
+      {
+        "id": "godot",
+        "name": "godot",
+        "files": {
+          "light": "godot-light.svg",
+          "dark": "godot-dark.svg"
+        },
+        "category": "Game Development"
+      },
+      {
+        "id": "robloxstudio",
+        "name": "robloxstudio",
+        "files": {
+          "light": "robloxstudio.svg",
+          "dark": "robloxstudio.svg"
+        },
+        "category": "Game Development"
+      },
+      {
+        "id": "pygame",
+        "name": "pygame",
+        "files": {
+          "light": "pygame-light.svg",
+          "dark": "pygame-dark.svg"
+        },
+        "category": "Game Development"
+      },
+      {
+        "id": "phaser",
+        "name": "phaser",
+        "files": {
+          "light": "phaser-light.svg",
+          "dark": "phaser-dark.svg"
+        },
+        "category": "Game Development"
+      },
       {
         "id": "bevy",
         "name": "bevy",
@@ -4962,24 +5194,6 @@ const iconsData = {
         "category": "Game Development"
       },
       {
-        "id": "fabricmc",
-        "name": "fabricmc",
-        "files": {
-          "light": "fabricmc-light.svg",
-          "dark": "fabricmc-dark.svg"
-        },
-        "category": "Game Development"
-      },
-      {
-        "id": "forgemc",
-        "name": "forgemc",
-        "files": {
-          "light": "forgemc-light.svg",
-          "dark": "forgemc-dark.svg"
-        },
-        "category": "Game Development"
-      },
-      {
         "id": "gamemakerstudio",
         "name": "gamemakerstudio",
         "files": {
@@ -4989,20 +5203,20 @@ const iconsData = {
         "category": "Game Development"
       },
       {
-        "id": "gdevelop",
-        "name": "gdevelop",
+        "id": "pyxel",
+        "name": "pyxel",
         "files": {
-          "light": "gdevelop-light.svg",
-          "dark": "gdevelop-dark.svg"
+          "light": "pyxel-light.svg",
+          "dark": "pyxel-dark.svg"
         },
         "category": "Game Development"
       },
       {
-        "id": "godot",
-        "name": "godot",
+        "id": "p5js",
+        "name": "p5js",
         "files": {
-          "light": "godot-light.svg",
-          "dark": "godot-dark.svg"
+          "light": "p5js.svg",
+          "dark": "p5js.svg"
         },
         "category": "Game Development"
       },
@@ -5025,83 +5239,11 @@ const iconsData = {
         "category": "Game Development"
       },
       {
-        "id": "neoforge",
-        "name": "neoforge",
+        "id": "gdevelop",
+        "name": "gdevelop",
         "files": {
-          "light": "neoforge-light.svg",
-          "dark": "neoforge-dark.svg"
-        },
-        "category": "Game Development"
-      },
-      {
-        "id": "p5js",
-        "name": "p5js",
-        "files": {
-          "light": "p5js.svg",
-          "dark": "p5js.svg"
-        },
-        "category": "Game Development"
-      },
-      {
-        "id": "phaser",
-        "name": "phaser",
-        "files": {
-          "light": "phaser-light.svg",
-          "dark": "phaser-dark.svg"
-        },
-        "category": "Game Development"
-      },
-      {
-        "id": "playcanvas",
-        "name": "playcanvas",
-        "files": {
-          "light": "playcanvas.svg",
-          "dark": "playcanvas.svg"
-        },
-        "category": "Game Development"
-      },
-      {
-        "id": "playfab",
-        "name": "playfab",
-        "files": {
-          "light": "playfab-light.svg",
-          "dark": "playfab-dark.svg"
-        },
-        "category": "Game Development"
-      },
-      {
-        "id": "processing",
-        "name": "processing",
-        "files": {
-          "light": "processing-light.svg",
-          "dark": "processing-dark.svg"
-        },
-        "category": "Game Development"
-      },
-      {
-        "id": "pygame",
-        "name": "pygame",
-        "files": {
-          "light": "pygame-light.svg",
-          "dark": "pygame-dark.svg"
-        },
-        "category": "Game Development"
-      },
-      {
-        "id": "pyxel",
-        "name": "pyxel",
-        "files": {
-          "light": "pyxel-light.svg",
-          "dark": "pyxel-dark.svg"
-        },
-        "category": "Game Development"
-      },
-      {
-        "id": "quiltmc",
-        "name": "quiltmc",
-        "files": {
-          "light": "quiltmc-light.svg",
-          "dark": "quiltmc-dark.svg"
+          "light": "gdevelop-light.svg",
+          "dark": "gdevelop-dark.svg"
         },
         "category": "Game Development"
       },
@@ -5115,20 +5257,74 @@ const iconsData = {
         "category": "Game Development"
       },
       {
-        "id": "robloxstudio",
-        "name": "robloxstudio",
-        "files": {
-          "light": "robloxstudio.svg",
-          "dark": "robloxstudio.svg"
-        },
-        "category": "Game Development"
-      },
-      {
         "id": "steam",
         "name": "steam",
         "files": {
           "light": "steam.svg",
           "dark": "steam.svg"
+        },
+        "category": "Game Development"
+      },
+      {
+        "id": "playcanvas",
+        "name": "playcanvas",
+        "files": {
+          "light": "playcanvas.svg",
+          "dark": "playcanvas.svg"
+        },
+        "category": "Game Development"
+      },
+      {
+        "id": "processing",
+        "name": "processing",
+        "files": {
+          "light": "processing-light.svg",
+          "dark": "processing-dark.svg"
+        },
+        "category": "Game Development"
+      },
+      {
+        "id": "fabricmc",
+        "name": "fabricmc",
+        "files": {
+          "light": "fabricmc-light.svg",
+          "dark": "fabricmc-dark.svg"
+        },
+        "category": "Game Development"
+      },
+      {
+        "id": "forgemc",
+        "name": "forgemc",
+        "files": {
+          "light": "forgemc-light.svg",
+          "dark": "forgemc-dark.svg"
+        },
+        "category": "Game Development"
+      },
+      {
+        "id": "neoforge",
+        "name": "neoforge",
+        "files": {
+          "light": "neoforge-light.svg",
+          "dark": "neoforge-dark.svg"
+        },
+        "category": "Game Development"
+      },
+      {
+        "id": "quiltmc",
+        "name": "quiltmc",
+        "files": {
+          "light": "quiltmc-light.svg",
+          "dark": "quiltmc-dark.svg"
+        },
+        "category": "Game Development"
+      },
+      {
+        "id": "playfab",
+        "name": "playfab",
+        "files": {
+          "light": "playfab-light.svg",
+          "dark": "playfab-dark.svg"
         },
         "category": "Game Development"
       },
@@ -5143,6 +5339,123 @@ const iconsData = {
       }
     ],
     "Web3 & Blockchain": [
+      {
+        "id": "solana",
+        "name": "solana",
+        "files": {
+          "light": "solana-light.svg",
+          "dark": "solana-dark.svg"
+        },
+        "category": "Web3 & Blockchain"
+      },
+      {
+        "id": "ethereum",
+        "name": "ethereum",
+        "files": {
+          "light": "ethereum-light.svg",
+          "dark": "ethereum-dark.svg"
+        },
+        "category": "Web3 & Blockchain"
+      },
+      {
+        "id": "alchemy",
+        "name": "alchemy",
+        "files": {
+          "light": "alchemy-light.svg",
+          "dark": "alchemy-dark.svg"
+        },
+        "category": "Web3 & Blockchain"
+      },
+      {
+        "id": "chainlink",
+        "name": "chainlink",
+        "files": {
+          "light": "chainlink-light.svg",
+          "dark": "chainlink-dark.svg"
+        },
+        "category": "Web3 & Blockchain"
+      },
+      {
+        "id": "uniswap",
+        "name": "uniswap",
+        "files": {
+          "light": "uniswap-light.svg",
+          "dark": "uniswap-dark.svg"
+        },
+        "category": "Web3 & Blockchain"
+      },
+      {
+        "id": "sushiswap",
+        "name": "sushiswap",
+        "files": {
+          "light": "sushiswap-light.svg",
+          "dark": "sushiswap-dark.svg"
+        },
+        "category": "Web3 & Blockchain"
+      },
+      {
+        "id": "pancakeswap",
+        "name": "pancakeswap",
+        "files": {
+          "light": "pancakeswap-light.svg",
+          "dark": "pancakeswap-dark.svg"
+        },
+        "category": "Web3 & Blockchain"
+      },
+      {
+        "id": "hardhat",
+        "name": "hardhat",
+        "files": {
+          "light": "hardhat-light.svg",
+          "dark": "hardhat-dark.svg"
+        },
+        "category": "Web3 & Blockchain"
+      },
+      {
+        "id": "truffle",
+        "name": "truffle",
+        "files": {
+          "light": "truffle-light.svg",
+          "dark": "truffle-dark.svg"
+        },
+        "category": "Web3 & Blockchain"
+      },
+      {
+        "id": "ganache",
+        "name": "ganache",
+        "files": {
+          "light": "ganache-light.svg",
+          "dark": "ganache-dark.svg"
+        },
+        "category": "Web3 & Blockchain"
+      },
+      {
+        "id": "foundry",
+        "name": "foundry",
+        "files": {
+          "light": "foundry-light.svg",
+          "dark": "foundry-dark.svg"
+        },
+        "category": "Web3 & Blockchain"
+      },
+      {
+        "id": "ipfs",
+        "name": "ipfs",
+        "files": {
+          "light": "ipfs-light.svg",
+          "dark": "ipfs-dark.svg"
+        },
+        "category": "Web3 & Blockchain"
+      },
+      {
+        "id": "infura",
+        "name": "infura",
+        "files": {
+          "light": "infura.svg",
+          "dark": "infura.svg"
+        },
+        "category": "Web3 & Blockchain"
+      },
       {
         "id": "aave",
         "name": "aave",
@@ -5162,11 +5475,20 @@ const iconsData = {
         "category": "Web3 & Blockchain"
       },
       {
-        "id": "alchemy",
-        "name": "alchemy",
+        "id": "vyper",
+        "name": "vyper",
         "files": {
-          "light": "alchemy-light.svg",
-          "dark": "alchemy-dark.svg"
+          "light": "vyper-light.svg",
+          "dark": "vyper-dark.svg"
+        },
+        "category": "Web3 & Blockchain"
+      },
+      {
+        "id": "solidity",
+        "name": "solidity",
+        "files": {
+          "light": "solidity.svg",
+          "dark": "solidity.svg"
         },
         "category": "Web3 & Blockchain"
       },
@@ -5189,51 +5511,6 @@ const iconsData = {
         "category": "Web3 & Blockchain"
       },
       {
-        "id": "chainlink",
-        "name": "chainlink",
-        "files": {
-          "light": "chainlink-light.svg",
-          "dark": "chainlink-dark.svg"
-        },
-        "category": "Web3 & Blockchain"
-      },
-      {
-        "id": "ethereum",
-        "name": "ethereum",
-        "files": {
-          "light": "ethereum-light.svg",
-          "dark": "ethereum-dark.svg"
-        },
-        "category": "Web3 & Blockchain"
-      },
-      {
-        "id": "foundry",
-        "name": "foundry",
-        "files": {
-          "light": "foundry-light.svg",
-          "dark": "foundry-dark.svg"
-        },
-        "category": "Web3 & Blockchain"
-      },
-      {
-        "id": "ganache",
-        "name": "ganache",
-        "files": {
-          "light": "ganache-light.svg",
-          "dark": "ganache-dark.svg"
-        },
-        "category": "Web3 & Blockchain"
-      },
-      {
-        "id": "hardhat",
-        "name": "hardhat",
-        "files": {
-          "light": "hardhat-light.svg",
-          "dark": "hardhat-dark.svg"
-        },
-        "category": "Web3 & Blockchain"
-      },
-      {
         "id": "helia",
         "name": "helia",
         "files": {
@@ -5241,153 +5518,9 @@ const iconsData = {
           "dark": "helia-dark.svg"
         },
         "category": "Web3 & Blockchain"
-      },
-      {
-        "id": "infura",
-        "name": "infura",
-        "files": {
-          "light": "infura.svg",
-          "dark": "infura.svg"
-        },
-        "category": "Web3 & Blockchain"
-      },
-      {
-        "id": "ipfs",
-        "name": "ipfs",
-        "files": {
-          "light": "ipfs-light.svg",
-          "dark": "ipfs-dark.svg"
-        },
-        "category": "Web3 & Blockchain"
-      },
-      {
-        "id": "pancakeswap",
-        "name": "pancakeswap",
-        "files": {
-          "light": "pancakeswap-light.svg",
-          "dark": "pancakeswap-dark.svg"
-        },
-        "category": "Web3 & Blockchain"
-      },
-      {
-        "id": "solana",
-        "name": "solana",
-        "files": {
-          "light": "solana-light.svg",
-          "dark": "solana-dark.svg"
-        },
-        "category": "Web3 & Blockchain"
-      },
-      {
-        "id": "solidity",
-        "name": "solidity",
-        "files": {
-          "light": "solidity.svg",
-          "dark": "solidity.svg"
-        },
-        "category": "Web3 & Blockchain"
-      },
-      {
-        "id": "sushiswap",
-        "name": "sushiswap",
-        "files": {
-          "light": "sushiswap-light.svg",
-          "dark": "sushiswap-dark.svg"
-        },
-        "category": "Web3 & Blockchain"
-      },
-      {
-        "id": "truffle",
-        "name": "truffle",
-        "files": {
-          "light": "truffle-light.svg",
-          "dark": "truffle-dark.svg"
-        },
-        "category": "Web3 & Blockchain"
-      },
-      {
-        "id": "uniswap",
-        "name": "uniswap",
-        "files": {
-          "light": "uniswap-light.svg",
-          "dark": "uniswap-dark.svg"
-        },
-        "category": "Web3 & Blockchain"
-      },
-      {
-        "id": "vyper",
-        "name": "vyper",
-        "files": {
-          "light": "vyper-light.svg",
-          "dark": "vyper-dark.svg"
-        },
-        "category": "Web3 & Blockchain"
       }
     ],
     "Security & Privacy": [
-      {
-        "id": "aqua",
-        "name": "aqua",
-        "files": {
-          "light": "aqua-light.svg",
-          "dark": "aqua-dark.svg"
-        },
-        "category": "Security & Privacy"
-      },
-      {
-        "id": "arcjet",
-        "name": "arcjet",
-        "files": {
-          "light": "arcjet-light.svg",
-          "dark": "arcjet-dark.svg"
-        },
-        "category": "Security & Privacy"
-      },
-      {
-        "id": "authenticator",
-        "name": "authenticator",
-        "files": {
-          "light": "authenticator-light.svg",
-          "dark": "authenticator-dark.svg"
-        },
-        "category": "Security & Privacy"
-      },
-      {
-        "id": "betterauth",
-        "name": "betterauth",
-        "files": {
-          "light": "betterauth-light.svg",
-          "dark": "betterauth-dark.svg"
-        },
-        "category": "Security & Privacy"
-      },
-      {
-        "id": "brave",
-        "name": "brave",
-        "files": {
-          "light": "brave-light.svg",
-          "dark": "brave-dark.svg"
-        },
-        "category": "Security & Privacy"
-      },
-      {
-        "id": "btlo",
-        "name": "btlo",
-        "files": {
-          "light": "btlo-light.svg",
-          "dark": "btlo-dark.svg"
-        },
-        "category": "Security & Privacy"
-      },
-      {
-        "id": "burn",
-        "name": "burn",
-        "files": {
-          "light": "burn-light.svg",
-          "dark": "burn-dark.svg"
-        },
-        "category": "Security & Privacy"
-      },
       {
         "id": "burpsuite",
         "name": "burpsuite",
@@ -5398,29 +5531,20 @@ const iconsData = {
         "category": "Security & Privacy"
       },
       {
-        "id": "clerk",
-        "name": "clerk",
+        "id": "wireshark",
+        "name": "wireshark",
         "files": {
-          "light": "clerk.svg",
-          "dark": "clerk.svg"
+          "light": "wireshark-light.svg",
+          "dark": "wireshark-dark.svg"
         },
         "category": "Security & Privacy"
       },
       {
-        "id": "duckduckgo",
-        "name": "duckduckgo",
+        "id": "snyk",
+        "name": "snyk",
         "files": {
-          "light": "duckduckgo.svg",
-          "dark": "duckduckgo.svg"
-        },
-        "category": "Security & Privacy"
-      },
-      {
-        "id": "hackthebox",
-        "name": "hackthebox",
-        "files": {
-          "light": "hackthebox-light.svg",
-          "dark": "hackthebox-dark.svg"
+          "light": "snyk-light.svg",
+          "dark": "snyk-dark.svg"
         },
         "category": "Security & Privacy"
       },
@@ -5434,29 +5558,29 @@ const iconsData = {
         "category": "Security & Privacy"
       },
       {
-        "id": "logto",
-        "name": "logto",
+        "id": "clerk",
+        "name": "clerk",
         "files": {
-          "light": "logto-light.svg",
-          "dark": "logto-dark.svg"
+          "light": "clerk.svg",
+          "dark": "clerk.svg"
         },
         "category": "Security & Privacy"
       },
       {
-        "id": "proton",
-        "name": "proton",
+        "id": "betterauth",
+        "name": "betterauth",
         "files": {
-          "light": "proton-light.svg",
-          "dark": "proton-dark.svg"
+          "light": "betterauth-light.svg",
+          "dark": "betterauth-dark.svg"
         },
         "category": "Security & Privacy"
       },
       {
-        "id": "snyk",
-        "name": "snyk",
+        "id": "authenticator",
+        "name": "authenticator",
         "files": {
-          "light": "snyk-light.svg",
-          "dark": "snyk-dark.svg"
+          "light": "authenticator-light.svg",
+          "dark": "authenticator-dark.svg"
         },
         "category": "Security & Privacy"
       },
@@ -5479,6 +5603,33 @@ const iconsData = {
         "category": "Security & Privacy"
       },
       {
+        "id": "brave",
+        "name": "brave",
+        "files": {
+          "light": "brave-light.svg",
+          "dark": "brave-dark.svg"
+        },
+        "category": "Security & Privacy"
+      },
+      {
+        "id": "proton",
+        "name": "proton",
+        "files": {
+          "light": "proton-light.svg",
+          "dark": "proton-dark.svg"
+        },
+        "category": "Security & Privacy"
+      },
+      {
+        "id": "hackthebox",
+        "name": "hackthebox",
+        "files": {
+          "light": "hackthebox-light.svg",
+          "dark": "hackthebox-dark.svg"
+        },
+        "category": "Security & Privacy"
+      },
+      {
         "id": "tryhackme",
         "name": "tryhackme",
         "files": {
@@ -5488,49 +5639,112 @@ const iconsData = {
         "category": "Security & Privacy"
       },
       {
-        "id": "wireshark",
-        "name": "wireshark",
+        "id": "logto",
+        "name": "logto",
         "files": {
-          "light": "wireshark-light.svg",
-          "dark": "wireshark-dark.svg"
+          "light": "logto-light.svg",
+          "dark": "logto-dark.svg"
+        },
+        "category": "Security & Privacy"
+      },
+      {
+        "id": "duckduckgo",
+        "name": "duckduckgo",
+        "files": {
+          "light": "duckduckgo.svg",
+          "dark": "duckduckgo.svg"
+        },
+        "category": "Security & Privacy"
+      },
+      {
+        "id": "btlo",
+        "name": "btlo",
+        "files": {
+          "light": "btlo-light.svg",
+          "dark": "btlo-dark.svg"
+        },
+        "category": "Security & Privacy"
+      },
+      {
+        "id": "burn",
+        "name": "burn",
+        "files": {
+          "light": "burn-light.svg",
+          "dark": "burn-dark.svg"
+        },
+        "category": "Security & Privacy"
+      },
+      {
+        "id": "aqua",
+        "name": "aqua",
+        "files": {
+          "light": "aqua-light.svg",
+          "dark": "aqua-dark.svg"
+        },
+        "category": "Security & Privacy"
+      },
+      {
+        "id": "arcjet",
+        "name": "arcjet",
+        "files": {
+          "light": "arcjet-light.svg",
+          "dark": "arcjet-dark.svg"
         },
         "category": "Security & Privacy"
       }
     ],
     "Design & Creative": [
       {
-        "id": "ableton",
-        "name": "ableton",
+        "id": "figma",
+        "name": "figma",
         "files": {
-          "light": "ableton-light.svg",
-          "dark": "ableton-dark.svg"
+          "light": "figma-light.svg",
+          "dark": "figma-dark.svg"
         },
         "category": "Design & Creative"
       },
       {
-        "id": "adobespark",
-        "name": "adobespark",
+        "id": "xd",
+        "name": "xd",
         "files": {
-          "light": "adobespark.svg",
-          "dark": "adobespark.svg"
+          "light": "xd.svg",
+          "dark": "xd.svg"
         },
         "category": "Design & Creative"
       },
       {
-        "id": "aero",
-        "name": "aero",
+        "id": "canva",
+        "name": "canva",
         "files": {
-          "light": "aero.svg",
-          "dark": "aero.svg"
+          "light": "canva-light.svg",
+          "dark": "canva-dark.svg"
         },
         "category": "Design & Creative"
       },
       {
-        "id": "affinity",
-        "name": "affinity",
+        "id": "photoshop",
+        "name": "photoshop",
         "files": {
-          "light": "affinity.svg",
-          "dark": "affinity.svg"
+          "light": "photoshop.svg",
+          "dark": "photoshop.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "illustrator",
+        "name": "illustrator",
+        "files": {
+          "light": "illustrator.svg",
+          "dark": "illustrator.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "indesign",
+        "name": "indesign",
+        "files": {
+          "light": "indesign.svg",
+          "dark": "indesign.svg"
         },
         "category": "Design & Creative"
       },
@@ -5544,20 +5758,47 @@ const iconsData = {
         "category": "Design & Creative"
       },
       {
-        "id": "animate",
-        "name": "animate",
+        "id": "premiere",
+        "name": "premiere",
         "files": {
-          "light": "animate.svg",
-          "dark": "animate.svg"
+          "light": "premiere.svg",
+          "dark": "premiere.svg"
         },
         "category": "Design & Creative"
       },
       {
-        "id": "ansys",
-        "name": "ansys",
+        "id": "lightroom",
+        "name": "lightroom",
         "files": {
-          "light": "ansys-light.svg",
-          "dark": "ansys-dark.svg"
+          "light": "lightroom.svg",
+          "dark": "lightroom.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "blender",
+        "name": "blender",
+        "files": {
+          "light": "blender-light.svg",
+          "dark": "blender-dark.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "inkscape",
+        "name": "inkscape",
+        "files": {
+          "light": "inkscape-light.svg",
+          "dark": "inkscape-dark.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "gimp",
+        "name": "gimp",
+        "files": {
+          "light": "gimp-light.svg",
+          "dark": "gimp-dark.svg"
         },
         "category": "Design & Creative"
       },
@@ -5567,6 +5808,15 @@ const iconsData = {
         "files": {
           "light": "aseprite-light.svg",
           "dark": "aseprite-dark.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "ableton",
+        "name": "ableton",
+        "files": {
+          "light": "ableton-light.svg",
+          "dark": "ableton-dark.svg"
         },
         "category": "Design & Creative"
       },
@@ -5589,209 +5839,11 @@ const iconsData = {
         "category": "Design & Creative"
       },
       {
-        "id": "behance",
-        "name": "behance",
+        "id": "obs",
+        "name": "obs",
         "files": {
-          "light": "behance.svg",
-          "dark": "behance.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "blender",
-        "name": "blender",
-        "files": {
-          "light": "blender-light.svg",
-          "dark": "blender-dark.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "bridge",
-        "name": "bridge",
-        "files": {
-          "light": "bridge.svg",
-          "dark": "bridge.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "canva",
-        "name": "canva",
-        "files": {
-          "light": "canva-light.svg",
-          "dark": "canva-dark.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "capture",
-        "name": "capture",
-        "files": {
-          "light": "capture.svg",
-          "dark": "capture.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "catppuccin",
-        "name": "catppuccin",
-        "files": {
-          "light": "catppuccin-light.svg",
-          "dark": "catppuccin-dark.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "characteranimator",
-        "name": "characteranimator",
-        "files": {
-          "light": "characteranimator.svg",
-          "dark": "characteranimator.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "creativecloud",
-        "name": "creativecloud",
-        "files": {
-          "light": "creativecloud.svg",
-          "dark": "creativecloud.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "daft",
-        "name": "daft",
-        "files": {
-          "light": "daft-light.svg",
-          "dark": "daft-dark.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "davinci",
-        "name": "davinci",
-        "files": {
-          "light": "davinci.svg",
-          "dark": "davinci.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "dimension",
-        "name": "dimension",
-        "files": {
-          "light": "dimension.svg",
-          "dark": "dimension.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "ffmpeg",
-        "name": "ffmpeg",
-        "files": {
-          "light": "ffmpeg-light.svg",
-          "dark": "ffmpeg-dark.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "figma",
-        "name": "figma",
-        "files": {
-          "light": "figma-light.svg",
-          "dark": "figma-dark.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "filmora",
-        "name": "filmora",
-        "files": {
-          "light": "filmora-light.svg",
-          "dark": "filmora-dark.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "flameshot",
-        "name": "flameshot",
-        "files": {
-          "light": "flameshot.svg",
-          "dark": "flameshot.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "fonts",
-        "name": "fonts",
-        "files": {
-          "light": "fonts.svg",
-          "dark": "fonts.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "freecad",
-        "name": "freecad",
-        "files": {
-          "light": "freecad-light.svg",
-          "dark": "freecad-dark.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "fresco",
-        "name": "fresco",
-        "files": {
-          "light": "fresco.svg",
-          "dark": "fresco.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "gimp",
-        "name": "gimp",
-        "files": {
-          "light": "gimp-light.svg",
-          "dark": "gimp-dark.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "illustrator",
-        "name": "illustrator",
-        "files": {
-          "light": "illustrator.svg",
-          "dark": "illustrator.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "incopy",
-        "name": "incopy",
-        "files": {
-          "light": "incopy.svg",
-          "dark": "incopy.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "indesign",
-        "name": "indesign",
-        "files": {
-          "light": "indesign.svg",
-          "dark": "indesign.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "inkscape",
-        "name": "inkscape",
-        "files": {
-          "light": "inkscape-light.svg",
-          "dark": "inkscape-dark.svg"
+          "light": "obs-light.svg",
+          "dark": "obs-dark.svg"
         },
         "category": "Design & Creative"
       },
@@ -5805,11 +5857,119 @@ const iconsData = {
         "category": "Design & Creative"
       },
       {
-        "id": "lightroom",
-        "name": "lightroom",
+        "id": "davinci",
+        "name": "davinci",
         "files": {
-          "light": "lightroom.svg",
-          "dark": "lightroom.svg"
+          "light": "davinci.svg",
+          "dark": "davinci.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "mediaencoder",
+        "name": "mediaencoder",
+        "files": {
+          "light": "mediaencoder.svg",
+          "dark": "mediaencoder.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "audacity",
+        "name": "audacity",
+        "files": {
+          "light": "audacity-light.svg",
+          "dark": "audacity-dark.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "audition",
+        "name": "audition",
+        "files": {
+          "light": "audition.svg",
+          "dark": "audition.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "obs",
+        "name": "obs",
+        "files": {
+          "light": "obs-light.svg",
+          "dark": "obs-dark.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "kdenlive",
+        "name": "kdenlive",
+        "files": {
+          "light": "kdenlive-light.svg",
+          "dark": "kdenlive-dark.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "davinci",
+        "name": "davinci",
+        "files": {
+          "light": "davinci.svg",
+          "dark": "davinci.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "mediaencoder",
+        "name": "mediaencoder",
+        "files": {
+          "light": "mediaencoder.svg",
+          "dark": "mediaencoder.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "animate",
+        "name": "animate",
+        "files": {
+          "light": "animate.svg",
+          "dark": "animate.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "capture",
+        "name": "capture",
+        "files": {
+          "light": "capture.svg",
+          "dark": "capture.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "incopy",
+        "name": "incopy",
+        "files": {
+          "light": "incopy.svg",
+          "dark": "incopy.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "bridge",
+        "name": "bridge",
+        "files": {
+          "light": "bridge.svg",
+          "dark": "bridge.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "affinity",
+        "name": "affinity",
+        "files": {
+          "light": "affinity.svg",
+          "dark": "affinity.svg"
         },
         "category": "Design & Creative"
       },
@@ -5819,15 +5979,6 @@ const iconsData = {
         "files": {
           "light": "lightroomclassic.svg",
           "dark": "lightroomclassic.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "liquidsoap",
-        "name": "liquidsoap",
-        "files": {
-          "light": "liquidsoap-light.svg",
-          "dark": "liquidsoap-dark.svg"
         },
         "category": "Design & Creative"
       },
@@ -5850,60 +6001,6 @@ const iconsData = {
         "category": "Design & Creative"
       },
       {
-        "id": "max8",
-        "name": "max8",
-        "files": {
-          "light": "max8.svg",
-          "dark": "max8.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "max9",
-        "name": "max9",
-        "files": {
-          "light": "max9.svg",
-          "dark": "max9.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "mediaencoder",
-        "name": "mediaencoder",
-        "files": {
-          "light": "mediaencoder.svg",
-          "dark": "mediaencoder.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "mux",
-        "name": "mux",
-        "files": {
-          "light": "mux-light.svg",
-          "dark": "mux-dark.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "obs",
-        "name": "obs",
-        "files": {
-          "light": "obs-light.svg",
-          "dark": "obs-dark.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "photoshop",
-        "name": "photoshop",
-        "files": {
-          "light": "photoshop.svg",
-          "dark": "photoshop.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
         "id": "photoshopclassic",
         "name": "photoshopclassic",
         "files": {
@@ -5918,15 +6015,6 @@ const iconsData = {
         "files": {
           "light": "photoshopexpress.svg",
           "dark": "photoshopexpress.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "premiere",
-        "name": "premiere",
-        "files": {
-          "light": "premiere.svg",
-          "dark": "premiere.svg"
         },
         "category": "Design & Creative"
       },
@@ -5949,24 +6037,6 @@ const iconsData = {
         "category": "Design & Creative"
       },
       {
-        "id": "stock",
-        "name": "stock",
-        "files": {
-          "light": "stock.svg",
-          "dark": "stock.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
-        "id": "svg",
-        "name": "svg",
-        "files": {
-          "light": "svg-light.svg",
-          "dark": "svg-dark.svg"
-        },
-        "category": "Design & Creative"
-      },
-      {
         "id": "touchdesigner",
         "name": "touchdesigner",
         "files": {
@@ -5985,31 +6055,256 @@ const iconsData = {
         "category": "Design & Creative"
       },
       {
-        "id": "xd",
-        "name": "xd",
+        "id": "svg",
+        "name": "svg",
         "files": {
-          "light": "xd.svg",
-          "dark": "xd.svg"
+          "light": "svg-light.svg",
+          "dark": "svg-dark.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "stock",
+        "name": "stock",
+        "files": {
+          "light": "stock.svg",
+          "dark": "stock.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "ffmpeg",
+        "name": "ffmpeg",
+        "files": {
+          "light": "ffmpeg-light.svg",
+          "dark": "ffmpeg-dark.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "filmora",
+        "name": "filmora",
+        "files": {
+          "light": "filmora-light.svg",
+          "dark": "filmora-dark.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "flameshot",
+        "name": "flameshot",
+        "files": {
+          "light": "flameshot.svg",
+          "dark": "flameshot.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "dimension",
+        "name": "dimension",
+        "files": {
+          "light": "dimension.svg",
+          "dark": "dimension.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "fonts",
+        "name": "fonts",
+        "files": {
+          "light": "fonts.svg",
+          "dark": "fonts.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "fresco",
+        "name": "fresco",
+        "files": {
+          "light": "fresco.svg",
+          "dark": "fresco.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "freecad",
+        "name": "freecad",
+        "files": {
+          "light": "freecad-light.svg",
+          "dark": "freecad-dark.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "catppuccin",
+        "name": "catppuccin",
+        "files": {
+          "light": "catppuccin-light.svg",
+          "dark": "catppuccin-dark.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "liquidsoap",
+        "name": "liquidsoap",
+        "files": {
+          "light": "liquidsoap-light.svg",
+          "dark": "liquidsoap-dark.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "max8",
+        "name": "max8",
+        "files": {
+          "light": "max8.svg",
+          "dark": "max8.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "max9",
+        "name": "max9",
+        "files": {
+          "light": "max9.svg",
+          "dark": "max9.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "mux",
+        "name": "mux",
+        "files": {
+          "light": "mux-light.svg",
+          "dark": "mux-dark.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "daft",
+        "name": "daft",
+        "files": {
+          "light": "daft-light.svg",
+          "dark": "daft-dark.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "ansys",
+        "name": "ansys",
+        "files": {
+          "light": "ansys-light.svg",
+          "dark": "ansys-dark.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "aero",
+        "name": "aero",
+        "files": {
+          "light": "aero.svg",
+          "dark": "aero.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "adobespark",
+        "name": "adobespark",
+        "files": {
+          "light": "adobespark.svg",
+          "dark": "adobespark.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "behance",
+        "name": "behance",
+        "files": {
+          "light": "behance.svg",
+          "dark": "behance.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "characteranimator",
+        "name": "characteranimator",
+        "files": {
+          "light": "characteranimator.svg",
+          "dark": "characteranimator.svg"
+        },
+        "category": "Design & Creative"
+      },
+      {
+        "id": "creativecloud",
+        "name": "creativecloud",
+        "files": {
+          "light": "creativecloud.svg",
+          "dark": "creativecloud.svg"
         },
         "category": "Design & Creative"
       }
     ],
     "Editors & IDEs": [
       {
-        "id": "appcode",
-        "name": "appcode",
+        "id": "vscode",
+        "name": "vscode",
         "files": {
-          "light": "appcode-light.svg",
-          "dark": "appcode-dark.svg"
+          "light": "vscode-light.svg",
+          "dark": "vscode-dark.svg"
         },
         "category": "Editors & IDEs"
       },
       {
-        "id": "atom",
-        "name": "atom",
+        "id": "visualstudio",
+        "name": "visualstudio",
         "files": {
-          "light": "atom.svg",
-          "dark": "atom.svg"
+          "light": "visualstudio-light.svg",
+          "dark": "visualstudio-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "pycharm",
+        "name": "pycharm",
+        "files": {
+          "light": "pycharm-light.svg",
+          "dark": "pycharm-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "webstorm",
+        "name": "webstorm",
+        "files": {
+          "light": "webstorm-light.svg",
+          "dark": "webstorm-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "phpstorm",
+        "name": "phpstorm",
+        "files": {
+          "light": "phpstorm-light.svg",
+          "dark": "phpstorm-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "rider",
+        "name": "rider",
+        "files": {
+          "light": "rider-light.svg",
+          "dark": "rider-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "goland",
+        "name": "goland",
+        "files": {
+          "light": "goland-light.svg",
+          "dark": "goland-dark.svg"
         },
         "category": "Editors & IDEs"
       },
@@ -6023,11 +6318,92 @@ const iconsData = {
         "category": "Editors & IDEs"
       },
       {
-        "id": "codeblocks",
-        "name": "codeblocks",
+        "id": "androidstudio",
+        "name": "androidstudio",
         "files": {
-          "light": "codeblocks-light.svg",
-          "dark": "codeblocks-dark.svg"
+          "light": "androidstudio-light.svg",
+          "dark": "androidstudio-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "xcode",
+        "name": "xcode",
+        "files": {
+          "light": "xcode-light.svg",
+          "dark": "xcode-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "sublime",
+        "name": "sublime",
+        "files": {
+          "light": "sublime-light.svg",
+          "dark": "sublime-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "atom",
+        "name": "atom",
+        "files": {
+          "light": "atom.svg",
+          "dark": "atom.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "vim",
+        "name": "vim",
+        "files": {
+          "light": "vim-light.svg",
+          "dark": "vim-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "neovim",
+        "name": "neovim",
+        "files": {
+          "light": "neovim-light.svg",
+          "dark": "neovim-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "emacs",
+        "name": "emacs",
+        "files": {
+          "light": "emacs.svg",
+          "dark": "emacs.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "notepadpp",
+        "name": "notepadpp",
+        "files": {
+          "light": "notepadpp-light.svg",
+          "dark": "notepadpp-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "eclipse",
+        "name": "eclipse",
+        "files": {
+          "light": "eclipse-light.svg",
+          "dark": "eclipse-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "zed",
+        "name": "zed",
+        "files": {
+          "light": "zed-light.svg",
+          "dark": "zed-dark.svg"
         },
         "category": "Editors & IDEs"
       },
@@ -6037,6 +6413,114 @@ const iconsData = {
         "files": {
           "light": "cursor-light.svg",
           "dark": "cursor-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "fleet",
+        "name": "fleet",
+        "files": {
+          "light": "fleet-light.svg",
+          "dark": "fleet-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "helix",
+        "name": "helix",
+        "files": {
+          "light": "helix-light.svg",
+          "dark": "helix-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "qt",
+        "name": "qt",
+        "files": {
+          "light": "qt-light.svg",
+          "dark": "qt-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "kakoune",
+        "name": "kakoune",
+        "files": {
+          "light": "kakoune-light.svg",
+          "dark": "kakoune-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "lazyvim",
+        "name": "lazyvim",
+        "files": {
+          "light": "lazyvim-light.svg",
+          "dark": "lazyvim-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "idea",
+        "name": "idea",
+        "files": {
+          "light": "idea-light.svg",
+          "dark": "idea-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "pulsar",
+        "name": "pulsar",
+        "files": {
+          "light": "pulsar-light.svg",
+          "dark": "pulsar-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "resharper",
+        "name": "resharper",
+        "files": {
+          "light": "resharper-light.svg",
+          "dark": "resharper-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "rubymine",
+        "name": "rubymine",
+        "files": {
+          "light": "rubymine-light.svg",
+          "dark": "rubymine-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "rustrover",
+        "name": "rustrover",
+        "files": {
+          "light": "rustrover-light.svg",
+          "dark": "rustrover-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "vscodeinsiders",
+        "name": "vscodeinsiders",
+        "files": {
+          "light": "vscodeinsiders-light.svg",
+          "dark": "vscodeinsiders-dark.svg"
+        },
+        "category": "Editors & IDEs"
+      },
+      {
+        "id": "vscodium",
+        "name": "vscodium",
+        "files": {
+          "light": "vscodium-light.svg",
+          "dark": "vscodium-dark.svg"
         },
         "category": "Editors & IDEs"
       },
@@ -6068,92 +6552,11 @@ const iconsData = {
         "category": "Editors & IDEs"
       },
       {
-        "id": "eclipse",
-        "name": "eclipse",
+        "id": "codeblocks",
+        "name": "codeblocks",
         "files": {
-          "light": "eclipse-light.svg",
-          "dark": "eclipse-dark.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "emacs",
-        "name": "emacs",
-        "files": {
-          "light": "emacs.svg",
-          "dark": "emacs.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "fleet",
-        "name": "fleet",
-        "files": {
-          "light": "fleet-light.svg",
-          "dark": "fleet-dark.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "goland",
-        "name": "goland",
-        "files": {
-          "light": "goland-light.svg",
-          "dark": "goland-dark.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "helix",
-        "name": "helix",
-        "files": {
-          "light": "helix-light.svg",
-          "dark": "helix-dark.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "idea",
-        "name": "idea",
-        "files": {
-          "light": "idea-light.svg",
-          "dark": "idea-dark.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "kakoune",
-        "name": "kakoune",
-        "files": {
-          "light": "kakoune-light.svg",
-          "dark": "kakoune-dark.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "lazyvim",
-        "name": "lazyvim",
-        "files": {
-          "light": "lazyvim-light.svg",
-          "dark": "lazyvim-dark.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "neovim",
-        "name": "neovim",
-        "files": {
-          "light": "neovim-light.svg",
-          "dark": "neovim-dark.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "notepadpp",
-        "name": "notepadpp",
-        "files": {
-          "light": "notepadpp-light.svg",
-          "dark": "notepadpp-dark.svg"
+          "light": "codeblocks-light.svg",
+          "dark": "codeblocks-dark.svg"
         },
         "category": "Editors & IDEs"
       },
@@ -6167,202 +6570,31 @@ const iconsData = {
         "category": "Editors & IDEs"
       },
       {
-        "id": "phpstorm",
-        "name": "phpstorm",
+        "id": "appcode",
+        "name": "appcode",
         "files": {
-          "light": "phpstorm-light.svg",
-          "dark": "phpstorm-dark.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "pulsar",
-        "name": "pulsar",
-        "files": {
-          "light": "pulsar-light.svg",
-          "dark": "pulsar-dark.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "pycharm",
-        "name": "pycharm",
-        "files": {
-          "light": "pycharm-light.svg",
-          "dark": "pycharm-dark.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "qt",
-        "name": "qt",
-        "files": {
-          "light": "qt-light.svg",
-          "dark": "qt-dark.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "resharper",
-        "name": "resharper",
-        "files": {
-          "light": "resharper-light.svg",
-          "dark": "resharper-dark.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "rider",
-        "name": "rider",
-        "files": {
-          "light": "rider-light.svg",
-          "dark": "rider-dark.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "rubymine",
-        "name": "rubymine",
-        "files": {
-          "light": "rubymine-light.svg",
-          "dark": "rubymine-dark.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "rustrover",
-        "name": "rustrover",
-        "files": {
-          "light": "rustrover-light.svg",
-          "dark": "rustrover-dark.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "sublime",
-        "name": "sublime",
-        "files": {
-          "light": "sublime-light.svg",
-          "dark": "sublime-dark.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "vim",
-        "name": "vim",
-        "files": {
-          "light": "vim-light.svg",
-          "dark": "vim-dark.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "visualstudio",
-        "name": "visualstudio",
-        "files": {
-          "light": "visualstudio-light.svg",
-          "dark": "visualstudio-dark.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "vscode",
-        "name": "vscode",
-        "files": {
-          "light": "vscode-light.svg",
-          "dark": "vscode-dark.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "vscodeinsiders",
-        "name": "vscodeinsiders",
-        "files": {
-          "light": "vscodeinsiders-light.svg",
-          "dark": "vscodeinsiders-dark.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "vscodium",
-        "name": "vscodium",
-        "files": {
-          "light": "vscodium-light.svg",
-          "dark": "vscodium-dark.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "webstorm",
-        "name": "webstorm",
-        "files": {
-          "light": "webstorm-light.svg",
-          "dark": "webstorm-dark.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "xcode",
-        "name": "xcode",
-        "files": {
-          "light": "xcode-light.svg",
-          "dark": "xcode-dark.svg"
-        },
-        "category": "Editors & IDEs"
-      },
-      {
-        "id": "zed",
-        "name": "zed",
-        "files": {
-          "light": "zed-light.svg",
-          "dark": "zed-dark.svg"
+          "light": "appcode-light.svg",
+          "dark": "appcode-dark.svg"
         },
         "category": "Editors & IDEs"
       }
     ],
     "Operating Systems": [
       {
-        "id": "alacritty",
-        "name": "alacritty",
+        "id": "linux",
+        "name": "linux",
         "files": {
-          "light": "alacritty-light.svg",
-          "dark": "alacritty-dark.svg"
+          "light": "linux-light.svg",
+          "dark": "linux-dark.svg"
         },
         "category": "Operating Systems"
       },
       {
-        "id": "arch",
-        "name": "arch",
+        "id": "ubuntu",
+        "name": "ubuntu",
         "files": {
-          "light": "arch-light.svg",
-          "dark": "arch-dark.svg"
-        },
-        "category": "Operating Systems"
-      },
-      {
-        "id": "bsd",
-        "name": "bsd",
-        "files": {
-          "light": "bsd-light.svg",
-          "dark": "bsd-dark.svg"
-        },
-        "category": "Operating Systems"
-      },
-      {
-        "id": "cachyos",
-        "name": "cachyos",
-        "files": {
-          "light": "cachyos-light.svg",
-          "dark": "cachyos-dark.svg"
-        },
-        "category": "Operating Systems"
-      },
-      {
-        "id": "centos",
-        "name": "centos",
-        "files": {
-          "light": "centos-light.svg",
-          "dark": "centos-dark.svg"
+          "light": "ubuntu.svg",
+          "dark": "ubuntu.svg"
         },
         "category": "Operating Systems"
       },
@@ -6376,74 +6608,29 @@ const iconsData = {
         "category": "Operating Systems"
       },
       {
+        "id": "arch",
+        "name": "arch",
+        "files": {
+          "light": "arch-light.svg",
+          "dark": "arch-dark.svg"
+        },
+        "category": "Operating Systems"
+      },
+      {
+        "id": "centos",
+        "name": "centos",
+        "files": {
+          "light": "centos-light.svg",
+          "dark": "centos-dark.svg"
+        },
+        "category": "Operating Systems"
+      },
+      {
         "id": "fedora",
         "name": "fedora",
         "files": {
           "light": "fedora-light.svg",
           "dark": "fedora-dark.svg"
-        },
-        "category": "Operating Systems"
-      },
-      {
-        "id": "gentoo",
-        "name": "gentoo",
-        "files": {
-          "light": "gentoo-light.svg",
-          "dark": "gentoo-dark.svg"
-        },
-        "category": "Operating Systems"
-      },
-      {
-        "id": "ghostty",
-        "name": "ghostty",
-        "files": {
-          "light": "ghostty-light.svg",
-          "dark": "ghostty-dark.svg"
-        },
-        "category": "Operating Systems"
-      },
-      {
-        "id": "gnome",
-        "name": "gnome",
-        "files": {
-          "light": "gnome-light.svg",
-          "dark": "gnome-dark.svg"
-        },
-        "category": "Operating Systems"
-      },
-      {
-        "id": "gtk",
-        "name": "gtk",
-        "files": {
-          "light": "gtk-light.svg",
-          "dark": "gtk-dark.svg"
-        },
-        "category": "Operating Systems"
-      },
-      {
-        "id": "htop",
-        "name": "htop",
-        "files": {
-          "light": "htop-light.svg",
-          "dark": "htop-dark.svg"
-        },
-        "category": "Operating Systems"
-      },
-      {
-        "id": "hyprland",
-        "name": "hyprland",
-        "files": {
-          "light": "hyprland-light.svg",
-          "dark": "hyprland-dark.svg"
-        },
-        "category": "Operating Systems"
-      },
-      {
-        "id": "i3",
-        "name": "i3",
-        "files": {
-          "light": "i3-light.svg",
-          "dark": "i3-dark.svg"
         },
         "category": "Operating Systems"
       },
@@ -6457,38 +6644,11 @@ const iconsData = {
         "category": "Operating Systems"
       },
       {
-        "id": "kde",
-        "name": "kde",
+        "id": "windows",
+        "name": "windows",
         "files": {
-          "light": "kde-light.svg",
-          "dark": "kde-dark.svg"
-        },
-        "category": "Operating Systems"
-      },
-      {
-        "id": "kitty",
-        "name": "kitty",
-        "files": {
-          "light": "kitty-light.svg",
-          "dark": "kitty-dark.svg"
-        },
-        "category": "Operating Systems"
-      },
-      {
-        "id": "linux",
-        "name": "linux",
-        "files": {
-          "light": "linux-light.svg",
-          "dark": "linux-dark.svg"
-        },
-        "category": "Operating Systems"
-      },
-      {
-        "id": "lxc",
-        "name": "lxc",
-        "files": {
-          "light": "lxc-light.svg",
-          "dark": "lxc-dark.svg"
+          "light": "windows-light.svg",
+          "dark": "windows-dark.svg"
         },
         "category": "Operating Systems"
       },
@@ -6502,38 +6662,38 @@ const iconsData = {
         "category": "Operating Systems"
       },
       {
-        "id": "manjaro",
-        "name": "manjaro",
+        "id": "gnome",
+        "name": "gnome",
         "files": {
-          "light": "manjaro.svg",
-          "dark": "manjaro.svg"
+          "light": "gnome-light.svg",
+          "dark": "gnome-dark.svg"
         },
         "category": "Operating Systems"
       },
       {
-        "id": "mint",
-        "name": "mint",
+        "id": "kde",
+        "name": "kde",
         "files": {
-          "light": "mint-light.svg",
-          "dark": "mint-dark.svg"
+          "light": "kde-light.svg",
+          "dark": "kde-dark.svg"
         },
         "category": "Operating Systems"
       },
       {
-        "id": "nixos",
-        "name": "nixos",
+        "id": "i3",
+        "name": "i3",
         "files": {
-          "light": "nixos-light.svg",
-          "dark": "nixos-dark.svg"
+          "light": "i3-light.svg",
+          "dark": "i3-dark.svg"
         },
         "category": "Operating Systems"
       },
       {
-        "id": "plan9",
-        "name": "plan9",
+        "id": "hyprland",
+        "name": "hyprland",
         "files": {
-          "light": "plan9-light.svg",
-          "dark": "plan9-dark.svg"
+          "light": "hyprland-light.svg",
+          "dark": "hyprland-dark.svg"
         },
         "category": "Operating Systems"
       },
@@ -6547,11 +6707,137 @@ const iconsData = {
         "category": "Operating Systems"
       },
       {
-        "id": "powertoys",
-        "name": "powertoys",
+        "id": "nixos",
+        "name": "nixos",
         "files": {
-          "light": "powertoys.svg",
-          "dark": "powertoys.svg"
+          "light": "nixos-light.svg",
+          "dark": "nixos-dark.svg"
+        },
+        "category": "Operating Systems"
+      },
+      {
+        "id": "mint",
+        "name": "mint",
+        "files": {
+          "light": "mint-light.svg",
+          "dark": "mint-dark.svg"
+        },
+        "category": "Operating Systems"
+      },
+      {
+        "id": "manjaro",
+        "name": "manjaro",
+        "files": {
+          "light": "manjaro.svg",
+          "dark": "manjaro.svg"
+        },
+        "category": "Operating Systems"
+      },
+      {
+        "id": "gentoo",
+        "name": "gentoo",
+        "files": {
+          "light": "gentoo-light.svg",
+          "dark": "gentoo-dark.svg"
+        },
+        "category": "Operating Systems"
+      },
+      {
+        "id": "bsd",
+        "name": "bsd",
+        "files": {
+          "light": "bsd-light.svg",
+          "dark": "bsd-dark.svg"
+        },
+        "category": "Operating Systems"
+      },
+      {
+        "id": "wsl",
+        "name": "wsl",
+        "files": {
+          "light": "wsl-light.svg",
+          "dark": "wsl-dark.svg"
+        },
+        "category": "Operating Systems"
+      },
+      {
+        "id": "warp",
+        "name": "warp",
+        "files": {
+          "light": "warp-light.svg",
+          "dark": "warp-dark.svg"
+        },
+        "category": "Operating Systems"
+      },
+      {
+        "id": "wezterm",
+        "name": "wezterm",
+        "files": {
+          "light": "wezterm-light.svg",
+          "dark": "wezterm-dark.svg"
+        },
+        "category": "Operating Systems"
+      },
+      {
+        "id": "alacritty",
+        "name": "alacritty",
+        "files": {
+          "light": "alacritty-light.svg",
+          "dark": "alacritty-dark.svg"
+        },
+        "category": "Operating Systems"
+      },
+      {
+        "id": "kitty",
+        "name": "kitty",
+        "files": {
+          "light": "kitty-light.svg",
+          "dark": "kitty-dark.svg"
+        },
+        "category": "Operating Systems"
+      },
+      {
+        "id": "tmux",
+        "name": "tmux",
+        "files": {
+          "light": "tmux-light.svg",
+          "dark": "tmux-dark.svg"
+        },
+        "category": "Operating Systems"
+      },
+      {
+        "id": "zellij",
+        "name": "zellij",
+        "files": {
+          "light": "zellij-light.svg",
+          "dark": "zellij-dark.svg"
+        },
+        "category": "Operating Systems"
+      },
+      {
+        "id": "htop",
+        "name": "htop",
+        "files": {
+          "light": "htop-light.svg",
+          "dark": "htop-dark.svg"
+        },
+        "category": "Operating Systems"
+      },
+      {
+        "id": "lxc",
+        "name": "lxc",
+        "files": {
+          "light": "lxc-light.svg",
+          "dark": "lxc-dark.svg"
+        },
+        "category": "Operating Systems"
+      },
+      {
+        "id": "systemd",
+        "name": "systemd",
+        "files": {
+          "light": "systemd-light.svg",
+          "dark": "systemd-dark.svg"
         },
         "category": "Operating Systems"
       },
@@ -6601,47 +6887,11 @@ const iconsData = {
         "category": "Operating Systems"
       },
       {
-        "id": "systemd",
-        "name": "systemd",
+        "id": "plan9",
+        "name": "plan9",
         "files": {
-          "light": "systemd-light.svg",
-          "dark": "systemd-dark.svg"
-        },
-        "category": "Operating Systems"
-      },
-      {
-        "id": "tailsos",
-        "name": "tailsos",
-        "files": {
-          "light": "tailsos.svg",
-          "dark": "tailsos.svg"
-        },
-        "category": "Operating Systems"
-      },
-      {
-        "id": "terminal",
-        "name": "terminal",
-        "files": {
-          "light": "terminal-light.svg",
-          "dark": "terminal-dark.svg"
-        },
-        "category": "Operating Systems"
-      },
-      {
-        "id": "tmux",
-        "name": "tmux",
-        "files": {
-          "light": "tmux-light.svg",
-          "dark": "tmux-dark.svg"
-        },
-        "category": "Operating Systems"
-      },
-      {
-        "id": "ubuntu",
-        "name": "ubuntu",
-        "files": {
-          "light": "ubuntu.svg",
-          "dark": "ubuntu.svg"
+          "light": "plan9-light.svg",
+          "dark": "plan9-dark.svg"
         },
         "category": "Operating Systems"
       },
@@ -6664,52 +6914,160 @@ const iconsData = {
         "category": "Operating Systems"
       },
       {
-        "id": "warp",
-        "name": "warp",
+        "id": "terminal",
+        "name": "terminal",
         "files": {
-          "light": "warp-light.svg",
-          "dark": "warp-dark.svg"
+          "light": "terminal-light.svg",
+          "dark": "terminal-dark.svg"
         },
         "category": "Operating Systems"
       },
       {
-        "id": "wezterm",
-        "name": "wezterm",
+        "id": "tailsos",
+        "name": "tailsos",
         "files": {
-          "light": "wezterm-light.svg",
-          "dark": "wezterm-dark.svg"
+          "light": "tailsos.svg",
+          "dark": "tailsos.svg"
         },
         "category": "Operating Systems"
       },
       {
-        "id": "windows",
-        "name": "windows",
+        "id": "gtk",
+        "name": "gtk",
         "files": {
-          "light": "windows-light.svg",
-          "dark": "windows-dark.svg"
+          "light": "gtk-light.svg",
+          "dark": "gtk-dark.svg"
         },
         "category": "Operating Systems"
       },
       {
-        "id": "wsl",
-        "name": "wsl",
+        "id": "ghostty",
+        "name": "ghostty",
         "files": {
-          "light": "wsl-light.svg",
-          "dark": "wsl-dark.svg"
+          "light": "ghostty-light.svg",
+          "dark": "ghostty-dark.svg"
         },
         "category": "Operating Systems"
       },
       {
-        "id": "zellij",
-        "name": "zellij",
+        "id": "cachyos",
+        "name": "cachyos",
         "files": {
-          "light": "zellij-light.svg",
-          "dark": "zellij-dark.svg"
+          "light": "cachyos-light.svg",
+          "dark": "cachyos-dark.svg"
+        },
+        "category": "Operating Systems"
+      },
+      {
+        "id": "powertoys",
+        "name": "powertoys",
+        "files": {
+          "light": "powertoys.svg",
+          "dark": "powertoys.svg"
         },
         "category": "Operating Systems"
       }
     ],
     "Social & Communication": [
+      {
+        "id": "discord",
+        "name": "discord",
+        "files": {
+          "light": "discord.svg",
+          "dark": "discord.svg"
+        },
+        "category": "Social & Communication"
+      },
+      {
+        "id": "telegram",
+        "name": "telegram",
+        "files": {
+          "light": "telegram.svg",
+          "dark": "telegram.svg"
+        },
+        "category": "Social & Communication"
+      },
+      {
+        "id": "slack",
+        "name": "slack",
+        "files": {
+          "light": "slack-light.svg",
+          "dark": "slack-dark.svg"
+        },
+        "category": "Social & Communication"
+      },
+      {
+        "id": "twitch",
+        "name": "twitch",
+        "files": {
+          "light": "twitch.svg",
+          "dark": "twitch.svg"
+        },
+        "category": "Social & Communication"
+      },
+      {
+        "id": "youtube",
+        "name": "youtube",
+        "files": {
+          "light": "youtube.svg",
+          "dark": "youtube.svg"
+        },
+        "category": "Social & Communication"
+      },
+      {
+        "id": "facebook",
+        "name": "facebook",
+        "files": {
+          "light": "facebook.svg",
+          "dark": "facebook.svg"
+        },
+        "category": "Social & Communication"
+      },
+      {
+        "id": "instagram",
+        "name": "instagram",
+        "files": {
+          "light": "instagram.svg",
+          "dark": "instagram.svg"
+        },
+        "category": "Social & Communication"
+      },
+      {
+        "id": "linkedin",
+        "name": "linkedin",
+        "files": {
+          "light": "linkedin.svg",
+          "dark": "linkedin.svg"
+        },
+        "category": "Social & Communication"
+      },
+      {
+        "id": "x",
+        "name": "x",
+        "files": {
+          "light": "x-light.svg",
+          "dark": "x-dark.svg"
+        },
+        "category": "Social & Communication"
+      },
+      {
+        "id": "mastodon",
+        "name": "mastodon",
+        "files": {
+          "light": "mastodon-light.svg",
+          "dark": "mastodon-dark.svg"
+        },
+        "category": "Social & Communication"
+      },
+      {
+        "id": "misskey",
+        "name": "misskey",
+        "files": {
+          "light": "misskey-light.svg",
+          "dark": "misskey-dark.svg"
+        },
+        "category": "Social & Communication"
+      },
       {
         "id": "bluesky",
         "name": "bluesky",
@@ -6720,11 +7078,29 @@ const iconsData = {
         "category": "Social & Communication"
       },
       {
-        "id": "dailydev",
-        "name": "dailydev",
+        "id": "teams",
+        "name": "teams",
         "files": {
-          "light": "dailydev-light.svg",
-          "dark": "dailydev-dark.svg"
+          "light": "teams-light.svg",
+          "dark": "teams-dark.svg"
+        },
+        "category": "Social & Communication"
+      },
+      {
+        "id": "reddit",
+        "name": "reddit",
+        "files": {
+          "light": "reddit.svg",
+          "dark": "reddit.svg"
+        },
+        "category": "Social & Communication"
+      },
+      {
+        "id": "medium",
+        "name": "medium",
+        "files": {
+          "light": "medium-light.svg",
+          "dark": "medium-dark.svg"
         },
         "category": "Social & Communication"
       },
@@ -6738,29 +7114,65 @@ const iconsData = {
         "category": "Social & Communication"
       },
       {
-        "id": "discord",
-        "name": "discord",
+        "id": "yammer",
+        "name": "yammer",
         "files": {
-          "light": "discord.svg",
-          "dark": "discord.svg"
+          "light": "yammer-light.svg",
+          "dark": "yammer-dark.svg"
         },
         "category": "Social & Communication"
       },
       {
-        "id": "discordbots",
-        "name": "discordbots",
+        "id": "signal",
+        "name": "signal",
         "files": {
-          "light": "discordbots.svg",
-          "dark": "discordbots.svg"
+          "light": "signal.svg",
+          "dark": "signal.svg"
         },
         "category": "Social & Communication"
       },
       {
-        "id": "facebook",
-        "name": "facebook",
+        "id": "socialite",
+        "name": "socialite",
         "files": {
-          "light": "facebook.svg",
-          "dark": "facebook.svg"
+          "light": "socialite.svg",
+          "dark": "socialite.svg"
+        },
+        "category": "Social & Communication"
+      },
+      {
+        "id": "stackoverflow",
+        "name": "stackoverflow",
+        "files": {
+          "light": "stackoverflow-light.svg",
+          "dark": "stackoverflow-dark.svg"
+        },
+        "category": "Social & Communication"
+      },
+      {
+        "id": "thunderbird",
+        "name": "thunderbird",
+        "files": {
+          "light": "thunderbird-light.svg",
+          "dark": "thunderbird-dark.svg"
+        },
+        "category": "Social & Communication"
+      },
+      {
+        "id": "upwork",
+        "name": "upwork",
+        "files": {
+          "light": "upwork-light.svg",
+          "dark": "upwork-dark.svg"
+        },
+        "category": "Social & Communication"
+      },
+      {
+        "id": "dailydev",
+        "name": "dailydev",
+        "files": {
+          "light": "dailydev-light.svg",
+          "dark": "dailydev-dark.svg"
         },
         "category": "Social & Communication"
       },
@@ -6810,65 +7222,11 @@ const iconsData = {
         "category": "Social & Communication"
       },
       {
-        "id": "instagram",
-        "name": "instagram",
-        "files": {
-          "light": "instagram.svg",
-          "dark": "instagram.svg"
-        },
-        "category": "Social & Communication"
-      },
-      {
-        "id": "linkedin",
-        "name": "linkedin",
-        "files": {
-          "light": "linkedin.svg",
-          "dark": "linkedin.svg"
-        },
-        "category": "Social & Communication"
-      },
-      {
-        "id": "mastodon",
-        "name": "mastodon",
-        "files": {
-          "light": "mastodon-light.svg",
-          "dark": "mastodon-dark.svg"
-        },
-        "category": "Social & Communication"
-      },
-      {
-        "id": "medium",
-        "name": "medium",
-        "files": {
-          "light": "medium-light.svg",
-          "dark": "medium-dark.svg"
-        },
-        "category": "Social & Communication"
-      },
-      {
-        "id": "misskey",
-        "name": "misskey",
-        "files": {
-          "light": "misskey-light.svg",
-          "dark": "misskey-dark.svg"
-        },
-        "category": "Social & Communication"
-      },
-      {
         "id": "opensource",
         "name": "opensource",
         "files": {
           "light": "opensource-light.svg",
           "dark": "opensource-dark.svg"
-        },
-        "category": "Social & Communication"
-      },
-      {
-        "id": "reddit",
-        "name": "reddit",
-        "files": {
-          "light": "reddit.svg",
-          "dark": "reddit.svg"
         },
         "category": "Social & Communication"
       },
@@ -6882,148 +7240,22 @@ const iconsData = {
         "category": "Social & Communication"
       },
       {
-        "id": "signal",
-        "name": "signal",
+        "id": "discordbots",
+        "name": "discordbots",
         "files": {
-          "light": "signal.svg",
-          "dark": "signal.svg"
-        },
-        "category": "Social & Communication"
-      },
-      {
-        "id": "slack",
-        "name": "slack",
-        "files": {
-          "light": "slack-light.svg",
-          "dark": "slack-dark.svg"
-        },
-        "category": "Social & Communication"
-      },
-      {
-        "id": "socialite",
-        "name": "socialite",
-        "files": {
-          "light": "socialite.svg",
-          "dark": "socialite.svg"
-        },
-        "category": "Social & Communication"
-      },
-      {
-        "id": "stackoverflow",
-        "name": "stackoverflow",
-        "files": {
-          "light": "stackoverflow-light.svg",
-          "dark": "stackoverflow-dark.svg"
-        },
-        "category": "Social & Communication"
-      },
-      {
-        "id": "teams",
-        "name": "teams",
-        "files": {
-          "light": "teams-light.svg",
-          "dark": "teams-dark.svg"
-        },
-        "category": "Social & Communication"
-      },
-      {
-        "id": "telegram",
-        "name": "telegram",
-        "files": {
-          "light": "telegram.svg",
-          "dark": "telegram.svg"
-        },
-        "category": "Social & Communication"
-      },
-      {
-        "id": "thunderbird",
-        "name": "thunderbird",
-        "files": {
-          "light": "thunderbird-light.svg",
-          "dark": "thunderbird-dark.svg"
-        },
-        "category": "Social & Communication"
-      },
-      {
-        "id": "twitch",
-        "name": "twitch",
-        "files": {
-          "light": "twitch.svg",
-          "dark": "twitch.svg"
-        },
-        "category": "Social & Communication"
-      },
-      {
-        "id": "upwork",
-        "name": "upwork",
-        "files": {
-          "light": "upwork-light.svg",
-          "dark": "upwork-dark.svg"
-        },
-        "category": "Social & Communication"
-      },
-      {
-        "id": "x",
-        "name": "x",
-        "files": {
-          "light": "x-light.svg",
-          "dark": "x-dark.svg"
-        },
-        "category": "Social & Communication"
-      },
-      {
-        "id": "yammer",
-        "name": "yammer",
-        "files": {
-          "light": "yammer-light.svg",
-          "dark": "yammer-dark.svg"
-        },
-        "category": "Social & Communication"
-      },
-      {
-        "id": "youtube",
-        "name": "youtube",
-        "files": {
-          "light": "youtube.svg",
-          "dark": "youtube.svg"
+          "light": "discordbots.svg",
+          "dark": "discordbots.svg"
         },
         "category": "Social & Communication"
       }
     ],
     "Productivity & Office": [
       {
-        "id": "acrobat",
-        "name": "acrobat",
+        "id": "word",
+        "name": "word",
         "files": {
-          "light": "acrobat.svg",
-          "dark": "acrobat.svg"
-        },
-        "category": "Productivity & Office"
-      },
-      {
-        "id": "bitrix24",
-        "name": "bitrix24",
-        "files": {
-          "light": "bitrix24-light.svg",
-          "dark": "bitrix24-dark.svg"
-        },
-        "category": "Productivity & Office"
-      },
-      {
-        "id": "clickup",
-        "name": "clickup",
-        "files": {
-          "light": "clickup-light.svg",
-          "dark": "clickup-dark.svg"
-        },
-        "category": "Productivity & Office"
-      },
-      {
-        "id": "confluence",
-        "name": "confluence",
-        "files": {
-          "light": "confluence-light.svg",
-          "dark": "confluence-dark.svg"
+          "light": "word-light.svg",
+          "dark": "word-dark.svg"
         },
         "category": "Productivity & Office"
       },
@@ -7037,83 +7269,11 @@ const iconsData = {
         "category": "Productivity & Office"
       },
       {
-        "id": "jira",
-        "name": "jira",
+        "id": "powerpoint",
+        "name": "powerpoint",
         "files": {
-          "light": "jira-light.svg",
-          "dark": "jira-dark.svg"
-        },
-        "category": "Productivity & Office"
-      },
-      {
-        "id": "libreoffice",
-        "name": "libreoffice",
-        "files": {
-          "light": "libreoffice-light.svg",
-          "dark": "libreoffice-dark.svg"
-        },
-        "category": "Productivity & Office"
-      },
-      {
-        "id": "lucidchart",
-        "name": "lucidchart",
-        "files": {
-          "light": "lucidchart-light.svg",
-          "dark": "lucidchart-dark.svg"
-        },
-        "category": "Productivity & Office"
-      },
-      {
-        "id": "mdbook",
-        "name": "mdbook",
-        "files": {
-          "light": "mdbook-light.svg",
-          "dark": "mdbook-dark.svg"
-        },
-        "category": "Productivity & Office"
-      },
-      {
-        "id": "miktex",
-        "name": "miktex",
-        "files": {
-          "light": "miktex-light.svg",
-          "dark": "miktex-dark.svg"
-        },
-        "category": "Productivity & Office"
-      },
-      {
-        "id": "miro",
-        "name": "miro",
-        "files": {
-          "light": "miro.svg",
-          "dark": "miro.svg"
-        },
-        "category": "Productivity & Office"
-      },
-      {
-        "id": "notion",
-        "name": "notion",
-        "files": {
-          "light": "notion-light.svg",
-          "dark": "notion-dark.svg"
-        },
-        "category": "Productivity & Office"
-      },
-      {
-        "id": "obsidian",
-        "name": "obsidian",
-        "files": {
-          "light": "obsidian-light.svg",
-          "dark": "obsidian-dark.svg"
-        },
-        "category": "Productivity & Office"
-      },
-      {
-        "id": "onedrive",
-        "name": "onedrive",
-        "files": {
-          "light": "onedrive-light.svg",
-          "dark": "onedrive-dark.svg"
+          "light": "powerpoint-light.svg",
+          "dark": "powerpoint-dark.svg"
         },
         "category": "Productivity & Office"
       },
@@ -7136,6 +7296,96 @@ const iconsData = {
         "category": "Productivity & Office"
       },
       {
+        "id": "notion",
+        "name": "notion",
+        "files": {
+          "light": "notion-light.svg",
+          "dark": "notion-dark.svg"
+        },
+        "category": "Productivity & Office"
+      },
+      {
+        "id": "confluence",
+        "name": "confluence",
+        "files": {
+          "light": "confluence-light.svg",
+          "dark": "confluence-dark.svg"
+        },
+        "category": "Productivity & Office"
+      },
+      {
+        "id": "jira",
+        "name": "jira",
+        "files": {
+          "light": "jira-light.svg",
+          "dark": "jira-dark.svg"
+        },
+        "category": "Productivity & Office"
+      },
+      {
+        "id": "clickup",
+        "name": "clickup",
+        "files": {
+          "light": "clickup-light.svg",
+          "dark": "clickup-dark.svg"
+        },
+        "category": "Productivity & Office"
+      },
+      {
+        "id": "obsidian",
+        "name": "obsidian",
+        "files": {
+          "light": "obsidian-light.svg",
+          "dark": "obsidian-dark.svg"
+        },
+        "category": "Productivity & Office"
+      },
+      {
+        "id": "miro",
+        "name": "miro",
+        "files": {
+          "light": "miro.svg",
+          "dark": "miro.svg"
+        },
+        "category": "Productivity & Office"
+      },
+      {
+        "id": "lucidchart",
+        "name": "lucidchart",
+        "files": {
+          "light": "lucidchart-light.svg",
+          "dark": "lucidchart-dark.svg"
+        },
+        "category": "Productivity & Office"
+      },
+      {
+        "id": "winedt",
+        "name": "winedt",
+        "files": {
+          "light": "winedt-light.svg",
+          "dark": "winedt-dark.svg"
+        },
+        "category": "Productivity & Office"
+      },
+      {
+        "id": "libreoffice",
+        "name": "libreoffice",
+        "files": {
+          "light": "libreoffice-light.svg",
+          "dark": "libreoffice-dark.svg"
+        },
+        "category": "Productivity & Office"
+      },
+      {
+        "id": "onedrive",
+        "name": "onedrive",
+        "files": {
+          "light": "onedrive-light.svg",
+          "dark": "onedrive-dark.svg"
+        },
+        "category": "Productivity & Office"
+      },
+      {
         "id": "overleaf",
         "name": "overleaf",
         "files": {
@@ -7145,20 +7395,11 @@ const iconsData = {
         "category": "Productivity & Office"
       },
       {
-        "id": "powerautomate",
-        "name": "powerautomate",
+        "id": "acrobat",
+        "name": "acrobat",
         "files": {
-          "light": "powerautomate-light.svg",
-          "dark": "powerautomate-dark.svg"
-        },
-        "category": "Productivity & Office"
-      },
-      {
-        "id": "powerpoint",
-        "name": "powerpoint",
-        "files": {
-          "light": "powerpoint-light.svg",
-          "dark": "powerpoint-dark.svg"
+          "light": "acrobat.svg",
+          "dark": "acrobat.svg"
         },
         "category": "Productivity & Office"
       },
@@ -7181,6 +7422,15 @@ const iconsData = {
         "category": "Productivity & Office"
       },
       {
+        "id": "visio",
+        "name": "visio",
+        "files": {
+          "light": "visio-light.svg",
+          "dark": "visio-dark.svg"
+        },
+        "category": "Productivity & Office"
+      },
+      {
         "id": "texmaker",
         "name": "texmaker",
         "files": {
@@ -7199,49 +7449,49 @@ const iconsData = {
         "category": "Productivity & Office"
       },
       {
-        "id": "visio",
-        "name": "visio",
+        "id": "powerautomate",
+        "name": "powerautomate",
         "files": {
-          "light": "visio-light.svg",
-          "dark": "visio-dark.svg"
+          "light": "powerautomate-light.svg",
+          "dark": "powerautomate-dark.svg"
         },
         "category": "Productivity & Office"
       },
       {
-        "id": "winedt",
-        "name": "winedt",
+        "id": "mdbook",
+        "name": "mdbook",
         "files": {
-          "light": "winedt-light.svg",
-          "dark": "winedt-dark.svg"
+          "light": "mdbook-light.svg",
+          "dark": "mdbook-dark.svg"
         },
         "category": "Productivity & Office"
       },
       {
-        "id": "word",
-        "name": "word",
+        "id": "miktex",
+        "name": "miktex",
         "files": {
-          "light": "word-light.svg",
-          "dark": "word-dark.svg"
+          "light": "miktex-light.svg",
+          "dark": "miktex-dark.svg"
+        },
+        "category": "Productivity & Office"
+      },
+      {
+        "id": "bitrix24",
+        "name": "bitrix24",
+        "files": {
+          "light": "bitrix24-light.svg",
+          "dark": "bitrix24-dark.svg"
         },
         "category": "Productivity & Office"
       }
     ],
     "Testing & Quality": [
       {
-        "id": "autocad",
-        "name": "autocad",
+        "id": "jest",
+        "name": "jest",
         "files": {
-          "light": "autocad-light.svg",
-          "dark": "autocad-dark.svg"
-        },
-        "category": "Testing & Quality"
-      },
-      {
-        "id": "behat",
-        "name": "behat",
-        "files": {
-          "light": "behat-light.svg",
-          "dark": "behat-dark.svg"
+          "light": "jest.svg",
+          "dark": "jest.svg"
         },
         "category": "Testing & Quality"
       },
@@ -7255,78 +7505,6 @@ const iconsData = {
         "category": "Testing & Quality"
       },
       {
-        "id": "dusk",
-        "name": "dusk",
-        "files": {
-          "light": "dusk.svg",
-          "dark": "dusk.svg"
-        },
-        "category": "Testing & Quality"
-      },
-      {
-        "id": "gherkin",
-        "name": "gherkin",
-        "files": {
-          "light": "gherkin-light.svg",
-          "dark": "gherkin-dark.svg"
-        },
-        "category": "Testing & Quality"
-      },
-      {
-        "id": "jest",
-        "name": "jest",
-        "files": {
-          "light": "jest.svg",
-          "dark": "jest.svg"
-        },
-        "category": "Testing & Quality"
-      },
-      {
-        "id": "junit",
-        "name": "junit",
-        "files": {
-          "light": "junit-light.svg",
-          "dark": "junit-dark.svg"
-        },
-        "category": "Testing & Quality"
-      },
-      {
-        "id": "karma",
-        "name": "karma",
-        "files": {
-          "light": "karma-light.svg",
-          "dark": "karma-dark.svg"
-        },
-        "category": "Testing & Quality"
-      },
-      {
-        "id": "lighthouse",
-        "name": "lighthouse",
-        "files": {
-          "light": "lighthouse.svg",
-          "dark": "lighthouse.svg"
-        },
-        "category": "Testing & Quality"
-      },
-      {
-        "id": "mocha",
-        "name": "mocha",
-        "files": {
-          "light": "mocha-light.svg",
-          "dark": "mocha-dark.svg"
-        },
-        "category": "Testing & Quality"
-      },
-      {
-        "id": "phpstan",
-        "name": "phpstan",
-        "files": {
-          "light": "phpstan-light.svg",
-          "dark": "phpstan-dark.svg"
-        },
-        "category": "Testing & Quality"
-      },
-      {
         "id": "playwright",
         "name": "playwright",
         "files": {
@@ -7336,29 +7514,20 @@ const iconsData = {
         "category": "Testing & Quality"
       },
       {
-        "id": "puppeteer",
-        "name": "puppeteer",
+        "id": "vitest",
+        "name": "vitest",
         "files": {
-          "light": "puppeteer-light.svg",
-          "dark": "puppeteer-dark.svg"
+          "light": "vitest-light.svg",
+          "dark": "vitest-dark.svg"
         },
         "category": "Testing & Quality"
       },
       {
-        "id": "pytest",
-        "name": "pytest",
+        "id": "mocha",
+        "name": "mocha",
         "files": {
-          "light": "pytest-light.svg",
-          "dark": "pytest-dark.svg"
-        },
-        "category": "Testing & Quality"
-      },
-      {
-        "id": "qodana",
-        "name": "qodana",
-        "files": {
-          "light": "qodana-light.svg",
-          "dark": "qodana-dark.svg"
+          "light": "mocha-light.svg",
+          "dark": "mocha-dark.svg"
         },
         "category": "Testing & Quality"
       },
@@ -7381,6 +7550,24 @@ const iconsData = {
         "category": "Testing & Quality"
       },
       {
+        "id": "phpstan",
+        "name": "phpstan",
+        "files": {
+          "light": "phpstan-light.svg",
+          "dark": "phpstan-dark.svg"
+        },
+        "category": "Testing & Quality"
+      },
+      {
+        "id": "behat",
+        "name": "behat",
+        "files": {
+          "light": "behat-light.svg",
+          "dark": "behat-dark.svg"
+        },
+        "category": "Testing & Quality"
+      },
+      {
         "id": "testinglibrary",
         "name": "testinglibrary",
         "files": {
@@ -7390,16 +7577,115 @@ const iconsData = {
         "category": "Testing & Quality"
       },
       {
-        "id": "vitest",
-        "name": "vitest",
+        "id": "lighthouse",
+        "name": "lighthouse",
         "files": {
-          "light": "vitest-light.svg",
-          "dark": "vitest-dark.svg"
+          "light": "lighthouse.svg",
+          "dark": "lighthouse.svg"
+        },
+        "category": "Testing & Quality"
+      },
+      {
+        "id": "qodana",
+        "name": "qodana",
+        "files": {
+          "light": "qodana-light.svg",
+          "dark": "qodana-dark.svg"
+        },
+        "category": "Testing & Quality"
+      },
+      {
+        "id": "pytest",
+        "name": "pytest",
+        "files": {
+          "light": "pytest-light.svg",
+          "dark": "pytest-dark.svg"
+        },
+        "category": "Testing & Quality"
+      },
+      {
+        "id": "gherkin",
+        "name": "gherkin",
+        "files": {
+          "light": "gherkin-light.svg",
+          "dark": "gherkin-dark.svg"
+        },
+        "category": "Testing & Quality"
+      },
+      {
+        "id": "junit",
+        "name": "junit",
+        "files": {
+          "light": "junit-light.svg",
+          "dark": "junit-dark.svg"
+        },
+        "category": "Testing & Quality"
+      },
+      {
+        "id": "karma",
+        "name": "karma",
+        "files": {
+          "light": "karma-light.svg",
+          "dark": "karma-dark.svg"
+        },
+        "category": "Testing & Quality"
+      },
+      {
+        "id": "puppeteer",
+        "name": "puppeteer",
+        "files": {
+          "light": "puppeteer-light.svg",
+          "dark": "puppeteer-dark.svg"
+        },
+        "category": "Testing & Quality"
+      },
+      {
+        "id": "dusk",
+        "name": "dusk",
+        "files": {
+          "light": "dusk.svg",
+          "dark": "dusk.svg"
+        },
+        "category": "Testing & Quality"
+      },
+      {
+        "id": "autocad",
+        "name": "autocad",
+        "files": {
+          "light": "autocad-light.svg",
+          "dark": "autocad-dark.svg"
         },
         "category": "Testing & Quality"
       }
     ],
     "CMS": [
+      {
+        "id": "wordpress",
+        "name": "wordpress",
+        "files": {
+          "light": "wordpress.svg",
+          "dark": "wordpress.svg"
+        },
+        "category": "CMS"
+      },
+      {
+        "id": "drupal",
+        "name": "drupal",
+        "files": {
+          "light": "drupal-light.svg",
+          "dark": "drupal-dark.svg"
+        },
+        "category": "CMS"
+      },
+      {
+        "id": "joomla",
+        "name": "joomla",
+        "files": {
+          "light": "joomla-light.svg",
+          "dark": "joomla-dark.svg"
+        },
+        "category": "CMS"
+      },
       {
         "id": "contentful",
         "name": "contentful",
@@ -7410,29 +7696,38 @@ const iconsData = {
         "category": "CMS"
       },
       {
-        "id": "hexo",
-        "name": "hexo",
-        "files": {
-          "light": "hexo-light.svg",
-          "dark": "hexo-dark.svg"
-        },
-        "category": "CMS"
-      },
-      {
-        "id": "jekyll",
-        "name": "jekyll",
-        "files": {
-          "light": "jekyll-light.svg",
-          "dark": "jekyll-dark.svg"
-        },
-        "category": "CMS"
-      },
-      {
         "id": "sanity",
         "name": "sanity",
         "files": {
           "light": "sanity-light.svg",
           "dark": "sanity-dark.svg"
+        },
+        "category": "CMS"
+      },
+      {
+        "id": "strapi",
+        "name": "strapi",
+        "files": {
+          "light": "strapi.svg",
+          "dark": "strapi.svg"
+        },
+        "category": "CMS"
+      },
+      {
+        "id": "directus",
+        "name": "directus",
+        "files": {
+          "light": "directus.svg",
+          "dark": "directus.svg"
+        },
+        "category": "CMS"
+      },
+      {
+        "id": "payload",
+        "name": "payload",
+        "files": {
+          "light": "payload-light.svg",
+          "dark": "payload-dark.svg"
         },
         "category": "CMS"
       },
@@ -7453,9 +7748,54 @@ const iconsData = {
           "dark": "webflow.svg"
         },
         "category": "CMS"
+      },
+      {
+        "id": "hexo",
+        "name": "hexo",
+        "files": {
+          "light": "hexo-light.svg",
+          "dark": "hexo-dark.svg"
+        },
+        "category": "CMS"
+      },
+      {
+        "id": "hugo",
+        "name": "hugo",
+        "files": {
+          "light": "hugo-light.svg",
+          "dark": "hugo-dark.svg"
+        },
+        "category": "CMS"
+      },
+      {
+        "id": "jekyll",
+        "name": "jekyll",
+        "files": {
+          "light": "jekyll-light.svg",
+          "dark": "jekyll-dark.svg"
+        },
+        "category": "CMS"
       }
     ],
     "E-commerce & FinTech": [
+      {
+        "id": "shopify",
+        "name": "shopify",
+        "files": {
+          "light": "shopify-light.svg",
+          "dark": "shopify-dark.svg"
+        },
+        "category": "E-commerce & FinTech"
+      },
+      {
+        "id": "stripe",
+        "name": "stripe",
+        "files": {
+          "light": "stripe-light.svg",
+          "dark": "stripe-dark.svg"
+        },
+        "category": "E-commerce & FinTech"
+      },
       {
         "id": "commercetools",
         "name": "commercetools",
@@ -7482,60 +7822,15 @@ const iconsData = {
           "dark": "pinescript-dark.svg"
         },
         "category": "E-commerce & FinTech"
-      },
-      {
-        "id": "shopify",
-        "name": "shopify",
-        "files": {
-          "light": "shopify-light.svg",
-          "dark": "shopify-dark.svg"
-        },
-        "category": "E-commerce & FinTech"
-      },
-      {
-        "id": "stripe",
-        "name": "stripe",
-        "files": {
-          "light": "stripe-light.svg",
-          "dark": "stripe-dark.svg"
-        },
-        "category": "E-commerce & FinTech"
       }
     ],
     "Browsers & Engines": [
-      {
-        "id": "arcbrowser",
-        "name": "arcbrowser",
-        "files": {
-          "light": "arcbrowser-light.svg",
-          "dark": "arcbrowser-dark.svg"
-        },
-        "category": "Browsers & Engines"
-      },
       {
         "id": "chrome",
         "name": "chrome",
         "files": {
           "light": "chrome-light.svg",
           "dark": "chrome-dark.svg"
-        },
-        "category": "Browsers & Engines"
-      },
-      {
-        "id": "chromium",
-        "name": "chromium",
-        "files": {
-          "light": "chromium-light.svg",
-          "dark": "chromium-dark.svg"
-        },
-        "category": "Browsers & Engines"
-      },
-      {
-        "id": "edge",
-        "name": "edge",
-        "files": {
-          "light": "edge-light.svg",
-          "dark": "edge-dark.svg"
         },
         "category": "Browsers & Engines"
       },
@@ -7549,11 +7844,20 @@ const iconsData = {
         "category": "Browsers & Engines"
       },
       {
-        "id": "librewolf",
-        "name": "librewolf",
+        "id": "safari",
+        "name": "safari",
         "files": {
-          "light": "librewolf-light.svg",
-          "dark": "librewolf-dark.svg"
+          "light": "safari-light.svg",
+          "dark": "safari-dark.svg"
+        },
+        "category": "Browsers & Engines"
+      },
+      {
+        "id": "edge",
+        "name": "edge",
+        "files": {
+          "light": "edge-light.svg",
+          "dark": "edge-dark.svg"
         },
         "category": "Browsers & Engines"
       },
@@ -7567,11 +7871,29 @@ const iconsData = {
         "category": "Browsers & Engines"
       },
       {
-        "id": "safari",
-        "name": "safari",
+        "id": "brave",
+        "name": "brave",
         "files": {
-          "light": "safari-light.svg",
-          "dark": "safari-dark.svg"
+          "light": "brave-light.svg",
+          "dark": "brave-dark.svg"
+        },
+        "category": "Browsers & Engines"
+      },
+      {
+        "id": "arcbrowser",
+        "name": "arcbrowser",
+        "files": {
+          "light": "arcbrowser-light.svg",
+          "dark": "arcbrowser-dark.svg"
+        },
+        "category": "Browsers & Engines"
+      },
+      {
+        "id": "chromium",
+        "name": "chromium",
+        "files": {
+          "light": "chromium-light.svg",
+          "dark": "chromium-dark.svg"
         },
         "category": "Browsers & Engines"
       },
@@ -7583,18 +7905,18 @@ const iconsData = {
           "dark": "zen-dark.svg"
         },
         "category": "Browsers & Engines"
+      },
+      {
+        "id": "librewolf",
+        "name": "librewolf",
+        "files": {
+          "light": "librewolf-light.svg",
+          "dark": "librewolf-dark.svg"
+        },
+        "category": "Browsers & Engines"
       }
     ],
     "Embedded & Hardware": [
-      {
-        "id": "apple",
-        "name": "apple",
-        "files": {
-          "light": "apple-light.svg",
-          "dark": "apple-dark.svg"
-        },
-        "category": "Embedded & Hardware"
-      },
       {
         "id": "arduino",
         "name": "arduino",
@@ -7605,11 +7927,11 @@ const iconsData = {
         "category": "Embedded & Hardware"
       },
       {
-        "id": "cuda",
-        "name": "cuda",
+        "id": "raspberrypi",
+        "name": "raspberrypi",
         "files": {
-          "light": "cuda-light.svg",
-          "dark": "cuda-dark.svg"
+          "light": "raspberrypi-light.svg",
+          "dark": "raspberrypi-dark.svg"
         },
         "category": "Embedded & Hardware"
       },
@@ -7623,6 +7945,15 @@ const iconsData = {
         "category": "Embedded & Hardware"
       },
       {
+        "id": "apple",
+        "name": "apple",
+        "files": {
+          "light": "apple-light.svg",
+          "dark": "apple-dark.svg"
+        },
+        "category": "Embedded & Hardware"
+      },
+      {
         "id": "platformio",
         "name": "platformio",
         "files": {
@@ -7632,11 +7963,11 @@ const iconsData = {
         "category": "Embedded & Hardware"
       },
       {
-        "id": "raspberrypi",
-        "name": "raspberrypi",
+        "id": "cuda",
+        "name": "cuda",
         "files": {
-          "light": "raspberrypi-light.svg",
-          "dark": "raspberrypi-dark.svg"
+          "light": "cuda-light.svg",
+          "dark": "cuda-dark.svg"
         },
         "category": "Embedded & Hardware"
       }
@@ -7652,20 +7983,11 @@ const iconsData = {
         "category": "Education & Learning"
       },
       {
-        "id": "desmos",
-        "name": "desmos",
+        "id": "leetcode",
+        "name": "leetcode",
         "files": {
-          "light": "desmos.svg",
-          "dark": "desmos.svg"
-        },
-        "category": "Education & Learning"
-      },
-      {
-        "id": "freecodecamp",
-        "name": "freecodecamp",
-        "files": {
-          "light": "freecodecamp-light.svg",
-          "dark": "freecodecamp-dark.svg"
+          "light": "leetcode-light.svg",
+          "dark": "leetcode-dark.svg"
         },
         "category": "Education & Learning"
       },
@@ -7679,16 +8001,223 @@ const iconsData = {
         "category": "Education & Learning"
       },
       {
-        "id": "leetcode",
-        "name": "leetcode",
+        "id": "hackthebox",
+        "name": "hackthebox",
         "files": {
-          "light": "leetcode-light.svg",
-          "dark": "leetcode-dark.svg"
+          "light": "hackthebox-light.svg",
+          "dark": "hackthebox-dark.svg"
+        },
+        "category": "Education & Learning"
+      },
+      {
+        "id": "freecodecamp",
+        "name": "freecodecamp",
+        "files": {
+          "light": "freecodecamp-light.svg",
+          "dark": "freecodecamp-dark.svg"
+        },
+        "category": "Education & Learning"
+      },
+      {
+        "id": "tryhackme",
+        "name": "tryhackme",
+        "files": {
+          "light": "tryhackme-light.svg",
+          "dark": "tryhackme-dark.svg"
+        },
+        "category": "Education & Learning"
+      },
+      {
+        "id": "desmos",
+        "name": "desmos",
+        "files": {
+          "light": "desmos.svg",
+          "dark": "desmos.svg"
         },
         "category": "Education & Learning"
       }
     ],
     "Other Languages & Tools": [
+      {
+        "id": "c",
+        "name": "c",
+        "files": {
+          "light": "c.svg",
+          "dark": "c.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "cpp",
+        "name": "cpp",
+        "files": {
+          "light": "cpp.svg",
+          "dark": "cpp.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "assembly",
+        "name": "assembly",
+        "files": {
+          "light": "assembly.svg",
+          "dark": "assembly.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "matlab",
+        "name": "matlab",
+        "files": {
+          "light": "matlab-light.svg",
+          "dark": "matlab-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "r",
+        "name": "r",
+        "files": {
+          "light": "r-light.svg",
+          "dark": "r-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "julia",
+        "name": "julia",
+        "files": {
+          "light": "julia-light.svg",
+          "dark": "julia-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "latex",
+        "name": "latex",
+        "files": {
+          "light": "latex-light.svg",
+          "dark": "latex-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "markdown",
+        "name": "markdown",
+        "files": {
+          "light": "markdown-light.svg",
+          "dark": "markdown-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "yaml",
+        "name": "yaml",
+        "files": {
+          "light": "yaml-light.svg",
+          "dark": "yaml-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "toml",
+        "name": "toml",
+        "files": {
+          "light": "toml-light.svg",
+          "dark": "toml-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "json",
+        "name": "json",
+        "files": {
+          "light": "json-light.svg",
+          "dark": "json-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "graphql",
+        "name": "graphql",
+        "files": {
+          "light": "graphql-light.svg",
+          "dark": "graphql-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "regex",
+        "name": "regex",
+        "files": {
+          "light": "regex-light.svg",
+          "dark": "regex-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "cmake",
+        "name": "cmake",
+        "files": {
+          "light": "cmake-light.svg",
+          "dark": "cmake-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "gradle",
+        "name": "gradle",
+        "files": {
+          "light": "gradle-light.svg",
+          "dark": "gradle-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "maven",
+        "name": "maven",
+        "files": {
+          "light": "maven-light.svg",
+          "dark": "maven-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "powershell",
+        "name": "powershell",
+        "files": {
+          "light": "powershell-light.svg",
+          "dark": "powershell-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "bash",
+        "name": "bash",
+        "files": {
+          "light": "bash-light.svg",
+          "dark": "bash-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "haxe",
+        "name": "haxe",
+        "files": {
+          "light": "haxe-light.svg",
+          "dark": "haxe-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "holyc",
+        "name": "holyc",
+        "files": {
+          "light": "holyc.svg",
+          "dark": "holyc.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
       {
         "id": "luau",
         "name": "luau",
@@ -7715,6 +8244,179 @@ const iconsData = {
           "dark": "p4-dark.svg"
         },
         "category": "Other Languages & Tools"
+      },
+      {
+        "id": "solidity",
+        "name": "solidity",
+        "files": {
+          "light": "solidity.svg",
+          "dark": "solidity.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "vala",
+        "name": "vala",
+        "files": {
+          "light": "vala.svg",
+          "dark": "vala.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "visualbasic",
+        "name": "visualbasic",
+        "files": {
+          "light": "visualbasic-light.svg",
+          "dark": "visualbasic-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "crystal",
+        "name": "crystal",
+        "files": {
+          "light": "crystal-light.svg",
+          "dark": "crystal-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "d",
+        "name": "d",
+        "files": {
+          "light": "d.svg",
+          "dark": "d.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "forth",
+        "name": "forth",
+        "files": {
+          "light": "forth.svg",
+          "dark": "forth.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "odin",
+        "name": "odin",
+        "files": {
+          "light": "odin-light.svg",
+          "dark": "odin-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "pkl",
+        "name": "pkl",
+        "files": {
+          "light": "pkl-light.svg",
+          "dark": "pkl-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "gleam",
+        "name": "gleam",
+        "files": {
+          "light": "gleam-light.svg",
+          "dark": "gleam-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "scratch",
+        "name": "scratch",
+        "files": {
+          "light": "scratch.svg",
+          "dark": "scratch.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "uml",
+        "name": "uml",
+        "files": {
+          "light": "uml-light.svg",
+          "dark": "uml-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "ros",
+        "name": "ros",
+        "files": {
+          "light": "ros-light.svg",
+          "dark": "ros-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "restructuredtext",
+        "name": "restructuredtext",
+        "files": {
+          "light": "restructuredtext-light.svg",
+          "dark": "restructuredtext-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "fuse",
+        "name": "fuse",
+        "files": {
+          "light": "fuse.svg",
+          "dark": "fuse.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "agno",
+        "name": "agno",
+        "files": {
+          "light": "agno.svg",
+          "dark": "agno.svg"
+        },
+        "category": "Other Languages & Tools"
+      },
+      {
+        "id": "aiscript",
+        "name": "aiscript",
+        "files": {
+          "light": "aiscript-light.svg",
+          "dark": "aiscript-dark.svg"
+        },
+        "category": "Other Languages & Tools"
+      }
+    ],
+    "Uncategorized": [
+      {
+        "id": "chi",
+        "name": "chi",
+        "files": {
+          "light": "chi-light.svg",
+          "dark": "chi-dark.svg"
+        },
+        "category": "Uncategorized"
+      },
+      {
+        "id": "rclone",
+        "name": "rclone",
+        "files": {
+          "light": "rclone-light.svg",
+          "dark": "rclone-dark.svg"
+        },
+        "category": "Uncategorized"
+      },
+      {
+        "id": "taiga",
+        "name": "taiga",
+        "files": {
+          "light": "taiga-light.svg",
+          "dark": "taiga-dark.svg"
+        },
+        "category": "Uncategorized"
       }
     ],
     "Other": []

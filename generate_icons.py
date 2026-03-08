@@ -41,74 +41,23 @@ files_list = os.listdir(assets_dir)
 files_set = set(files_list)
 
 # 3. Icon Processing
-icons_data = {
-    "Uncategorized": []
-}
+icons_data = {}
+assigned_ids = set()
 
-for cat in categories_map.keys():
-    icons_data[cat] = []
-
-import re
-
-for filename in files_list:
-    if not filename.endswith(".svg"):
-        continue
-    
-    # Analyze icon name: id-variant.svg or id.svg
-    # Variants: -dark, -light, or none
-    # ID: everything before the last hyphen (if updated naming) OR just name
-    
-    # Simple parsing:
-    # 1. Remove .svg
-    name_no_ext = filename[:-4]
-    
-    # 2. Detect variant
-    variant = "default"
-    icon_id = name_no_ext
-    
-    if name_no_ext.endswith("-dark"):
-        variant = "dark"
-        icon_id = name_no_ext[:-5]
-    elif name_no_ext.endswith("-light"):
-        variant = "light"
-        icon_id = name_no_ext[:-6]
-    elif name_no_ext.endswith("-auto"):
-        # Treat auto as both light/dark if typical, or just default. 
-        # For simplicity, let's treat it as base ID if it is unique style, 
-        # OR usually people have icon-light and icon-dark. 
-        # Check if project uses -auto. Assuming standard format.
-        # Actually usually it is `icon.svg` or `icon-dark.svg`.
-        pass
-
-    # Better Logic: Group by ID
-    # We iterate all files, but we want grouped items.
-    pass 
-
-# Refined Logic:
-# Iterate distinct IDs found in categories OR scan directory to find IDs
-all_ids = set()
-files_set = set(files_list)
-
-for filename in files_list:
+# Scan assets to know what's available
+files_set = set(os.listdir(assets_dir))
+all_found_ids = set()
+for filename in files_set:
     if not filename.endswith(".svg"):
         continue
     name = filename[:-4]
-    
-    # Heuristic for ID
-    if name.endswith("-dark"):
-        i_id = name[:-5]
-    elif name.endswith("-light"):
-        i_id = name[:-6]
-    elif name.endswith("-auto"):
-        i_id = name[:-5]
-    else:
-        i_id = name
-        
-    all_ids.add(i_id)
+    if name.endswith("-dark"): i_id = name[:-5]
+    elif name.endswith("-light"): i_id = name[:-6]
+    elif name.endswith("-auto"): i_id = name[:-5]
+    else: i_id = name
+    all_found_ids.add(i_id)
 
-processed_ids = sorted(list(all_ids))
-
-for i_id in processed_ids:
+def build_icon_obj(i_id, cat_name):
     # Check existence of variants
     has_light = f"{i_id}-light.svg" in files_set
     has_dark = f"{i_id}-dark.svg" in files_set
@@ -127,29 +76,48 @@ for i_id in processed_ids:
          files_obj["dark"] = f"{i_id}.svg"
     elif has_light:
         files_obj["light"] = f"{i_id}-light.svg"
-        files_obj["dark"] = f"{i_id}-light.svg" # Fallback
+        files_obj["dark"] = f"{i_id}-light.svg"
     elif has_dark:
-        files_obj["light"] = f"{i_id}-dark.svg" # Fallback
+        files_obj["light"] = f"{i_id}-dark.svg"
         files_obj["dark"] = f"{i_id}-dark.svg"
     else:
+        # Fallback if somehow we missed it
         files_obj["light"] = f"{i_id}.svg"
         files_obj["dark"] = f"{i_id}.svg"
 
-    # Determine Category
-    category = item_to_category.get(i_id, "Uncategorized")
-    
-    # Object structure
-    obj = {
+    return {
         "id": i_id,
-        "name": i_id, # Can be improved with a lookup if needed
+        "name": i_id,
         "files": files_obj,
-        "category": category
+        "category": cat_name
     }
+
+# Process categories in ORDER from config
+for item in config_data:
+    cat_id = item["id"]
+    cat_icons = item["icons"]
     
-    if category in icons_data:
-        icons_data[category].append(obj)
-    else:
-        icons_data["Uncategorized"].append(obj)
+    # We want to keep the category key even if empty, per config order
+    icons_data[cat_id] = []
+    
+    for i_id in cat_icons:
+        if i_id in all_found_ids:
+            icons_data[cat_id].append(build_icon_obj(i_id, cat_id))
+            assigned_ids.add(i_id)
+
+# Handle Uncategorized (icons in folder but not in config)
+uncategorized_ids = sorted(list(all_found_ids - assigned_ids))
+if uncategorized_ids:
+    if "Uncategorized" not in icons_data:
+        icons_data["Uncategorized"] = []
+    for i_id in uncategorized_ids:
+        icons_data["Uncategorized"].append(build_icon_obj(i_id, "Uncategorized"))
+
+# Clean up empty categories if they are at the end (like the "Other" placeholder if unused)
+# But usually we strictly follow categories.json. 
+# If a category is empty because icons are missing, we might keep it or hide it in frontend.
+# The current script.js hides empty categories.
+
 
 # 4. JSON Generation
 output_data = {
@@ -160,4 +128,4 @@ json_content = "const iconsData = " + json.dumps(output_data, indent=2, ensure_a
 with open(output_file, "w", encoding="utf-8") as f:
     f.write(json_content)
 
-print(f"Generated {len(processed_ids)} icons with {len(locales_map)} locales.")
+print(f"Generated {len(all_found_ids)} icons with {len(locales_map)} locales.")

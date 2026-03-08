@@ -49,12 +49,27 @@ def generate_new_icons_js(extracted_dir):
     # 从上游解压的目录拿到的 最新 assets 和 config 规则
     assets_dir = os.path.join(extracted_dir, "assets")
     
-    # 1. 加载本地分类来判断哪些是已知的
-    local_categories_data = load_categories()
+    # 载入现有 icons.js（为了保留已经人工分类的数据）
+    existing_data = extract_icons_data_from_js(ICONS_JS_PATH)
+    locales_map = existing_data.get("locales", {})
+    existing_icons = existing_data.get("icons", {})
+
+    # 1. 构建一个 "已知图标 -> 所属类别" 的映射表
     item_to_category = {}
+    
+    # 优先级 1: 如果图标已经在本地 icons.js 中被分好类了，优先保留（除了“待分类”类别，待分类类别如果匹配到了 rule 应该被重新分）
+    for cat_name, icons_list in existing_icons.items():
+        if cat_name == "待分类":
+            continue
+        for icon_obj in icons_list:
+            item_to_category[icon_obj["id"]] = cat_name
+
+    # 优先级 2: 如果能在 categories.json 规则里找到，则使用配置的规则（如果它目前还是“待分类”或全新的）
+    local_categories_data = load_categories()
     for item in local_categories_data:
         for icon_id in item["icons"]:
-            item_to_category[icon_id] = item["id"]
+            if icon_id not in item_to_category:
+                item_to_category[icon_id] = item["id"]
 
     files_list = os.listdir(assets_dir)
     files_set = set(files_list)
@@ -76,13 +91,19 @@ def generate_new_icons_js(extracted_dir):
 
     processed_ids = sorted(list(all_ids))
     
-    # 初始化图标数据结构
+    # 初始化图标数据结构：首先拉取所有的现有分类名，保证生成后类别顺序不突变
     icons_data = {
-         "待分类": [] # 新增的默认类别
+         "待分类": []
     }
-    # 从已有 categories 载入初始结构
+    
+    # 将现有的分类占位
     for cat in local_categories_data:
          icons_data[cat["id"]] = []
+    
+    # 如果有些自定义的分类不在 json 里，但是已经存在 js 里了，也保留
+    for cat_name in existing_icons.keys():
+        if cat_name not in icons_data:
+            icons_data[cat_name] = []
 
     new_icons_added = 0
 
@@ -113,10 +134,24 @@ def generate_new_icons_js(extracted_dir):
             files_obj["light"] = f"{i_id}.svg"
             files_obj["dark"] = f"{i_id}.svg"
 
-        # 判断类别 (如果在现在的规则里找不到，就是未分类的数据)
+        # 判断类别 (如果在现在的规则里、旧表里都找不到，就是未分类的数据)
         category = item_to_category.get(i_id, "待分类")
         
+        # 判定是否是真正全新的/“待分类”的
+        is_truly_new = False
+        
         if category == "待分类":
+            # 只有当它在现有的 js 旧数据里连“待分类”里都不存在时，才算 new_icons_added
+            found_in_old = False
+            if "待分类" in existing_icons:
+                for old_icon in existing_icons["待分类"]:
+                    if old_icon["id"] == i_id:
+                        found_in_old = True
+                        break
+            if not found_in_old:
+                is_truly_new = True
+
+        if is_truly_new:
             new_icons_added += 1
 
         obj = {
@@ -133,10 +168,6 @@ def generate_new_icons_js(extracted_dir):
              if "待分类" not in icons_data:
                  icons_data["待分类"] = []
              icons_data["待分类"].append(obj)
-
-    # 载入现有的 locales
-    existing_data = extract_icons_data_from_js(ICONS_JS_PATH)
-    locales_map = existing_data.get("locales", {})
 
     output_data = {
         "locales": locales_map,

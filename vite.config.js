@@ -12,8 +12,8 @@ export default defineConfig(({ mode }) => {
     plugins: [
       {
         name: 'html-transform',
-        transformIndexHtml(html) {
-          if (!tongjiId) return html;
+        transformIndexHtml(html, { command }) {
+          if (command !== 'build' || !tongjiId) return html;
           const tongjiScript = `
     <!-- Baidu Tongji Analytics -->
     <script>

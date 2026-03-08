@@ -1,15 +1,6 @@
 {
   "categories": [
     {
-      "id": "Uncategorized",
-      "icons": [
-        "chi",
-        "pypi",
-        "rclone",
-        "taiga"
-      ]
-    },
-    {
       "id": "Frontend - Languages",
       "icons": [
         "html",
@@ -367,7 +358,8 @@
         "robotframework",
         "sqla",
         "aiogram",
-        "sqlalchemy"
+        "sqlalchemy",
+        "pypi"
       ]
     },
     {
@@ -1565,6 +1557,14 @@
         "fuse",
         "agno",
         "aiscript"
+      ]
+    },
+    {
+      "id": "Uncategorized",
+      "icons": [
+        "chi",
+        "rclone",
+        "taiga"
       ]
     },
     {

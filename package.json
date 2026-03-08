@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node generate-icons.mjs --out-dir dist/icons --minify",
+    "build": "vite build && node generate-icons.mjs --out-dir dist/generated-icons --minify",
     "preview": "vite preview",
     "generate": "node generate-icons.mjs --out-dir generated-icons",
     "sync": "python sync_icons.py"

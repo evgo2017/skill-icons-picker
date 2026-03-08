@@ -182,7 +182,7 @@ def main():
         
         # 修改：将解压后的上游 assets 内容全部复制到本地 assets/ 目录
         upstream_assets = os.path.join(extracted_dir, "assets")
-        local_assets = os.path.join(PROJECT_DIR, "public", "assets")
+        local_assets = os.path.join(PROJECT_DIR, "public", "icons")
         
         if not os.path.exists(local_assets):
             os.makedirs(local_assets)

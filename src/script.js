@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Vite natively exposes the base path setup in vite.config.js through import.meta.env.BASE_URL
     // The trailing slash matches the base path config, so we append the remaining relative url
     const BASE_PATH = import.meta.env.BASE_URL;
-    const ASSETS_PATH = BASE_PATH + 'assets';
+    const ASSETS_PATH = BASE_PATH + 'icons';
 
     function withBasePath(relativePath) {
         const cleanPath = relativePath.replace(/^\/+/, '');
@@ -139,11 +139,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     async function loadIconsData() {
         const manifestCandidates = import.meta.env.DEV
-            ? ['generated-icons/manifest.json', 'dist/icons/manifest.json', 'icons/manifest.json']
-            : ['icons/manifest.json', 'dist/icons/manifest.json'];
+            ? ['generated-icons/manifest.json', 'dist/generated-icons/manifest.json', 'icons/manifest.json']
+            : ['generated-icons/manifest.json', 'dist/generated-icons/manifest.json'];
         const { payload: manifestPayload, relativePath: manifestPath } = await fetchJsonFromCandidates(manifestCandidates);
         iconsManifest = manifestPayload;
-        const manifestSuffix = 'icons/manifest.json';
+        const manifestSuffix = 'generated-icons/manifest.json';
         if (manifestPath.endsWith(manifestSuffix)) {
             manifestPathPrefix = manifestPath.slice(0, manifestPath.length - manifestSuffix.length);
         } else {

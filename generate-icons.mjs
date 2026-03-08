@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PROJECT_DIR = __dirname;
-const assetsDir = path.join(PROJECT_DIR, 'public', 'assets');
+const assetsDir = path.join(PROJECT_DIR, 'public', 'icons');
 const configPath = path.join(PROJECT_DIR, 'config', 'categories.json');
 const localesDir = path.join(PROJECT_DIR, 'config', 'locales');
 const targetIconsPerChunk = Number(getArgValue('--target-icons-per-chunk') || 80);
@@ -147,7 +147,7 @@ function flushChunk() {
     const fileName = `chunk-${chunkIndex}.json`;
     const filePath = path.join(outputDir, fileName);
     fs.writeFileSync(filePath, toJson({ icons: currentChunk }), 'utf-8');
-    chunkPaths.push(`icons/${fileName}`);
+    chunkPaths.push(`generated-icons/${fileName}`);
     currentChunk = {};
     currentChunkIconCount = 0;
 }
@@ -168,7 +168,7 @@ for (const [catName, icons] of categoryEntries) {
         currentChunk[catName].push(...slice);
         currentChunkIconCount += slice.length;
 
-        const currentChunkPath = `icons/chunk-${chunkPaths.length + 1}.json`;
+        const currentChunkPath = `generated-icons/chunk-${chunkPaths.length + 1}.json`;
         if (!categoryToChunk[catName]) {
             categoryToChunk[catName] = [];
         }
@@ -181,8 +181,8 @@ flushChunk();
 
 const manifest = {
     version: 4,
-    locales: 'icons/locales.json',
-    names: 'icons/names.json',
+    locales: 'generated-icons/locales.json',
+    names: 'generated-icons/names.json',
     chunks: chunkPaths,
     categoryOrder,
     categoryToChunk

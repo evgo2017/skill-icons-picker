@@ -9,6 +9,19 @@ export default defineConfig(({ mode }) => {
   return {
     // vite build output
     base: env.BASE_PATH || './',
+    build: {
+      rollupOptions: {
+        output: {
+          assetFileNames: (assetInfo) => {
+            const name = assetInfo.name || (assetInfo.names ? assetInfo.names[0] : '');
+            if (/\.(png|jpe?g|gif|svg|webp|ico)$/i.test(name)) {
+              return 'icons/[name]-[hash][extname]';
+            }
+            return 'assets/[name]-[hash][extname]';
+          },
+        },
+      },
+    },
     plugins: [
       {
         name: 'html-transform',

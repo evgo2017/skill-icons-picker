@@ -21,6 +21,11 @@ const outputDirArg = getArgValue('--out-dir') || 'dist/icons';
 const outputDir = path.isAbsolute(outputDirArg)
     ? outputDirArg
     : path.join(PROJECT_DIR, outputDirArg);
+const shouldMinify = process.argv.includes('--minify');
+
+function toJson(value) {
+    return shouldMinify ? JSON.stringify(value) : JSON.stringify(value, null, 2);
+}
 
 // 1. Load Categories
 const configData = JSON.parse(fs.readFileSync(configPath, 'utf-8')).categories;
@@ -124,7 +129,7 @@ fs.rmSync(outputDir, { recursive: true, force: true });
 fs.mkdirSync(outputDir, { recursive: true });
 
 const localesPath = path.join(outputDir, 'locales.json');
-fs.writeFileSync(localesPath, JSON.stringify(localesMap, null, 2), 'utf-8');
+fs.writeFileSync(localesPath, toJson(localesMap), 'utf-8');
 
 const chunkPaths = [];
 const categoryEntries = Object.entries(iconsData);
@@ -138,7 +143,7 @@ function flushChunk() {
     const chunkIndex = chunkPaths.length + 1;
     const fileName = `chunk-${chunkIndex}.json`;
     const filePath = path.join(outputDir, fileName);
-    fs.writeFileSync(filePath, JSON.stringify({ icons: currentChunk }, null, 2), 'utf-8');
+    fs.writeFileSync(filePath, toJson({ icons: currentChunk }), 'utf-8');
     chunkPaths.push(`icons/${fileName}`);
     currentChunk = {};
     currentChunkIconCount = 0;
@@ -172,24 +177,21 @@ for (const [catName, icons] of categoryEntries) {
 flushChunk();
 
 const manifest = {
-    version: 3,
+    version: 4,
     locales: 'icons/locales.json',
     names: 'icons/names.json',
     chunks: chunkPaths,
     categoryOrder,
     categoryToChunk
 };
-fs.writeFileSync(path.join(outputDir, 'manifest.json'), JSON.stringify(manifest, null, 2), 'utf-8');
+fs.writeFileSync(path.join(outputDir, 'manifest.json'), toJson(manifest), 'utf-8');
 
 const namesData = {};
 for (const [categoryName, icons] of Object.entries(iconsData)) {
-    namesData[categoryName] = icons.map((icon) => ({
-        id: icon.id,
-        name: icon.name || icon.id
-    }));
+    namesData[categoryName] = icons.map((icon) => icon.id);
 }
-fs.writeFileSync(path.join(outputDir, 'names.json'), JSON.stringify({ icons: namesData }, null, 2), 'utf-8');
+fs.writeFileSync(path.join(outputDir, 'names.json'), toJson({ icons: namesData }), 'utf-8');
 
 console.log(
-    `Generated ${allFoundIds.size} icons with ${Object.keys(localesMap).length} locales across ${chunkPaths.length} chunks to ${outputDir}.`
+    `Generated ${allFoundIds.size} icons with ${Object.keys(localesMap).length} locales across ${chunkPaths.length} chunks to ${outputDir} (minify=${shouldMinify}).`
 );

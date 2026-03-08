@@ -170,12 +170,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         for (const category of getOrderedCategories()) {
             const namesList = iconsNames[category] || [];
             const matchedIds = namesList
-                .filter((item) => {
-                    const id = item.id || '';
-                    const name = item.name || '';
-                    return id.toLowerCase().includes(lower) || name.toLowerCase().includes(lower);
-                })
-                .map((item) => item.id);
+                .filter((id) => id.toLowerCase().includes(lower));
             if (matchedIds.length > 0) {
                 matches[category] = matchedIds;
             }

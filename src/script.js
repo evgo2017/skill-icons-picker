@@ -1,4 +1,14 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
+    let iconsData = null;
+    let iconsManifest = null;
+    let iconsNames = {};
+    let manifestPathPrefix = '';
+    const loadedChunks = new Set();
+    const loadingChunks = new Map();
+    let searchRequestId = 0;
+    let allCategoriesObserver = null;
+    let allCategoriesLoadToken = 0;
+
     // State
     const state = {
         selectedIcons: [], // Array of string ids
@@ -23,9 +33,179 @@ document.addEventListener('DOMContentLoaded', () => {
     const langSelect = document.getElementById('lang-select');
     // Vite natively exposes the base path setup in vite.config.js through import.meta.env.BASE_URL
     // The trailing slash matches the base path config, so we append the remaining relative url
-    const ASSETS_PATH = import.meta.env.BASE_URL + 'assets';
+    const BASE_PATH = import.meta.env.BASE_URL;
+    const ASSETS_PATH = BASE_PATH + 'assets';
 
-    function init() {
+    function withBasePath(relativePath) {
+        const cleanPath = relativePath.replace(/^\/+/, '');
+        return `${BASE_PATH}${cleanPath}`;
+    }
+
+    async function fetchJson(relativePath) {
+        const response = await fetch(withBasePath(relativePath));
+        if (!response.ok) {
+            throw new Error(`Failed to fetch ${relativePath}: ${response.status}`);
+        }
+        return response.json();
+    }
+
+    async function fetchJsonFromCandidates(relativePaths) {
+        let lastError = null;
+        for (const relativePath of relativePaths) {
+            try {
+                const payload = await fetchJson(relativePath);
+                return { payload, relativePath };
+            } catch (error) {
+                lastError = error;
+            }
+        }
+        throw lastError || new Error('No available JSON candidate path.');
+    }
+
+    function resolveManifestPath(pathFromManifest) {
+        if (!manifestPathPrefix) return pathFromManifest;
+        return `${manifestPathPrefix}${pathFromManifest}`;
+    }
+
+    function getOrderedCategories() {
+        if (Array.isArray(iconsManifest?.categoryOrder) && iconsManifest.categoryOrder.length > 0) {
+            return iconsManifest.categoryOrder;
+        }
+        return Object.keys(iconsData.icons);
+    }
+
+    async function ensureChunkLoaded(chunkPath) {
+        if (!chunkPath || loadedChunks.has(chunkPath)) return;
+        if (loadingChunks.has(chunkPath)) {
+            await loadingChunks.get(chunkPath);
+            return;
+        }
+
+        const loadPromise = (async () => {
+            const chunk = await fetchJson(resolveManifestPath(chunkPath));
+            for (const [category, list] of Object.entries(chunk.icons || {})) {
+                const existing = iconsData.icons[category] || [];
+                iconsData.icons[category] = existing.concat(list);
+            }
+            loadedChunks.add(chunkPath);
+        })();
+
+        loadingChunks.set(chunkPath, loadPromise);
+        try {
+            await loadPromise;
+        } finally {
+            loadingChunks.delete(chunkPath);
+        }
+    }
+
+    async function ensureCategoryLoaded(category) {
+        if (category === 'All') {
+            await ensureAllCategoriesLoaded();
+            return;
+        }
+        if (iconsData.icons[category]) return;
+
+        const mappedChunk = iconsManifest?.categoryToChunk?.[category];
+        if (mappedChunk) {
+            const chunkPaths = Array.isArray(mappedChunk) ? mappedChunk : [mappedChunk];
+            await Promise.all(chunkPaths.map((chunkPath) => ensureChunkLoaded(chunkPath)));
+            return;
+        }
+
+        // Backward-compatible fallback if manifest has no category map.
+        await ensureAllCategoriesLoaded();
+    }
+
+    async function ensureAllCategoriesLoaded() {
+        const chunkPaths = Array.isArray(iconsManifest?.chunks) ? iconsManifest.chunks : [];
+        for (const chunkPath of chunkPaths) {
+            await ensureChunkLoaded(chunkPath);
+        }
+    }
+
+    function disposeAllCategoriesObserver() {
+        if (allCategoriesObserver) {
+            allCategoriesObserver.disconnect();
+            allCategoriesObserver = null;
+        }
+    }
+
+    function stopAllCategoriesLazyMode() {
+        allCategoriesLoadToken += 1;
+        disposeAllCategoriesObserver();
+    }
+
+    async function loadIconsData() {
+        const manifestCandidates = import.meta.env.DEV
+            ? ['generated-icons/manifest.json', 'dist/icons/manifest.json', 'icons/manifest.json']
+            : ['icons/manifest.json', 'dist/icons/manifest.json'];
+        const { payload: manifestPayload, relativePath: manifestPath } = await fetchJsonFromCandidates(manifestCandidates);
+        iconsManifest = manifestPayload;
+        const manifestSuffix = 'icons/manifest.json';
+        if (manifestPath.endsWith(manifestSuffix)) {
+            manifestPathPrefix = manifestPath.slice(0, manifestPath.length - manifestSuffix.length);
+        } else {
+            manifestPathPrefix = '';
+        }
+
+        const locales = await fetchJson(resolveManifestPath(iconsManifest.locales));
+        const namesPayload = await fetchJson(resolveManifestPath(iconsManifest.names));
+        iconsNames = namesPayload.icons || {};
+        return { locales, icons: {} };
+    }
+
+    async function renderActiveCategoryView() {
+        stopAllCategoriesLazyMode();
+        if (state.activeCategory === 'All') {
+            renderAllCategoriesLazy();
+        } else {
+            await ensureCategoryLoaded(state.activeCategory);
+            renderSingleCategory(state.activeCategory);
+        }
+    }
+
+    function buildSearchMatches(query) {
+        const lower = query.toLowerCase();
+        const matches = {};
+        for (const category of getOrderedCategories()) {
+            const namesList = iconsNames[category] || [];
+            const matchedIds = namesList
+                .filter((item) => {
+                    const id = item.id || '';
+                    const name = item.name || '';
+                    return id.toLowerCase().includes(lower) || name.toLowerCase().includes(lower);
+                })
+                .map((item) => item.id);
+            if (matchedIds.length > 0) {
+                matches[category] = matchedIds;
+            }
+        }
+        return matches;
+    }
+
+    async function renderSearchResultsForQuery(query) {
+        stopAllCategoriesLazyMode();
+        const requestId = ++searchRequestId;
+        const matches = buildSearchMatches(query);
+        const categories = Object.keys(matches);
+
+        await Promise.all(categories.map((category) => ensureCategoryLoaded(category)));
+        if (requestId !== searchRequestId) return;
+
+        iconsContainer.innerHTML = '';
+        for (const category of getOrderedCategories()) {
+            const matchedIds = matches[category];
+            if (!matchedIds || matchedIds.length === 0) continue;
+
+            const fullIcons = iconsData.icons[category] || [];
+            const matchSet = new Set(matchedIds);
+            const matchedIcons = fullIcons.filter((icon) => matchSet.has(icon.id));
+            if (matchedIcons.length === 0) continue;
+            createCategorySection(category, matchedIcons);
+        }
+    }
+
+    async function init() {
         // Sync state with UI
         state.theme = themeSelect.value;
         state.perline = parseInt(perlineSelect.value) || 0;
@@ -33,16 +213,26 @@ document.addEventListener('DOMContentLoaded', () => {
         // Language detection: localStorage > browser > default zh-CN
         const savedLang = localStorage.getItem('skill-icons-lang');
         const browserLang = navigator.language.startsWith('en') ? 'en-US' : 'zh-CN';
-        state.lang = savedLang || browserLang;
+        const preferredLang = savedLang || browserLang;
+        state.lang = iconsData.locales[preferredLang]
+            ? preferredLang
+            : (iconsData.locales['zh-CN'] ? 'zh-CN' : Object.keys(iconsData.locales)[0]);
         langSelect.value = state.lang;
 
         updateUIForLanguage();
         renderCategoryFilters();
-        renderAllCategories();
+        await renderActiveCategoryView();
         initSortable();
         updatePreview();
 
-        searchInput.addEventListener('input', (e) => filterIcons(e.target.value));
+        searchInput.addEventListener('input', async (e) => {
+            const query = (e.target.value || '').trim();
+            if (query) {
+                await renderSearchResultsForQuery(query);
+            } else {
+                await renderActiveCategoryView();
+            }
+        });
 
         themeSelect.addEventListener('change', (e) => {
             state.theme = e.target.value;
@@ -54,12 +244,17 @@ document.addEventListener('DOMContentLoaded', () => {
             updatePreview();
         });
 
-        langSelect.addEventListener('change', (e) => {
+        langSelect.addEventListener('change', async (e) => {
             state.lang = e.target.value;
             localStorage.setItem('skill-icons-lang', state.lang);
             updateUIForLanguage();
             renderCategoryFilters();
-            renderAllCategories();
+            const query = (searchInput.value || '').trim();
+            if (query) {
+                await renderSearchResultsForQuery(query);
+            } else {
+                await renderActiveCategoryView();
+            }
         });
 
         copyBtn.addEventListener('click', copyToClipboard);
@@ -124,7 +319,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Render Filters
     function renderCategoryFilters() {
-        const categories = ['All', ...Object.keys(iconsData.icons)];
+        const categories = ['All', ...getOrderedCategories()];
         const allText = iconsData.locales[state.lang].ui.allCategories;
         categoryFilters.innerHTML = '';
 
@@ -132,18 +327,16 @@ document.addEventListener('DOMContentLoaded', () => {
             const btn = document.createElement('button');
             btn.className = `category-btn ${cat === 'All' && state.activeCategory === 'All' ? 'active' : (cat === state.activeCategory ? 'active' : '')}`;
             btn.innerText = cat === 'All' ? allText : translateCategory(cat);
-            btn.onclick = () => {
+            btn.onclick = async () => {
                 document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
                 state.activeCategory = cat;
-
-                if (cat === 'All') {
-                    renderAllCategories();
+                const query = (searchInput.value || '').trim();
+                if (query) {
+                    await renderSearchResultsForQuery(query);
                 } else {
-                    renderSingleCategory(cat);
+                    await renderActiveCategoryView();
                 }
-
-                if (searchInput.value) filterIcons(searchInput.value);
             };
             categoryFilters.appendChild(btn);
         });
@@ -162,20 +355,35 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function renderAllCategories() {
         iconsContainer.innerHTML = '';
-        Object.keys(iconsData.icons).forEach(cat => {
-            if (iconsData.icons[cat].length === 0) return;
-            createCategorySection(cat, iconsData.icons[cat]);
+        getOrderedCategories().forEach(cat => {
+            const icons = iconsData.icons[cat] || [];
+            if (icons.length === 0) return;
+            createCategorySection(cat, icons);
         });
     }
 
-    function renderSingleCategory(cat) {
-        iconsContainer.innerHTML = '';
-        if (iconsData.icons[cat]) {
-            createCategorySection(cat, iconsData.icons[cat]);
-        }
+    function createCategoryPlaceholderSection(catName) {
+        const section = document.createElement('div');
+        section.className = 'category-section';
+        section.dataset.category = catName;
+
+        const header = document.createElement('div');
+        header.className = 'category-header';
+
+        const title = document.createElement('h3');
+        title.className = 'category-title';
+        title.innerText = translateCategory(catName);
+        header.appendChild(title);
+        section.appendChild(header);
+
+        const grid = document.createElement('div');
+        grid.className = 'icons-grid';
+        grid.innerHTML = '<div class="sort-placeholder">Loading...</div>';
+        section.appendChild(grid);
+        return section;
     }
 
-    function createCategorySection(catName, icons) {
+    function buildCategorySectionElement(catName, icons) {
         const section = document.createElement('div');
         section.className = 'category-section';
 
@@ -199,17 +407,70 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const grid = document.createElement('div');
         grid.className = 'icons-grid';
-
         icons.forEach(iconObj => {
             const div = createIconElement(iconObj);
             grid.appendChild(div);
         });
 
         section.appendChild(grid);
+        return section;
+    }
+
+    async function loadAndReplaceCategorySection(catName, placeholderSection, token) {
+        await ensureCategoryLoaded(catName);
+        if (token !== allCategoriesLoadToken) return;
+        if (!placeholderSection.isConnected) return;
+
+        const icons = iconsData.icons[catName] || [];
+        if (icons.length === 0) {
+            placeholderSection.remove();
+            return;
+        }
+        const realSection = buildCategorySectionElement(catName, icons);
+        placeholderSection.replaceWith(realSection);
+    }
+
+    function renderAllCategoriesLazy() {
+        iconsContainer.innerHTML = '';
+        const token = ++allCategoriesLoadToken;
+        disposeAllCategoriesObserver();
+
+        const categories = getOrderedCategories();
+        for (const cat of categories) {
+            const placeholder = createCategoryPlaceholderSection(cat);
+            iconsContainer.appendChild(placeholder);
+        }
+
+        allCategoriesObserver = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (!entry.isIntersecting) return;
+                const section = entry.target;
+                const catName = section.dataset.category;
+                allCategoriesObserver.unobserve(section);
+                loadAndReplaceCategorySection(catName, section, token).catch((error) => {
+                    console.error(`Failed to load category ${catName}:`, error);
+                });
+            });
+        }, { root: null, rootMargin: '300px 0px', threshold: 0.01 });
+
+        const placeholders = iconsContainer.querySelectorAll('.category-section[data-category]');
+        placeholders.forEach((section) => allCategoriesObserver.observe(section));
+    }
+
+    function renderSingleCategory(cat) {
+        iconsContainer.innerHTML = '';
+        if (iconsData.icons[cat]) {
+            createCategorySection(cat, iconsData.icons[cat]);
+        }
+    }
+
+    function createCategorySection(catName, icons) {
+        const section = buildCategorySectionElement(catName, icons);
         iconsContainer.appendChild(section);
     }
 
     function toggleCategory(catName, icons, btn) {
+        const t = iconsData.locales[state.lang].ui;
         const anyDeselected = icons.some(icon => !state.selectedIcons.includes(icon.id));
 
         if (anyDeselected) {
@@ -329,28 +590,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return div;
     }
 
-    function filterIcons(query) {
-        const lower = query.toLowerCase();
-        const sections = document.querySelectorAll('.category-section');
-
-        sections.forEach(section => {
-            let hasVisible = false;
-            const items = section.querySelectorAll('.icon-item');
-
-            items.forEach(item => {
-                const iconId = item.dataset.icon;
-                const iconName = item.dataset.name;
-                if (iconId.toLowerCase().includes(lower) || iconName.toLowerCase().includes(lower)) {
-                    item.style.display = 'flex';
-                    hasVisible = true;
-                } else {
-                    item.style.display = 'none';
-                }
-            });
-            section.style.display = hasVisible ? 'block' : 'none';
-        });
-    }
-
     function toggleIcon(iconObj) {
         const iconId = iconObj.id;
         const index = state.selectedIcons.indexOf(iconId);
@@ -458,5 +697,17 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => copyBtn.innerText = originalText, 2000);
     }
 
-    init();
+    try {
+        iconsData = await loadIconsData();
+        await init();
+    } catch (error) {
+        console.error('Failed to load icon data:', error);
+        iconsContainer.innerHTML = `
+            <div class="category-section">
+                <div class="category-header">
+                    <h3 class="category-title">Failed to load icon data.</h3>
+                </div>
+            </div>
+        `;
+    }
 });

@@ -5,9 +5,22 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PROJECT_DIR = __dirname;
 const assetsDir = path.join(PROJECT_DIR, 'public', 'assets');
-const outputFile = path.join(PROJECT_DIR, 'public', 'icons.js');
 const configPath = path.join(PROJECT_DIR, 'config', 'categories.json');
 const localesDir = path.join(PROJECT_DIR, 'config', 'locales');
+const targetIconsPerChunk = Number(getArgValue('--target-icons-per-chunk') || 80);
+const maxIconsPerCategorySlice = Number(getArgValue('--max-icons-per-category-slice') || 60);
+
+function getArgValue(flag) {
+    const index = process.argv.indexOf(flag);
+    if (index === -1) return null;
+    const value = process.argv[index + 1];
+    return value && !value.startsWith('--') ? value : null;
+}
+
+const outputDirArg = getArgValue('--out-dir') || 'dist/icons';
+const outputDir = path.isAbsolute(outputDirArg)
+    ? outputDirArg
+    : path.join(PROJECT_DIR, outputDirArg);
 
 // 1. Load Categories
 const configData = JSON.parse(fs.readFileSync(configPath, 'utf-8')).categories;
@@ -106,13 +119,77 @@ if (uncategorizedIds.length > 0) {
     }
 }
 
-// 5. JSON Generation
-const outputData = {
-    locales: localesMap,
-    icons: iconsData
+// 5. Split Output Generation
+fs.rmSync(outputDir, { recursive: true, force: true });
+fs.mkdirSync(outputDir, { recursive: true });
+
+const localesPath = path.join(outputDir, 'locales.json');
+fs.writeFileSync(localesPath, JSON.stringify(localesMap, null, 2), 'utf-8');
+
+const chunkPaths = [];
+const categoryEntries = Object.entries(iconsData);
+const categoryToChunk = {};
+const categoryOrder = categoryEntries.map(([categoryName]) => categoryName);
+let currentChunk = {};
+let currentChunkIconCount = 0;
+
+function flushChunk() {
+    if (Object.keys(currentChunk).length === 0) return;
+    const chunkIndex = chunkPaths.length + 1;
+    const fileName = `chunk-${chunkIndex}.json`;
+    const filePath = path.join(outputDir, fileName);
+    fs.writeFileSync(filePath, JSON.stringify({ icons: currentChunk }, null, 2), 'utf-8');
+    chunkPaths.push(`icons/${fileName}`);
+    currentChunk = {};
+    currentChunkIconCount = 0;
+}
+
+for (const [catName, icons] of categoryEntries) {
+    for (let i = 0; i < icons.length; i += maxIconsPerCategorySlice) {
+        const slice = icons.slice(i, i + maxIconsPerCategorySlice);
+        if (
+            currentChunkIconCount > 0 &&
+            currentChunkIconCount + slice.length > targetIconsPerChunk
+        ) {
+            flushChunk();
+        }
+
+        if (!currentChunk[catName]) {
+            currentChunk[catName] = [];
+        }
+        currentChunk[catName].push(...slice);
+        currentChunkIconCount += slice.length;
+
+        const currentChunkPath = `icons/chunk-${chunkPaths.length + 1}.json`;
+        if (!categoryToChunk[catName]) {
+            categoryToChunk[catName] = [];
+        }
+        if (!categoryToChunk[catName].includes(currentChunkPath)) {
+            categoryToChunk[catName].push(currentChunkPath);
+        }
+    }
+}
+flushChunk();
+
+const manifest = {
+    version: 3,
+    locales: 'icons/locales.json',
+    names: 'icons/names.json',
+    chunks: chunkPaths,
+    categoryOrder,
+    categoryToChunk
 };
+fs.writeFileSync(path.join(outputDir, 'manifest.json'), JSON.stringify(manifest, null, 2), 'utf-8');
 
-const jsonContent = "const iconsData = " + JSON.stringify(outputData, null, 2) + ";";
-fs.writeFileSync(outputFile, jsonContent, 'utf-8');
+const namesData = {};
+for (const [categoryName, icons] of Object.entries(iconsData)) {
+    namesData[categoryName] = icons.map((icon) => ({
+        id: icon.id,
+        name: icon.name || icon.id
+    }));
+}
+fs.writeFileSync(path.join(outputDir, 'names.json'), JSON.stringify({ icons: namesData }, null, 2), 'utf-8');
 
-console.log(`Generated ${allFoundIds.size} icons with ${Object.keys(localesMap).length} locales.`);
+console.log(
+    `Generated ${allFoundIds.size} icons with ${Object.keys(localesMap).length} locales across ${chunkPaths.length} chunks to ${outputDir}.`
+);

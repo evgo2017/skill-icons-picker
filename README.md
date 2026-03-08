@@ -20,7 +20,7 @@ This project is designed for low-maintenance consistency with the upstream sourc
 2. **Auto-Categorization**: Newly discovered icons are automatically added to the **"Uncategorized"** section.
 3. **Maintenance & Categorization**: To move icons to specific groups (e.g., "Frontend", "Backend"):
     - Update the `config/categories.json` file by moving the icon ID from `"Uncategorized"` to your target category.
-    - The build process (or `npm run generate`) will then use `generate-icons.mjs` to update `public/icons.js`.
+    - The build process (or `npm run generate`) will use `generate-icons.mjs` to generate split icon data files under `dist/icons` (manifest/chunks/names/locales).
     - **This is the primary way to contribute via Pull Requests!**
 
 ### 🛠️ Development & Deployment
@@ -31,4 +31,5 @@ This project is designed for low-maintenance consistency with the upstream sourc
 2. Install dependencies: `npm install`.
 3. (Optional) Sync icons manually: `python sync_icons.py`.
 4. Regenerate icon data: `npm run generate`.
-5. Run dev server: `npm run dev`.
+5. For local dev data, generate once first: `npm run generate` (the app reads from `generated-icons/manifest.json` in dev mode).
+6. Run dev server: `npm run dev`.

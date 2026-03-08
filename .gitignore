@@ -29,3 +29,4 @@ scripts/outfit-*.woff2
 src/assets/fonts/outfit.css
 playwright-report
 test-results
+generated-icons/

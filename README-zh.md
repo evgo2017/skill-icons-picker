@@ -20,7 +20,7 @@
 2. **自动待分类**：新同步到的图标会默认放入 **"Uncategorized" (待分类)** 区域。
 3. **维护与分类**：如需将图标移动到特定分组（如“前端”、“后端”）：
     - 修改 `config/categories.json`，将图标 ID 从 `"Uncategorized"` 移动到目标分类中。
-    - 构建系统（或执行 `npm run generate`）会调用 `generate-icons.mjs` 根据新的分类手动生成 `public/icons.js`。
+    - 构建系统（或执行 `npm run generate`）会调用 `generate-icons.mjs` 根据新的分类手动生成 `dist/icons` 下的分片 JSON（manifest/chunks/names/locales）。
     - **这是提交 Pull Request 进行贡献的主要方式！**
 
 ### 🛠️ 开发与部署
@@ -31,4 +31,5 @@
 2. 安装依赖：`npm install`。
 3. (可选）手动同步图标：`python sync_icons.py`。
 4. 手动生成图标数据：`npm run generate`。
-5. 启动开发服务器：`npm run dev`。
+5. 本地开发前请先执行一次 `npm run generate`（dev 模式会读取 `generated-icons/manifest.json`）。
+6. 启动开发服务器：`npm run dev`。

@@ -131,7 +131,6 @@ const iconsData = {
     }
   },
   "icons": {
-    "Other": [],
     "Uncategorized": [
       {
         "id": "chi",
@@ -7717,6 +7716,7 @@ const iconsData = {
         },
         "category": "Other Languages & Tools"
       }
-    ]
+    ],
+    "Other": []
   }
 };

@@ -1,0 +1,34 @@
+import { defineConfig, loadEnv } from 'vite';
+
+export default defineConfig(({ mode }) => {
+  // Load env file based on `mode` in the current working directory.
+  // Set the third parameter to '' to load all env regardless of the `VITE_` prefix.
+  const env = loadEnv(mode, process.cwd(), '');
+  const tongjiId = env.VITE_BAIDU_TONGJI_ID;
+
+  return {
+    // vite build output
+    base: env.BASE_PATH || './',
+    plugins: [
+      {
+        name: 'html-transform',
+        transformIndexHtml(html) {
+          if (!tongjiId) return html;
+          const tongjiScript = `
+    <!-- Baidu Tongji Analytics -->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?${tongjiId}";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+`;
+          return html.replace('</head>', `${tongjiScript}</head>`);
+        },
+      },
+    ],
+  };
+});

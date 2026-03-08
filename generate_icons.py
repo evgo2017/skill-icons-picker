@@ -5,7 +5,7 @@ import re
 
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 
-assets_dir = os.path.join(PROJECT_DIR, "assets")
+assets_dir = os.path.join(PROJECT_DIR, "public", "assets")
 output_file = os.path.join(PROJECT_DIR, "public", "icons.js")
 
 os.makedirs(os.path.dirname(output_file), exist_ok=True)
@@ -42,7 +42,7 @@ files_set = set(files_list)
 
 # 3. Icon Processing
 icons_data = {
-    "Other": []
+    "Uncategorized": []
 }
 
 for cat in categories_map.keys():
@@ -136,7 +136,7 @@ for i_id in processed_ids:
         files_obj["dark"] = f"{i_id}.svg"
 
     # Determine Category
-    category = item_to_category.get(i_id, "Other")
+    category = item_to_category.get(i_id, "Uncategorized")
     
     # Object structure
     obj = {
@@ -149,7 +149,7 @@ for i_id in processed_ids:
     if category in icons_data:
         icons_data[category].append(obj)
     else:
-        icons_data["Other"].append(obj)
+        icons_data["Uncategorized"].append(obj)
 
 # 4. JSON Generation
 output_data = {

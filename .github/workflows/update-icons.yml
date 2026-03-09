@@ -36,7 +36,7 @@ jobs:
       - name: Check for changes
         id: git-check
         run: |
-          git add assets/ public/icons.js config/categories.json
+          git add public/icons/ generated-icons/ config/categories.json
           git diff --staged --quiet || echo "changed=true" >> $GITHUB_OUTPUT
         
       - name: Commit and push if changed

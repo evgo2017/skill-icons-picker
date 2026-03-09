@@ -115,7 +115,18 @@ def main():
         print(f"Copying SVG files to {local_assets}...")
         for filename in os.listdir(upstream_assets):
             if filename.endswith(".svg"):
-                shutil.copy2(os.path.join(upstream_assets, filename), os.path.join(local_assets, filename))
+                src_path = os.path.join(upstream_assets, filename)
+                dest_path = os.path.join(local_assets, filename)
+                
+                # Compare contents before overwriting
+                needs_copy = True
+                if os.path.exists(dest_path):
+                    with open(src_path, 'rb') as f1, open(dest_path, 'rb') as f2:
+                        if f1.read() == f2.read():
+                            needs_copy = False
+                            
+                if needs_copy:
+                    shutil.copy2(src_path, dest_path)
         
         new_amount = generate_new_icons_js(extracted_dir)
         print(f"Sync complete. {new_amount} icons marked as 'Uncategorized'.")

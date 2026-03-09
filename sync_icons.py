@@ -8,7 +8,6 @@ import re
 
 # 路径配置 (适配 E:\A_Repos_项目\skill-icons-website 结构)
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
-ICONS_JS_PATH = os.path.join(PROJECT_DIR, "public", "icons.js")
 CATEGORIES_JSON_PATH = os.path.join(PROJECT_DIR, "config", "categories.json")
 
 # 上游仓库信息
@@ -32,18 +31,6 @@ def load_categories():
     with open(CATEGORIES_JSON_PATH, "r", encoding="utf-8") as f:
          return json.load(f)["categories"]
 
-def extract_icons_data_from_js(js_path):
-    # 解析 public/icons.js 提取出现的现有 icons_data 字典
-    # 该文件格式类似于： const iconsData = { "locales": {...}, "icons": { "Category": [...] } };
-    with open(js_path, "r", encoding="utf-8") as f:
-        content = f.read()
-
-    # 寻找 JSON 对象部分
-    match = re.search(r'const iconsData = ({.*});', content, re.DOTALL)
-    if not match:
-         raise ValueError("Could not parse iconsData from icons.js")
-    return json.loads(match.group(1))
-
 def generate_new_icons_js(extracted_dir):
     print("Processing icons...")
     # 从上游解压的目录拿到的 最新 assets 和 config 规则
@@ -56,7 +43,8 @@ def generate_new_icons_js(extracted_dir):
     local_categories_data = categories_root.get("categories", [])
     item_to_category = {}
     for item in local_categories_data:
-        for icon_id in item["icons"]:
+        for icon_obj in item["icons"]:
+            icon_id = icon_obj["id"] if isinstance(icon_obj, dict) else icon_obj
             item_to_category[icon_id] = item["id"]
 
     # 扫描最新资源
@@ -80,98 +68,35 @@ def generate_new_icons_js(extracted_dir):
 
     processed_ids = sorted(list(all_ids))
     
-    # 初始化输出 JS 的数据结构
-    icons_data = {}
-    
-    # 按照 categories.json 顺序占位
-    for item in local_categories_data:
-        cat_id = item["id"]
-        icons_data[cat_id] = []
-        
-    if "Uncategorized" not in icons_data:
-        icons_data["Uncategorized"] = []
-
-    # 载入现有的 locales (如果没有单独的 locale json 管理，只能从现在的 js 读)
-    existing_data = extract_icons_data_from_js(ICONS_JS_PATH)
-    locales_map = existing_data.get("locales", {})
-
     new_icons_added = 0
     new_found_ids = []
 
     for i_id in processed_ids:
-        # 文件存在性校验构建 files 对象
-        has_light = f"{i_id}-light.svg" in files_set
-        has_dark = f"{i_id}-dark.svg" in files_set
-        has_auto = f"{i_id}-auto.svg" in files_set
-        has_default = f"{i_id}.svg" in files_set
-        
-        files_obj = {}
-        if has_light and has_dark:
-            files_obj["light"] = f"{i_id}-light.svg"
-            files_obj["dark"] = f"{i_id}-dark.svg"
-        elif has_auto:
-             files_obj["light"] = f"{i_id}-auto.svg"
-             files_obj["dark"] = f"{i_id}-auto.svg"
-        elif has_default:
-             files_obj["light"] = f"{i_id}.svg"
-             files_obj["dark"] = f"{i_id}.svg"
-        elif has_light:
-            files_obj["light"] = f"{i_id}-light.svg"
-            files_obj["dark"] = f"{i_id}-light.svg"
-        elif has_dark:
-            files_obj["light"] = f"{i_id}-dark.svg"
-            files_obj["dark"] = f"{i_id}-dark.svg"
-        else:
-            files_obj["light"] = f"{i_id}.svg"
-            files_obj["dark"] = f"{i_id}.svg"
-
         # 判断并归类
         category = item_to_category.get(i_id)
         
         if not category:
-            category = "Uncategorized"
             new_icons_added += 1
             new_found_ids.append(i_id)
-
-        obj = {
-            "id": i_id,
-            "name": i_id,
-            "files": files_obj,
-            "category": category
-        }
-        
-        if category in icons_data:
-            icons_data[category].append(obj)
-        else:
-             icons_data["Uncategorized"].append(obj)
              
     # 修改 categories.json 的源文件内容
     if new_icons_added > 0:
+        new_icons_objs = [{"id": i_id, "description": {"zh-CN": "", "en-US": ""}, "url": ""} for i_id in new_found_ids]
         found_daifenlei = False
         for item in local_categories_data:
             if item["id"] == "Uncategorized":
-                item["icons"].extend(new_found_ids)
+                item["icons"].extend(new_icons_objs)
                 found_daifenlei = True
                 break
                 
         if not found_daifenlei:
             local_categories_data.insert(0, {
                 "id": "Uncategorized",
-                "icons": new_found_ids
+                "icons": new_icons_objs
             })
             
         with open(CATEGORIES_JSON_PATH, "w", encoding="utf-8") as f:
             json.dump(categories_root, f, indent=2, ensure_ascii=False)
-
-    output_data = {
-        "locales": locales_map,
-        "icons": icons_data
-    }
-    
-    # 保存覆盖写入 public/icons.js
-    json_content = "const iconsData = " + json.dumps(output_data, indent=2, ensure_ascii=False) + ";"
-    with open(ICONS_JS_PATH, "w", encoding="utf-8") as f:
-        f.write(json_content)
 
     return new_icons_added
 
